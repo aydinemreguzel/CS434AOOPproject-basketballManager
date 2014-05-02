@@ -5,6 +5,7 @@ public class AEG {
 		// TODO Auto-generated method stub
 		System.out.println("asd");
 		System.err.println("aeg");
+		System.err.println("aeg");
 	}
 
 }
