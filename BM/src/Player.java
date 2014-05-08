@@ -12,6 +12,7 @@ public class Player {
 	short agility;
 	short intelegence;
 	short naturalFitness;
+	short agression;
 	public String getName() {
 		return name;
 	}
@@ -78,6 +79,12 @@ public class Player {
 	public void setNaturalFitness(short naturalFitness) {
 		this.naturalFitness = naturalFitness;
 	}
+	public short getAgression() {
+		return agression;
+	}
+	public void setAgression(short agression) {
+		this.agression = agression;
+	}
 	@Override
 	public String toString() {
 		return "Player [name=" + name + ", surName=" + surName + ", age=" + age
@@ -85,6 +92,7 @@ public class Player {
 				+ currentAbilityPoint + ", potentialAbilityPoint="
 				+ potentialAbilityPoint + ", height=" + height + ", strength="
 				+ strength + ", agility=" + agility + ", intelegence="
-				+ intelegence + ", naturalFitness=" + naturalFitness + "]";
+				+ intelegence + ", naturalFitness=" + naturalFitness
+				+ ", agression=" + agression + "]";
 	}
 }

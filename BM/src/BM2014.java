@@ -1,9 +1,9 @@
-public class BuzzerBeater2014 {
+public class BM2014 {
 
 	public static void main(String[] args) {
-		new BuzzerBeater2014();
+		new BM2014();
 	}
-	private BuzzerBeater2014(){
+	private BM2014(){
 		startApp();
 	}
 	void startApp(){
