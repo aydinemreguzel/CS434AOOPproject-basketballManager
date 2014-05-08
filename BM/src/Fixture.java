@@ -5,12 +5,19 @@ public class Fixture {
 	
 	int[][][] matchOrder;
 	Time[][] matchDates;
+	int numTeams;
 	
-	public Fixture(){
-		matchOrder = new int[][][2];
+	public int[][][] getMatchOrder() {
+		return matchOrder;
+	}
+
+	public Fixture(int numTeams){
+		this.numTeams = numTeams;
+		matchOrder = new int[2*(numTeams-1)][numTeams / 2][2];
+		matchDates = new Time[2*(numTeams-1)][numTeams / 2];
 	}
 	
-	public void generateFixture(int numTeams){
+	public void generateFixture(){
         
         if (numTeams % 2 == 1) {
             numTeams++;
@@ -60,15 +67,16 @@ public class Fixture {
         }
         
         for (int ii = 0; ii < rounds.length*2; ii++) {
-        	
-        	
-        }
-        
-        // Display the fixtures
-        for (int i = 0; i < rounds.length; i++) {
-            System.out.println("Round " + (i + 1));
-            System.out.println(Arrays.asList(rounds[i]));
-            System.out.println();
+        	for (int jj = 0; jj < rounds[0].length; jj++) {
+        		String[] components = rounds[ii%rounds.length][jj].split(" v ");
+        		if(ii<rounds.length){
+        			matchOrder[ii][jj][0] = Integer.parseInt(components[0]);
+            		matchOrder[ii][jj][1] = Integer.parseInt(components[1]);	
+        		}else{
+        			matchOrder[ii][jj][0] = Integer.parseInt(components[1]);
+            		matchOrder[ii][jj][1] = Integer.parseInt(components[0]);
+        		}
+        	}
         }
 	}
 	
@@ -80,10 +88,4 @@ public class Fixture {
 	public Time getNextMatchDate(){
 		return null;
 	}
-	
-	public BasketballTeam[] getNextMatchTeams(){
-		return null;
-	}
-	
-	
 }
