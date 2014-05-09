@@ -101,11 +101,9 @@ public class Time {
 			for (int i = this.getYear(); i > t.getYear(); i--)
 				result += (i % 4 == 0) ? 366 : 365;
 		for (int i = 1; i < this.getMonth(); i++)
-			result += (this.getYear() % 4 == 0 && i == 2) ? 29
-					: daysOfMonths[i];
+			result += (this.getYear() % 4 == 0 && i == 2) ? 29 : daysOfMonths[i];
 		for (int i = 1; i < t.getMonth(); i++)
-			result -= (this.getYear() % 4 == 0 && i == 2) ? 29
-					: daysOfMonths[i];
+			result -= (this.getYear() % 4 == 0 && i == 2) ? 29 : daysOfMonths[i];
 		return result + this.getDay() - t.getDay();
 	}
 
@@ -133,7 +131,9 @@ public class Time {
 		this.day = day;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -146,7 +146,9 @@ public class Time {
 		return result;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -166,5 +168,26 @@ public class Time {
 			return false;
 		return true;
 	}
-	
+
+	boolean before(Time time) {
+		if (this.year < time.year) {
+			return true;
+		} else if (this.year > time.year) {
+			return false;
+		} else {
+			if (this.month < time.month) {
+				return true;
+			} else if (this.month > time.month) {
+				return false;
+			} else {
+				if (this.day < time.day) {
+					return true;
+				} else if (this.day > time.day) {
+					return false;
+				} else {
+					return false;
+				}
+			}
+		}
+	}
 }
