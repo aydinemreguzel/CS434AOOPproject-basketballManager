@@ -1,18 +1,19 @@
-import java.util.Arrays;
+
 
 
 public class Fixture {
-	
+	Time startDate;
 	int[][][] matchOrder;
 	Time[][] matchDates;
 	int numTeams;
-	
+	Team[] teams;
 	public int[][][] getMatchOrder() {
 		return matchOrder;
 	}
 
-	public Fixture(int numTeams){
-		this.numTeams = numTeams;
+	public Fixture(Team[] teams){
+		teams=new Team[numTeams];
+		numTeams = teams.length;
 		matchOrder = new int[2*(numTeams-1)][numTeams / 2][2];
 		matchDates = new Time[2*(numTeams-1)][numTeams / 2];
 	}
@@ -70,11 +71,11 @@ public class Fixture {
         	for (int jj = 0; jj < rounds[0].length; jj++) {
         		String[] components = rounds[ii%rounds.length][jj].split(" v ");
         		if(ii<rounds.length){
-        			matchOrder[ii][jj][0] = Integer.parseInt(components[0]);
-            		matchOrder[ii][jj][1] = Integer.parseInt(components[1]);	
+        			matchOrder[ii][jj][0] = Integer.parseInt(components[0])-1;
+            		matchOrder[ii][jj][1] = Integer.parseInt(components[1])-1;	
         		}else{
-        			matchOrder[ii][jj][0] = Integer.parseInt(components[1]);
-            		matchOrder[ii][jj][1] = Integer.parseInt(components[0]);
+        			matchOrder[ii][jj][0] = Integer.parseInt(components[1])-1;
+            		matchOrder[ii][jj][1] = Integer.parseInt(components[0])-1;
         		}
         	}
         }
