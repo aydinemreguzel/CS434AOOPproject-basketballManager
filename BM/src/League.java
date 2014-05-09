@@ -15,6 +15,9 @@ public class League {
 		this.teams = teams;
 		this.fixture = fixture;
 	}
+	public BasketballTeam[] getNextMatchTeams(){
+		return null;
+	}
 	public String getName() {
 		return name;
 	}
@@ -39,6 +42,4 @@ public class League {
 	public void setFixture(Fixture fixture) {
 		this.fixture = fixture;
 	}
-	
-
 }
