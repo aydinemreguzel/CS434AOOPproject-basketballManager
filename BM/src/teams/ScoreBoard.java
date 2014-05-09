@@ -1,3 +1,4 @@
+package teams;
 import java.util.Arrays;
 
 public class ScoreBoard {

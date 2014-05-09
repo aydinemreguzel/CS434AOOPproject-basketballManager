@@ -1,5 +1,10 @@
+package teams;
 import java.awt.Color;
 import java.util.ArrayList;
+
+import events.Event;
+import events.RandomEventGenerator;
+import gameengine.Time;
 
 public class League {
 	
@@ -43,7 +48,7 @@ public class League {
 		this.fixture = fixture;
 	}
 	public Event getTodaysEvent(Time time){
-		Time nextMatchTime =fixture.getNextMatchDate();
+		Time nextMatchTime =fixture.getNextMatchDateAfter(time);
 		if(nextMatchTime.equals(time)){
 			return fixture.getMatchAt(nextMatchTime);
 		}

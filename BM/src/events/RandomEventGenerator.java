@@ -1,3 +1,6 @@
+package events;
+import gameengine.Time;
+
 import java.util.Random;
 
 

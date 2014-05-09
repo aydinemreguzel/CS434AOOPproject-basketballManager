@@ -1,3 +1,8 @@
+package teams;
+import events.Event;
+import events.Match;
+import gameengine.Time;
+
 
 
 
@@ -87,7 +92,7 @@ public class Fixture {
     }
 	
 	public Time getNextMatchDateAfter(Time time){//TODO
-		while(time)
+		return null;
 	}
 	public Event getMatchAt(Time time){//TODO
 		return null;

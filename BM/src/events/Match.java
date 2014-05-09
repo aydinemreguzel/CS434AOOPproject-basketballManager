@@ -1,3 +1,9 @@
+package events;
+import gameengine.MatchEngine;
+import gameengine.Time;
+import teams.ScoreBoard;
+import teams.Team;
+
 
 public class Match implements Event {
 	private Team homeTeam;

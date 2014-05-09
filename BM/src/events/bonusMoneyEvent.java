@@ -1,3 +1,6 @@
+package events;
+import gameengine.Time;
+
 public class bonusMoneyEvent implements Event {
 	Time eventTime;
 
