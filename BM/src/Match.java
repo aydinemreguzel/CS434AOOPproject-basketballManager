@@ -1,14 +1,25 @@
 
 public class Match implements Event {
-	Team homeTeam;
-	Team awayTeam;
-	boolean isPlayed;
-	Time matchTime;
+	private Team homeTeam;
+	private Team awayTeam;
+	private boolean isPlayed=false;
+	private ScoreBoard scoreBoard;
+	private Time matchTime;
 	
+	public Match(Team homeTeam, Team awayTeam, Time matchTime) {
+		this.homeTeam = homeTeam;
+		this.awayTeam = awayTeam;
+		this.matchTime = matchTime;
+	}
 	@Override
 	public void perform() {
-		// TODO Auto-generated method stub
-
+		MatchEngine matchEngine=new MatchEngine(this);
+		matchEngine.play();
+	}
+	@Override
+	public Time getEventTime() {
+		
+		return matchTime;
 	}
 
 }

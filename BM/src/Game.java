@@ -8,7 +8,7 @@ public Game(Time currentTime, League league) {
 }
 public void advanceInTime(){
 	time++;
-	event=league.getTodaysEvent();
+	event=league.getTodaysEvent(time);
 	event.perform();
 }
 
