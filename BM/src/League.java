@@ -42,4 +42,14 @@ public class League {
 	public void setFixture(Fixture fixture) {
 		this.fixture = fixture;
 	}
+	public Event getTodaysEvent(Time time){
+		Time nextMatchTime =fixture.getNextMatchDate();
+		if(nextMatchTime.equals(time)){
+			return fixture.getMatchAt(nextMatchTime);
+		}
+		else{
+			RandomEventGenerator reg= new RandomEventGenerator();
+			return reg.getEvent(time);
+		}
+	}
 }

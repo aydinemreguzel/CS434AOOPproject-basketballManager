@@ -132,4 +132,39 @@ public class Time {
 	public void setDay(int day) {
 		this.day = day;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + day;
+		result = prime * result + month;
+		result = prime * result + year;
+		return result;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Time other = (Time) obj;
+		if (day != other.day)
+			return false;
+		if (month != other.month)
+			return false;
+		if (year != other.year)
+			return false;
+		return true;
+	}
+	
 }

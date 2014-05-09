@@ -7,9 +7,7 @@ public class Fixture {
 	Time[][] matchDates;
 	int numTeams;
 	Team[] teams;
-	public int[][][] getMatchOrder() {
-		return matchOrder;
-	}
+	Match[] matches;
 
 	public Fixture(Team[] teams){
 		teams=new Team[numTeams];
@@ -17,7 +15,9 @@ public class Fixture {
 		matchOrder = new int[2*(numTeams-1)][numTeams / 2][2];
 		matchDates = new Time[2*(numTeams-1)][numTeams / 2];
 	}
-	
+	public int[][][] getMatchOrder() {
+		return matchOrder;
+	}
 	public void generateFixture(){
         
         if (numTeams % 2 == 1) {
@@ -86,7 +86,10 @@ public class Fixture {
         return components[1] + " v " + components[0];
     }
 	
-	public Time getNextMatchDate(){
+	public Time getNextMatchDateAfter(Time time){//TODO
+		while(time)
+	}
+	public Event getMatchAt(Time time){//TODO
 		return null;
 	}
 }
