@@ -1,33 +1,50 @@
 package gameengine;
+
 import java.util.Random;
-
+import teams.Player;
 import events.MatchEvent;
-
 
 public class MatchEngine {
 	private State state;
 	int ballHandler;
 	int attackOrder;
 	int matchClock = 2400; // 40 min = 240 sec
-	int shotClock = 24;    // sec
-	int[] moral = {10,10};
+	int shotClock = 24; // sec
+	int[] moral = { 10, 10 };
 	int positioning;
-	int[] score = {0,0};
+	int[] score = { 0, 0 };
+	Player[] InGameHome = new Player[5];
+	Player[] InGameAway = new Player[5];
 
 	public MatchEngine(MatchEvent match) {
 		state = new BeginingState();
-		match.getHomeTeam().getTacticBoard().getInGamePlayers();
+		InGameHome = match.getHomeTeam().getTacticBoard().getInGamePlayers();
+		InGameAway = match.getAwayTeam().getTacticBoard().getInGamePlayers();
 	}
 
 	public void play() {
-		while(true){
+		while (true) {
 			state.performState(this);
-			if(matchClock>0){
+			if (matchClock < 0) {
 				break;
 			}
 			System.out.println(state);
 			state.next(this);
 		}
+	}
+
+	public Player getBallHandlerPlayer() {
+		if (attackOrder == 0)
+			return InGameHome[ballHandler];
+		else
+			return InGameAway[ballHandler];
+	}
+	
+	public Player getBallDefenderPlayer() {
+		if (attackOrder == 1)
+			return InGameHome[ballHandler];
+		else
+			return InGameAway[ballHandler];
 	}
 
 	public void setState(State state) {
@@ -37,11 +54,11 @@ public class MatchEngine {
 	public State getState() {
 		return state;
 	}
-	
+
 	public void touch() {
 		state.next(this);
 	}
-	
+
 	public void complete() {
 		state.complete(this);
 	}
@@ -77,7 +94,7 @@ public class MatchEngine {
 	public void decreaseShotClock(int time) {
 		this.shotClock -= time;
 	}
-	
+
 	public void resetShotClock() {
 		this.shotClock = 24;
 	}
@@ -102,42 +119,57 @@ public class MatchEngine {
 		return score;
 	}
 
-	public void increaseScore(int team,int score) {
+	public void increaseScore(int team, int score) {
 		this.score[team] += score;
 	}
 }
 
 interface State {
 	public void next(MatchEngine matchEngine);
+
 	public void performState(MatchEngine matchEngine);
+
 	public void complete(MatchEngine matchEngine);
 }
 
 class BeginingState implements State {
-	
+
 	private State nextState;
+
 	public void performState(MatchEngine matchEngine){
 		Random randomGenerator = new Random();
-		matchEngine.setBallHandler(1);
-		//matchEngine.setAttackOrder((matchEngine.setPositioning(0);+1)%2);
+		matchEngine.setBallHandler(0);
+		matchEngine.setAttackOrder((matchEngine.getAttackOrder()+1)%2);
 		matchEngine.resetShotClock();
 		matchEngine.setPositioning(0);
 		matchEngine.decreaseMatchClock(randomGenerator.nextInt(3));
 		
+		int decision = randomGenerator.nextInt(2);
+		matchEngine.getBallDefenderPlayer().getCurrentAbilityPoint()+matchEngine.getBallDefenderPlayer().getAgility()
+		if(decision==0){
+			if(
+					getBallHandlerPlayer());
+			nextState = new DribblingState();
+		}
+		
+		if(decision==1){	
+			getBallHandlerPlayer;
+			nextState = new DribblingState();
+		}
 	}
 
-	public void next(MatchEngine matchEngine) {		
+	public void next(MatchEngine matchEngine) {
 		matchEngine.setState(nextState);
 	}
-	
-	public void complete(MatchEngine matchEngine){
+
+	public void complete(MatchEngine matchEngine) {
 	}
 
 	public String toString(MatchEngine matchEngine) {
 		String team;
-		if(matchEngine.getAttackOrder()==1){
+		if (matchEngine.getAttackOrder() == 1) {
 			team = "home";
-		}else{
+		} else {
 			team = "away";
 		}
 		return "The no:1 is starting to " + team + " team offance";
@@ -145,13 +177,15 @@ class BeginingState implements State {
 }
 
 class DribblingState implements State {
-	
+
 	private State nextState;
-	public void performState(MatchEngine matchEngine){
+
+	public void performState(MatchEngine matchEngine) {
 		Random randomGenerator = new Random();
-		int positioning = matchEngine.getPositioning()+randomGenerator.nextInt(10);
+		int positioning = matchEngine.getPositioning()
+				+ randomGenerator.nextInt(10);
 		matchEngine.setPositioning(positioning);
-		
+
 		int actionTime = randomGenerator.nextInt(5);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseMatchClock(actionTime);
@@ -171,14 +205,16 @@ class DribblingState implements State {
 
 class PassState implements State {
 	private State nextState;
-	public void performState(MatchEngine matchEngine){
+
+	public void performState(MatchEngine matchEngine) {
 		Random randomGenerator = new Random();
-		
-		matchEngine.setBallHandler(1+randomGenerator.nextInt(4));
-		
-		int positioning = matchEngine.getPositioning()+3+randomGenerator.nextInt(5);
+
+		matchEngine.setBallHandler(1 + randomGenerator.nextInt(4));
+
+		int positioning = matchEngine.getPositioning() + 3
+				+ randomGenerator.nextInt(5);
 		matchEngine.setPositioning(positioning);
-		
+
 		int actionTime = randomGenerator.nextInt(2);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseMatchClock(actionTime);
@@ -198,15 +234,16 @@ class PassState implements State {
 
 class ShotState implements State {
 	private State nextState;
-	public void performState(MatchEngine matchEngine){
-		matchEngine.increaseScore(matchEngine.getAttackOrder(),2);
+
+	public void performState(MatchEngine matchEngine) {
+		matchEngine.increaseScore(matchEngine.getAttackOrder(), 2);
 	}
 
 	public void next(MatchEngine matchEngine) {
 		matchEngine.setState(nextState);
 	}
-	
-	public void complete(MatchEngine matchEngine){
+
+	public void complete(MatchEngine matchEngine) {
 	}
 
 	public String toString() {
@@ -216,8 +253,9 @@ class ShotState implements State {
 
 class TurnoverState implements State {
 	private State nextState;
-	public void performState(MatchEngine matchEngine){
-		
+
+	public void performState(MatchEngine matchEngine) {
+
 	}
 
 	public void next(MatchEngine matchEngine) {
@@ -234,8 +272,9 @@ class TurnoverState implements State {
 
 class FaulState implements State {
 	private State nextState;
-	public void performState(MatchEngine matchEngine){
-		
+
+	public void performState(MatchEngine matchEngine) {
+
 	}
 
 	public void next(MatchEngine matchEngine) {
