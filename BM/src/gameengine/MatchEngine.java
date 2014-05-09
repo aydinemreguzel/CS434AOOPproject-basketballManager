@@ -16,10 +16,18 @@ public class MatchEngine {
 
 	public MatchEngine(Match match) {
 		state = new BeginingState();
+		match.getHomeTeam().getTacticBoard().getInGamePlayers();
 	}
 
 	public void play() {
-		// TODO Auto-generated method stub
+		while(true){
+			state.performState(this);
+			if(matchClock>0){
+				break;
+			}
+			System.out.println(state);
+			state.next(this);
+		}
 	}
 
 	public void setState(State state) {
