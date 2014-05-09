@@ -1,7 +1,7 @@
 package gameengine;
 import java.util.Random;
 
-import events.Match;
+import events.MatchEvent;
 
 
 public class MatchEngine {
@@ -14,7 +14,7 @@ public class MatchEngine {
 	int positioning;
 	int[] score = {0,0};
 
-	public MatchEngine(Match match) {
+	public MatchEngine(MatchEvent match) {
 		state = new BeginingState();
 		match.getHomeTeam().getTacticBoard().getInGamePlayers();
 	}

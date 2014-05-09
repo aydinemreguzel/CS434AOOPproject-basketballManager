@@ -1,6 +1,6 @@
 package teams;
 import events.Event;
-import events.Match;
+import events.MatchEvent;
 import gameengine.Time;
 
 
@@ -12,7 +12,7 @@ public class Fixture {
 	Time[][] matchDates;
 	int numTeams;
 	Team[] teams;
-	Match[] matches;
+	MatchEvent[] matches;
 
 	public Fixture(Team[] teams){
 		teams=new Team[numTeams];
@@ -92,7 +92,7 @@ public class Fixture {
     }
 	
 	public Time getNextMatchDateAfter(Time time){//TODO
-		Match match=matches[0];
+		MatchEvent match=matches[0];
 		for(int i=0;time.before(match.getEventTime());i++){
 		
 		}

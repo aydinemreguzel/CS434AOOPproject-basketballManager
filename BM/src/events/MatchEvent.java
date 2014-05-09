@@ -5,14 +5,14 @@ import teams.ScoreBoard;
 import teams.Team;
 
 
-public class Match implements Event {
+public class MatchEvent implements Event {
 	private Team homeTeam;
 	private Team awayTeam;
 	private boolean isPlayed=false;
 	private ScoreBoard scoreBoard;
 	private Time matchTime;
 	
-	public Match(Team homeTeam, Team awayTeam, Time matchTime) {
+	public MatchEvent(Team homeTeam, Team awayTeam, Time matchTime) {
 		this.homeTeam = homeTeam;
 		this.awayTeam = awayTeam;
 		this.matchTime = matchTime;
