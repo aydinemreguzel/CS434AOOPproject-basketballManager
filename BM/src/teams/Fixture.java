@@ -83,6 +83,8 @@ public class Fixture {
             		matchOrder[ii][jj][1] = Integer.parseInt(components[0])-1;
         		}
         	}
+        	//TODO transform everything into a matches array at the end
+        	
         }
 	}
 	
@@ -94,10 +96,17 @@ public class Fixture {
 	public Time getNextMatchDateAfter(Time time){//TODO
 		MatchEvent match=matches[0];
 		for(int i=0;time.before(match.getEventTime());i++){
-		
+			match=matches[i];
 		}
+		return match.getEventTime();
 	}
 	public Event getMatchAt(Time time){//TODO
+		for(int i=0;i<matches.length;i++){
+			if(matches[i].getEventTime().equals(time)){
+				return matches[i];
+			}
+		}
+		System.out.println("match not found");
 		return null;
 	}
 }
