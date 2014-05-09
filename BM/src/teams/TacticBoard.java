@@ -1,12 +1,16 @@
 package teams;
 
+import java.util.List;
+
 
 public class TacticBoard {
 	Player[] inGamePlayers=new Player[5];
 
-	public TacticBoard(Player[] inGamePlayers) {
+	public TacticBoard(List<Player> players) {
 		super();
-		this.inGamePlayers = inGamePlayers;
+		for(int i=0;i<inGamePlayers.length;i++){
+			inGamePlayers[i]= players.get(i);
+		}
 	}
 
 	

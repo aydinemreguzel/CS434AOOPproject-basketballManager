@@ -7,29 +7,21 @@ import java.util.List;
 
 public class Team {
 	String name;
-	short financePoint;
-	short fanSupportPoint;
-	short fanAgressionPoint;
-	Color colors[];
-	String stadiumName;
-	int stadiumCapacity;
-	List<Player> players = new ArrayList<Player>();
+	int budget;
+	int salary; 
+	List<Player> players;
 	TacticBoard tacticBoard;
 	
 	Manager manager;
-
-	Team(String name, short financePoint, short fanSupportPoint,
-			short fanAgressionPoint, Color colors[], String stadiumName,
-			int stadiumCapacity, List<Player> players, TacticBoard tacticBoard) {
+	Team(String name){
+		 this(name,new ArrayList<Player>(),2000000,200000);
+	}
+	Team(String name, List<Player> players,int budget, int salary) {
 		this.name = name;
-		this.financePoint = financePoint;
-		this.fanSupportPoint = fanSupportPoint;
-		this.fanAgressionPoint = fanAgressionPoint;
-		this.colors = colors;
-		this.stadiumName = stadiumName;
-		this.stadiumCapacity = stadiumCapacity;
+		this.budget=budget;
+		this.salary = salary;
 		this.players = players;
-		this.tacticBoard = tacticBoard;
+		this.tacticBoard = new TacticBoard(players);
 	}
 
 	public String getName() {
@@ -40,52 +32,12 @@ public class Team {
 		this.name = name;
 	}
 
-	public short getFinancePoint() {
-		return financePoint;
+	public int getSalary() {
+		return salary;
 	}
 
-	public void setFinancePoint(short financePoint) {
-		this.financePoint = financePoint;
-	}
-
-	public short getFanSupportPoint() {
-		return fanSupportPoint;
-	}
-
-	public void setFanSupportPoint(short fanSupportPoint) {
-		this.fanSupportPoint = fanSupportPoint;
-	}
-
-	public short getFanAgressionPoint() {
-		return fanAgressionPoint;
-	}
-
-	public void setFanAgressionPoint(short fanAgressionPoint) {
-		this.fanAgressionPoint = fanAgressionPoint;
-	}
-
-	public Color[] getColors() {
-		return colors;
-	}
-
-	public void setColors(Color[] colors) {
-		this.colors = colors;
-	}
-
-	public String getStadiumName() {
-		return stadiumName;
-	}
-
-	public void setStadiumName(String stadiumName) {
-		this.stadiumName = stadiumName;
-	}
-
-	public int getStadiumCapacity() {
-		return stadiumCapacity;
-	}
-
-	public void setStadiumCapacity(int stadiumCapacity) {
-		this.stadiumCapacity = stadiumCapacity;
+	public void setSalary(int financePoint) {
+		this.salary = financePoint;
 	}
 
 	public List<Player> getPlayers() {
@@ -110,6 +62,9 @@ public class Team {
 
 	public void setManager(Manager manager) {
 		this.manager = manager;
+	}
+	public void addPlayer(Player player){
+		players.add(player);
 	}
 
 }
