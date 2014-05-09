@@ -16,6 +16,7 @@ public class MatchEvent implements Event {
 		this.homeTeam = homeTeam;
 		this.awayTeam = awayTeam;
 		this.matchTime = matchTime;
+		scoreBoard = new ScoreBoard();
 	}
 	@Override
 	public void perform() {

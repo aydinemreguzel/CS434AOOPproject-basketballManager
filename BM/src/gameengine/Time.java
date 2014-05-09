@@ -69,7 +69,7 @@ public class Time {
 		}
 	}
 
-	Time(int d, int m, int y) {
+	public Time(int d, int m, int y) {
 		year = y;
 		month = m;
 		day = d;
