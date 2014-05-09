@@ -39,7 +39,7 @@ public class MatchEngine {
 		else
 			return InGameAway[ballHandler];
 	}
-	
+
 	public Player getBallDefenderPlayer() {
 		if (attackOrder == 1)
 			return InGameHome[ballHandler];
@@ -136,25 +136,47 @@ class BeginingState implements State {
 
 	private State nextState;
 
-	public void performState(MatchEngine matchEngine){
+	public void performState(MatchEngine matchEngine) {
 		Random randomGenerator = new Random();
 		matchEngine.setBallHandler(0);
-		matchEngine.setAttackOrder((matchEngine.getAttackOrder()+1)%2);
+		matchEngine.setAttackOrder((matchEngine.getAttackOrder() + 1) % 2);
 		matchEngine.resetShotClock();
 		matchEngine.setPositioning(0);
 		matchEngine.decreaseMatchClock(randomGenerator.nextInt(3));
-		
-		int decision = randomGenerator.nextInt(2);
-		matchEngine.getBallDefenderPlayer().getCurrentAbilityPoint()+matchEngine.getBallDefenderPlayer().getAgility()
-		if(decision==0){
-			if(
-					getBallHandlerPlayer());
-			nextState = new DribblingState();
+
+		int decision = randomGenerator.nextInt(2); // some variables comes here
+													// from tacticboard in
+													// future
+
+		if (decision == 0) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ randomGenerator.nextInt(100); // some magic constants here
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallHandlerPlayer().getAgility()
+					+ randomGenerator.nextInt(50); // these are change in future
+													// for game balance
+			if (p0 > p1)
+				nextState = new DribblingState();
+			else
+				nextState = new TurnoverState();
 		}
-		
-		if(decision==1){	
-			getBallHandlerPlayer;
-			nextState = new DribblingState();
+
+		if (decision == 1) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getIntelegence()
+					+ randomGenerator.nextInt(100);
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallHandlerPlayer().getIntelegence()
+					+ randomGenerator.nextInt(50);
+			if (p0 > p1)
+				nextState = new PassState();
+			else
+				nextState = new TurnoverState();
 		}
 	}
 
@@ -182,6 +204,7 @@ class DribblingState implements State {
 
 	public void performState(MatchEngine matchEngine) {
 		Random randomGenerator = new Random();
+
 		int positioning = matchEngine.getPositioning()
 				+ randomGenerator.nextInt(10);
 		matchEngine.setPositioning(positioning);
@@ -189,6 +212,65 @@ class DribblingState implements State {
 		int actionTime = randomGenerator.nextInt(5);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseMatchClock(actionTime);
+
+		int decision = randomGenerator.nextInt(3); // some variables comes here
+		// from tacticboard in
+		// future
+
+		if (decision == 0) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ randomGenerator.nextInt(100); // some magic constants here
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallHandlerPlayer().getAgility()
+					+ randomGenerator.nextInt(50); // these are change in future
+			// for game balance
+			if (p0 > p1)
+				nextState = new DribblingState();
+			else
+				nextState = new TurnoverState();
+		}
+
+		if (decision == 1) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getIntelegence()
+					+ randomGenerator.nextInt(100);
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallHandlerPlayer().getIntelegence()
+					+ randomGenerator.nextInt(50);
+			if (p0 > p1)
+				nextState = new PassState();
+			else
+				nextState = new TurnoverState();
+		}
+
+		if (decision == 2) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ matchEngine.getBallDefenderPlayer().getIntelegence()
+					+ randomGenerator.nextInt(100);
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ matchEngine.getBallHandlerPlayer().getIntelegence()
+					+ randomGenerator.nextInt(20);
+			if (p0 > p1)
+				nextState = new ShotState();
+			else {
+				System.out.println("shoot position and incredible BLOCK");
+				nextState = new BeginingState();
+			}
+
+		}
+	}
+	
+	public String toString(MatchEngine matchEngine) {
+		return "The "+ matchEngine.getBallHandlerPlayer() + "is driving to ball";
 	}
 
 	public void next(MatchEngine matchEngine) {
@@ -218,6 +300,60 @@ class PassState implements State {
 		int actionTime = randomGenerator.nextInt(2);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseMatchClock(actionTime);
+
+		int decision = randomGenerator.nextInt(3); // some variables comes here
+		// from tacticboard in
+		// future
+
+		if (decision == 0) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ randomGenerator.nextInt(100); // some magic constants here
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallHandlerPlayer().getAgility()
+					+ randomGenerator.nextInt(50); // these are change in future
+			// for game balance
+			if (p0 > p1)
+				nextState = new DribblingState();
+			else
+				nextState = new TurnoverState();
+		}
+
+		if (decision == 1) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getIntelegence()
+					+ randomGenerator.nextInt(100);
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallHandlerPlayer().getIntelegence()
+					+ randomGenerator.nextInt(50);
+			if (p0 > p1)
+				nextState = new PassState();
+			else
+				nextState = new TurnoverState();
+		}
+
+		if (decision == 2) {
+			int p0 = matchEngine.getBallDefenderPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ matchEngine.getBallDefenderPlayer().getIntelegence()
+					+ randomGenerator.nextInt(100);
+			int p1 = matchEngine.getBallHandlerPlayer()
+					.getCurrentAbilityPoint()
+					+ matchEngine.getBallDefenderPlayer().getAgility()
+					+ matchEngine.getBallHandlerPlayer().getIntelegence()
+					+ randomGenerator.nextInt(20);
+			if (p0 > p1)
+				nextState = new ShotState();
+			else {
+				System.out.println("shoot position and incredible BLOCK");
+				nextState = new BeginingState();
+			}
+		}
 	}
 
 	public void next(MatchEngine matchEngine) {

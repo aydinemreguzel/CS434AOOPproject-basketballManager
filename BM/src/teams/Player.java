@@ -88,12 +88,6 @@ public class Player {
 	}
 	@Override
 	public String toString() {
-		return "Player [name=" + name + ", surName=" + surName + ", age=" + age
-				+ ", nationality=" + nationality + ", currentAbilityPoint="
-				+ currentAbilityPoint + ", potentialAbilityPoint="
-				+ potentialAbilityPoint + ", height=" + height + ", strength="
-				+ strength + ", agility=" + agility + ", intelegence="
-				+ intelegence + ", naturalFitness=" + naturalFitness
-				+ ", agression=" + agression + "]";
+		return name;
 	}
 }
