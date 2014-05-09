@@ -92,7 +92,10 @@ public class Fixture {
     }
 	
 	public Time getNextMatchDateAfter(Time time){//TODO
-		return null;
+		Match match=matches[0];
+		for(int i=0;time.before(match.getEventTime());i++){
+		
+		}
 	}
 	public Event getMatchAt(Time time){//TODO
 		return null;

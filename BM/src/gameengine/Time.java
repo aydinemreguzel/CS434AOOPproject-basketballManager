@@ -170,7 +170,7 @@ public class Time {
 		return true;
 	}
 
-	boolean before(Time time) {
+	public boolean before(Time time) {
 		if (this.year < time.year) {
 			return true;
 		} else if (this.year > time.year) {
