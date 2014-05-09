@@ -5,9 +5,9 @@ public class League {
 	
 	String name;
 	Color colors[];
-	ArrayList< BasketballTeam > teams = new ArrayList< BasketballTeam >();
+	ArrayList< Team > teams = new ArrayList< Team >();
 	Fixture fixture;
-	public League(String name, Color[] colors, ArrayList<BasketballTeam> teams,
+	public League(String name, Color[] colors, ArrayList<Team> teams,
 			Fixture fixture) {
 		super();
 		this.name = name;
@@ -15,7 +15,7 @@ public class League {
 		this.teams = teams;
 		this.fixture = fixture;
 	}
-	public BasketballTeam[] getNextMatchTeams(){
+	public Team[] getNextMatchTeams(){
 		return null;
 	}
 	public String getName() {
@@ -30,10 +30,10 @@ public class League {
 	public void setColors(Color[] colors) {
 		this.colors = colors;
 	}
-	public ArrayList<BasketballTeam> getTeams() {
+	public ArrayList<Team> getTeams() {
 		return teams;
 	}
-	public void setTeams(ArrayList<BasketballTeam> teams) {
+	public void setTeams(ArrayList<Team> teams) {
 		this.teams = teams;
 	}
 	public Fixture getFixture() {
