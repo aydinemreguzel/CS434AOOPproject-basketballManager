@@ -4,7 +4,7 @@ import java.util.Random;
 import teams.Player;
 import events.MatchEvent;
 
-// due to incomplite tactics board class lots of magic number in match engine classes
+// due to incomplete tactics board class lots of magic number in match engine and state classes
 public class MatchEngine {
 	private State state;
 	int ballHandler;
@@ -29,6 +29,7 @@ public class MatchEngine {
 			if (matchClock < 0) {
 				break;
 			}
+			state.performAction(this);
 			System.out.println(state);
 			state.decideNextAction(this);
 		}
