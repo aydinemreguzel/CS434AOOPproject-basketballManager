@@ -6,14 +6,15 @@ public class Player {
 	String surName;
 	String age;
 	String nationality;
-	short currentAbilityPoint;
-	short potentialAbilityPoint;
-	short height;
-	short strength;
-	short agility;
-	short intelegence;
-	short naturalFitness;
-	short agression;
+	int currentAbilityPoint;
+	int potentialAbilityPoint;
+	int height;
+	int strength;
+	int agility;
+	int intelegence;
+	int naturalFitness;
+	int agression;
+	int condition;
 	public String getName() {
 		return name;
 	}
@@ -38,53 +39,59 @@ public class Player {
 	public void setNationality(String nationality) {
 		this.nationality = nationality;
 	}
-	public short getCurrentAbilityPoint() {
+	public int getCurrentAbilityPoint() {
 		return currentAbilityPoint;
 	}
-	public void setCurrentAbilityPoint(short currentAbilityPoint) {
+	public void setCurrentAbilityPoint(int currentAbilityPoint) {
 		this.currentAbilityPoint = currentAbilityPoint;
 	}
-	public short getPotentialAbilityPoint() {
+	public int getPotentialAbilityPoint() {
 		return potentialAbilityPoint;
 	}
-	public void setPotentialAbilityPoint(short potentialAbilityPoint) {
+	public void setPotentialAbilityPoint(int potentialAbilityPoint) {
 		this.potentialAbilityPoint = potentialAbilityPoint;
 	}
-	public short getHeight() {
+	public int getHeight() {
 		return height;
 	}
-	public void setHeight(short height) {
+	public void setHeight(int height) {
 		this.height = height;
 	}
-	public short getStrength() {
+	public int getStrength() {
 		return strength;
 	}
-	public void setStrength(short strength) {
+	public void setStrength(int strength) {
 		this.strength = strength;
 	}
-	public short getAgility() {
+	public int getAgility() {
 		return agility;
 	}
-	public void setAgility(short agility) {
+	public void setAgility(int agility) {
 		this.agility = agility;
 	}
-	public short getIntelegence() {
+	public int getIntelegence() {
 		return intelegence;
 	}
-	public void setIntelegence(short intelegence) {
+	public void setIntelegence(int intelegence) {
 		this.intelegence = intelegence;
 	}
-	public short getNaturalFitness() {
+	public int getNaturalFitness() {
 		return naturalFitness;
 	}
-	public void setNaturalFitness(short naturalFitness) {
+	public void setNaturalFitness(int naturalFitness) {
 		this.naturalFitness = naturalFitness;
 	}
-	public short getAgression() {
+	public int getAgression() {
 		return agression;
 	}
-	public void setAgression(short agression) {
+	public void setAgression(int agression) {
 		this.agression = agression;
+	}
+	public int getCondition() {
+		return condition;
+	}
+	public void setCondition(int condition) {
+		this.condition = condition;
 	}
 	@Override
 	public String toString() {

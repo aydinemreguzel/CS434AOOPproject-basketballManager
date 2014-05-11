@@ -24,8 +24,7 @@ public class MatchEvent implements Event {
 		matchEngine.play();
 	}
 	@Override
-	public Time getEventTime() {
-		
+	public Time getEventTime() {	
 		return matchTime;
 	}
 	public Team getHomeTeam() {
