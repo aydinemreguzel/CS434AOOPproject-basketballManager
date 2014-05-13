@@ -117,12 +117,9 @@ public class Fixture {
 
 	public Time getNextMatchDateAfter(Time currentTime) {
 		MatchEvent match = matches[0];
-		//System.out.println(currentTime.toString());
-		for (int i = 0; !currentTime.before(match.getEventTime()); i++) {
-			//System.out.println(match.getEventTime().toString());
+		for (int i = 0; currentTime.after(match.getEventTime()); i++) {
 			match = matches[i];
 		}
-		System.out.println(match.getEventTime().toString());
 		return match.getEventTime();
 	}
 
