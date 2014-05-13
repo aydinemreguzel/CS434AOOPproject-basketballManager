@@ -2,6 +2,7 @@ package events;
 import matchengine.MatchEngine;
 import gameengine.Time;
 import teams.ScoreBoard;
+import teams.TacticBoard;
 import teams.Team;
 
 
@@ -24,6 +25,12 @@ public class MatchEvent implements Event {
 	public void perform() {
 		MatchEngine matchEngine=new MatchEngine(this);
 		matchEngine.play();
+	}
+	public TacticBoard getHomeTacticBoard() {
+		return homeTeam.getTacticBoard();
+	}
+	public TacticBoard getAwayTacticBoard() {
+		return awayTeam.getTacticBoard();
 	}
 	@Override
 	public Time getEventTime() {	
