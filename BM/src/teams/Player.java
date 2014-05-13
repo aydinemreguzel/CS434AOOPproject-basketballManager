@@ -29,6 +29,7 @@ public class Player {
 		this.agility = agility;
 		this.intelegence = intelegence;
 	}
+	
 
 	public Player() {
 		this(generateRandomName(), generateRandomInt(18,
