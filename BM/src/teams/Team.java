@@ -8,7 +8,8 @@ import java.util.List;
 public class Team {
 	String name;
 	int budget;
-	int salary; 
+	int salary;
+	Color[] color = new Color[2];
 	List<Player> players;
 	TacticBoard tacticBoard;
 	

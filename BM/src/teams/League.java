@@ -1,7 +1,6 @@
 package teams;
 
 import java.awt.Color;
-import java.util.ArrayList;
 
 import events.Event;
 import events.RandomEventGenerator;
@@ -11,18 +10,19 @@ public class League {
 
 	String name;
 	Color colors[];
-	ArrayList<Team> teams = new ArrayList<Team>();
+	Team[] teams;
 	Fixture fixture;
 
-	public League(String name, int numTeams) {
+	public League(String name, int numTeams,Time time) {
 		this.name = name;
+		teams = new Team[numTeams];
 		for (int ii = 0; ii < numTeams; ii++) {
-			teams.add(new Team("Team "+ii));
+			teams[ii] = new Team("Team " + ii);
 		}
-		Fixture fixture 
+		fixture = new Fixture(teams, time);
 	}
 
-	public League(String name, Color[] colors, ArrayList<Team> teams,
+	public League(String name, Color[] colors, Team[] teams,
 			Fixture fixture) {
 		super();
 		this.name = name;
@@ -51,11 +51,11 @@ public class League {
 		this.colors = colors;
 	}
 
-	public ArrayList<Team> getTeams() {
+	public Team[] getTeams() {
 		return teams;
 	}
 
-	public void setTeams(ArrayList<Team> teams) {
+	public void setTeams(Team[] teams) {
 		this.teams = teams;
 	}
 
