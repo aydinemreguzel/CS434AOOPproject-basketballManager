@@ -9,14 +9,16 @@ public class MatchEvent implements Event {
 	private Team homeTeam;
 	private Team awayTeam;
 	private boolean isPlayed=false;
-	private ScoreBoard scoreBoard;
+	private ScoreBoard homeScoreBoard;
+	private ScoreBoard awayScoreBoard;
 	private Time matchTime;
 	
 	public MatchEvent(Team homeTeam, Team awayTeam, Time matchTime) {
 		this.homeTeam = homeTeam;
 		this.awayTeam = awayTeam;
 		this.matchTime = matchTime;
-		scoreBoard = new ScoreBoard();
+		setHomeScoreBoard(new ScoreBoard());
+		setAwayScoreBoard(new ScoreBoard());
 	}
 	@Override
 	public void perform() {
@@ -39,11 +41,24 @@ public class MatchEvent implements Event {
 	public void setAwayTeam(Team awayTeam) {
 		this.awayTeam = awayTeam;
 	}
-	public ScoreBoard getScoreBoard() {
-		return scoreBoard;
+	public ScoreBoard getHomeScoreBoard() {
+		return homeScoreBoard;
 	}
-	public void setScoreBoard(ScoreBoard scoreBoard) {
-		this.scoreBoard = scoreBoard;
+	public void setHomeScoreBoard(ScoreBoard homeScoreBoard) {
+		this.homeScoreBoard = homeScoreBoard;
 	}
+	public ScoreBoard getAwayScoreBoard() {
+		return awayScoreBoard;
+	}
+	public void setAwayScoreBoard(ScoreBoard awayScoreBoard) {
+		this.awayScoreBoard = awayScoreBoard;
+	}
+	public boolean isPlayed() {
+		return isPlayed;
+	}
+	public void setPlayed(boolean isPlayed) {
+		this.isPlayed = isPlayed;
+	}
+
 
 }
