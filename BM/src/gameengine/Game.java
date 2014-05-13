@@ -17,5 +17,10 @@ public class Game {
 		Event event = league.getTodaysEvent(currentTime);
 		event.perform();
 	}
+	
+	public void generateLeague(String leagueName,int numTeams){
+		league = new League(leagueName,numTeams);
+		league.
+	}
 
 }

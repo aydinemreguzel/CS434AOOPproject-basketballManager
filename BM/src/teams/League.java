@@ -1,4 +1,5 @@
 package teams;
+
 import java.awt.Color;
 import java.util.ArrayList;
 
@@ -7,11 +8,20 @@ import events.RandomEventGenerator;
 import gameengine.Time;
 
 public class League {
-	
+
 	String name;
 	Color colors[];
-	ArrayList< Team > teams = new ArrayList< Team >();
+	ArrayList<Team> teams = new ArrayList<Team>();
 	Fixture fixture;
+
+	public League(String name, int numTeams) {
+		this.name = name;
+		for (int ii = 0; ii < numTeams; ii++) {
+			teams.add(new Team("Team "+ii));
+		}
+		Fixture fixture 
+	}
+
 	public League(String name, Color[] colors, ArrayList<Team> teams,
 			Fixture fixture) {
 		super();
@@ -20,40 +30,49 @@ public class League {
 		this.teams = teams;
 		this.fixture = fixture;
 	}
-	public Team[] getNextMatchTeams(){
+
+	public Team[] getNextMatchTeams() {
 		return null;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public Color[] getColors() {
 		return colors;
 	}
+
 	public void setColors(Color[] colors) {
 		this.colors = colors;
 	}
+
 	public ArrayList<Team> getTeams() {
 		return teams;
 	}
+
 	public void setTeams(ArrayList<Team> teams) {
 		this.teams = teams;
 	}
+
 	public Fixture getFixture() {
 		return fixture;
 	}
+
 	public void setFixture(Fixture fixture) {
 		this.fixture = fixture;
 	}
-	public Event getTodaysEvent(Time time){
-		Time nextMatchTime =fixture.getNextMatchDateAfter(time);
-		if(nextMatchTime.equals(time)){
+
+	public Event getTodaysEvent(Time time) {
+		Time nextMatchTime = fixture.getNextMatchDateAfter(time);
+		if (nextMatchTime.equals(time)) {
 			return fixture.getMatchAt(nextMatchTime);
-		}
-		else{
-			RandomEventGenerator reg= new RandomEventGenerator();
+		} else {
+			RandomEventGenerator reg = new RandomEventGenerator();
 			return reg.getEvent(time);
 		}
 	}

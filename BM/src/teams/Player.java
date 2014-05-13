@@ -3,7 +3,6 @@ package teams;
 
 public class Player {
 	String name;
-	String surName;
 	String age;
 	String nationality;
 	int currentAbilityPoint;
@@ -20,12 +19,6 @@ public class Player {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public String getSurName() {
-		return surName;
-	}
-	public void setSurName(String surName) {
-		this.surName = surName;
 	}
 	public String getAge() {
 		return age;
