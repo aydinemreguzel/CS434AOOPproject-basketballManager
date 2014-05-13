@@ -58,6 +58,7 @@ public class Fixture {
 		}
 
 		int[][][] matchOrder = createMatchOrder(rounds);
+		System.out.println("numteam:"+numTeams);
 		createMatchEvents(rounds,matchOrder);
 	}
 

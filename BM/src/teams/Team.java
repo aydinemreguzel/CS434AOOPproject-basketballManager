@@ -10,18 +10,20 @@ public class Team {
 	int budget;
 	int salary;
 	Color[] color = new Color[2];
-	List<Player> players;
+	List<Player> players=new ArrayList<Player>();
 	TacticBoard tacticBoard;
 	
 	Manager manager;
 	Team(String name){
-		 this(name,new ArrayList<Player>(),2000000,200000);
+		 this(name,2000000,200000);
 	}
-	Team(String name, List<Player> players,int budget, int salary) {
+	Team(String name,int budget, int salary) {
 		this.name = name;
 		this.budget=budget;
 		this.salary = salary;
-		this.players = players;
+		for(int i=0;i<12;i++){
+			players.add(new Player());
+		}
 		this.tacticBoard = new TacticBoard(players);
 	}
 
