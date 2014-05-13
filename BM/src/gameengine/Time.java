@@ -191,4 +191,25 @@ public class Time {
 			}
 		}
 	}
+	public boolean after(Time time) {
+		if (this.year > time.year) {
+			return true;
+		} else if (this.year < time.year) {
+			return false;
+		} else {
+			if (this.month > time.month) {
+				return true;
+			} else if (this.month < time.month) {
+				return false;
+			} else {
+				if (this.day > time.day) {
+					return true;
+				} else if (this.day < time.day) {
+					return false;
+				} else {
+					return false;
+				}
+			}
+		}
+	}
 }
