@@ -12,9 +12,9 @@ public class Fixture {
 	MatchEvent[] matches;
 
 	public Fixture(Team[] teams, Time startDate) {
+		numTeams = teams.length;
 		this.teams = new Team[numTeams];
 		this.startDate = startDate;
-		numTeams = teams.length;
 		matchDates = new Time[2 * (numTeams - 1)][numTeams / 2];
 		matches = new MatchEvent[(2 * (numTeams - 1)) * (numTeams / 2)];
 		generateFixture();
@@ -58,8 +58,8 @@ public class Fixture {
 		}
 
 		int[][][] matchOrder = createMatchOrder(rounds);
-		System.out.println("numteam:"+numTeams);
-		createMatchEvents(rounds,matchOrder);
+		System.out.println("numteam:" + numTeams);
+		createMatchEvents(rounds, matchOrder);
 	}
 
 	private String[][] interleave(int totalRounds, int matchesPerRound,
@@ -79,8 +79,8 @@ public class Fixture {
 		rounds = interleaved;
 		return rounds;
 	}
-	
-	private int[][][] createMatchOrder(String[][] rounds){
+
+	private int[][][] createMatchOrder(String[][] rounds) {
 		int[][][] matchOrder = new int[2 * (numTeams - 1)][numTeams / 2][2];
 		for (int ii = 0; ii < rounds.length * 2; ii++) {
 			for (int jj = 0; jj < rounds[0].length; jj++) {
@@ -98,15 +98,14 @@ public class Fixture {
 		return matchOrder;
 	}
 
-	private void createMatchEvents(String[][] rounds,int[][][] matchOrder ) {
-		Time date;
+	private void createMatchEvents(String[][] rounds, int[][][] matchOrder) {
 		for (int ii = 0; ii < rounds.length * 2; ii++) {
 			for (int jj = 0; jj < rounds[0].length; jj++) {
-				date = new Time(startDate.getDay(), startDate.getMonth(),
-						startDate.getYear());
+				int mo0 = matchOrder[ii][jj][0];
+				int mo1 = matchOrder[ii][jj][1];
 				matches[ii * rounds[0].length + jj] = new MatchEvent(
-						teams[matchOrder[ii][jj][0]],
-						teams[matchOrder[ii][jj][0]], date);
+						teams[mo0], teams[mo1], new Time(startDate.getDay(),
+								startDate.getMonth(), startDate.getYear()));
 				startDate.moveOnTime(2, 0, 0);
 			}
 		}
