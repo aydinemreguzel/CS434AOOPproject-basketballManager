@@ -8,6 +8,6 @@ public class BM2014 {
 		startApp();
 	}
 	void startApp(){
-		
+		Game game = new Game(new Time(1,1,2014));
 	}
 }
