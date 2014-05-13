@@ -26,7 +26,7 @@ public class Game {
 	public void generateLeague(String leagueName, int numTeams) {
 		Time leagueTime = new Time(currentTime.getDay(),
 				currentTime.getMonth(), currentTime.getYear());
-		leagueTime.moveOnTime(15, 0, 0);
+		leagueTime.moveOnTime(3, 0, 0);
 		league = new League(leagueName, numTeams, leagueTime);
 	}
 
