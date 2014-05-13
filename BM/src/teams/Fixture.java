@@ -58,7 +58,6 @@ public class Fixture {
 		}
 
 		int[][][] matchOrder = createMatchOrder(rounds);
-		System.out.println("numteam:" + numTeams);
 		createMatchEvents(rounds, matchOrder);
 	}
 
@@ -116,11 +115,14 @@ public class Fixture {
 		return components[1] + " v " + components[0];
 	}
 
-	public Time getNextMatchDateAfter(Time time) {
+	public Time getNextMatchDateAfter(Time currentTime) {
 		MatchEvent match = matches[0];
-		for (int i = 0; time.before(match.getEventTime()); i++) {
+		//System.out.println(currentTime.toString());
+		for (int i = 0; !currentTime.before(match.getEventTime()); i++) {
+			//System.out.println(match.getEventTime().toString());
 			match = matches[i];
 		}
+		System.out.println(match.getEventTime().toString());
 		return match.getEventTime();
 	}
 

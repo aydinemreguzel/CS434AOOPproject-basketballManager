@@ -16,6 +16,7 @@ public class BM2014 {
 		Game game = new Game(new Time(1, 1, 2014));
 		Scanner sc = new Scanner(System.in);
 		while (true) {
+			System.out.println("enter something: ");
 			String str = sc.nextLine();
 			if (str.equals("exit"))
 				break;
