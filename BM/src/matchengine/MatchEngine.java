@@ -112,11 +112,19 @@ public class MatchEngine {
 		this.positioning = positioning;
 	}
 
-	public void increaseScore(int score,int player) {
+	public ScoreBoard getAtackSB(){
 		if(getAttackOrder() == 0)
-			homeSB.increaseScore(score,player);
+			return homeSB;
+		else
+			return awaySB;
+		
+	}
+	
+	public ScoreBoard getDefenceSB(){
 		if(getAttackOrder() == 1)
-			awaySB.increaseScore(score,player);
+			return homeSB;
+		else
+			return awaySB;
 	}
 
 	public void increasePositioning(int i) {

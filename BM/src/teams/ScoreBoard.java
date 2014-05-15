@@ -20,7 +20,9 @@ public class ScoreBoard {
 	private static final int DIFF  = 14;  // difference
 
 	String[] names = new String[12];
-	int[][] stats = new int[12][13];
+	int[][] stats = new int[12][15];
+	
+	
 
 	@Override
 	public String toString() {//TODO

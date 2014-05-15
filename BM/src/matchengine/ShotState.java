@@ -70,7 +70,7 @@ class ShotState implements State {
 			BlockedShot = false;
 			// TODO missing shots will be added, rebounds will be added
 			if (shotDecision == 2)
-				matchEngine.increaseScore(3);
+				matchEngine.getAtackSB().inc3PMA(matchEngine.getB);
 			else
 				matchEngine.increaseScore(2);
 			matchEngine.changeAttackOrder();
