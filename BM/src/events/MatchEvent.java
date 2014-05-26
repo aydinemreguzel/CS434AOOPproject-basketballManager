@@ -18,8 +18,8 @@ public class MatchEvent implements Event {
 		this.homeTeam = homeTeam;
 		this.awayTeam = awayTeam;
 		this.matchTime = matchTime;
-		setHomeScoreBoard(new ScoreBoard());
-		setAwayScoreBoard(new ScoreBoard());
+		setHomeScoreBoard(new ScoreBoard(homeTeam.getTacticBoard()));
+		setAwayScoreBoard(new ScoreBoard(awayTeam.getTacticBoard()));
 	}
 	@Override
 	public void perform() {

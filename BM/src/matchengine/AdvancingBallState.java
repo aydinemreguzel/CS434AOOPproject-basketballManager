@@ -2,7 +2,7 @@ package matchengine;
 
 import java.util.Random;
 
-class AdvancingBallState implements State {
+class AdvancingBallState extends State {
 	private boolean success = false;
 	Random randomGenerator = new Random();
 

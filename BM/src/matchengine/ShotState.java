@@ -2,7 +2,7 @@ package matchengine;
 
 import java.util.Random;
 
-class ShotState implements State {
+class ShotState extends State {
 	private boolean BlockedShot = false;
 	Random randomGenerator = new Random();
 
@@ -69,15 +69,15 @@ class ShotState implements State {
 		} else {
 			BlockedShot = false;
 			// TODO missing shots will be added, rebounds will be added
-			if (shotDecision == 2)
-				matchEngine.getAtackSB().inc3PMA(matchEngine.getB);
-			else
-				matchEngine.increaseScore(2);
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0);
 			System.out.println("BASKET");
 		}
+		if (shotDecision == 2)
+			updateStats();// TODO
+		else
+			updateStats();// TODO
 	}
 
 	public void decideNextAction(MatchEngine matchEngine) {

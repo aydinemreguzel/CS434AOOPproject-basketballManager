@@ -2,7 +2,7 @@ package matchengine;
 
 import java.util.Random;
 
-class DribblingState implements State {
+class DribblingState extends State {
 	private boolean success = false;
 	Random randomGenerator = new Random();
 

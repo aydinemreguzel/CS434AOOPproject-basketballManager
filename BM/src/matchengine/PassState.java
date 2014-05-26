@@ -2,7 +2,7 @@ package matchengine;
 
 import java.util.Random;
 
-class PassState implements State {
+class PassState extends State {
 	private boolean success = false;
 	Random randomGenerator = new Random();
 

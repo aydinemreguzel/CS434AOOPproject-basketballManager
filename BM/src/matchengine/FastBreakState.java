@@ -2,7 +2,7 @@ package matchengine;
 
 import java.util.Random;
 
-class FastBreakState implements State {
+class FastBreakState extends State {
 	private boolean success = false;
 	Random randomGenerator = new Random();
 

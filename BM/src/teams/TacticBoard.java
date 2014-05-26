@@ -2,27 +2,29 @@ package teams;
 
 import java.util.List;
 
-
 public class TacticBoard {
-	Player[] inGamePlayers;
+	Player[] onFloorPlayers;
+	Player[] inMatchPlayers;
 
 	public TacticBoard(List<Player> players) {
 		super();
-		inGamePlayers=new Player[5];
-		for(int i=0;i<inGamePlayers.length;i++){
-			inGamePlayers[i]= players.get(i);
+		inMatchPlayers = new Player[12];
+		onFloorPlayers = new Player[5];
+		for (int i = 0; i < onFloorPlayers.length; i++) {
+			onFloorPlayers[i] = players.get(i);
 		}
 	}
 
-	
-	public Player[] getInGamePlayers() {
-		return inGamePlayers;
+	public Player[] getOnFloorPlayers() {
+		return onFloorPlayers;
 	}
-
+	
+	public Player[] getInMatchPlayers() {
+		return inMatchPlayers;
+	}
 
 	public void setInGamePlayers(Player[] inGamePlayers) {
-		this.inGamePlayers = inGamePlayers;
+		this.onFloorPlayers = inGamePlayers;
 	}
-	
-	
+
 }
