@@ -18,18 +18,24 @@ public class ScoreBoard {
 	private static final int BA    = 12;  //block against
 	private static final int PTS   = 13;  //points
 	private static final int DIFF  = 14;  // difference
-
-	String[] names = new String[12];
-	int[][] stats = new int[12][15];
+	
+	private static final int matchPlayerNum  = 12;  // difference
+	private static final int numOfAtt  = 15;  // difference
+	
+	String[] names = new String[matchPlayerNum];
+	int[][] stats = new int[matchPlayerNum][numOfAtt];
 	
 	public ScoreBoard(TacticBoard tacticBoard){
-		for(int ii = 0;ii<12;ii++){
+		for(int ii = 0;ii<matchPlayerNum;ii++){
 			names[ii] = tacticBoard.getInMatchPlayers()[ii].getName();
+			for(int jj = 0;jj<numOfAtt;jj++){
+				stats[ii][jj] = 0;
+			}
 		}
 	}
 	
-	public void updateStats(){
-		
+	public void updateStats(int player, int att){
+		stats[player][att]++;
 	}
 
 	@Override

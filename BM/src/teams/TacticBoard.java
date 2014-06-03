@@ -13,6 +13,9 @@ public class TacticBoard {
 		for (int i = 0; i < onFloorPlayers.length; i++) {
 			onFloorPlayers[i] = players.get(i);
 		}
+		for (int i = 0; i < inMatchPlayers.length; i++) {
+			inMatchPlayers[i] = players.get(i);
+		}
 	}
 
 	public Player[] getOnFloorPlayers() {
@@ -26,5 +29,11 @@ public class TacticBoard {
 	public void setInGamePlayers(Player[] inGamePlayers) {
 		this.onFloorPlayers = inGamePlayers;
 	}
+	
+	public Player[] getInGamePlayers() {
+		return onFloorPlayers;
+	}
+	
+	
 
 }

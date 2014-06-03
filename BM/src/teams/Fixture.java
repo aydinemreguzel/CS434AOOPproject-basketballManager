@@ -13,7 +13,7 @@ public class Fixture {
 
 	public Fixture(Team[] teams, Time startDate) {
 		numTeams = teams.length;
-		this.teams = new Team[numTeams];
+		this.teams = teams;
 		this.startDate = startDate;
 		matchDates = new Time[2 * (numTeams - 1)][numTeams / 2];
 		matches = new MatchEvent[(2 * (numTeams - 1)) * (numTeams / 2)];

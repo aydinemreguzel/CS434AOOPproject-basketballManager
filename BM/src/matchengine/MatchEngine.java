@@ -9,7 +9,7 @@ import events.MatchEvent;
 public class MatchEngine {
 	private State state;
 	int ballHandler;
-	int attackOrder;
+	int attackOrder = 0;
 	int matchClock = 2400; // 40 min = 2400 sec
 	int shotClock = 24; // sec
 	int positioning;
@@ -19,7 +19,7 @@ public class MatchEngine {
 	TacticBoard awayTB;
 
 	public MatchEngine(MatchEvent match) {
-		state = new AdvancingBallState();
+		state = new JumpBallState();
 		homeTB = match.getHomeTacticBoard();
 		awayTB = match.getAwayTacticBoard();
 		homeSB = match.getHomeScoreBoard();
@@ -28,6 +28,7 @@ public class MatchEngine {
 
 	public void play() {
 		while (true) {
+			System.out.println("attack order: " + attackOrder);
 			state.startAction(this);
 			if (matchClock < 0) {
 				break;
@@ -137,5 +138,10 @@ public class MatchEngine {
 			attackOrder = 1;
 		else
 			attackOrder = 0;
+	}
+
+	public void setBallDefender(int i) {
+		// TODO Auto-generated method stub
+		
 	}
 }

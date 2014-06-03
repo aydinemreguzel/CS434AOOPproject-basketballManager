@@ -8,7 +8,7 @@ public class MatchEngine {
 	private State state;
 	int ballHandler;
 	int attackOrder;
-	int matchClock = 2400; // 40 min = 240 sec
+	int matchClock = 60; // 40 min = 240 sec
 	int shotClock = 24; // sec
 	int[] moral = { 10, 10 };
 	int positioning;

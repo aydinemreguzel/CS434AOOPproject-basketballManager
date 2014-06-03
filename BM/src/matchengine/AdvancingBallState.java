@@ -19,13 +19,13 @@ class AdvancingBallState extends State {
 				+ matchEngine.getBallDefenderPlayer().getAgility()
 				+ matchEngine.getBallDefenderPlayer().getStrength()
 				+ randomGenerator.nextInt(50); // some magic constants here
-		int poffancePower = matchEngine.getBallHandlerPlayer()
+		int offancePower = matchEngine.getBallHandlerPlayer()
 				.getCurrentAbilityPoint()
 				+ 2
 				* matchEngine.getBallHandlerPlayer().getAgility()
 				+ randomGenerator.nextInt(100); // these are change in future
 												// for game balance
-		if (defancePower > poffancePower) { // TODO hava atýþý eklenecek
+		if (defancePower > offancePower) { // TODO hava atýþý eklenecek
 			success = false;
 			matchEngine.changeAttackOrder(); // new
 												// ballHandler

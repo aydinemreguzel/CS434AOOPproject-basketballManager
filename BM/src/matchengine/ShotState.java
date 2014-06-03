@@ -25,14 +25,14 @@ class ShotState extends State {
 		if (shotDecision == 0) { // DUNK
 			offancePower = 2 * matchEngine.getBallHandlerPlayer().getStrength()
 					+ 2 * matchEngine.getPositioning()
-					+ randomGenerator.nextInt(0); // these are change in
+					+ randomGenerator.nextInt(10); // these are change in
 													// future
 													// for game balance
 		}
 		if (shotDecision == 1) { // LAYUP
 			offancePower = matchEngine.getBallHandlerPlayer().getStrength()
 					+ matchEngine.getBallHandlerPlayer().getAgility() + 2
-					* matchEngine.getPositioning() + randomGenerator.nextInt(0); // these
+					* matchEngine.getPositioning() + randomGenerator.nextInt(10); // these
 																					// are
 																					// change
 																					// in
