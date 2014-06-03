@@ -28,10 +28,14 @@ public class MatchEngine {
 
 	public void play() {
 		while (true) {
-			System.out.println("attack order: " + attackOrder);
 			state.startAction(this);
 			if (matchClock < 0) {
 				break;
+			} else if (shotClock < 0){
+				changeAttackOrder();
+				resetShotClock();
+				setPositioning(0);
+				System.out.println("BUZZER");
 			}
 			state.performAction(this);
 			System.out.println(state);

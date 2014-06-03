@@ -2,6 +2,8 @@ package matchengine;
 
 import java.util.Random;
 
+import teams.Player;
+
 class DribblingState extends State {
 	private boolean success = false;
 	Random randomGenerator = new Random();
@@ -13,25 +15,25 @@ class DribblingState extends State {
 	}
 
 	public void performAction(MatchEngine matchEngine) {
-		int defancePower = matchEngine.getBallDefenderPlayer()
-				.getCurrentAbilityPoint()
-				+ matchEngine.getBallDefenderPlayer().getAgility()
-				+ matchEngine.getBallDefenderPlayer().getStrength()
+		Player defPlayer = matchEngine.getBallDefenderPlayer();
+		int defancePower = defPlayer.getCurrentAbilityPoint()
+				+ defPlayer.getAgility() + defPlayer.getStrength()
 				+ randomGenerator.nextInt(50); // some magic constants here
-		int offancePower = matchEngine.getBallHandlerPlayer()
-				.getCurrentAbilityPoint()
-				+ 2
-				* matchEngine.getBallHandlerPlayer().getAgility()
-				+ randomGenerator.nextInt(100); // these are change in future
-												// for game balance
-		if (defancePower > offancePower) { // TODO hava atýþý eklenecek
+		Player offensPlayer = matchEngine.getBallHandlerPlayer();
+		int offencePower = offensPlayer.getCurrentAbilityPoint() + 2
+				* offensPlayer.getAgility() + randomGenerator.nextInt(100); // these
+																			// are
+																			// change
+																			// in
+																			// future
+																			// for
+																			// game
+																			// balance
+		if (defancePower > offencePower) {
 			success = false;
 			matchEngine.changeAttackOrder();
-			// ballHandler
-			// still
-			// same
 			matchEngine.resetShotClock();
-			matchEngine.setPositioning(0); // //TODO fast break
+			matchEngine.setPositioning(0);  //TODO fast break
 		} else {
 			success = true;
 			matchEngine.increasePositioning(5); // TODO
