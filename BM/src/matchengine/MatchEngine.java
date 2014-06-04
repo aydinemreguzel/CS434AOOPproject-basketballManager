@@ -38,7 +38,6 @@ public class MatchEngine {
 				System.out.println("BUZZER");
 			}
 			state.performAction(this);
-			System.out.println(state);
 			state.decideNextAction(this);
 		}
 	}

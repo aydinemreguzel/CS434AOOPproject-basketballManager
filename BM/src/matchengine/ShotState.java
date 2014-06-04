@@ -5,13 +5,14 @@ import java.util.Random;
 import teams.Player;
 
 abstract class ShotState extends State {
-	private boolean BlockedShot = false;
+	private boolean success = false;
+	private boolean rebound = false;
 	Random randomGenerator = new Random();
 
 	abstract int calcDefencePower(Player defPlayer);
 
 	abstract int calcOffancePower(Player offensPlayer, MatchEngine matchEngine);
-	
+
 	abstract void updateStats();
 
 	public void startAction(MatchEngine matchEngine) {
@@ -26,24 +27,35 @@ abstract class ShotState extends State {
 		Player offensPlayer = matchEngine.getBallHandlerPlayer();
 		int offancePower = calcOffancePower(offensPlayer, matchEngine);
 		if (defancePower > offancePower) {
-			BlockedShot = true;
-			matchEngine.changeAttackOrder();
+			success = false;
 			matchEngine.resetShotClock();
-			matchEngine.setPositioning(0);
-			System.out.println("incredible BLOCK");
+			if (randomGenerator.nextBoolean() == true) {
+				updateStats();
+				matchEngine.changeAttackOrder();
+				matchEngine.setPositioning(0);
+				System.out.println("incredible BLOCK");
+			} else {
+				updateStats();
+				matchEngine.changeAttackOrder();
+				matchEngine.setPositioning(0);
+				System.out.println("missed shot");
+				rebound = true;
+			}
 		} else {
-			BlockedShot = false;
-			// TODO missing shots will be added, rebounds will be added
+			success = true;
+			updateStats();
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0);
 			System.out.println("BASKET");
 		}
-		updateStats();
 	}
 
 	public void decideNextAction(MatchEngine matchEngine) {
-		matchEngine.setState(new AdvancingBallState());
+		if(rebound == true)
+			matchEngine.setState(new ReboundState());
+		else
+			matchEngine.setState(new AdvancingBallState());
 	}
 
 	public String toString() {
