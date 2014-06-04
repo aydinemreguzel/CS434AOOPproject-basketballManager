@@ -2,64 +2,29 @@ package matchengine;
 
 import java.util.Random;
 
-class ShotState extends State {
+import teams.Player;
+
+abstract class ShotState extends State {
 	private boolean BlockedShot = false;
 	Random randomGenerator = new Random();
+
+	abstract int calcDefencePower(Player defPlayer);
+
+	abstract int calcOffancePower(Player offensPlayer, MatchEngine matchEngine);
+	
+	abstract void updateStats();
 
 	public void startAction(MatchEngine matchEngine) {
 		int actionTime = 1 + randomGenerator.nextInt(3);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseMatchClock(actionTime);
-
 	}
 
 	public void performAction(MatchEngine matchEngine) {
-		// temporary solution,
-		// Here will change
-		int shotDecision = randomGenerator.nextInt(3);
-		int defancePower = matchEngine.getBallDefenderPlayer().getIntelegence()
-				+ matchEngine.getBallDefenderPlayer().getAgility()
-				+ matchEngine.getBallDefenderPlayer().getStrength()
-				+ randomGenerator.nextInt(25); // some magic constants here
-		int offancePower = 0;
-		if (shotDecision == 0) { // DUNK
-			offancePower = 2 * matchEngine.getBallHandlerPlayer().getStrength()
-					+ 2 * matchEngine.getPositioning()
-					+ randomGenerator.nextInt(10); // these are change in
-													// future
-													// for game balance
-		}
-		if (shotDecision == 1) { // LAYUP
-			offancePower = matchEngine.getBallHandlerPlayer().getStrength()
-					+ matchEngine.getBallHandlerPlayer().getAgility() + 2
-					* matchEngine.getPositioning() + randomGenerator.nextInt(10); // these
-																					// are
-																					// change
-																					// in
-																					// future
-																					// for
-																					// game
-																					// balance
-		}
-		if (shotDecision == 2) { // Shot3P
-			offancePower = matchEngine.getBallHandlerPlayer()
-					.getCurrentAbilityPoint()
-					+ matchEngine.getBallHandlerPlayer().getStrength()
-					+ matchEngine.getPositioning()
-					+ randomGenerator.nextInt(150); // these are change in
-													// future
-													// for game balance
-		}
-		if (shotDecision == 3) { // Shot2P
-			offancePower = 2
-					* matchEngine.getBallHandlerPlayer()
-							.getCurrentAbilityPoint()
-					+ matchEngine.getPositioning()
-					+ matchEngine.getBallHandlerPlayer().getAgility()
-					+ randomGenerator.nextInt(150); // these lines are change in
-													// future
-													// for game balance
-		}
+		Player defPlayer = matchEngine.getBallDefenderPlayer();
+		int defancePower = calcDefencePower(defPlayer);
+		Player offensPlayer = matchEngine.getBallHandlerPlayer();
+		int offancePower = calcOffancePower(offensPlayer, matchEngine);
 		if (defancePower > offancePower) {
 			BlockedShot = true;
 			matchEngine.changeAttackOrder();
@@ -74,10 +39,7 @@ class ShotState extends State {
 			matchEngine.setPositioning(0);
 			System.out.println("BASKET");
 		}
-		if (shotDecision == 2)
-			updateStats();// TODO
-		else
-			updateStats();// TODO
+		updateStats();
 	}
 
 	public void decideNextAction(MatchEngine matchEngine) {
@@ -89,3 +51,68 @@ class ShotState extends State {
 	}
 }
 
+class Layup extends ShotState {
+	int calcDefencePower(Player defPlayer) {
+		return defPlayer.getIntelegence() + defPlayer.getAgility()
+				+ defPlayer.getStrength() + randomGenerator.nextInt(25);
+	}
+
+	int calcOffancePower(Player offensPlayer, MatchEngine matchEngine) {
+		return offensPlayer.getStrength() + offensPlayer.getAgility() + 2
+				* matchEngine.getPositioning() + randomGenerator.nextInt(10);
+	}
+
+	void updateStats() {
+
+	}
+}
+
+class SlamDunk extends ShotState {
+	int calcDefencePower(Player defPlayer) {
+		return defPlayer.getIntelegence() + defPlayer.getAgility()
+				+ defPlayer.getStrength() + randomGenerator.nextInt(25);
+	}
+
+	int calcOffancePower(Player offensPlayer, MatchEngine matchEngine) {
+		return 2 * offensPlayer.getStrength() + 2
+				* matchEngine.getPositioning() + randomGenerator.nextInt(10);
+	}
+
+	void updateStats() {
+
+	}
+}
+
+class TwoPointShot extends ShotState {
+	public int calcDefencePower(Player defPlayer) {
+		return defPlayer.getIntelegence() + defPlayer.getAgility()
+				+ defPlayer.getStrength() + randomGenerator.nextInt(25);
+	}
+
+	int calcOffancePower(Player offensPlayer, MatchEngine matchEngine) {
+		return 2 * offensPlayer.getCurrentAbilityPoint()
+				+ matchEngine.getPositioning() + offensPlayer.getAgility()
+				+ randomGenerator.nextInt(150);
+	}
+
+	void updateStats() {
+
+	}
+}
+
+class ThreePointShot extends ShotState {
+	public int calcDefencePower(Player defPlayer) {
+		return defPlayer.getIntelegence() + defPlayer.getAgility()
+				+ defPlayer.getStrength() + randomGenerator.nextInt(25);
+	}
+
+	int calcOffancePower(Player offensPlayer, MatchEngine matchEngine) {
+		return offensPlayer.getCurrentAbilityPoint()
+				+ offensPlayer.getStrength() + matchEngine.getPositioning()
+				+ randomGenerator.nextInt(150);
+	}
+
+	void updateStats() {
+
+	}
+}

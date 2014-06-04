@@ -53,9 +53,22 @@ class PassState extends State {
 														// here
 			// from tacticboard in
 			// future
-			if (decision == 2 || matchEngine.getShotClock() < 3
-					|| matchEngine.getPositioning() > 90) {
-				matchEngine.setState(new ShotState());
+			if (decision == 2 || matchEngine.getShotClock() < 3) {
+				decision = randomGenerator.nextInt(2);
+				if(matchEngine.getPositioning() > 90) {
+					if(decision == 0){
+						System.out.println(matchEngine.getBallHandlerPlayer().getName() + " got good pass under hoop");
+						matchEngine.setState(new SlamDunk());
+					}else{
+						matchEngine.setState(new ThreePointShot());
+					}
+				}else{
+					if(decision == 0){
+						matchEngine.setState(new TwoPointShot());
+					}else{
+						matchEngine.setState(new ThreePointShot());
+					}
+				}
 			} else if (decision == 0) {
 				matchEngine.setState(new DribblingState());
 			} else if (decision == 1) {

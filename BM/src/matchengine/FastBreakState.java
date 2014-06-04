@@ -34,7 +34,8 @@ class FastBreakState extends State {
 		if (success == false) {
 			matchEngine.setState(new AdvancingBallState());
 		} else {
-			matchEngine.setState(new ShotState());
+			System.out.println(matchEngine.getBallHandlerPlayer().getName() + " is ending fastbreak with good layup");
+			matchEngine.setState(new Layup());
 		}
 	}
 

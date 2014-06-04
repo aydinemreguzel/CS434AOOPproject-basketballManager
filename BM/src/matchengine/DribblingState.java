@@ -53,7 +53,7 @@ class DribblingState extends State {
 			// future
 			if (decision == 2 || matchEngine.getShotClock() < 3
 					|| matchEngine.getPositioning() > 90) {
-				matchEngine.setState(new ShotState());
+				matchEngine.setState(new Layup());
 			}
 			if (decision == 0) {
 				matchEngine.setState(new DribblingState());

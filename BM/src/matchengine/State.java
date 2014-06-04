@@ -8,7 +8,7 @@ public abstract class State {
 
 	public abstract void performAction(MatchEngine matchEngine);
 	
-	public void updateStats(){
+	public void updateScoreboard(){
 		
 	}
 }
