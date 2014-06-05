@@ -27,6 +27,7 @@ public class PositionsPanel extends JPanel {
 		this.homeTeam = homeTeam;
 		this.awayTeam = awayTeam;
 		setFocusable(true);
+		setSize(100,100);
 		try {
 			background = ImageIO.read(new File("basketball-court.jpg"));
 		} catch (IOException ex) {

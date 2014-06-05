@@ -1,4 +1,5 @@
 package events;
+import controllers.MatchPanelController;
 import matchengine.MatchEngine;
 import gameengine.Time;
 import teams.ScoreBoard;
@@ -23,8 +24,8 @@ public class MatchEvent implements Event {
 	}
 	@Override
 	public void perform() {
-		MatchEngine matchEngine=new MatchEngine(this);
-		matchEngine.play();
+		MatchPanelController matchPanelController =new MatchPanelController(this);
+		matchPanelController.play();
 	}
 	public TacticBoard getHomeTacticBoard() {
 		return homeTeam.getTacticBoard();

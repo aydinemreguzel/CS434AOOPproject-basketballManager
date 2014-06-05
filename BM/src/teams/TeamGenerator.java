@@ -15,7 +15,7 @@ public class TeamGenerator {
 	public TeamGenerator() {
 		super();
 		try {
-			scanner = new Scanner(new File("Random people.txt"));
+			scanner = new Scanner(new File("newRandPeople.txt"));
 		} catch (FileNotFoundException e) {
 
 			e.printStackTrace();

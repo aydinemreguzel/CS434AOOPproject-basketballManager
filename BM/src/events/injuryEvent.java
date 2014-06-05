@@ -18,6 +18,7 @@ public class injuryEvent implements Event {
 	@Override
 	public void perform() {
 		Random random = new Random();
+		//TODO patlıyor!
 		int randomPlayer = random.nextInt(yourTeam.getPlayers().size());
 		int randomDay = random.nextInt(10);
 		yourTeam.getPlayers().get(randomPlayer).setInjury(randomDay);
