@@ -11,7 +11,9 @@ class DribblingState extends State {
 	public void startAction(MatchEngine matchEngine) {
 		int actionTime = 2 + randomGenerator.nextInt(4);
 		matchEngine.decreaseShotClock(actionTime);
-		matchEngine.decreaseMatchClock(actionTime);
+		matchEngine.decreaseReamainPeriodTime(actionTime);
+		matchEngine.getAtackSB().updateMin(actionTime);
+		matchEngine.getDefenceSB().updateMin(actionTime);
 	}
 
 	public void performAction(MatchEngine matchEngine) {

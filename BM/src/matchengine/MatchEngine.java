@@ -1,26 +1,32 @@
 package matchengine;
 
+import java.util.Random;
+
 import teams.Player;
 import teams.ScoreBoard;
 import teams.TacticBoard;
 import teams.Team;
 import events.MatchEvent;
 
-// due to incomplete tactics board class lots of magic number in match engine and state classes
 public class MatchEngine {
 	private State state;
+	final int periodDuration = 600; // 40 min = 2400 sec
+	final int numOfPeriod = 4;
 	int ballHandler;
 	int ballDefender;
 	int attackOrder = 0;
-	int matchClock = 2400; // 40 min = 2400 sec
+	int reamainPeriodTime = periodDuration;
+	int currentPeriod = 1;
 	int shotClock = 24; // sec
 	int positioning;
+	int[][] numOfFoulds = new int[2][4];
 	Team homeTeam;
 	Team awayTeam;
 	ScoreBoard homeSB;
 	ScoreBoard awaySB;
 	TacticBoard homeTB;
 	TacticBoard awayTB;
+	Random randomGenerator = new Random();
 
 	public MatchEngine(MatchEvent match) {
 		state = new JumpBallState();
@@ -35,22 +41,44 @@ public class MatchEngine {
 	public void play() {
 		while (true) {
 			state.startAction(this);
-			if (matchClock < 0) {
+			if (reamainPeriodTime < 0) {
 				System.out.println("refeeree finishes the game");
 				break;
 			}
 			shotClockCheck();
 			state.performAction(this);
+			detectFaul();
 			state.decideNextAction(this);
 		}
 	}
 
-	public void faulCheck() {
-		
+	public void detectFaul() {
+		int homeAgg = 0, awayAgg = 0;
+		for (int i = 0; i < 5; i++) {
+			homeAgg += homeTB.getInGamePlayers()[i].getAgression();
+			awayAgg += awayTB.getInGamePlayers()[i].getAgression();
+		}
+		if (attackOrder == 0) {
+			if (randomGenerator.nextInt(2000) < awayAgg) {
+				System.out.println("FOUL");
+				setState(new faulState());
+				state.performAction(this);
+			}
+		} else {
+			if (randomGenerator.nextInt(2000) < homeAgg) {
+				System.out.println("FOUL");
+				setState(new faulState());
+				state.performAction(this);
+			}
+		}
+	}
+	
+	public void fiveFaulCheck(){
+		// TODO
 	}
 
 	public void shotClockCheck() {
-		if (shotClock < 0){
+		if (shotClock < 0) {
 			changeAttackOrder();
 			resetShotClock();
 			setPositioning(0);
@@ -83,7 +111,7 @@ public class MatchEngine {
 	public int getBallHandler() {
 		return ballHandler;
 	}
-	
+
 	public int getBallDefender() {
 		return getDefenceTB().getDefender(ballHandler);
 	}
@@ -100,12 +128,12 @@ public class MatchEngine {
 		this.attackOrder = attackOrder;
 	}
 
-	public int getMatchClock() {
-		return matchClock;
+	public int reamainPeriodTime() {
+		return reamainPeriodTime;
 	}
 
-	public void decreaseMatchClock(int time) {
-		this.matchClock -= time;
+	public void decreaseReamainPeriodTime(int time) {
+		this.reamainPeriodTime -= time;
 	}
 
 	public int getShotClock() {
@@ -127,32 +155,32 @@ public class MatchEngine {
 	public void setPositioning(int positioning) {
 		this.positioning = positioning;
 	}
-	
-	public TacticBoard getAtackTB(){
-		if(getAttackOrder() == 0)
+
+	public TacticBoard getAtackTB() {
+		if (getAttackOrder() == 0)
 			return homeTB;
 		else
 			return awayTB;
-		
+
 	}
-	
-	public TacticBoard getDefenceTB(){
-		if(getAttackOrder() == 1)
+
+	public TacticBoard getDefenceTB() {
+		if (getAttackOrder() == 1)
 			return homeTB;
 		else
 			return awayTB;
 	}
 
-	public ScoreBoard getAtackSB(){
-		if(getAttackOrder() == 0)
+	public ScoreBoard getAtackSB() {
+		if (getAttackOrder() == 0)
 			return homeSB;
 		else
 			return awaySB;
-		
+
 	}
-	
-	public ScoreBoard getDefenceSB(){
-		if(getAttackOrder() == 1)
+
+	public ScoreBoard getDefenceSB() {
+		if (getAttackOrder() == 1)
 			return homeSB;
 		else
 			return awaySB;
@@ -172,7 +200,15 @@ public class MatchEngine {
 
 	public void setBallDefender(int i) {
 		// TODO Auto-generated method stub
-		
+
+	}
+
+	public int[][] getNumOfFoulds() {
+		return numOfFoulds;
+	}
+
+	public void setNumOfFoulds(int[][] numOfFoulds) {
+		this.numOfFoulds = numOfFoulds;
 	}
 
 }

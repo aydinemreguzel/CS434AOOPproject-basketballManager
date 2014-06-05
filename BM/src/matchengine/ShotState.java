@@ -17,7 +17,7 @@ abstract class ShotState extends State {
 	public void startAction(MatchEngine matchEngine) {
 		int actionTime = 1 + randomGenerator.nextInt(3);
 		matchEngine.decreaseShotClock(actionTime);
-		matchEngine.decreaseMatchClock(actionTime);
+		matchEngine.decreaseReamainPeriodTime(actionTime);
 		matchEngine.getAtackSB().updateMin(actionTime);
 		matchEngine.getDefenceSB().updateMin(actionTime);
 	}

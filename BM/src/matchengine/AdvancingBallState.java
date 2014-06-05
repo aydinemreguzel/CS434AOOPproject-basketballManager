@@ -10,7 +10,9 @@ class AdvancingBallState extends State {
 		matchEngine.setBallHandler(0);
 		int actionTime = 1 + randomGenerator.nextInt(4);
 		matchEngine.decreaseShotClock(actionTime);
-		matchEngine.decreaseMatchClock(actionTime);
+		matchEngine.decreaseReamainPeriodTime(actionTime);
+		matchEngine.getAtackSB().updateMin(actionTime);
+		matchEngine.getDefenceSB().updateMin(actionTime);
 		if (matchEngine.getAttackOrder() == 0) {
 			System.out.println("home team carrying the ball to front court");
 		} else {

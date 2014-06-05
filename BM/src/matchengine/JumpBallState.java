@@ -9,7 +9,9 @@ public class JumpBallState extends State{
 		matchEngine.setBallHandler(4);
 		matchEngine.setBallDefender(4);
 		int actionTime = 2;
-		matchEngine.decreaseMatchClock(actionTime);
+		matchEngine.decreaseReamainPeriodTime(actionTime);
+		matchEngine.getAtackSB().updateMin(actionTime);
+		matchEngine.getDefenceSB().updateMin(actionTime);
 	}
 
 	public void performAction(MatchEngine matchEngine) {
