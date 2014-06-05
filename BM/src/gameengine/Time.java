@@ -47,7 +47,7 @@ public class Time {
 		}
 	}
 
-	Time(String t) {
+	public Time(String t) {
 		String[] result;
 		try {
 			if (t.contains("/"))
