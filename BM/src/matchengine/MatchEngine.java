@@ -3,16 +3,20 @@ package matchengine;
 import teams.Player;
 import teams.ScoreBoard;
 import teams.TacticBoard;
+import teams.Team;
 import events.MatchEvent;
 
 // due to incomplete tactics board class lots of magic number in match engine and state classes
 public class MatchEngine {
 	private State state;
 	int ballHandler;
+	int ballDefender;
 	int attackOrder = 0;
 	int matchClock = 2400; // 40 min = 2400 sec
 	int shotClock = 24; // sec
 	int positioning;
+	Team homeTeam;
+	Team awayTeam;
 	ScoreBoard homeSB;
 	ScoreBoard awaySB;
 	TacticBoard homeTB;
@@ -24,12 +28,15 @@ public class MatchEngine {
 		awayTB = match.getAwayTacticBoard();
 		homeSB = match.getHomeScoreBoard();
 		awaySB = match.getAwayScoreBoard();
+		homeTeam = match.getHomeTeam();
+		awayTeam = match.getAwayTeam();
 	}
 
 	public void play() {
 		while (true) {
 			state.startAction(this);
 			if (matchClock < 0) {
+				System.out.println("refeeree finishes the game");
 				break;
 			} else if (shotClock < 0){
 				changeAttackOrder();
@@ -75,6 +82,10 @@ public class MatchEngine {
 	public int getBallHandler() {
 		return ballHandler;
 	}
+	
+	public int getBallDefender() {
+		return getDefenceTB().getDefender(ballHandler);
+	}
 
 	public void setBallHandler(int ballHandler) {
 		this.ballHandler = ballHandler;
@@ -115,6 +126,21 @@ public class MatchEngine {
 	public void setPositioning(int positioning) {
 		this.positioning = positioning;
 	}
+	
+	public TacticBoard getAtackTB(){
+		if(getAttackOrder() == 0)
+			return homeTB;
+		else
+			return awayTB;
+		
+	}
+	
+	public TacticBoard getDefenceTB(){
+		if(getAttackOrder() == 1)
+			return homeTB;
+		else
+			return awayTB;
+	}
 
 	public ScoreBoard getAtackSB(){
 		if(getAttackOrder() == 0)
@@ -147,4 +173,5 @@ public class MatchEngine {
 		// TODO Auto-generated method stub
 		
 	}
+
 }

@@ -30,13 +30,11 @@ class AdvancingBallState extends State {
 				* matchEngine.getBallHandlerPlayer().getAgility()
 				+ randomGenerator.nextInt(100); // these are change in future
 												// for game balance
-		if (defancePower > offancePower) { // TODO hava atýþý eklenecek
+		if (defancePower > offancePower) {
 			success = false;
 			System.out.println("turnover");
-			matchEngine.changeAttackOrder(); // new
-												// ballHandler
-												// still
-												// same
+			updateStats(matchEngine);
+			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0); // //TODO fast break
 		} else {
@@ -64,16 +62,13 @@ class AdvancingBallState extends State {
 			else
 				matchEngine.setState(new AdvancingBallState());
 		} else {
-			int decision = randomGenerator.nextInt(2); // some variables comes
-														// here
-			// from tacticboard in
-			// future
+			int decision = randomGenerator.nextInt(3);
 			if (decision == 0) {
 				System.out.println(matchEngine.getBallHandlerPlayer().getName()
 						+ " continue to dribbling");
 				matchEngine.setState(new DribblingState());
 			}
-			if (decision == 1) {
+			if (decision >= 1) {
 				System.out.println(matchEngine.getBallHandlerPlayer().getName()
 						+ " is searching avaible player for passing");
 				matchEngine.setState(new PassState());
@@ -81,8 +76,13 @@ class AdvancingBallState extends State {
 		}
 	}
 
-	public String toString(MatchEngine matchEngine) {
-		return "The " + matchEngine.getBallHandlerPlayer()
-				+ " is advancing the ball.";
+	private void updateStats(MatchEngine matchEngine) {
+		matchEngine.getAtackSB().updateStats(
+				matchEngine.getAtackTB().getPlayerNum(
+						matchEngine.getBallHandler()), 10);
+		matchEngine.getDefenceSB().updateStats(
+				matchEngine.getDefenceTB().getPlayerNum(
+						matchEngine.getBallDefender()), 9);
 	}
+
 }

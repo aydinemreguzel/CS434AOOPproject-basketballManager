@@ -23,7 +23,7 @@ class PassState extends State {
 				+ matchEngine.getBallHandlerPlayer().getAgility()
 				+ randomGenerator.nextInt(100); // these are change in future
 												// for game balance
-		if (defancePower > offancePower) { // TODO hava atýþý eklenecek
+		if (defancePower > offancePower) { 
 			success = false;
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
@@ -38,7 +38,7 @@ class PassState extends State {
 			nextPlayer = (matchEngine.getBallHandler() + nextPlayer) % 5;
 			System.out.print(matchEngine.getBallHandlerPlayer().getName()
 					+ " passed to ");
-			matchEngine.setBallDefender(nextPlayer);
+			matchEngine.setBallHandler(nextPlayer);
 			System.out.println(matchEngine.getBallHandlerPlayer().getName());
 		}
 	}
@@ -77,9 +77,5 @@ class PassState extends State {
 				matchEngine.setState(new PassState());
 			}
 		}
-	}
-
-	public String toString(MatchEngine matchEngine) {
-		return "long pass to " + matchEngine.getBallHandlerPlayer();
 	}
 }
