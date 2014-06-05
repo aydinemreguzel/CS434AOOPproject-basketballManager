@@ -31,7 +31,7 @@ public class MatchPanel extends JPanel{
 		this.positionsPanel = controller.getPositionsPanel();
 		this.timeOutsPanel = controller.getTimeOutsPanel();
 		
-		this.timeOutButton=new JButton(new AbstractAction("") {
+		this.timeOutButton=new JButton(new AbstractAction("timeout") {
 			public void actionPerformed(ActionEvent e) {
 				matchPanelController.timeOut();
 			}

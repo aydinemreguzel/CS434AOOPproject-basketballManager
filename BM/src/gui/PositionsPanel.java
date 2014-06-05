@@ -1,6 +1,8 @@
 package gui;
 
+import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -10,6 +12,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
+import teams.Player;
+import teams.TacticBoard;
 import teams.Team;
 
 public class PositionsPanel extends JPanel {
@@ -28,24 +32,34 @@ public class PositionsPanel extends JPanel {
 		this.awayTeam = awayTeam;
 		setFocusable(true);
 		setSize(100,100);
+		for(int i=0;i<overlay.length;i++){
+			overlay[i]=new JLabel();
+		}
+		
 		try {
 			background = ImageIO.read(new File("basketball-court.jpg"));
 		} catch (IOException ex) {
 			// handle exception...
 		}
+	
+		Dimension dim=new Dimension(background.getWidth(), background.getHeight());
+		setPreferredSize(dim);
+		
 	}
 	
 	public void setTextPositions(){
-		overlay[0].setText(homeTeam.getTacticBoard().getOnFloorPlayers()[0].getName());
-		overlay[1].setText(homeTeam.getTacticBoard().getOnFloorPlayers()[1].getName());
-		overlay[2].setText(homeTeam.getTacticBoard().getOnFloorPlayers()[2].getName());
-		overlay[3].setText(homeTeam.getTacticBoard().getOnFloorPlayers()[3].getName());
-		overlay[4].setText(homeTeam.getTacticBoard().getOnFloorPlayers()[4].getName());
-		overlay[5].setText(awayTeam.getTacticBoard().getOnFloorPlayers()[0].getName());
-		overlay[6].setText(awayTeam.getTacticBoard().getOnFloorPlayers()[1].getName());
-		overlay[7].setText(awayTeam.getTacticBoard().getOnFloorPlayers()[2].getName());
-		overlay[8].setText(awayTeam.getTacticBoard().getOnFloorPlayers()[3].getName());
-		overlay[9].setText(awayTeam.getTacticBoard().getOnFloorPlayers()[4].getName());
+		for(int i=0;i<5;i++){
+		TacticBoard tb= homeTeam.getTacticBoard();
+		Player[] players=tb.getOnFloorPlayers();
+		String name=players[i].getName();
+		overlay[i].setText(name);
+		}
+		for(int i=5;i<10;i++){
+		TacticBoard tb= awayTeam.getTacticBoard();
+		Player[] players=tb.getOnFloorPlayers();
+		String name=players[i-5].getName();
+		overlay[i].setText(name);
+		}
 		overlay[4].setLocation(background.getWidth()/3, background.getHeight()/2);
 		overlay[9].setLocation(2*background.getWidth()/3, background.getHeight()/2);
 		overlay[0].setLocation(background.getWidth()/5, 3*background.getHeight()/5);
@@ -66,6 +80,8 @@ public class PositionsPanel extends JPanel {
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		g.drawImage(background, 0, 0, null);
+		setTextPositions();
+		
 	}
 
 }

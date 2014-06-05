@@ -1,5 +1,8 @@
 package controllers;
 
+import java.awt.BorderLayout;
+import java.awt.GridBagLayout;
+
 import javax.swing.JFrame;
 
 import teams.ScoreBoard;
@@ -37,13 +40,13 @@ public class MatchPanelController {
 		//TODO play()
 		JFrame frame = new JFrame("SimpleDemo");
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+      frame.setSize(500, 500);
+      frame.setLocation(100, 100);
       //Create and set up the content pane.
       matchPanel.setOpaque(true); //content panes must be opaque
-      frame.setContentPane(matchPanel);
-      
+      frame.add(matchPanel);
       //Display the window.static
-      frame.setSize(500, 500);
+      
       frame.pack();
       frame.setVisible(true);
       frame.repaint();
