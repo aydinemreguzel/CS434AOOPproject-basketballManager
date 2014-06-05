@@ -18,6 +18,8 @@ abstract class ShotState extends State {
 		int actionTime = 1 + randomGenerator.nextInt(3);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseMatchClock(actionTime);
+		matchEngine.getAtackSB().updateMin(actionTime);
+		matchEngine.getDefenceSB().updateMin(actionTime);
 	}
 
 	public void performAction(MatchEngine matchEngine) {
@@ -66,6 +68,7 @@ abstract class ShotState extends State {
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
 							matchEngine.getBallHandler()), 2);
+			matchEngine.getDefenceSB().concadeBasket(2);
 		}else{
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
@@ -140,10 +143,11 @@ class ThreePointShot extends ShotState {
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
 							matchEngine.getBallHandler()), 4);
+			matchEngine.getDefenceSB().concadeBasket(3);
 		}else{
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
-							matchEngine.getBallHandler()), 3);
+							matchEngine.getBallHandler()), 4);
 		}
 		if(block){
 			matchEngine.getDefenceSB().updateStats(

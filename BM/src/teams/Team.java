@@ -21,7 +21,6 @@ public class Team {
 		this.name = name;
 		this.budget=budget;
 		this.salary = salary;
-
 		this.tacticBoard = new TacticBoard(players);
 	}
 
