@@ -1,10 +1,12 @@
 package teams;
 
+import gameengine.Time;
+
 import java.util.Random;
 
 public class Player {
 	String name;
-	int age;
+	Time birthDate;
 	String nationality;
 	int currentAbilityPoint;
 	int potentialAbilityPoint;
@@ -16,28 +18,35 @@ public class Player {
 	int agression;
 	int condition;
 
-	public Player(String name, int age, String nationality,
-			int currentAbilityPoint, int height, int strength, int agility,
-			int intelegence) {
+	public Player(String name, Time birthDate, String nationality,
+			int currentAbilityPoint, int potentialAbilityPoint, int height,
+			int strength, int agility, int intelegence, int naturalFitness,
+			int agression, int condition) {
 		super();
 		this.name = name;
-		this.age = age;
+		this.birthDate = birthDate;
 		this.nationality = nationality;
 		this.currentAbilityPoint = currentAbilityPoint;
+		this.potentialAbilityPoint = potentialAbilityPoint;
 		this.height = height;
 		this.strength = strength;
 		this.agility = agility;
 		this.intelegence = intelegence;
-	}
-	
-
-	public Player() {
-		this(generateRandomName(), generateRandomInt(18,
-				25), "Ilimonio", generateRandomInt(0, 100), generateRandomInt(
-				150, 230), generateRandomInt(0, 100),
-				generateRandomInt(0, 100), generateRandomInt(0, 100));
+		this.naturalFitness = naturalFitness;
+		this.agression = agression;
+		this.condition = condition;
 	}
 
+
+	public static Player generateRandomPlayer(){
+		return new Player(generateRandomName(), new Time(generateRandomInt(1, 30),
+				generateRandomInt(1, 12), generateRandomInt(1975, 1995)),
+				"Ilimonio", generateRandomInt(0, 100), generateRandomInt(0, 100),
+				generateRandomInt(150, 230), generateRandomInt(0, 100),
+				generateRandomInt(0, 100), generateRandomInt(0, 100),
+				generateRandomInt(0, 100), generateRandomInt(0, 100),
+				generateRandomInt(0, 100));
+	}
 	public static String generateRandomName() {
 		Random rand = new Random();
 		String name = "";
@@ -64,12 +73,8 @@ public class Player {
 		this.name = name;
 	}
 
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
+	public int getAge(Time currentTime) {
+		return currentTime.subtraction(birthDate) / 365;
 	}
 
 	public String getNationality() {

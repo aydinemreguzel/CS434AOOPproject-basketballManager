@@ -16,8 +16,9 @@ public class League {
 	public League(String name, int numTeams,Time time) {
 		this.name = name;
 		teams = new Team[numTeams];
-		for (int ii = 0; ii < numTeams; ii++) {
-			teams[ii] = new Team("Team " + ii);
+		TeamGenerator teamGen=new TeamGenerator();
+		for (int i = 0; i < numTeams; i++) {
+			teams[i] = teamGen.generate("Team " + i);
 		}
 		fixture = new Fixture(teams, time);
 	}

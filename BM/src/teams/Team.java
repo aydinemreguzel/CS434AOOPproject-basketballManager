@@ -21,9 +21,7 @@ public class Team {
 		this.name = name;
 		this.budget=budget;
 		this.salary = salary;
-		for(int i=0;i<12;i++){
-			players.add(new Player());
-		}
+
 		this.tacticBoard = new TacticBoard(players);
 	}
 
