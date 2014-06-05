@@ -61,18 +61,14 @@ abstract class ShotState extends State {
 	}
 
 	void updateStats(MatchEngine matchEngine) {
+		matchEngine.getAtackSB().updateStats(
+				matchEngine.getAtackTB().getPlayerNum(
+						matchEngine.getBallHandler()), 1);
 		if (success){
-			matchEngine.getAtackSB().updateStats(
-					matchEngine.getAtackTB().getPlayerNum(
-							matchEngine.getBallHandler()), 1);
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
 							matchEngine.getBallHandler()), 2);
 			matchEngine.getDefenceSB().concadeBasket(2);
-		}else{
-			matchEngine.getAtackSB().updateStats(
-					matchEngine.getAtackTB().getPlayerNum(
-							matchEngine.getBallHandler()), 1);
 		}
 		if(block){
 			matchEngine.getDefenceSB().updateStats(
@@ -136,18 +132,14 @@ class ThreePointShot extends ShotState {
 	}
 
 	void updateStats(MatchEngine matchEngine) {
+		matchEngine.getAtackSB().updateStats(
+				matchEngine.getAtackTB().getPlayerNum(
+						matchEngine.getBallHandler()), 3);
 		if (success){
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
-							matchEngine.getBallHandler()), 3);
-			matchEngine.getAtackSB().updateStats(
-					matchEngine.getAtackTB().getPlayerNum(
 							matchEngine.getBallHandler()), 4);
-			matchEngine.getDefenceSB().concadeBasket(3);
-		}else{
-			matchEngine.getAtackSB().updateStats(
-					matchEngine.getAtackTB().getPlayerNum(
-							matchEngine.getBallHandler()), 4);
+			matchEngine.getDefenceSB().concadeBasket(4);
 		}
 		if(block){
 			matchEngine.getDefenceSB().updateStats(
@@ -156,6 +148,55 @@ class ThreePointShot extends ShotState {
 			matchEngine.getAtackSB().updateStats(
 					matchEngine.getAtackTB().getPlayerNum(
 							matchEngine.getBallDefender()), 12);
+		}
+	}
+}
+
+class FreeThrow  extends State {
+	Random randomGenerator = new Random();
+	boolean success = false;
+	public void startAction(MatchEngine matchEngine) {
+	}
+
+	public void performAction(MatchEngine matchEngine) {
+		Player offensPlayer = matchEngine.getBallHandlerPlayer();
+		int offancePower = offensPlayer.getCurrentAbilityPoint();
+		if (offancePower < randomGenerator.nextInt(100)) {
+				updateStats(matchEngine);
+				System.out.println("missed shot");
+		} else {
+			updateStats(matchEngine);
+			System.out.println("1 point made");	
+		}	
+		if (offancePower < randomGenerator.nextInt(100)) {
+			updateStats(matchEngine);
+			System.out.println("missed shot and rebound brawl");
+		} else {					
+			success = true;
+			updateStats(matchEngine);
+			matchEngine.changeAttackOrder();
+			matchEngine.resetShotClock();
+			matchEngine.setPositioning(0);
+			System.out.println("1 point BASKET");
+		}
+	}
+
+	public void decideNextAction(MatchEngine matchEngine) {
+		if (success)
+			matchEngine.setState(new ReboundState());
+		else
+			matchEngine.setState(new AdvancingBallState());
+	}
+
+	void updateStats(MatchEngine matchEngine) {
+		matchEngine.getAtackSB().updateStats(
+				matchEngine.getAtackTB().getPlayerNum(
+						matchEngine.getBallHandler()), 5);
+		if (success){
+			matchEngine.getAtackSB().updateStats(
+					matchEngine.getAtackTB().getPlayerNum(
+							matchEngine.getBallHandler()), 6);
+			matchEngine.getDefenceSB().concadeBasket(6);
 		}
 	}
 }

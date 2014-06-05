@@ -1,5 +1,4 @@
-﻿
-Cruz,Kerr,8/1/1982,Belgium,98.7,185,A+
+﻿Cruz,Kerr,8/1/1982,Belgium,98.7,185,A+
 Guilherme,Ferreira,11/15/1979,Belgium,75.6,189,A+
 Gordey,Vinogradov,1/7/1991,Czech Republic,76.3,185,O-
 Chris,Demartino,11/11/1992,Canada,77.7,188,A+
