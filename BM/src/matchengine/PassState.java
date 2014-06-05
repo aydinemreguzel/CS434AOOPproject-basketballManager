@@ -30,42 +30,44 @@ class PassState extends State {
 			matchEngine.setPositioning(0); // //TODO fast break
 		} else {
 			success = true;
-			int nextPlayer = 1 + randomGenerator.nextInt(3);
-			nextPlayer = (matchEngine.getBallHandler() + nextPlayer) % 5; // no
-																			// one
-																			// can
-																			// pass
-																			// the
-																			// ball
-																			// himself
 			matchEngine.increasePositioning(5); // TODO
-			matchEngine.increasePositioning(randomGenerator
-					.nextInt(15 + matchEngine.getBallHandlerPlayer()
-							.getIntelegence() / 3));
+			int incPos = randomGenerator.nextInt(15 + matchEngine
+					.getBallHandlerPlayer().getIntelegence() / 3);
+			matchEngine.increasePositioning(incPos);
+			int nextPlayer = 1 + randomGenerator.nextInt(3);
+			nextPlayer = (matchEngine.getBallHandler() + nextPlayer) % 5;
+			System.out.print(matchEngine.getBallHandlerPlayer().getName()
+					+ " passed to ");
+			matchEngine.setBallDefender(nextPlayer);
+			System.out.println(matchEngine.getBallHandlerPlayer().getName());
 		}
 	}
 
 	public void decideNextAction(MatchEngine matchEngine) {
 		if (success == false) {
+			System.out.println("misplaced pass");
 			matchEngine.setState(new AdvancingBallState());
 		} else {
-			int decision = randomGenerator.nextInt(3); // some variables comes
-														// here
-			// from tacticboard in
-			// future
+			int decision = randomGenerator.nextInt(3); 
 			if (decision == 2 || matchEngine.getShotClock() < 3) {
 				decision = randomGenerator.nextInt(2);
-				if(matchEngine.getPositioning() > 90) {
-					if(decision == 0){
-						System.out.println(matchEngine.getBallHandlerPlayer().getName() + " got good pass under hoop");
+				if (matchEngine.getPositioning() > 90) {
+					if (decision == 0) {
+						System.out.println(matchEngine.getBallHandlerPlayer()
+								.getName() + " got good pass under hoop");
 						matchEngine.setState(new SlamDunk());
-					}else{
+					} else {
+						System.out.println(matchEngine.getBallHandlerPlayer()
+								.getName()
+								+ " saw the empty man behind 3 point line");
 						matchEngine.setState(new ThreePointShot());
 					}
-				}else{
-					if(decision == 0){
+				} else {
+					if (decision == 0) {
+						System.out.println("very hard shot over hand");
 						matchEngine.setState(new TwoPointShot());
-					}else{
+					} else {
+						System.out.println("very hard 3p shot over hand");
 						matchEngine.setState(new ThreePointShot());
 					}
 				}

@@ -32,9 +32,12 @@ class FastBreakState extends State {
 
 	public void decideNextAction(MatchEngine matchEngine) {
 		if (success == false) {
+			System.out.println(matchEngine.getBallHandlerPlayer().getName()
+					+ " cannot make use this fastbreak oppurtunity");
 			matchEngine.setState(new AdvancingBallState());
 		} else {
-			System.out.println(matchEngine.getBallHandlerPlayer().getName() + " is ending fastbreak with good layup");
+			System.out.println(matchEngine.getBallHandlerPlayer().getName()
+					+ " is ending fastbreak with good layup");
 			matchEngine.setState(new Layup());
 		}
 	}
