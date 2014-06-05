@@ -21,7 +21,7 @@ public class ScoreBoardPanel extends JPanel {
 		
 		
 	}
-	private static void createAndShowGUI() {
+	public static void main(String[] args) {
       //Create and set up the window.
       JFrame frame = new JFrame("SimpleTableDemo");
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
