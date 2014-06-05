@@ -16,7 +16,8 @@ public class Player {
 	int intelegence;
 	int naturalFitness;
 	int agression;
-	int condition;
+	int fatigue;
+	Status status;
 
 	public Player(String name, Time birthDate, String nationality,
 			int currentAbilityPoint, int potentialAbilityPoint, int height,
@@ -34,7 +35,7 @@ public class Player {
 		this.intelegence = intelegence;
 		this.naturalFitness = naturalFitness;
 		this.agression = agression;
-		this.condition = condition;
+		this.fatigue = condition;
 	}
 
 public Player(String[] data){
@@ -157,11 +158,11 @@ public Player(String[] data){
 	}
 
 	public int getCondition() {
-		return condition;
+		return fatigue;
 	}
 
 	public void setCondition(int condition) {
-		this.condition = condition;
+		this.fatigue = condition;
 	}
 
 	@Override
@@ -171,6 +172,14 @@ public Player(String[] data){
 
 	public void setInjury(int randomDay) {
 		// TODO Auto-generated method stub
-		
+	}
+	
+	public void checkPlayer(){
+		updateFatigue();
+		status.perform();
+	}
+
+	private void updateFatigue() {
+		fatigue+=12;
 	}
 }

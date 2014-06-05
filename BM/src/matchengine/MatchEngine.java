@@ -55,8 +55,8 @@ public class MatchEngine {
 	public void detectFaul() {
 		int homeAgg = 0, awayAgg = 0;
 		for (int i = 0; i < 5; i++) {
-			homeAgg += homeTB.getInGamePlayers()[i].getAgression();
-			awayAgg += awayTB.getInGamePlayers()[i].getAgression();
+			homeAgg += homeTB.getOnFloorPlayers()[i].getAgression();
+			awayAgg += awayTB.getOnFloorPlayers()[i].getAgression();
 		}
 		if (attackOrder == 0) {
 			if (randomGenerator.nextInt(2000) < awayAgg) {
@@ -88,16 +88,16 @@ public class MatchEngine {
 
 	public Player getBallHandlerPlayer() {
 		if (attackOrder == 0)
-			return homeTB.getInGamePlayers()[ballHandler];
+			return homeTB.getOnFloorPlayers()[ballHandler];
 		else
-			return awayTB.getInGamePlayers()[ballHandler];
+			return awayTB.getOnFloorPlayers()[ballHandler];
 	}
 
 	public Player getBallDefenderPlayer() {
 		if (attackOrder == 1)
-			return homeTB.getInGamePlayers()[ballHandler];
+			return homeTB.getOnFloorPlayers()[ballHandler];
 		else
-			return awayTB.getInGamePlayers()[ballHandler];
+			return awayTB.getOnFloorPlayers()[ballHandler];
 	}
 
 	public void setState(State state) {
@@ -200,7 +200,6 @@ public class MatchEngine {
 
 	public void setBallDefender(int i) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public int[][] getNumOfFoulds() {
