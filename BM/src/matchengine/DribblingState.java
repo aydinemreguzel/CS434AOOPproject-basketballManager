@@ -37,7 +37,7 @@ class DribblingState extends State {
 			matchEngine.setPositioning(0);  //TODO fast break
 		} else {
 			success = true;
-			matchEngine.increasePositioning(5); // TODO
+			matchEngine.increasePositioning(5);
 			matchEngine.increasePositioning(randomGenerator
 					.nextInt(15 + matchEngine.getBallHandlerPlayer()
 							.getIntelegence() / 4));

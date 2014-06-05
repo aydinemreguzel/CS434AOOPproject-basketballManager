@@ -38,23 +38,24 @@ public class MatchEngine {
 			if (matchClock < 0) {
 				System.out.println("refeeree finishes the game");
 				break;
-			} else if (shotClock < 0){
-				changeAttackOrder();
-				resetShotClock();
-				setPositioning(0);
-				System.out.println("BUZZER");
 			}
+			shotClockCheck();
 			state.performAction(this);
 			state.decideNextAction(this);
 		}
 	}
 
 	public void faulCheck() {
-		// TODO
+		
 	}
 
 	public void shotClockCheck() {
-		// TODO
+		if (shotClock < 0){
+			changeAttackOrder();
+			resetShotClock();
+			setPositioning(0);
+			System.out.println("BUZZER");
+		}
 	}
 
 	public Player getBallHandlerPlayer() {

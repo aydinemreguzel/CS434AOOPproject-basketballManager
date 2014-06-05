@@ -44,13 +44,7 @@ class AdvancingBallState extends State {
 				System.out.println("away team located back court");
 			}
 			success = true;
-			matchEngine.setPositioning(30 + randomGenerator.nextInt(10)); // TODO
-																			// point
-																			// guard
-																			// intelegence
-																			// will
-																			// affect
-																			// here
+			matchEngine.setPositioning(30 + randomGenerator.nextInt(10));
 		}
 	}
 
