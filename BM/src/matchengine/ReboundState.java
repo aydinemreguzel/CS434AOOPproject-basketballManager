@@ -21,7 +21,8 @@ public class ReboundState extends State {
 				* matchEngine.homeTB.getOnFloorPlayers()[2].getHeight() + 0.55
 				* matchEngine.homeTB.getOnFloorPlayers()[3].getHeight() + 0.65 * matchEngine.homeTB
 				.getOnFloorPlayers()[4].getHeight())
-				+ matchEngine.homeTB.getOnFloorPlayers()[4].getStrength()+randomGenerator.nextInt(100);
+				+ matchEngine.homeTB.getOnFloorPlayers()[4].getStrength()
+				+ randomGenerator.nextInt(100);
 		int deffencePts = (int) (0.2
 				* matchEngine.awayTB.getOnFloorPlayers()[0].getHeight() + 0.2
 				* matchEngine.awayTB.getOnFloorPlayers()[1].getHeight() + 0.4
@@ -31,20 +32,20 @@ public class ReboundState extends State {
 				+ matchEngine.awayTB.getOnFloorPlayers()[4].getIntelegence()
 				+ matchEngine.awayTB.getOnFloorPlayers()[4].getStrength();
 		int nextPlayer = randomGenerator.nextInt(10);
-		if(nextPlayer > 5){
+		if (nextPlayer > 5) {
 			matchEngine.setBallHandler(4);
-		}else if(nextPlayer > 2){
+		} else if (nextPlayer > 2) {
 			matchEngine.setBallHandler(3);
-		}else{
+		} else {
 			matchEngine.setBallHandler(nextPlayer);
 		}
 		if (offencePts > deffencePts) {
-			updateStats();
+			updateStats(matchEngine,nextPlayer);
 			System.out.println("offence rebound the ball");
 			matchEngine.setPositioning(50 + randomGenerator.nextInt(30));
 		} else {
 			success = false;
-			updateStats();
+			updateStats(matchEngine,nextPlayer);
 			matchEngine.changeAttackOrder();
 			matchEngine.setPositioning(0);
 			System.out.println("deffence rebound the ball");
@@ -53,13 +54,13 @@ public class ReboundState extends State {
 
 	public void decideNextAction(MatchEngine matchEngine) {
 		if (success) {
-			if(matchEngine.getPositioning() > 75){
+			if (matchEngine.getPositioning() > 75) {
 				matchEngine.setState(new SlamDunk());
-			}else{
+			} else {
 				int next = randomGenerator.nextInt(2);
-				if(next == 0){
+				if (next == 0) {
 					matchEngine.setState(new DribblingState());
-				}else{
+				} else {
 					matchEngine.setState(new PassState());
 				}
 			}
@@ -67,9 +68,18 @@ public class ReboundState extends State {
 			matchEngine.setState(new AdvancingBallState());
 		}
 	}
-	
-	private void updateStats() {
-	
+
+	private void updateStats(MatchEngine matchEngine,int nextPlayer) {
+		if (success) {
+			matchEngine.getAtackSB().updateStats(
+					matchEngine.getAtackTB().getPlayerNum(
+							nextPlayer), 7);
+		} else {
+			matchEngine.getDefenceSB().updateStats(
+					matchEngine.getDefenceTB().getPlayerNum(
+							nextPlayer), 7);
+		}
+
 	}
 
 }

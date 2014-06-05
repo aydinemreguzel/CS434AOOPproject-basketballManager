@@ -10,6 +10,7 @@ import events.MatchEvent;
 public class MatchEngine {
 	private State state;
 	int ballHandler;
+	int ballDefender;
 	int attackOrder = 0;
 	int matchClock = 2400; // 40 min = 2400 sec
 	int shotClock = 24; // sec
@@ -81,6 +82,10 @@ public class MatchEngine {
 	public int getBallHandler() {
 		return ballHandler;
 	}
+	
+	public int getBallDefender() {
+		return getDefenceTB().getDefender(ballHandler);
+	}
 
 	public void setBallHandler(int ballHandler) {
 		this.ballHandler = ballHandler;
@@ -121,6 +126,21 @@ public class MatchEngine {
 	public void setPositioning(int positioning) {
 		this.positioning = positioning;
 	}
+	
+	public TacticBoard getAtackTB(){
+		if(getAttackOrder() == 0)
+			return homeTB;
+		else
+			return awayTB;
+		
+	}
+	
+	public TacticBoard getDefenceTB(){
+		if(getAttackOrder() == 1)
+			return homeTB;
+		else
+			return awayTB;
+	}
 
 	public ScoreBoard getAtackSB(){
 		if(getAttackOrder() == 0)
@@ -153,4 +173,5 @@ public class MatchEngine {
 		// TODO Auto-generated method stub
 		
 	}
+
 }

@@ -31,6 +31,7 @@ class DribblingState extends State {
 																			// balance
 		if (defancePower > offencePower) {
 			success = false;
+			updateStats(matchEngine);
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0);  //TODO fast break
@@ -67,8 +68,12 @@ class DribblingState extends State {
 		}
 	}
 
-	public String toString(MatchEngine matchEngine) {
-		return "The " + matchEngine.getBallHandlerPlayer()
-				+ "is driving to ball";
+	private void updateStats(MatchEngine matchEngine) {
+		matchEngine.getAtackSB().updateStats(
+				matchEngine.getAtackTB().getPlayerNum(
+						matchEngine.getBallHandler()), 10);
+		matchEngine.getDefenceSB().updateStats(
+				matchEngine.getDefenceTB().getPlayerNum(
+						matchEngine.getBallDefender()), 9);
 	}
 }
