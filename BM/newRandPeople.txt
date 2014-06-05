@@ -1,0 +1,60 @@
+Cruz Kerr,8/1/1982,Belgium,75,75,185,75,75,75,75,75,100
+Guilherme Ferreira,11/15/1979,Belgium,75,75,189,75,75,75,75,75,100
+Gordey Vinogradov,1/7/1991,Czech Republic,75,75,185,75,75,75,75,75,100
+Chris Demartino,11/11/1992,Canada,75,75,188,75,75,75,75,75,100
+Tiago Santos,4/27/1987,Brazil,75,75,183,75,75,75,75,75,100
+Avdei Andreyev,6/21/1984,Belgium,75,75,168,75,75,75,75,75,100
+Scudamor Puddifoot,10/30/1991,Belgium,75,75,110,75,75,75,75,75,100
+Kieron Johnstone,2/14/1990,Austria,75,75,187,75,75,75,75,75,100
+Darryl Burns,11/18/1986,Czech Republic,75,75,186,75,75,75,75,75,100
+Quinn Ferguson,9/25/1991,Cyprus (Anglicized),75,75,178,75,75,75,75,75,100
+Bilcuzal Lothran,1/27/1986,Brazil,75,75,109,75,75,75,75,75,100
+Baillie Maclean,1/27/1989,Czech Republic,75,75,172,75,75,75,75,75,100
+Prokhor Shubin,2/13/1983,Czech Republic,75,75,189,75,75,75,75,75,100
+James Johnson,7/17/1994,Denmark,75,75,188,75,75,75,75,75,100
+Lawrence Anderson,5/18/1996,Belgium,75,75,188,75,75,75,75,75,100
+Otávio Barros,4/7/1983,Denmark,75,75,181,75,75,75,75,75,100
+Hugh Kerr,2/26/1985,Belgium,75,75,172,75,75,75,75,75,100
+Matheus Goncalves,5/23/1989,Cyprus (Anglicized),75,75,176,75,75,75,75,75,100
+Gorhendad Roper,9/13/1996,Belgium,75,75,84,75,75,75,75,75,100
+Mat Tunnelly,4/12/1997,Canada,75,75,90,75,75,75,75,75,100
+Dale Wiggins,2/11/1985,Cyprus (Anglicized),75,75,174,75,75,75,75,75,100
+Ponto Burrows,4/30/1992,Brazil,75,75,97,75,75,75,75,75,100
+Ramiro Uspensky,9/14/1987,Denmark,75,75,188,75,75,75,75,75,100
+Murray Graham,12/5/1989,Cyprus (Anglicized),75,75,188,75,75,75,75,75,100
+Raymond Runge,8/9/1980,Belgium,75,75,176,75,75,75,75,75,100
+Aaran Dickson,9/4/1986,Cyprus (Anglicized),75,75,185,75,75,75,75,75,100
+Christopher Phillips,3/2/1979,Austria,75,75,171,75,75,75,75,75,100
+Luis Lima,5/11/1987,Cyprus (Anglicized),75,75,173,75,75,75,75,75,100
+Thiago Carvalho,10/1/1990,Belgium,75,75,190,75,75,75,75,75,100
+Joao Azevedo,11/13/1988,Canada,75,75,179,75,75,75,75,75,100
+André Correia,12/5/1993,Cyprus (Anglicized),60,65,185,40,70,75,75,75,100
+Finlay Taylor,7/26/1980,Brazil,75,65,190,40,75,60,75,75,100
+Dennis Moore,3/20/1989,Czech Republic,70,65,195,50,65,65,75,75,100
+Luís Gomes,12/15/1993,Belgium,65,65,205,70,55,60,75,75,100
+Holman Noakes,10/2/1982,Belgium,50,65,210,80,30,50,75,75,100
+Kenneth Caffey,7/11/1984,Austria,55,60,185,35,65,70,75,75,100
+Pippin Gammidge,2/13/1989,Belgium,70,60,190,35,70,55,75,75,100
+Jason Crowder,1/16/1986,Czech Republic,65,60,195,45,60,60,75,75,100
+Peter McGrew,5/26/1991,Cyprus (Anglicized),60,60,205,65,50,55,75,75,100
+Guido Clayhanger,4/19/1986,Belgium,45,60,210,75,25,45,75,75,100
+Luke Yermolayev,6/17/1993,Cyprus (Anglicized),50,55,185,30,60,65,75,75,100
+James Beach,6/13/1979,Brazil,65,55,190,30,65,50,75,75,100
+Nikita Mishin,6/20/1983,Denmark,60,55,195,40,55,55,75,75,100
+Don Matthews,11/26/1996,Cyprus (Anglicized),55,55,205,60,45,50,75,75,100
+Nicodemus Pokrovskii,2/17/1982,Brazil,40,55,210,70,20,40,75,75,100
+Enzo Rocha,6/18/1990,Cyprus (Anglicized),75,80,185,55,85,90,75,75,100
+Donald Crawford,4/25/1994,Cyprus (Anglicized),90,80,190,55,90,75,75,75,100
+Muslim Ignatiev,3/23/1983,Canada,85,80,195,65,80,80,75,75,100
+John Gerling,1/1/1987,Canada,80,80,205,85,70,75,75,75,100
+Patrick Delong,9/24/1983,Canada,65,80,210,95,45,65,75,75,100
+Edward Hobson,11/15/1987,Czech Republic,70,75,185,50,80,85,75,75,100
+Mateus Carvalho,10/8/1980,Canada,85,75,190,50,85,70,75,75,100
+Kenneth Taylor,7/31/1988,Canada,80,75,195,60,75,75,75,75,100
+Porphyry Belov,6/14/1981,Belgium,75,75,205,80,65,70,75,75,100
+Pedro Miller,1/10/1980,Cyprus (Anglicized),60,75,210,90,40,60,75,75,100
+Corey Anderson,8/29/1994,Brazil,65,70,185,45,75,80,75,75,100
+Karp Bogdanov,11/30/1994,Brazil,80,70,190,45,80,65,75,75,100
+Armen Biryukov,4/21/1986,Austria,75,70,195,55,70,70,75,75,100
+Belisarius Roper,11/10/1983,Cyprus (Anglicized),70,70,205,75,60,65,75,75,100
+Tiago Rocha,1/6/1986,Cyprus (Anglicized),55,70,210,85,35,55,75,75,100
