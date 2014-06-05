@@ -68,14 +68,14 @@ public class League {
 		this.fixture = fixture;
 	}
 
-	public Event getTodaysEvent(Time time) {
+	public Event getTodaysEvent(Time time, Team yourTeam) {
 		Time nextMatchTime = fixture.getNextMatchDateAfter(time);
 		System.out.println("current: "+time);
 		System.out.println("match: "+nextMatchTime);
 		if (nextMatchTime.equals(time)) {
 			return fixture.getMatchAt(nextMatchTime);
 		} else {
-			RandomEventGenerator reg = new RandomEventGenerator();
+			RandomEventGenerator reg = new RandomEventGenerator(yourTeam);
 			return reg.getEvent(time);
 		}
 	}

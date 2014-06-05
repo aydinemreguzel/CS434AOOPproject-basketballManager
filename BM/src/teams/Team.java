@@ -66,5 +66,11 @@ public class Team {
 	public void addPlayer(Player player){
 		players.add(player);
 	}
+	public int getBudget() {
+		return budget;
+	}
+	public void setBudget(int budget) {
+		this.budget = budget;
+	}
 
 }

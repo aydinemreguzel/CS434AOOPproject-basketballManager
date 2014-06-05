@@ -168,4 +168,9 @@ public Player(String[] data){
 	public String toString() {
 		return name;
 	}
+
+	public void setInjury(int randomDay) {
+		// TODO Auto-generated method stub
+		
+	}
 }

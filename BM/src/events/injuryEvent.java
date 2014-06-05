@@ -1,23 +1,33 @@
 package events;
-import gameengine.Time;
 
+import java.util.Random;
+
+import teams.Team;
+import gameengine.Time;
 
 public class injuryEvent implements Event {
 	Time eventTime;
-	public injuryEvent(Time eventTime) {
+	Team yourTeam;
+
+	public injuryEvent(Time eventTime, Team yourTeam) {
 		super();
 		this.eventTime = eventTime;
+		this.yourTeam = yourTeam;
 	}
 
 	@Override
 	public void perform() {
-		System.out.println("one of your players got injured");
-
+		Random random = new Random();
+		int randomPlayer = random.nextInt(yourTeam.getPlayers().size());
+		int randomDay = random.nextInt(10);
+		yourTeam.getPlayers().get(randomPlayer).setInjury(randomDay);
+		System.out.println(yourTeam.getPlayers().get(randomPlayer).getName()
+				+ " got injured");
 	}
 
 	@Override
 	public Time getEventTime() {
-	
+
 		return eventTime;
 	}
 
