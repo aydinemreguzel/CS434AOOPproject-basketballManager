@@ -12,6 +12,7 @@ public class BM2014 {
 		startApp();
 	}
 
+	@SuppressWarnings("resource")
 	void startApp() {
 		Game game = new Game(new Time(1, 1, 2014));
 		Scanner sc = new Scanner(System.in);

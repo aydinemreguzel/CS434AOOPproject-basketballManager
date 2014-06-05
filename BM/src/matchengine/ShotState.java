@@ -52,7 +52,7 @@ abstract class ShotState extends State {
 	}
 
 	public void decideNextAction(MatchEngine matchEngine) {
-		if(rebound == true)
+		if(rebound == true && success == false)
 			matchEngine.setState(new ReboundState());
 		else
 			matchEngine.setState(new AdvancingBallState());
