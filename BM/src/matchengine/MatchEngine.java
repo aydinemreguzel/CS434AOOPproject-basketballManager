@@ -3,6 +3,7 @@ package matchengine;
 import teams.Player;
 import teams.ScoreBoard;
 import teams.TacticBoard;
+import teams.Team;
 import events.MatchEvent;
 
 // due to incomplete tactics board class lots of magic number in match engine and state classes
@@ -13,6 +14,8 @@ public class MatchEngine {
 	int matchClock = 2400; // 40 min = 2400 sec
 	int shotClock = 24; // sec
 	int positioning;
+	Team homeTeam;
+	Team awayTeam;
 	ScoreBoard homeSB;
 	ScoreBoard awaySB;
 	TacticBoard homeTB;
@@ -24,12 +27,15 @@ public class MatchEngine {
 		awayTB = match.getAwayTacticBoard();
 		homeSB = match.getHomeScoreBoard();
 		awaySB = match.getAwayScoreBoard();
+		homeTeam = match.getHomeTeam();
+		awayTeam = match.getAwayTeam();
 	}
 
 	public void play() {
 		while (true) {
 			state.startAction(this);
 			if (matchClock < 0) {
+				System.out.println("refeeree finishes the game");
 				break;
 			} else if (shotClock < 0){
 				changeAttackOrder();

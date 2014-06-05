@@ -30,7 +30,7 @@ class AdvancingBallState extends State {
 				* matchEngine.getBallHandlerPlayer().getAgility()
 				+ randomGenerator.nextInt(100); // these are change in future
 												// for game balance
-		if (defancePower > offancePower) { // TODO hava atýþý eklenecek
+		if (defancePower > offancePower) { 
 			success = false;
 			System.out.println("turnover");
 			matchEngine.changeAttackOrder(); // new
