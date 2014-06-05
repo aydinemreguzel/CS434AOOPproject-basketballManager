@@ -1,10 +1,18 @@
 package teams;
 
-public class InjuredStatus implements Status{
+import gameengine.Time;
 
+public class InjuredStatus implements Status{
+	int injuryDayLeft;
+	InjuredStatus(int n){
+		injuryDayLeft = n;
+	}
 	@Override
-	public void perform() {
-		// TODO Auto-generated method stub
+	public void perform(Player player) {
+		injuryDayLeft--;
+		if(injuryDayLeft == 0){
+			player.setStatus(new healtyStatus());
+		}
 		
 	}
 

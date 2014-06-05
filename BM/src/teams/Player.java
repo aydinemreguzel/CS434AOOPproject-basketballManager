@@ -176,10 +176,14 @@ public Player(String[] data){
 	
 	public void checkPlayer(){
 		updateFatigue();
-		status.perform();
+		status.perform(this);
 	}
 
 	private void updateFatigue() {
-		fatigue+=12;
+		fatigue+=13;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status; 
 	}
 }

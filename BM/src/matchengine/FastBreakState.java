@@ -20,8 +20,7 @@ class FastBreakState extends State {
 		int offancePower = matchEngine.getBallHandlerPlayer().getAgility()
 				+ randomGenerator.nextInt(100); // these are change in future
 												// for game balance
-		if (defancePower > offancePower) { // TODO eþitlik durumu için hava
-											// atýþý eklenecek
+		if (defancePower > offancePower) {
 			success = false;
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
@@ -42,9 +41,5 @@ class FastBreakState extends State {
 					+ " is ending fastbreak with good layup");
 			matchEngine.setState(new Layup());
 		}
-	}
-
-	public String toString(MatchEngine matchEngine) {
-		return "Fast Break";
 	}
 }
