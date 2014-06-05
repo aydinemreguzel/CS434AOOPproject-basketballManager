@@ -37,7 +37,14 @@ public class Player {
 		this.condition = condition;
 	}
 
-
+public Player(String[] data){
+	this(data[0] + data[1], new Time(data[2]), data[3],
+			Integer.parseInt(data[4]), Integer.parseInt(data[5]),
+			Integer.parseInt(data[6]), Integer.parseInt(data[7]),
+			Integer.parseInt(data[8]), Integer.parseInt(data[9]),
+			Integer.parseInt(data[10]), Integer.parseInt(data[11]),
+			Integer.parseInt(data[12]));
+}
 	public static Player generateRandomPlayer(){
 		return new Player(generateRandomName(), new Time(generateRandomInt(1, 30),
 				generateRandomInt(1, 12), generateRandomInt(1975, 1995)),
