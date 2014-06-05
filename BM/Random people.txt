@@ -1,0 +1,3001 @@
+﻿GivenName,Surname,Birthday,CountryFull,Kilograms,Centimeters,BloodType
+Cruz,Kerr,8/1/1982,Belgium,98.7,185,A+
+Guilherme,Ferreira,11/15/1979,Belgium,75.6,189,A+
+Gordey,Vinogradov,1/7/1991,Czech Republic,76.3,185,O-
+Chris,Demartino,11/11/1992,Canada,77.7,188,A+
+Tiago,Santos,4/27/1987,Brazil,63.1,183,A+
+Avdei,Andreyev,6/21/1984,Belgium,64.1,168,B+
+Scudamor,Puddifoot,10/30/1991,Belgium,62.4,110,AB+
+Kieron,Johnstone,2/14/1990,Austria,108.7,187,O+
+Darryl,Burns,11/18/1986,Czech Republic,80.0,186,O+
+Quinn,Ferguson,9/25/1991,Cyprus (Anglicized),84.9,178,O-
+Bilcuzal,Lothran,1/27/1986,Brazil,66.6,109,A+
+Baillie,Maclean,1/27/1989,Czech Republic,69.0,172,O-
+Prokhor,Shubin,2/13/1983,Czech Republic,112.9,189,O+
+James,Johnson,7/17/1994,Denmark,95.9,188,O+
+Lawrence,Anderson,5/18/1996,Belgium,82.6,188,A+
+Otávio,Barros,4/7/1983,Denmark,92.5,181,O+
+Hugh,Kerr,2/26/1985,Belgium,87.2,172,O+
+Matheus,Goncalves,5/23/1989,Cyprus (Anglicized),70.1,176,O+
+Gorhendad,Roper,9/13/1996,Belgium,63.9,84,A+
+Mat,Tunnelly,4/12/1997,Canada,62.4,90,O+
+Dale,Wiggins,2/11/1985,Cyprus (Anglicized),71.8,174,O+
+Ponto,Burrows,4/30/1992,Brazil,64.4,97,A+
+Ramiro,Uspensky,9/14/1987,Denmark,106.0,188,O+
+Murray,Graham,12/5/1989,Cyprus (Anglicized),60.3,188,A+
+Raymond,Runge,8/9/1980,Belgium,91.6,176,AB+
+Aaran,Dickson,9/4/1986,Cyprus (Anglicized),70.7,185,B+
+Christopher,Phillips,3/2/1979,Austria,78.6,171,B+
+Luis,Lima,5/11/1987,Cyprus (Anglicized),63.3,173,O+
+Thiago,Carvalho,10/1/1990,Belgium,62.6,190,O+
+Joao,Azevedo,11/13/1988,Canada,60.9,179,A+
+André,Correia,12/5/1993,Cyprus (Anglicized),59.0,167,A+
+Finlay,Taylor,7/26/1980,Brazil,90.6,177,A+
+Dennis,Moore,3/20/1989,Czech Republic,66.3,181,O+
+Luís,Gomes,12/15/1993,Belgium,65.1,181,O-
+Holman,Noakes,10/2/1982,Belgium,58.7,83,O+
+Kenneth,Caffey,7/11/1984,Austria,62.8,175,O-
+Pippin,Gammidge,2/13/1989,Belgium,51.4,82,AB-
+Jason,Crowder,1/16/1986,Czech Republic,101.6,190,A+
+Peter,McGrew,5/26/1991,Cyprus (Anglicized),89.3,169,A-
+Guido,Clayhanger,4/19/1986,Belgium,50.4,67,A+
+Luke,Yermolayev,6/17/1993,Cyprus (Anglicized),75.2,163,O+
+James,Beach,6/13/1979,Brazil,86.6,168,B+
+Nikita,Mishin,6/20/1983,Denmark,68.9,169,A+
+Don,Matthews,11/26/1996,Cyprus (Anglicized),74.7,186,A+
+Nicodemus,Pokrovskii,2/17/1982,Brazil,110.4,172,A+
+Enzo,Rocha,6/18/1990,Cyprus (Anglicized),75.3,176,B+
+Donald,Crawford,4/25/1994,Cyprus (Anglicized),64.4,180,B+
+Muslim,Ignatiev,3/23/1983,Canada,94.9,178,A-
+John,Gerling,1/1/1987,Canada,70.0,169,O+
+Patrick,Delong,9/24/1983,Canada,99.4,179,O+
+Edward,Hobson,11/15/1987,Czech Republic,106.9,170,O+
+Mateus,Carvalho,10/8/1980,Canada,98.9,170,B+
+Kenneth,Taylor,7/31/1988,Canada,102.7,178,O+
+Porphyry,Belov,6/14/1981,Belgium,107.0,184,O+
+Pedro,Miller,1/10/1980,Cyprus (Anglicized),71.8,182,AB+
+Corey,Anderson,8/29/1994,Brazil,84.0,164,A+
+Karp,Bogdanov,11/30/1994,Brazil,65.6,170,O+
+Armen,Biryukov,4/21/1986,Austria,84.9,168,O+
+Belisarius,Roper,11/10/1983,Cyprus (Anglicized),52.4,111,O+
+Tiago,Rocha,1/6/1986,Cyprus (Anglicized),62.9,186,O+
+Fábio,Oliveira,8/18/1996,Czech Republic,92.4,165,B+
+Meneaduc,Galbassi,1/30/1984,Denmark,48.3,90,O+
+Innocent,Yefimov,8/23/1989,Belgium,56.8,186,B+
+Rinat,Yudin,3/13/1980,Austria,77.2,169,B+
+Hleb,Averyanov,5/16/1985,Cyprus (Anglicized),99.5,186,O+
+Madoc,Baggins,8/13/1995,Canada,66.5,88,O+
+Ralph,Rawls,4/20/1987,Canada,66.2,177,O+
+Arthur,Bezrukov,11/22/1984,Denmark,64.2,186,O+
+Blanco,Baggins,8/11/1979,Cyprus (Anglicized),58.5,85,O+
+Victor,Houston,10/3/1981,Czech Republic,100.7,180,O+
+Theodore,Bulgakov,11/17/1983,Canada,63.4,184,A+
+Vincent,Smith,8/16/1986,Brazil,61.6,170,B+
+Samuel,Nichols,11/19/1982,Belgium,104.5,188,O+
+Olivier,Graham,10/6/1978,Cyprus (Anglicized),95.7,184,A+
+Vinicius,Dias,2/10/1997,Czech Republic,74.1,172,A+
+Paul,Douglas,2/1/1983,Austria,103.9,170,O+
+Muhammed,Fraser,6/24/1993,Czech Republic,96.9,190,A+
+Oles,Medvedev,11/30/1982,Cyprus (Anglicized),77.2,180,B+
+Frank,Watt,11/5/1996,Canada,62.7,170,A+
+Maura,Took-Brandybuck,1/2/1983,Canada,66.5,102,O+
+Otho,Hogpen,5/6/1989,Belgium,66.8,67,A+
+Anthony,Sommerfield,5/11/1984,Belgium,93.6,172,O+
+Ayaan,Kennedy,2/26/1989,Belgium,100.9,175,A+
+Dennis,Izmailov,5/2/1993,Canada,62.9,181,O+
+Holman,Roper,3/19/1984,Czech Republic,57.8,64,O+
+Kauã,Silva,8/16/1981,Canada,87.1,183,A+
+Paul,Miller,1/3/1981,Belgium,70.0,179,B+
+Thiago,Cavalcanti,10/18/1978,Brazil,94.0,173,A+
+Gerald,Brown,8/1/1988,Cyprus (Anglicized),106.8,167,O+
+Noah,McKenzie,2/27/1982,Cyprus (Anglicized),81.3,178,A+
+Julian,Lima,1/29/1979,Czech Republic,96.2,187,O+
+Scudamor,Brown,9/26/1991,Canada,56.3,119,O+
+Eoghan,White,6/15/1993,Belgium,61.7,164,AB+
+Emelyan,Kapustin,2/28/1984,Austria,74.7,174,O+
+Eoin,Mitchell,6/8/1985,Cyprus (Anglicized),74.5,175,AB+
+Dale,Milne,7/9/1979,Austria,96.8,183,A+
+Ryan,Fernandes,10/22/1989,Austria,69.1,178,A+
+Andrew,Bruce,8/21/1987,Czech Republic,68.6,178,A+
+Fastolph,Bolger,4/7/1979,Cyprus (Anglicized),66.8,65,O+
+Cotman,Gawkroger,10/4/1978,Austria,45.0,66,O+
+Kerry,Cousar,4/5/1990,Denmark,101.9,183,A+
+Proclus,Avdeev,10/28/1990,Cyprus (Anglicized),70.0,185,O+
+Kyran,Kennedy,9/29/1980,Denmark,104.2,178,B+
+Maxim,Yermolayev,11/17/1987,Czech Republic,109.5,180,A-
+Dexter,Robertson,3/8/1991,Czech Republic,90.5,176,AB+
+Robin,Macleod,5/26/1997,Belgium,56.5,177,O+
+Breno,Cavalcanti,10/13/1996,Czech Republic,89.3,182,B+
+Codey,Ritchie,6/22/1985,Brazil,72.5,190,B+
+Elisha,Bezrukov,2/12/1985,Austria,64.0,176,A+
+Danny,Williamson,6/1/1984,Cyprus (Anglicized),73.9,183,O+
+Harris,Martin,3/4/1985,Belgium,87.4,181,O+
+Davi,Rocha,3/24/1985,Belgium,69.7,190,A-
+Charles,Anderson,8/15/1985,Denmark,93.5,182,O+
+Aden,Watson,7/10/1987,Czech Republic,81.6,178,O+
+Brodie,Hay,5/9/1985,Cyprus (Anglicized),100.4,188,O+
+Samwise,Gardner,5/1/1985,Cyprus (Anglicized),63.8,62,O+
+Emelyan,Fedorov,4/7/1988,Austria,109.6,175,B+
+Luan,Goncalves,8/9/1996,Cyprus (Anglicized),87.6,169,A+
+Minto,Burrowes,4/5/1986,Cyprus (Anglicized),48.7,111,B+
+James,Wright,10/20/1978,Denmark,66.0,181,B+
+Quinn,Wright,9/13/1988,Cyprus (Anglicized),63.5,178,A+
+Brian,Hackworth,4/25/1994,Canada,56.1,165,A+
+Luan,Rodrigues,5/29/1991,Czech Republic,72.2,167,A+
+Quinn,McIntyre,7/16/1994,Austria,66.5,177,AB+
+Willie,Kreger,12/14/1981,Denmark,112.5,188,B+
+Samuel,Rodrigues,10/16/1990,Austria,72.4,180,B+
+Richard,Heffner,6/21/1989,Cyprus (Anglicized),81.1,169,A+
+Evdokim,Zubarev,4/4/1988,Czech Republic,72.8,175,A-
+Trofim,Voronoff,2/14/1986,Austria,78.8,176,B+
+Blasius,Balabanov,1/31/1981,Belgium,104.8,173,O+
+John,Lavoie,2/20/1988,Brazil,73.8,170,O+
+Blanco,Noakes,11/21/1984,Belgium,45.8,95,O+
+Crassus,Noakes,6/18/1984,Cyprus (Anglicized),59.4,91,B+
+Finn,Maclean,2/21/1984,Czech Republic,90.1,179,A+
+Malik,Izmailov,4/5/1988,Brazil,105.9,186,O+
+Luis,Fernandes,4/24/1997,Austria,58.1,185,A+
+Sidor,Alexandrov,9/9/1985,Czech Republic,104.5,171,B-
+Thomas,Pokrovsky,12/11/1989,Austria,86.3,188,B+
+Ian,Wilson,9/22/1978,Cyprus (Anglicized),109.4,187,AB+
+Gerard,Grant,8/20/1979,Brazil,96.7,184,A-
+Fulvus,Gammidge,6/16/1980,Cyprus (Anglicized),47.0,75,B+
+Guy,Thompson,11/14/1983,Brazil,74.9,177,O+
+Kai,Pinto,12/13/1982,Belgium,113.4,181,B+
+Josh,Bruce,2/1/1992,Belgium,82.6,169,O+
+Vitor,Carvalho,12/9/1981,Cyprus (Anglicized),99.2,171,O+
+Tiago,Oliveira,2/8/1986,Czech Republic,81.9,168,AB+
+Celedor,Diggle,3/29/1993,Austria,51.9,72,B+
+Paladin,Bunce,12/8/1984,Cyprus (Anglicized),67.9,119,O+
+Basso,Sandheaver,3/6/1993,Brazil,65.5,88,O+
+Nicholas,Shropshire,8/3/1978,Cyprus (Anglicized),112.5,171,O+
+Polo,Gawkroger,7/29/1991,Denmark,45.2,84,A+
+Bruno,Gomes,8/17/1982,Denmark,103.2,188,A+
+Philip,Alekseyeva,9/3/1978,Belgium,92.7,188,A+
+Belisarius,Brandybuck,8/17/1982,Czech Republic,64.4,78,A+
+Athanaric,Chubb-Baggins,9/9/1992,Cyprus (Anglicized),46.3,76,O+
+Miguel,Castro,8/22/1981,Austria,83.4,169,AB+
+Oran,Clark,7/31/1985,Cyprus (Anglicized),81.6,169,B-
+Minto,Baggins,5/31/1989,Brazil,56.8,73,O+
+Kauan,Rocha,5/11/1989,Canada,65.9,186,B+
+Modest,Vagin,7/10/1993,Belgium,94.1,167,B+
+Stewart,Jamieson,9/9/1979,Canada,104.1,182,A+
+Vitor,Costa,3/18/1991,Czech Republic,99.6,168,B+
+Rodrigo,Gomes,7/28/1979,Denmark,66.4,175,A+
+Taras,Yevdokimov,8/21/1984,Canada,63.7,182,AB+
+Derek,Fraser,10/12/1991,Cyprus (Anglicized),77.7,184,A+
+Enzo,Pinto,10/10/1981,Austria,106.5,173,O+
+Joey,Shaw,7/17/1994,Cyprus (Anglicized),78.6,186,A+
+Matthew,Wiggins,10/26/1979,Czech Republic,83.3,190,O+
+Edward,Golubov,12/20/1989,Cyprus (Anglicized),66.0,187,O+
+Alex,Nave,11/10/1985,Brazil,66.8,190,A+
+Anthony,Perry,9/21/1982,Czech Republic,87.3,174,A+
+Zinovy,Muravyov,9/25/1993,Canada,67.5,190,O+
+Maura,Tunnelly,8/13/1980,Cyprus (Anglicized),62.8,77,B+
+Benjamin,Douglas,4/24/1984,Belgium,68.4,176,B+
+Warren,Clark,4/2/1995,Cyprus (Anglicized),58.3,165,A+
+Kai,Hay,6/8/1989,Czech Republic,69.0,171,AB+
+Ramiro,Sokolov,10/31/1983,Cyprus (Anglicized),87.5,173,A-
+Mungo,Headstrong,9/5/1995,Czech Republic,46.3,91,O-
+Martim,Rodrigues,7/21/1979,Austria,63.6,190,O+
+Sadoc,Gamgee,10/4/1982,Brazil,51.6,99,O+
+Mateus,Azevedo,2/28/1979,Belgium,104.1,188,A+
+Trifon,Pokrovsky,1/30/1995,Brazil,69.1,177,AB+
+Grossman,Banks,1/29/1994,Belgium,67.6,73,A+
+Rafael,Ribeiro,4/22/1982,Austria,85.9,180,O+
+Marcus,Burrowes,10/20/1982,Cyprus (Anglicized),48.4,104,O-
+Valerie,Sergeyev,6/21/1979,Belgium,85.1,181,O+
+Erling,Roper,1/31/1983,Brazil,50.6,90,A+
+Hleb,Fokine,2/10/1983,Belgium,73.3,190,O+
+Ernest,Alekseeva,6/14/1980,Denmark,100.2,183,A+
+Nibs,Took,12/28/1985,Belgium,53.4,81,A+
+Leslie,King,12/4/1994,Denmark,87.5,168,A+
+Henry,Mackenzie,5/25/1992,Czech Republic,77.5,167,A+
+Sebastian,Mishin,2/25/1983,Austria,102.3,168,AB+
+Proclus,Vinogradoff,9/25/1991,Czech Republic,57.6,174,B-
+Gerasimos,Balabanov,12/4/1996,Czech Republic,72.1,178,A+
+Victor,Melo,11/24/1992,Czech Republic,60.2,173,O+
+George,Ritchie,7/1/1995,Cyprus (Anglicized),72.2,173,O+
+Fritz,Holmes,10/12/1979,Brazil,78.2,185,B+
+Hugo,Baggins,7/17/1985,Austria,61.9,111,O-
+Numbers,Summers,11/11/1989,Cyprus (Anglicized),98.8,187,B+
+Hamfast,Whitfoot,10/27/1991,Cyprus (Anglicized),54.2,79,A+
+Everett,Chambers,4/3/1985,Canada,111.5,185,A+
+Paulo,Azevedo,3/15/1979,Cyprus (Anglicized),102.5,172,O+
+Lamorac,Galbassi,9/13/1991,Czech Republic,57.6,104,O+
+Thiago,Santos,6/3/1994,Belgium,62.5,166,B+
+Mac,Macleod,6/7/1988,Cyprus (Anglicized),87.8,171,AB+
+Kevin,Smith,2/10/1991,Cyprus (Anglicized),74.6,171,O+
+Ranugad,Hornblower,12/11/1992,Cyprus (Anglicized),59.7,80,A+
+Thomas,Nekrasov,4/6/1992,Brazil,77.5,177,O+
+Alex,Dunham,8/12/1994,Cyprus (Anglicized),54.0,179,B+
+Pimen,Zuev,8/20/1979,Denmark,64.8,175,A+
+Tony,Bruce,5/10/1991,Brazil,69.1,174,A-
+Eoghan,Stevenson,1/6/1992,Belgium,101.2,183,O+
+Estevan,Araujo,3/30/1994,Brazil,65.8,169,A+
+Paul,Wright,3/16/1986,Cyprus (Anglicized),99.6,180,O+
+Polo,Button,8/4/1991,Brazil,65.7,86,B+
+Leon,Kudryashov,9/30/1989,Denmark,88.6,169,B-
+Roland,Zubarev,3/23/1996,Brazil,92.1,165,O+
+Thomas,Alekseeva,6/20/1979,Cyprus (Anglicized),111.0,180,B+
+Leland,Millar,2/10/1994,Austria,82.1,171,O+
+Ryan,Silva,11/19/1985,Cyprus (Anglicized),78.6,181,B+
+Joseph,Alekseyeva,12/21/1991,Denmark,100.6,186,A+
+Faramir,Bolger,7/9/1987,Canada,46.8,101,O+
+Kaua,Rodrigues,8/21/1981,Cyprus (Anglicized),113.9,180,O+
+Lennox,Forbes,2/1/1997,Brazil,80.4,163,O+
+Alberic,Hogpen,1/11/1990,Belgium,59.2,65,A+
+Adam,Sidorov,6/10/1980,Austria,84.1,189,A+
+Mathew,Burns,3/29/1984,Brazil,76.4,172,O+
+Zane,Fleming,12/18/1982,Canada,73.1,183,AB+
+Gabriel,Evdokimov,3/8/1983,Belgium,94.9,187,B+
+Michael,Hughes,11/23/1985,Denmark,72.5,170,A+
+William,Ruiz,11/12/1983,Canada,91.8,174,A-
+Arron,Graham,3/28/1995,Czech Republic,65.2,169,A-
+Rustam,Yusupov,8/1/1988,Austria,96.1,171,O+
+Rudibert,Bracegirdle,9/15/1985,Canada,57.1,110,O+
+Marcos,Santos,4/28/1983,Brazil,73.0,171,B+
+Rufus,Button,9/7/1979,Belgium,50.4,121,A+
+Sméagol,Gamgee,7/22/1990,Canada,64.4,108,A+
+Leonardo,Cardoso,3/29/1989,Cyprus (Anglicized),102.0,167,A+
+Otávio,Correia,2/3/1995,Brazil,77.8,187,A+
+Billy,Marshall,12/5/1979,Belgium,66.7,177,B+
+Makar,Kovalyov,10/22/1991,Belgium,99.5,167,B-
+Jacob,Matveyev,1/20/1981,Brazil,72.6,174,A+
+Albert,Alexeyeva,4/23/1995,Cyprus (Anglicized),81.5,163,O+
+Bob,Goodman,5/5/1981,Cyprus (Anglicized),86.3,172,A+
+Thaddeus,Muravyov,12/17/1992,Canada,105.3,187,A+
+Frazer,Hamilton,5/20/1994,Cyprus (Anglicized),71.5,166,A+
+Ruaraidh,Findlay,6/25/1992,Brazil,86.3,177,O+
+Samson,Ponomaryov,4/22/1987,Brazil,79.5,187,O+
+Kane,Murphy,11/30/1987,Czech Republic,64.7,179,A+
+Daniel,Barbosa,9/14/1979,Cyprus (Anglicized),108.4,172,O+
+Caelan,Wright,6/18/1981,Brazil,107.2,168,O+
+Robert,Hodge,5/2/1988,Austria,85.0,181,O-
+Cooper,Duncan,10/26/1978,Cyprus (Anglicized),101.8,188,B+
+Valentine,Butusov,10/19/1988,Canada,107.3,186,O+
+Bungo,Smallburrow,5/6/1979,Belgium,63.4,62,AB+
+José,Pinto,10/17/1979,Canada,106.0,183,B+
+Marat,Afanasyev,10/10/1991,Cyprus (Anglicized),91.9,167,O-
+Theodore,Gorshkov,9/9/1986,Canada,61.8,181,A+
+Kyle,Pyatt,11/15/1989,Canada,77.7,177,A+
+Andy,Parker,4/7/1986,Denmark,99.4,180,O+
+Erick,Costa,7/2/1983,Austria,91.5,169,O+
+Mike,Rooney,1/16/1985,Czech Republic,93.6,175,A+
+Justin,Hoskins,5/20/1994,Canada,61.3,163,A+
+Arthur,McIntyre,11/28/1983,Cyprus (Anglicized),98.5,178,B+
+Hilarion,Bobrov,7/8/1978,Austria,64.4,175,AB+
+Felipe,Martins,5/6/1995,Austria,89.9,187,O+
+Mitrofan,Izmaylov,6/2/1981,Canada,76.3,174,A+
+Blair,Hamilton,9/11/1994,Brazil,56.7,177,B+
+Makar,Ibrahimov,11/13/1982,Belgium,104.5,187,A+
+Riley,Bruce,7/23/1978,Cyprus (Anglicized),72.7,169,A+
+Nicephorus,Sozonov,1/29/1996,Austria,64.5,182,O+
+Harvey,Brown,2/13/1986,Canada,105.6,188,A+
+Rostislav,Tokaryev,7/15/1987,Cyprus (Anglicized),100.6,175,A+
+Lyle,Murray,7/12/1995,Czech Republic,58.5,180,A-
+George,Kazantsev,2/21/1980,Canada,87.9,178,B+
+Kadyn,Gordon,2/3/1987,Cyprus (Anglicized),64.9,171,AB+
+Kauê,Goncalves,8/3/1980,Austria,107.8,183,O+
+Isumbras,Goodbody,7/8/1996,Cyprus (Anglicized),53.4,76,B+
+Piotr,Williamson,5/5/1991,Belgium,108.6,183,A+
+Bilbo,Bolger-Baggins,9/24/1980,Canada,67.7,63,A+
+Arlo,Watt,4/14/1981,Belgium,84.8,169,A+
+Richard,Palmer,7/20/1983,Canada,64.8,188,B+
+Thaddeus,Bodrov,2/6/1983,Brazil,104.8,185,A+
+Daniel,Ibrahimov,4/27/1987,Belgium,64.7,190,A+
+Erick,Silva,7/19/1979,Brazil,77.9,185,B+
+Gundahar,Brockhouse,10/8/1995,Brazil,45.7,64,B+
+Adam,Degtyarev,2/18/1982,Austria,89.6,188,O+
+Tomacca,Sackville,10/4/1996,Denmark,47.7,96,A+
+Anthony,Wright,6/11/1995,Czech Republic,82.1,175,B-
+Jason,Gannaway,4/8/1983,Cyprus (Anglicized),74.4,178,O+
+Nicodemus,Abramowitz,12/22/1979,Denmark,90.7,189,O+
+Michael,Steiner,7/24/1993,Belgium,75.9,179,B+
+Leonti,Boholyubov,5/3/1984,Brazil,91.1,185,A+
+Aaran,Johnstone,11/18/1980,Brazil,101.8,180,B+
+Andrew,Kopp,11/12/1989,Canada,98.6,170,O-
+Victor,Araujo,3/30/1996,Austria,79.4,189,B+
+Ceredic,Twofoot,12/25/1987,Brazil,48.5,106,O+
+Dudo,Burrows,1/22/1987,Cyprus (Anglicized),54.2,111,O+
+Herman,Abramoff,2/10/1997,Cyprus (Anglicized),52.7,174,O+
+Bilbo,Maggot,8/15/1981,Denmark,59.0,62,A+
+Victor,Williamson,6/14/1994,Cyprus (Anglicized),81.0,174,A+
+Ansegar,Puddifoot,7/17/1990,Canada,54.2,100,O+
+Xenophon,Korovin,8/26/1988,Denmark,98.7,178,O-
+Thiago,Rocha,9/26/1994,Belgium,95.2,173,O+
+André,Souza,1/10/1997,Canada,57.8,183,A+
+Fredegar,Hogpen,2/28/1983,Brazil,60.6,88,A+
+Emil,Fedorov,7/1/1978,Cyprus (Anglicized),62.2,173,A+
+Carl,Vasiliev,11/3/1981,Austria,103.1,190,O-
+Bruno,Cardoso,7/16/1996,Denmark,57.3,177,A+
+Bercilac,Gamgee,11/9/1995,Brazil,51.7,120,A+
+John,McCoy,6/18/1994,Brazil,87.7,182,O+
+Lee,Alston,7/17/1990,Czech Republic,74.3,187,O+
+Houston,Longo,3/29/1994,Denmark,59.1,183,O+
+Hending,Gammidge,8/1/1980,Canada,48.2,103,A+
+Savely,Volkov,6/28/1980,Cyprus (Anglicized),67.4,175,AB+
+Oleg,Anisimov,11/2/1991,Brazil,60.2,173,A+
+Eduardo,Lima,6/23/1992,Cyprus (Anglicized),71.4,170,O+
+Seraphim,Nekrasov,2/12/1993,Austria,59.3,180,O+
+Kauê,Cavalcanti,6/16/1981,Belgium,89.4,189,AB+
+Ivan,Ritchie,8/15/1984,Denmark,111.7,185,B+
+Eldar,Pirogov,6/13/1988,Austria,95.5,189,B+
+Lotho,Brandagamba,10/26/1980,Canada,60.3,61,A+
+Seredic,Burrows,7/26/1992,Denmark,45.0,63,O+
+Roland,Zotov,10/14/1985,Cyprus (Anglicized),67.7,173,A+
+Vitór,Martins,8/29/1984,Canada,85.5,180,A+
+Rafael,Fernandes,8/31/1991,Denmark,63.8,190,A+
+Robert,Smith,3/8/1985,Canada,71.5,173,B+
+Hubert,McKenzie,6/5/1983,Czech Republic,111.2,183,A+
+Vladlen,Ignatieff,7/24/1990,Brazil,107.2,185,B+
+Roger,Graham,12/24/1994,Brazil,55.1,174,A-
+Antônio,Costa,12/9/1985,Austria,101.8,181,O+
+Danny,Smith,7/22/1984,Belgium,90.6,182,O+
+Inigo,Button,3/12/1979,Canada,54.7,67,A+
+Jamal,Abramowitz,11/8/1992,Cyprus (Anglicized),94.0,187,O+
+Beau,Kennedy,12/17/1995,Cyprus (Anglicized),57.8,172,O+
+Sago,Twofoot,1/15/1993,Brazil,66.9,101,B+
+Cole,Clark,11/25/1992,Canada,109.1,170,A+
+Paul,Love,3/11/1990,Austria,100.8,176,O-
+Rafael,Lima,1/8/1990,Canada,63.1,181,A+
+Lamorac,Baggins,10/13/1982,Cyprus (Anglicized),58.6,76,O+
+Toby,Diggle,4/6/1979,Cyprus (Anglicized),48.7,74,B+
+Rafael,Barros,7/24/1993,Czech Republic,91.7,176,B-
+Alastair,Gordon,10/4/1980,Cyprus (Anglicized),68.2,181,B+
+Fred,Chaney,5/7/1980,Brazil,96.0,178,O+
+Folco,Gaukrogers,5/12/1979,Brazil,52.7,88,B+
+William,Simmons,8/12/1986,Brazil,111.1,188,O-
+Rafael,Santos,12/23/1981,Czech Republic,104.4,183,A+
+Everett,Webster,1/28/1991,Czech Republic,69.0,167,AB+
+Lukasz,Robertson,7/8/1988,Cyprus (Anglicized),84.8,174,O-
+Breno,Silva,5/24/1992,Canada,85.8,185,A+
+Balbo,Clayhanger,8/27/1982,Cyprus (Anglicized),60.3,72,AB+
+Pedro,Martins,3/19/1997,Canada,83.0,169,O+
+Jaroslav,Volkov,5/17/1985,Canada,73.9,179,O+
+Nahum,Bogolyubov,6/29/1996,Czech Republic,49.6,183,AB+
+Matthew,Konovalov,12/27/1979,Belgium,92.8,179,B+
+Fábio,Alves,3/27/1995,Belgium,74.6,173,O+
+Pedro,Almeida,6/19/1986,Cyprus (Anglicized),81.5,177,O+
+Nazar,Baranov,2/11/1995,Cyprus (Anglicized),92.6,167,O+
+Isaac,Alexeeva,5/11/1987,Brazil,94.0,181,O-
+Brooklyn,King,10/18/1983,Cyprus (Anglicized),72.6,179,A-
+Dusty,Bondi,1/27/1987,Austria,102.6,184,A+
+Cody,Ferguson,2/5/1992,Brazil,96.4,180,O+
+Bilcuzal,Sandheaver,12/7/1979,Cyprus (Anglicized),63.9,69,O+
+Isaac,Baryshnikov,2/2/1985,Canada,105.8,171,O+
+Edward,Shore,10/14/1992,Belgium,107.4,186,O+
+Merimas,Burrowes,10/30/1979,Austria,48.1,99,O+
+Jamel,Clark,8/3/1995,Canada,78.7,172,B+
+Jose,Pasko,1/26/1993,Canada,97.3,181,O+
+Brian,Barber,9/3/1996,Denmark,71.1,172,O+
+Albert,Fleming,7/16/1986,Denmark,78.9,182,B+
+Déagol,Bracegirdle,5/25/1984,Denmark,59.1,114,A-
+Joseph,Rogers,2/24/1989,Brazil,97.8,167,B+
+Carl,Baggins,8/28/1993,Denmark,52.2,61,O+
+Olo,Goldworthy,5/28/1990,Brazil,49.6,113,A+
+Gabriel,Barbosa,7/31/1989,Czech Republic,81.8,182,O+
+Philemon,Yusupov,9/22/1990,Denmark,105.4,184,O+
+Nicolas,Cunha,2/15/1992,Canada,106.7,173,A-
+Dana,Francis,5/28/1985,Czech Republic,73.1,175,O+
+Danny,Collazo,3/22/1985,Cyprus (Anglicized),106.1,168,A-
+Cameron,McIntosh,5/18/1996,Cyprus (Anglicized),92.6,189,B+
+Gregor,Cameron,7/7/1992,Canada,75.5,190,O+
+Martim,Silva,11/19/1982,Cyprus (Anglicized),76.7,184,AB+
+Eric,Petty,7/30/1992,Czech Republic,63.2,182,B+
+Klim,Andrejew,5/22/1990,Cyprus (Anglicized),83.7,168,A-
+Heribald,Sandheaver,2/8/1981,Cyprus (Anglicized),62.4,106,O+
+Kalimac,Gawkroger,12/24/1980,Brazil,51.3,96,O+
+Fredegar,Banks,9/10/1989,Canada,48.7,71,O-
+Harding,Smallburrow,5/31/1983,Austria,59.1,106,O+
+Marat,Medvedev,2/15/1995,Cyprus (Anglicized),94.0,180,O+
+Michael,Najera,11/20/1995,Brazil,96.0,163,A+
+Darragh,Maclean,12/17/1981,Belgium,96.7,171,B+
+Nicolas,Kerr,11/6/1988,Cyprus (Anglicized),86.2,184,O+
+Vladlen,Lavrentiev,1/22/1993,Cyprus (Anglicized),62.3,169,AB+
+Spiridon,Aksakov,3/6/1991,Canada,71.0,182,O-
+Dillon,Anderson,3/24/1990,Denmark,76.4,181,A+
+Iskander,Evseyev,1/4/1981,Austria,62.0,188,A+
+William,Benton,11/28/1994,Czech Republic,99.6,182,O+
+Nicolas,Ribeiro,10/8/1984,Czech Republic,98.2,170,B+
+Porphyry,Artemiev,8/21/1986,Canada,83.5,168,O+
+Carambo,Brandagamba,6/28/1984,Austria,45.4,106,AB+
+Timothy,Tikhonov,11/12/1984,Canada,70.8,179,B+
+Douglas,Sousa,11/10/1980,Cyprus (Anglicized),78.1,175,O+
+Edward,Baranov,4/14/1980,Austria,81.2,181,B+
+Luís,Martins,3/1/1995,Belgium,61.7,190,A+
+Hildigrim,Chubb-Baggins,12/15/1990,Czech Republic,57.0,68,AB+
+Ahmed,Seleznev,4/5/1989,Austria,102.4,189,B+
+Ivan,McIntyre,10/31/1984,Belgium,75.1,186,A+
+Baillie,Ross,2/22/1981,Denmark,98.5,169,B+
+Vinícius,Cavalcanti,6/30/1980,Cyprus (Anglicized),64.6,179,O+
+Cotman,Noakes,5/15/1981,Brazil,66.5,67,A+
+Struan,Kerr,6/8/1983,Belgium,97.5,182,O+
+Ramiro,Sozonov,8/12/1992,Cyprus (Anglicized),65.7,181,A+
+Nicholas,Bowersox,4/29/1986,Belgium,101.4,170,O+
+Micah,McDonald,2/18/1984,Austria,63.4,188,A+
+Savely,Balabanov,12/12/1983,Cyprus (Anglicized),83.2,173,O-
+Leonardo,Lima,6/23/1990,Austria,95.0,186,A+
+Paramon,Biryukov,1/23/1997,Belgium,87.7,184,B+
+Alfred,Childs,10/10/1992,Czech Republic,100.0,185,B+
+Zinovy,Bobrov,6/15/1986,Czech Republic,68.8,187,A+
+Leonardo,Fernandes,12/9/1981,Canada,79.7,180,B+
+Kondrat,Kapustin,11/3/1984,Cyprus (Anglicized),96.6,179,AB+
+Bruno,Barros,12/3/1988,Czech Republic,107.7,180,O+
+Rohan,McKenzie,8/6/1980,Czech Republic,81.1,188,O+
+Jack,Walker,8/6/1994,Cyprus (Anglicized),53.1,171,A+
+Bruno,Grubb,9/11/1984,Czech Republic,46.4,86,O-
+Charles,Castaneda,5/31/1986,Belgium,78.7,187,B+
+William,Jones,8/14/1984,Canada,73.7,179,O+
+Edgar,Vasin,4/10/1988,Belgium,75.2,184,B+
+Kenneth,Roberts,5/21/1990,Brazil,102.2,187,O+
+Luke,Moore,3/4/1996,Austria,76.3,181,O+
+Herugar,Goodchild,11/5/1981,Cyprus (Anglicized),60.7,69,B+
+Lucas,Bocharov,5/14/1991,Austria,105.3,173,O+
+Nicodemus,Isayev,2/29/1996,Denmark,97.8,173,B+
+Jakub,Crawford,7/24/1987,Belgium,61.1,182,O+
+Renan,Gomes,11/11/1981,Austria,112.1,174,A+
+Adelard,Gamgee,7/18/1996,Cyprus (Anglicized),67.9,93,B+
+Ignat,Vagin,6/19/1994,Canada,99.9,186,A+
+Caio,Cavalcanti,1/24/1986,Austria,88.3,175,B+
+Rudibert,Chubb-Baggins,12/19/1980,Belgium,58.8,111,A+
+Sviatoslav,Bocharov,4/3/1988,Denmark,85.1,174,B+
+Cauã,Dias,6/6/1995,Canada,81.1,172,O+
+Ruaridh,Ritchie,6/26/1990,Cyprus (Anglicized),95.1,185,B+
+Arthur,Andreyev,6/25/1992,Canada,59.7,189,O+
+Hugh,McLean,7/23/1984,Cyprus (Anglicized),111.2,177,O-
+Ismail,Yevseyev,3/20/1985,Canada,61.6,182,B+
+Timur,Polyakov,8/11/1983,Brazil,99.3,179,B+
+Spiridon,Uspensky,3/27/1982,Cyprus (Anglicized),104.2,168,A+
+Crispus,Longhole,3/25/1980,Cyprus (Anglicized),61.1,89,O+
+Vitor,Almeida,7/10/1992,Brazil,108.4,169,A+
+Bandobras,Brownlock,2/9/1993,Brazil,63.7,71,B+
+Douglas,Bui,4/30/1993,Cyprus (Anglicized),66.0,183,A+
+Ronald,Hayes,9/20/1990,Denmark,84.8,168,O+
+Timothy,Golubev,8/1/1996,Cyprus (Anglicized),51.8,168,A+
+Rayyan,Duncan,7/24/1993,Canada,91.2,176,B+
+Pedro,Souza,2/2/1988,Denmark,65.4,180,O+
+Kristian,Milne,11/15/1985,Cyprus (Anglicized),101.9,190,B+
+Sawa,Kovalyov,11/11/1980,Denmark,67.6,174,B+
+Jared,Stewart,2/21/1983,Cyprus (Anglicized),94.6,170,A+
+Clark,Ross,7/18/1983,Czech Republic,85.5,186,B+
+Tiago,Rocha,10/28/1980,Czech Republic,103.4,187,O+
+Leonardo,White,2/11/1981,Austria,68.0,182,A+
+Luan,Lima,9/27/1987,Austria,80.2,181,O+
+Forbes,Fleming,8/10/1993,Brazil,86.7,178,O+
+Eduardo,Ribeiro,3/29/1991,Brazil,72.3,168,O+
+Klim,Uspensky,11/8/1988,Brazil,90.9,182,O+
+Terry,Barbosa,8/16/1981,Canada,83.4,168,A+
+Oscar,Zakharov,10/31/1978,Canada,86.3,178,O+
+Athanasius,Lavrentiev,7/27/1982,Cyprus (Anglicized),82.0,181,B-
+Arthur,McGregor,7/15/1990,Brazil,84.5,169,AB+
+Carlos,Carvalho,2/25/1993,Austria,61.9,177,A+
+Vladlen,Mishin,10/31/1991,Cyprus (Anglicized),81.4,189,O+
+Dmitry,Azarov,9/21/1989,Belgium,91.4,175,O+
+Vinícius,Azevedo,3/18/1982,Canada,77.8,175,A+
+Marco,Douglas,9/22/1980,Canada,66.2,186,A+
+Luís,Carvalho,1/25/1980,Austria,85.1,171,O+
+Jonathan,Padilla,11/17/1992,Belgium,56.7,174,B+
+Muslim,Sokolov,3/5/1997,Canada,49.6,165,B+
+Warren,Graham,8/23/1987,Cyprus (Anglicized),109.0,174,B+
+Derek,Landes,8/22/1988,Czech Republic,73.9,169,O-
+Luan,Silva,10/25/1995,Czech Republic,61.7,169,A-
+Arseny,Lazarev,3/20/1989,Denmark,67.4,170,O-
+Adelbert,Took-Brandybuck,1/2/1997,Denmark,67.9,88,A+
+Luan,Araujo,5/16/1997,Canada,56.4,167,O+
+Tolman,Burrows,11/3/1981,Cyprus (Anglicized),50.5,121,A+
+Otávio,Lima,12/5/1995,Canada,80.2,175,O+
+Alan,Hughes,12/26/1994,Denmark,87.9,190,O+
+Aydin,Thompson,1/15/1997,Czech Republic,68.9,173,B+
+Miguel,Alves,9/3/1988,Canada,106.3,178,O+
+Posco,Galbassi,9/16/1990,Canada,55.1,117,B+
+Ferumbras,Gammidge,3/15/1980,Austria,51.2,114,B+
+Julian,Ulyanov,6/9/1979,Czech Republic,104.9,183,O-
+Rice,Gorshkov,12/21/1991,Canada,94.4,178,A+
+Vitor,Souza,3/24/1997,Czech Republic,74.0,187,A+
+Kelvin,McIntosh,8/31/1981,Canada,62.6,172,O+
+Elliot,Duncan,2/27/1981,Austria,71.1,172,A+
+Isaiah,Belov,9/4/1995,Cyprus (Anglicized),80.1,178,O+
+Alex,Lima,8/10/1985,Canada,90.9,179,O+
+Merimac,Baggins,4/29/1987,Czech Republic,59.2,64,B+
+Erick,Cunha,9/1/1980,Cyprus (Anglicized),73.4,176,O+
+Ernest,Breeden,4/5/1997,Cyprus (Anglicized),74.7,177,B+
+Mohamed,Kennedy,6/8/1983,Austria,95.4,186,O+
+Antony,Watt,9/28/1981,Cyprus (Anglicized),107.3,174,B+
+Elfstan,Gawkroger,1/16/1985,Canada,56.2,112,B+
+Darren,Johnston,11/2/1995,Brazil,86.6,172,A+
+Belisarius,Clayhanger,8/21/1978,Austria,51.8,61,A+
+Marcus,McLean,8/14/1979,Austria,78.6,179,B+
+Stepan,Volkov,12/12/1988,Czech Republic,79.7,184,B+
+Marmaduc,Took-Brandybuck,12/21/1985,Czech Republic,65.3,113,O+
+Leon,Smith,3/28/1986,Cyprus (Anglicized),111.4,188,AB+
+Ricky,Madison,11/20/1989,Czech Republic,56.0,170,O+
+Elliott,Wilson,4/20/1979,Cyprus (Anglicized),68.8,182,B+
+Philip,Spencer,6/19/1994,Brazil,60.3,172,O+
+Avdei,Ponomarev,9/1/1992,Belgium,78.2,177,AB+
+Isaiah,Avdeyev,3/8/1979,Belgium,107.6,171,O+
+Fraser,Munro,1/5/1991,Austria,76.5,177,O+
+Obo,Noakes,2/14/1985,Denmark,66.7,105,O+
+Alex,Almeida,12/28/1989,Cyprus (Anglicized),59.6,187,O+
+Douglas,Goncalves,8/15/1996,Austria,54.0,176,A+
+Grant,Muller,9/6/1985,Cyprus (Anglicized),76.7,182,A+
+Blake,Duncan,2/5/1985,Belgium,100.3,178,A+
+Wilibald,Gaukrogers,7/14/1992,Cyprus (Anglicized),45.2,76,O+
+Andre,Zamora,10/8/1985,Czech Republic,107.5,172,O+
+Fraser,Kelly,9/3/1979,Cyprus (Anglicized),73.7,182,A-
+Gorbadoc,Goldworthy,8/12/1992,Canada,64.0,100,B+
+Christopher,McCraw,12/24/1990,Czech Republic,92.1,182,O+
+Gundolpho,Chubb-Baggins,8/29/1991,Austria,49.4,69,O-
+Tiago,Azevedo,10/15/1991,Brazil,97.8,185,O+
+Jayden,Shaw,10/5/1988,Czech Republic,109.3,179,A+
+Miguel,Dias,6/8/1978,Cyprus (Anglicized),110.9,173,A+
+Stanley,Griggs,9/11/1991,Cyprus (Anglicized),91.3,186,A+
+Aedan,Martin,6/23/1978,Brazil,109.0,176,O+
+Luke,Medvedev,7/3/1990,Brazil,90.7,178,O+
+Kaua,Silva,4/27/1992,Belgium,108.4,183,O+
+Samuel,Glazkov,2/4/1997,Belgium,69.7,164,O+
+Armen,Bezrukov,9/22/1978,Cyprus (Anglicized),96.4,174,B+
+Mitrofan,Demidov,9/6/1985,Czech Republic,83.0,179,O+
+Fredegar,Gaukrogers,10/6/1991,Belgium,46.3,106,O+
+Tommy,Johnstone,8/11/1989,Denmark,105.0,175,O-
+Vitór,Sousa,4/2/1995,Canada,95.3,165,O+
+Roman,Kharlamov,3/17/1987,Brazil,63.9,184,O+
+Edward,Krok,1/1/1990,Belgium,98.6,170,A+
+Cotman,Took-Took,7/18/1978,Czech Republic,55.7,117,O+
+Júlio,Cardoso,6/1/1984,Canada,110.5,181,O+
+Richard,Ransom,7/18/1982,Denmark,66.1,182,A-
+Marmadoc,Burrowes,10/18/1978,Cyprus (Anglicized),45.3,116,A-
+Chris,Brawley,2/21/1979,Cyprus (Anglicized),102.8,183,O+
+Murilo,Silva,9/22/1994,Austria,66.0,174,O+
+Michael,Reed,1/21/1986,Cyprus (Anglicized),101.9,173,O+
+Isaiah,Espinosa,6/30/1996,Cyprus (Anglicized),63.4,183,O-
+Alfred,Harris,4/14/1985,Denmark,66.9,183,A+
+Arseny,Efimov,5/31/1991,Cyprus (Anglicized),78.6,181,O+
+Gorbulas,Longhole,2/2/1985,Canada,47.9,88,A+
+José,Cunha,6/16/1981,Belgium,88.4,174,O+
+Miguel,Silva,5/2/1994,Cyprus (Anglicized),66.5,187,B+
+Colby,Russell,1/25/1992,Cyprus (Anglicized),65.4,174,O-
+Jaroslav,Evseyev,5/25/1996,Brazil,55.1,176,O+
+Pimen,Evseyev,2/7/1987,Canada,111.2,187,B+
+Paulo,Sousa,8/9/1988,Cyprus (Anglicized),67.4,188,A+
+Novel,Zaitsev,1/7/1997,Cyprus (Anglicized),75.2,170,O+
+Isaiah,Yefremov,4/28/1996,Canada,96.8,169,A+
+Obo,Took-Took,5/3/1993,Cyprus (Anglicized),47.5,99,A+
+Andwise,Greenhand,10/18/1996,Cyprus (Anglicized),45.8,64,A+
+Nicephorus,Woronoff,8/16/1995,Brazil,55.0,170,A+
+Samuel,Gomes,8/28/1995,Canada,77.5,171,O-
+José,Silva,11/6/1993,Canada,98.0,178,O+
+George,McGuire,2/7/1987,Austria,102.0,174,O+
+Muhammed,Fleming,6/17/1990,Cyprus (Anglicized),89.5,190,B+
+Jamal,Efremov,8/24/1989,Canada,57.0,188,B+
+Rory,Williamson,2/23/1988,Belgium,107.9,178,O+
+Kai,Cavalcanti,8/18/1986,Czech Republic,63.1,186,O+
+Nob,Sandheaver,7/18/1978,Cyprus (Anglicized),66.2,71,B+
+Oleg,Bazarov,3/17/1983,Cyprus (Anglicized),86.7,176,O+
+Davi,Melo,11/12/1987,Cyprus (Anglicized),68.3,173,AB+
+James,Bagby,11/25/1985,Austria,111.2,180,O+
+Timothy,Ignatyev,8/14/1984,Canada,88.9,178,O+
+Quinton,Lewis,9/8/1993,Cyprus (Anglicized),97.5,179,O+
+Alastair,Cunningham,3/19/1991,Belgium,99.8,175,O+
+Ravil,Anisimov,7/13/1986,Cyprus (Anglicized),84.1,176,A-
+Jaroslav,Bazarov,9/19/1994,Denmark,80.6,177,B+
+Mstislav,Golubev,12/3/1978,Belgium,112.7,187,O+
+Estevan,Souza,6/19/1980,Cyprus (Anglicized),74.5,188,A+
+Mateusz,Hughes,11/17/1993,Brazil,56.0,169,O+
+Barry,Deslauriers,12/23/1982,Belgium,92.3,184,O+
+Darrell,Jacobs,11/25/1988,Canada,75.9,190,O+
+Danilo,Ribeiro,1/5/1989,Cyprus (Anglicized),103.4,178,O+
+Kiran,Hay,12/29/1984,Belgium,87.3,185,O+
+Royce,Meyer,5/10/1980,Cyprus (Anglicized),67.0,171,A+
+Samson,Shubin,2/9/1989,Brazil,91.4,189,A-
+Brett,Gonzalez,11/29/1987,Belgium,92.2,189,O+
+Alfred,Reid,3/10/1991,Belgium,66.9,175,O+
+George,White,5/14/1983,Cyprus (Anglicized),97.2,176,A-
+Finley,Stevenson,1/11/1982,Belgium,103.6,184,A+
+Mitrofan,Golovanov,4/26/1992,Cyprus (Anglicized),64.8,175,O+
+Rinat,Izmailov,5/27/1983,Cyprus (Anglicized),62.1,190,A+
+William,Bacote,1/24/1994,Cyprus (Anglicized),83.9,172,A+
+Kye,Douglas,1/24/1989,Canada,79.5,182,B+
+Darren,Russell,7/15/1992,Denmark,82.2,177,B+
+Danny,Sinclair,7/24/1981,Cyprus (Anglicized),73.8,174,AB+
+Kerr,Graham,5/21/1987,Canada,67.5,186,B+
+Gruffo,Greenhand,5/11/1990,Austria,62.3,62,B+
+André,Pinto,10/14/1986,Brazil,62.7,187,B+
+Leonard,Gray,3/28/1987,Cyprus (Anglicized),96.0,168,A+
+Nicanor,Vinogradov,2/16/1990,Brazil,102.8,172,O+
+José,Cardoso,3/23/1993,Cyprus (Anglicized),98.5,177,B+
+Kaden,MacDonald,1/14/1991,Czech Republic,102.4,187,O+
+Nico,Johnston,4/2/1985,Czech Republic,103.1,188,O+
+Rice,Volkov,5/26/1986,Canada,92.0,180,O+
+Russell,Obrien,10/5/1991,Brazil,97.9,184,B+
+Damian,Vagin,11/15/1981,Cyprus (Anglicized),98.9,189,A+
+Ignat,Balashov,8/6/1983,Brazil,108.3,185,AB+
+Immanuel,Kalinin,9/13/1989,Cyprus (Anglicized),90.0,187,A-
+Marat,Yusupov,9/13/1996,Canada,56.7,177,O+
+Richard,Anderson,11/4/1994,Belgium,84.8,185,B+
+Marvin,Bell,12/2/1988,Brazil,76.6,182,O-
+Luiz,Fernandes,1/6/1989,Brazil,94.9,186,B+
+Julian,Araujo,3/9/1986,Belgium,67.8,181,O+
+Daniel,Avdeyev,8/30/1981,Belgium,113.4,172,O+
+Taras,Maslow,1/4/1988,Denmark,64.5,184,A+
+Fletcher,Wright,6/21/1978,Czech Republic,100.8,176,O+
+Guilherme,Araujo,9/18/1993,Canada,86.0,172,A+
+Marmaduke,Gawkroger,12/10/1979,Austria,45.8,62,B+
+James,Montgomery,1/24/1986,Austria,82.6,178,O+
+Mateus,Melo,11/8/1990,Belgium,78.6,186,B+
+Danny,Blair,6/29/1992,Canada,88.2,183,A+
+Matthew,Demott,5/1/1996,Belgium,90.2,189,B+
+Troy,Campbell,10/13/1982,Austria,85.6,172,A+
+Alexander,Kennedy,9/7/1987,Austria,99.0,190,A+
+Vadim,Gorbunov,10/26/1984,Cyprus (Anglicized),101.4,180,A+
+Ildar,Fomin,12/3/1988,Brazil,74.4,188,A+
+Paramon,Golubov,6/27/1988,Canada,60.1,182,O+
+Seraphim,Fokine,2/7/1995,Belgium,69.8,182,O+
+Eoin,Murray,10/3/1996,Czech Republic,88.6,167,A+
+Erick,Correia,7/21/1980,Belgium,86.6,184,A+
+Alex,Martins,6/17/1996,Czech Republic,83.2,168,B+
+Wendell,Pettway,8/26/1979,Canada,66.1,171,O+
+Rostislav,Zuyev,5/28/1983,Belgium,65.8,174,B+
+Gringamor,Chubb,11/23/1989,Belgium,49.3,84,O+
+Blasius,Maslow,6/18/1985,Austria,67.5,180,B+
+Magnus,Proudfoot,10/15/1989,Brazil,48.9,88,O+
+Angel,McGuire,5/10/1980,Canada,78.8,179,B+
+Bladud,Goldworthy,8/8/1981,Austria,50.7,72,O+
+Benjamin,Estevez,7/19/1981,Austria,63.2,176,O+
+Calvin,Johnston,7/9/1986,Cyprus (Anglicized),86.4,178,O+
+Sean,Bradley,9/22/1991,Canada,63.4,182,A+
+Thomas,Abramovich,12/26/1978,Belgium,89.6,177,O+
+Jeffry,Adams,2/4/1993,Brazil,109.1,168,A+
+Gormadoc,Tûk,2/7/1982,Belgium,45.5,121,B+
+Scott,Martin,3/31/1991,Brazil,82.1,181,A+
+Cottar,Galbassi,2/14/1993,Brazil,60.7,61,A+
+João,Silva,6/14/1991,Cyprus (Anglicized),67.7,168,B-
+Miguel,Sousa,11/8/1982,Denmark,75.3,170,A+
+Erick,Collins,1/20/1980,Belgium,62.3,172,B+
+Daniel,Wadley,2/17/1983,Czech Republic,93.1,178,O+
+Tolman,Smallburrow,12/15/1990,Brazil,50.4,70,B-
+Ellis,Duncan,7/9/1992,Brazil,62.2,187,O+
+Roman,Bogdanov,4/17/1989,Czech Republic,61.4,187,B-
+Harry,Scruggs,2/16/1989,Austria,109.8,175,A-
+Leo,Evseev,7/5/1986,Denmark,105.8,178,O+
+Miroslav,Evseev,3/11/1994,Austria,70.4,168,A-
+Samwise,Gardner,4/15/1982,Brazil,55.9,67,AB+
+Andrew,Huston,12/23/1984,Czech Republic,77.6,173,B-
+Manuel,Marsala,9/13/1983,Denmark,61.8,169,O+
+Sonny,McKay,1/19/1988,Brazil,68.7,186,O+
+Aaron,Colburn,7/5/1981,Czech Republic,109.2,175,O+
+Curtis,Southern,1/25/1996,Canada,69.7,177,A+
+Priamus,Clayhanger,2/16/1983,Brazil,60.9,82,A+
+Devin,Liddell,1/4/1994,Cyprus (Anglicized),80.0,181,B+
+Uffo,Brown,3/25/1990,Cyprus (Anglicized),59.4,83,O+
+Vitor,Pereira,1/3/1997,Cyprus (Anglicized),92.8,168,O+
+Carlos,Melo,10/9/1981,Brazil,82.1,185,O+
+Robert,Gainey,10/14/1987,Czech Republic,91.2,181,A+
+Zac,McMillan,10/13/1980,Cyprus (Anglicized),69.9,168,O-
+Richard,Franklin,1/12/1992,Austria,59.7,185,B+
+Johnny,Donaldson,12/7/1984,Cyprus (Anglicized),79.5,181,AB+
+Aran,Thomson,12/19/1982,Brazil,94.8,182,O+
+Nahum,Fokine,10/2/1978,Canada,113.1,171,O+
+Adelgrim,Grubb,2/5/1994,Czech Republic,62.6,113,B-
+Ruslan,Voronoff,5/3/1993,Cyprus (Anglicized),71.3,177,AB+
+Arthur,Degtyaryov,9/20/1984,Cyprus (Anglicized),83.3,177,O+
+Renan,Araujo,9/17/1984,Czech Republic,102.0,168,O+
+Hobson,Hogpen,5/16/1985,Canada,47.6,111,A+
+Jose,Juarez,10/4/1985,Canada,90.8,183,A+
+David,Marshall,5/25/1985,Czech Republic,69.9,182,B+
+Lucas,Ferreira,12/28/1983,Cyprus (Anglicized),84.8,178,O-
+Breno,Melo,5/30/1993,Cyprus (Anglicized),104.9,188,O+
+Matthew,Terry,12/31/1990,Denmark,102.9,174,O+
+Fulvus,Brandybuck,6/12/1984,Denmark,48.2,61,A+
+Ruslan,Kozlov,8/11/1990,Cyprus (Anglicized),77.4,190,O+
+Ivan,Butusov,11/8/1992,Cyprus (Anglicized),70.0,173,B+
+Adam,Nevzorov,12/10/1982,Cyprus (Anglicized),83.6,185,A+
+Felix,Anderson,6/15/1984,Czech Republic,110.8,187,B+
+Harold,Mathews,6/12/1993,Denmark,91.6,168,A+
+Artem,Alexandrov,2/15/1992,Belgium,75.9,174,O+
+Gary,Salter,10/1/1988,Denmark,106.3,188,A+
+Edward,Averyanov,6/22/1979,Czech Republic,87.1,170,A+
+Gundabald,Labingi,3/30/1983,Cyprus (Anglicized),59.9,108,O+
+Togo,Baggins,8/22/1979,Czech Republic,56.8,121,A+
+Kauan,Ribeiro,6/29/1986,Cyprus (Anglicized),81.5,178,O-
+Bildad,Mugwort,6/2/1985,Canada,46.8,70,B+
+Roman,Fleming,6/30/1995,Cyprus (Anglicized),86.5,167,A+
+Blanco,Maggot,11/27/1982,Cyprus (Anglicized),66.2,79,B+
+Plato,Bykov,6/12/1987,Czech Republic,69.6,173,O+
+Prokhor,Lavrentiev,10/1/1990,Austria,68.0,176,B+
+Jacob,Voronkov,11/16/1987,Denmark,70.6,188,AB+
+Murilo,Fernandes,4/2/1992,Canada,78.0,168,B+
+Alex,Hill,7/16/1987,Czech Republic,79.9,180,O+
+Leo,Smith,7/11/1984,Czech Republic,64.3,177,O+
+Vitor,Oliveira,5/25/1996,Austria,86.5,183,O+
+Lawrence,Baxter,11/11/1992,Austria,107.1,186,B+
+Jack,Cain,5/14/1994,Czech Republic,76.3,164,B+
+Yaroslav,Yegorov,1/16/1996,Canada,74.4,164,B+
+Leo,Kovalyov,10/14/1994,Brazil,65.3,170,O+
+Habaccuc,Bracegirdle,10/31/1991,Czech Republic,45.7,70,AB+
+Ravil,Boholyubov,9/8/1994,Czech Republic,79.8,178,O+
+Prokhor,Tretyakov,6/14/1980,Belgium,111.1,190,B+
+Constantine,Zhdanov,11/16/1978,Austria,73.3,188,A-
+Tim,Parker,4/23/1994,Cyprus (Anglicized),82.5,178,AB+
+James,Sanders,9/19/1988,Czech Republic,99.7,172,B+
+Jaroslav,Ibrahimov,10/22/1984,Denmark,80.3,168,O+
+Carambo,Chubb-Baggins,5/28/1984,Denmark,52.5,96,A+
+Bildad,Brownlock,8/21/1991,Belgium,65.1,116,AB+
+Archie,Watson,4/20/1988,Czech Republic,84.6,187,A-
+Doderic,Bolger-Baggins,10/30/1995,Cyprus (Anglicized),53.8,61,A+
+Artem,Muravyov,10/25/1993,Cyprus (Anglicized),77.7,177,AB+
+Victor,Baryshnikov,3/3/1993,Canada,77.4,169,O+
+Pedro,Barros,8/24/1996,Canada,76.4,178,A+
+Adelard,Burrows,9/17/1985,Brazil,51.6,107,A+
+Charlie,Simpson,4/3/1993,Canada,85.7,190,O+
+Jaromir,Ponomarev,11/7/1978,Canada,67.5,168,A+
+Prospero,Noakes,1/17/1983,Czech Republic,51.5,67,A+
+Patryk,Young,6/15/1995,Belgium,96.8,179,O+
+Odo,Hornblower,9/18/1984,Austria,47.2,70,A+
+Nazar,Demidov,4/11/1989,Austria,61.5,186,A-
+Kauã,Carvalho,2/14/1980,Belgium,91.6,173,O+
+Seraphim,Boholyubov,7/12/1989,Austria,64.5,172,B+
+Lynn,Steinbeck,4/20/1990,Czech Republic,62.5,189,O+
+Estevan,Ribeiro,12/29/1995,Canada,57.8,175,A+
+Colby,Walker,1/14/1990,Czech Republic,72.9,186,O+
+James,Carr,9/3/1981,Canada,71.3,190,B+
+Boris,Voronoff,11/30/1984,Canada,100.4,181,B+
+Cody,Fleming,7/31/1983,Austria,81.6,188,A+
+André,Fernandes,10/9/1990,Denmark,87.4,179,B+
+Vinicius,Ribeiro,7/6/1988,Cyprus (Anglicized),99.3,187,O+
+Posco,Banks,9/6/1985,Brazil,66.5,62,O+
+Arseny,Vinogradov,4/20/1990,Brazil,65.5,171,O+
+Basso,Proudfoot,7/11/1980,Denmark,48.3,90,O+
+Ephraim,Vagin,10/18/1994,Denmark,60.9,170,O+
+Seth,Shaw,12/22/1984,Belgium,62.8,181,O+
+John,Torres,5/4/1979,Cyprus (Anglicized),96.5,179,B+
+Thiago,Pinto,4/27/1988,Denmark,100.1,175,A+
+Aydin,Watt,12/7/1985,Brazil,95.3,169,B+
+Tomás,Ferreira,1/13/1990,Belgium,79.1,182,AB+
+Theobald,Button,7/28/1990,Cyprus (Anglicized),58.0,87,O+
+Nikon,Alexeeva,10/6/1981,Cyprus (Anglicized),66.0,172,O+
+William,Owens,3/12/1980,Brazil,94.2,180,A+
+Lazarus,Kudryashov,2/22/1997,Austria,52.6,172,B+
+Thiago,Sousa,4/15/1987,Canada,75.8,170,O+
+Miroslav,Fyodorov,9/1/1978,Brazil,75.2,169,O+
+Patryk,Wilson,11/20/1996,Cyprus (Anglicized),80.9,161,B+
+Richard,Duncan,1/20/1983,Czech Republic,75.5,173,B+
+Ferdinand,Longhole,8/22/1978,Brazil,55.3,100,O-
+Diego,Correia,9/3/1984,Canada,94.7,177,O+
+Gustavo,Ferreira,5/6/1994,Brazil,73.3,164,A+
+Michael,Cook,10/23/1993,Canada,74.0,185,AB-
+William,Frantz,9/3/1988,Cyprus (Anglicized),56.9,169,A+
+David,Baranov,5/8/1992,Cyprus (Anglicized),56.8,175,B+
+Otho,Longhole,2/13/1985,Czech Republic,66.6,84,B+
+Musa,Findlay,12/25/1981,Austria,77.2,175,O-
+Shawn,Grayson,4/21/1979,Canada,91.4,173,B+
+Ivan,Shaw,12/13/1994,Austria,77.3,169,B+
+Miguel,Barros,4/21/1979,Brazil,75.7,187,B+
+Simon,Moore,6/5/1995,Canada,96.3,163,B+
+Plato,Yevseyev,1/21/1995,Canada,99.6,187,A+
+Orlando,Bolger,4/2/1997,Austria,58.7,78,O+
+Jacob,Huber,6/7/1980,Belgium,77.1,172,O+
+Júlio,Pereira,10/11/1989,Czech Republic,64.4,190,O+
+Hending,Gamgee,7/2/1992,Cyprus (Anglicized),45.1,79,O-
+Gorbaduc,Fairbairn,3/30/1997,Austria,51.6,63,A+
+Anas,Campbell,12/5/1992,Cyprus (Anglicized),96.1,168,B+
+Elijah,Muir,4/26/1985,Brazil,61.1,184,O+
+Martim,Almeida,9/18/1980,Cyprus (Anglicized),66.1,180,A+
+Valentine,Isayev,5/16/1989,Canada,99.3,186,B+
+Donald,Christiansen,7/9/1983,Cyprus (Anglicized),108.5,183,O+
+Kai,Goncalves,11/30/1980,Austria,90.1,170,B+
+Rashid,Anisimov,7/4/1991,Austria,69.1,173,A+
+Fastred,Fairbairn,7/5/1988,Czech Republic,54.4,103,B+
+Hamza,Simpson,6/22/1988,Canada,66.5,188,A+
+Caelan,Cunningham,10/12/1988,Cyprus (Anglicized),86.4,189,B+
+Miguel,Varner,2/8/1982,Canada,95.1,172,B+
+Goodwill,Brownlock,10/3/1994,Belgium,54.1,94,B+
+Russell,Nunn,8/23/1991,Denmark,59.4,188,A-
+Michael,Rickard,5/14/1984,Cyprus (Anglicized),106.4,178,A+
+Yuri,Kolesnikov,2/28/1994,Cyprus (Anglicized),86.4,176,B+
+Murilo,Cardoso,11/16/1986,Belgium,104.6,176,O+
+Robert,Kelso,12/8/1987,Cyprus (Anglicized),94.6,172,A+
+Tiago,Barbosa,6/22/1979,Austria,86.7,170,B+
+Kane,Wallace,7/21/1992,Brazil,68.3,169,B+
+Hamish,Morrison,1/25/1990,Canada,88.7,184,AB+
+Vsevolod,Sozonov,5/19/1987,Denmark,61.3,189,B+
+David,Roberts,7/28/1994,Canada,72.6,171,O+
+Boris,Ponomaryov,11/12/1983,Cyprus (Anglicized),74.4,176,O-
+Luís,Alves,5/21/1983,Denmark,68.0,180,O+
+Vitor,Almeida,6/2/1985,Belgium,106.5,176,A-
+Caio,Lima,9/8/1978,Cyprus (Anglicized),73.4,175,B-
+Joseph,Chang,5/25/1989,Cyprus (Anglicized),60.2,167,O+
+Herman,Hudson,11/5/1987,Canada,89.6,177,AB+
+Richard,Smith,6/2/1995,Denmark,72.5,183,O+
+Diogo,Ribeiro,2/21/1988,Canada,86.1,187,O+
+Diego,Almeida,6/29/1986,Cyprus (Anglicized),92.2,189,B+
+Nahum,Frolov,5/10/1993,Canada,57.6,168,A+
+Luiz,Martins,8/19/1992,Czech Republic,99.1,181,O+
+Gorbaduc,Brown,5/21/1989,Cyprus (Anglicized),62.3,71,O+
+Walter,Butler,9/6/1989,Denmark,59.3,170,A+
+Kenneth,Pursley,1/25/1980,Denmark,80.6,185,O+
+Keith,Mullins,10/5/1993,Czech Republic,61.4,176,B+
+Jason,Rogers,9/6/1981,Austria,64.7,169,B+
+Lyle,Seltzer,3/24/1989,Cyprus (Anglicized),80.2,168,B+
+Davi,Alves,4/15/1979,Cyprus (Anglicized),63.7,175,A+
+André,Martins,2/4/1996,Cyprus (Anglicized),57.4,184,O+
+Paul,Hay,12/12/1993,Belgium,93.6,175,O-
+Mike,Kent,9/15/1996,Denmark,57.6,169,O+
+Ferumbras,Zaragamba,11/10/1990,Cyprus (Anglicized),56.0,115,A+
+Hob,Tûk,6/19/1980,Austria,51.6,121,O+
+Kauã,Sousa,2/27/1993,Canada,68.7,176,A+
+Sancho,Hogpen,12/31/1994,Denmark,62.8,95,O+
+Kauê,Fernandes,5/29/1980,Austria,92.1,184,O+
+Douglas,Ferreira,7/9/1988,Cyprus (Anglicized),105.5,172,A+
+Pedro,Carvalho,7/16/1979,Brazil,72.2,190,A+
+Porro,Headstrong,10/27/1979,Belgium,48.0,114,B+
+Jaden,Johnston,4/2/1989,Cyprus (Anglicized),108.5,185,B+
+Damian,Glazkov,12/24/1979,Czech Republic,109.3,190,A+
+Kaua,Santos,11/17/1980,Belgium,94.5,189,B+
+Ismail,Vinogradov,12/4/1983,Cyprus (Anglicized),68.5,185,AB+
+Michael,Taul,1/30/1990,Denmark,89.7,180,O+
+Vitór,Correia,6/13/1980,Austria,66.7,182,A-
+Dexter,Hill,10/9/1993,Austria,66.3,185,O+
+José,Correia,9/5/1995,Denmark,92.7,189,O+
+Dorofei,Loginov,6/25/1991,Cyprus (Anglicized),77.2,180,B+
+Renan,Melo,6/21/1994,Czech Republic,70.0,190,AB+
+Francis,Brown,12/14/1987,Denmark,101.7,185,B+
+Matthew,Watson,9/6/1991,Canada,107.6,190,O+
+Felipe,Gomes,7/8/1995,Czech Republic,61.8,187,O+
+Emil,Yermolayev,5/7/1979,Cyprus (Anglicized),71.3,179,O+
+Benjamin,McNaughton,9/25/1993,Belgium,60.6,175,B+
+Carlos,Cardoso,8/26/1980,Canada,90.6,180,A+
+Luka,Ross,10/10/1995,Belgium,67.9,182,A+
+Jeffrey,Torres,6/10/1993,Brazil,64.7,182,O+
+Craig,Johnstone,3/15/1979,Denmark,110.9,178,O+
+Scudamor,Brownlock,2/23/1996,Cyprus (Anglicized),65.4,68,B+
+Sergio,Wilson,4/19/1979,Canada,98.7,187,B+
+Connor,Simpson,11/10/1981,Canada,102.8,172,O+
+Magnus,Oldbuck,5/2/1989,Belgium,65.9,63,O-
+Karl,Ganz,1/20/1985,Cyprus (Anglicized),79.3,190,O+
+Simon,Jamieson,3/4/1993,Canada,63.5,170,O+
+Innocent,Alexeeva,6/18/1984,Brazil,97.1,184,B+
+Tomás,Carvalho,6/18/1994,Canada,72.0,190,A+
+Drogo,Headstrong,9/30/1985,Canada,67.8,107,A+
+Borislav,Shcherbakov,11/4/1995,Denmark,53.8,185,O-
+Jonathan,Scott,9/15/1989,Brazil,93.2,180,B+
+Yaropolk,Alekseeva,8/29/1984,Denmark,71.8,172,O+
+Alaric,Baggins,5/13/1979,Belgium,67.4,116,O+
+Timur,Ponomaryov,3/27/1984,Belgium,67.5,170,A-
+Edward,Graham,9/6/1994,Denmark,77.6,178,O+
+Banazir,Goldworthy,6/1/1982,Austria,53.0,83,O-
+Ahmad,Campbell,8/21/1985,Cyprus (Anglicized),79.7,178,B-
+José,Oliveira,8/20/1996,Czech Republic,81.9,176,O+
+Aleksander,Kerr,3/29/1979,Cyprus (Anglicized),92.0,168,A+
+Sean,Miller,3/4/1994,Austria,54.9,173,B+
+Kai,Sousa,10/25/1981,Denmark,84.9,177,O+
+Keir,Gibson,11/9/1989,Denmark,69.7,182,A+
+Celedor,Banks,10/1/1982,Denmark,55.6,73,A+
+Felipe,Santos,4/14/1997,Czech Republic,52.4,184,B+
+Jak,McGregor,11/20/1980,Belgium,76.1,175,B+
+Meneaduc,Bracegirdle,11/9/1982,Austria,57.6,85,AB+
+Milo,Proudfoot,11/19/1994,Austria,64.6,102,A+
+Klim,Izmailov,3/19/1980,Belgium,93.0,169,A+
+Vitor,Martins,11/12/1993,Denmark,90.5,167,B+
+Arthur,Oliveira,3/13/1995,Denmark,99.9,169,O+
+Hugo,McDonald,8/22/1984,Denmark,84.3,183,O+
+Joseph,Burns,3/28/1987,Cyprus (Anglicized),108.9,188,B+
+Daniel,Melo,1/29/1988,Cyprus (Anglicized),92.3,171,B+
+Oles,Volodin,4/15/1996,Belgium,61.3,175,A+
+Kelly,Hunt,8/8/1990,Cyprus (Anglicized),62.0,190,B+
+Athanaric,Hayward,7/26/1983,Czech Republic,64.6,82,A+
+Jesse,Aitken,8/23/1985,Belgium,73.1,190,B+
+Nathan,Ratner,4/8/1986,Canada,73.6,190,O-
+Rodion,Kovalyov,6/30/1992,Cyprus (Anglicized),67.8,179,O+
+George,Neal,3/9/1983,Czech Republic,90.4,173,O+
+Bodo,Brandagamba,4/4/1982,Czech Republic,50.0,107,O-
+Rodrigo,Lima,3/11/1990,Belgium,87.1,184,A+
+Hildigard,Zaragamba,6/24/1996,Austria,61.6,98,O+
+Enzo,Ribeiro,2/27/1982,Brazil,112.4,180,O+
+Robert,Fuqua,6/2/1988,Cyprus (Anglicized),75.9,175,A+
+Ernie,Morales,7/12/1989,Czech Republic,84.2,181,A+
+Davi,Santos,1/25/1987,Brazil,61.1,182,B+
+Spiridon,Muravyov,9/3/1993,Cyprus (Anglicized),75.2,171,B+
+Lennox,McKay,5/9/1982,Denmark,105.5,168,O+
+Kaua,Barros,7/10/1982,Denmark,65.9,171,O+
+Cailean,Wright,10/12/1983,Belgium,93.9,183,A+
+Luís,Cardoso,10/7/1988,Belgium,71.9,174,O+
+Grossman,Brandagamba,6/30/1991,Denmark,63.7,114,O+
+Luiz,Correia,4/10/1987,Belgium,78.8,185,AB+
+Luan,Costa,8/27/1989,Canada,97.9,188,B+
+Kauã,Barbosa,2/2/1991,Austria,75.4,190,A-
+Paul,Saulter,5/4/1980,Canada,73.8,179,O+
+Felipe,Costa,6/24/1987,Belgium,68.5,168,O-
+Joe,Wells,12/16/1992,Cyprus (Anglicized),82.9,184,B+
+Cameron,Swanson,12/6/1984,Brazil,62.3,174,AB+
+Kondrat,Maslov,8/6/1992,Denmark,62.4,179,A+
+Thiago,Rodrigues,8/6/1982,Brazil,98.5,188,O-
+Bildat,Rumble,7/24/1990,Austria,61.6,64,O+
+Louis,Huff,4/11/1993,Cyprus (Anglicized),88.9,188,A+
+Leonardo,Barros,11/24/1987,Denmark,62.0,187,B+
+David,Gagne,4/19/1984,Brazil,90.5,186,A+
+Renan,Gomes,9/4/1995,Austria,55.1,181,AB+
+Bruno,Alves,8/25/1981,Canada,68.8,176,O+
+Adelbert,Goodchild,7/10/1988,Canada,61.5,92,O+
+Michael,Herrera,3/23/1982,Austria,113.0,185,A+
+Merimas,Brownlock,8/25/1991,Brazil,57.1,98,A+
+Robert,Seleznev,11/16/1983,Denmark,73.3,177,B+
+Pedro,Cardoso,3/14/1991,Belgium,102.2,182,B+
+Joseph,Espinoza,6/15/1993,Austria,73.6,168,O+
+Eduardo,Cardoso,10/29/1992,Czech Republic,72.3,190,B+
+José,Cavalcanti,4/16/1995,Canada,73.2,164,O+
+Cory,Jones,2/2/1983,Austria,70.4,182,O+
+Freddie,Duncan,4/24/1987,Czech Republic,72.6,173,B+
+Júlio,Almeida,7/9/1988,Austria,108.9,188,A+
+Derek,Dayton,7/21/1992,Canada,106.2,181,A+
+Matheus,Ferreira,10/18/1978,Canada,102.1,181,A+
+Ibrahim,Anderson,9/1/1982,Brazil,81.4,176,B+
+Marcho,Diggle,8/23/1988,Czech Republic,61.4,95,A-
+Miguel,Kearns,2/10/1979,Brazil,106.5,171,A+
+Rostislav,Yuriev,10/14/1989,Austria,59.4,190,B+
+Nail,Uvarov,12/31/1984,Austria,64.7,171,O+
+Troy,Ferguson,2/20/1994,Cyprus (Anglicized),84.3,173,O+
+Hilarion,Ponomarev,11/28/1985,Cyprus (Anglicized),103.2,179,B+
+Rice,Tretyakov,10/30/1978,Brazil,65.8,174,O+
+Filip,Cunningham,10/6/1994,Brazil,70.3,170,O+
+Danilo,Rodrigues,11/5/1979,Brazil,92.3,189,B+
+Lawrence,Avdeev,10/3/1978,Denmark,100.3,180,A+
+Jason,Routh,1/4/1983,Brazil,87.1,169,B-
+Keiran,King,2/3/1986,Belgium,92.5,171,AB+
+David,Booher,1/14/1991,Brazil,101.0,190,O+
+Bruno,Lima,1/21/1986,Cyprus (Anglicized),90.5,185,A+
+Luís,Cavalcanti,11/11/1994,Belgium,88.8,187,O+
+Sebastian,Thomson,10/28/1985,Denmark,61.1,168,AB+
+Carlos,Rodrigues,5/31/1983,Czech Republic,103.3,175,A+
+Zakir,Azarov,4/19/1997,Belgium,87.5,183,B+
+Rustam,Fedorov,3/8/1982,Belgium,79.0,189,B+
+Luan,Fernandes,10/30/1980,Brazil,113.1,190,A-
+Vyacheslav,Fyodorov,9/20/1980,Austria,74.2,182,O+
+Paramon,Sozonov,11/25/1981,Austria,87.3,189,AB-
+Bartosz,McKay,4/24/1980,Brazil,89.7,183,B+
+Lotho,Hayward,1/11/1984,Canada,48.4,79,B+
+Julius,Golubov,10/11/1993,Brazil,83.9,171,O+
+Jose,Janssen,3/23/1990,Belgium,77.6,178,O+
+Paul,Franks,1/20/1997,Austria,60.7,169,A+
+Sviatoslav,Voronov,2/26/1981,Austria,67.0,187,A+
+Vsevolod,Bykov,5/31/1993,Belgium,97.1,188,A+
+Marcos,Oliveira,4/26/1984,Canada,88.1,178,B+
+Daniel,Aliyev,4/11/1991,Denmark,60.1,174,O+
+Scudamor,Baggins,9/8/1983,Denmark,54.3,91,AB+
+Lauchlan,Ritchie,5/18/1992,Brazil,59.7,170,O+
+Dwayne,Abrams,3/10/1996,Belgium,89.5,185,O+
+Frazer,McIntyre,7/27/1982,Cyprus (Anglicized),80.7,178,B+
+Donald,Watson,3/26/1980,Austria,97.6,180,B+
+Joseph,Lavrentiev,3/23/1987,Czech Republic,64.7,173,A+
+Ephraim,Avdeev,12/3/1994,Austria,87.7,190,O+
+Caio,Rocha,3/19/1987,Czech Republic,60.7,184,B+
+Kauan,Sousa,5/7/1982,Canada,86.7,186,O-
+Isengrim,Banks,9/25/1982,Denmark,50.6,83,B+
+Bartosz,Mackay,3/11/1985,Cyprus (Anglicized),84.2,181,B+
+Vadim,Kozlov,12/24/1996,Austria,63.9,175,A+
+David,Long,9/8/1984,Cyprus (Anglicized),88.7,183,O+
+Donald,Clark,1/7/1986,Denmark,78.1,182,O+
+Elisha,Seleznev,6/27/1989,Cyprus (Anglicized),100.9,187,O+
+Igor,Cunha,6/16/1996,Cyprus (Anglicized),82.9,172,O+
+Pimen,Krylov,6/13/1988,Denmark,104.8,190,B+
+Nicolash,Ferreira,9/29/1986,Czech Republic,102.8,168,A+
+Vitor,Sousa,5/30/1995,Cyprus (Anglicized),77.9,175,O+
+Adelgrim,Fairbairn,12/27/1978,Belgium,50.9,62,A+
+Robin,Headstrong,8/26/1988,Denmark,57.3,104,A+
+Celedor,Burrows,8/5/1981,Cyprus (Anglicized),51.2,70,A+
+John,Hartsell,12/2/1996,Czech Republic,84.3,165,O+
+Nibs,Roper,7/3/1988,Cyprus (Anglicized),47.5,96,A+
+Craig,Sweet,2/15/1997,Brazil,78.8,168,O+
+Lucas,Walker,4/16/1981,Czech Republic,88.5,182,B+
+Hamfast,Brockhouse,9/23/1988,Brazil,59.3,103,O+
+James,Cowan,12/9/1987,Cyprus (Anglicized),80.7,185,O+
+Rafael,Araujo,10/8/1986,Cyprus (Anglicized),71.9,189,B+
+Mosco,Proudfoot,4/14/1989,Czech Republic,65.9,85,O+
+Ted,Baggins,7/10/1979,Cyprus (Anglicized),58.3,121,O+
+Sviatoslav,Krylov,12/29/1990,Brazil,103.9,179,O+
+Davi,Correia,3/25/1991,Cyprus (Anglicized),96.4,177,B+
+Willie,Perry,12/17/1981,Cyprus (Anglicized),81.1,177,A+
+Joseph,Baranov,7/22/1983,Belgium,105.6,190,A+
+Andrew,Pereira,12/16/1980,Denmark,105.2,168,O+
+Martin,Jenkins,6/11/1996,Denmark,58.4,179,B+
+Marco,Sandyman,7/28/1990,Brazil,64.1,114,O+
+Ruari,Hunter,7/27/1979,Cyprus (Anglicized),89.9,173,O+
+Razanur,Clayhanger,10/7/1993,Canada,52.6,93,A+
+Zossima,Gorbunov,6/1/1979,Brazil,109.2,169,A+
+Gustavo,Almeida,1/28/1989,Austria,103.6,190,O+
+Bartosz,Watt,1/22/1982,Belgium,62.1,185,O+
+Andrew,Izmaylov,12/3/1996,Denmark,51.3,161,O+
+Dementi,Belov,3/13/1985,Austria,91.9,185,O+
+Nicephorus,Tretiakov,8/2/1984,Cyprus (Anglicized),63.0,171,A+
+Pedro,Araujo,2/21/1991,Cyprus (Anglicized),99.1,184,O+
+Daryl,Wallace,8/27/1978,Austria,93.8,183,A+
+Cerdic,Tûk,8/15/1978,Denmark,55.4,62,O+
+Jerry,Scott,3/30/1984,Canada,102.1,168,A+
+Elijah,Gordon,11/2/1982,Brazil,73.6,186,B+
+Largo,Noakes,9/9/1990,Cyprus (Anglicized),62.9,113,B+
+Kristian,Fleming,3/21/1994,Denmark,88.2,187,O+
+Shane,Reid,1/27/1991,Belgium,95.3,174,B+
+Gregory,Yevseyev,2/5/1981,Cyprus (Anglicized),68.0,175,A+
+Muhammed,Fraser,7/16/1978,Brazil,90.9,168,B+
+Julian,Barros,12/22/1991,Cyprus (Anglicized),63.2,184,A+
+Caio,Ribeiro,12/26/1989,Czech Republic,68.5,183,B+
+Dorofei,Alekseyeva,7/1/1995,Austria,71.7,189,O-
+Holman,Rumble,8/26/1989,Canada,56.9,81,A+
+Zander,Hill,11/23/1993,Denmark,97.1,187,O+
+Alex,Aksyonov,11/4/1984,Brazil,82.2,186,O+
+Joseph,Moreau,6/17/1995,Czech Republic,59.7,179,AB+
+Marmadoc,Gardner,6/29/1994,Brazil,59.7,79,AB+
+Boris,Ponomaryov,12/4/1995,Cyprus (Anglicized),92.4,164,A+
+Hasan,Clark,4/27/1990,Belgium,85.2,172,O+
+Philemon,Belousov,11/11/1991,Czech Republic,83.4,170,A+
+Ivan,Maclean,1/17/1981,Czech Republic,75.4,181,B+
+Matheus,Barbosa,5/25/1987,Austria,79.9,171,A-
+Kauã,Barros,4/28/1987,Belgium,105.2,183,O+
+Flynn,McMillan,7/19/1988,Czech Republic,82.3,183,A+
+Paulo,Rocha,3/31/1985,Cyprus (Anglicized),95.6,186,A+
+Nahum,Yegorov,12/19/1986,Czech Republic,90.1,176,O+
+Casey,Munro,9/6/1985,Belgium,66.6,171,O+
+Timur,Lazarev,5/6/1984,Belgium,77.5,186,B+
+Theodore,Bruce,1/14/1983,Austria,79.5,178,B+
+Odovacar,Rumble,2/18/1989,Cyprus (Anglicized),57.5,69,AB+
+Kuzma,Volkov,5/4/1992,Cyprus (Anglicized),81.0,171,B+
+John,Armijo,3/12/1989,Cyprus (Anglicized),103.6,186,A+
+Derek,Collins,3/21/1983,Czech Republic,75.0,182,B+
+Nathan,Lewis,2/6/1990,Austria,83.5,179,O+
+Isengar,Puddifoot,8/28/1987,Belgium,58.7,119,O+
+Orgulas,Headstrong,7/7/1987,Denmark,63.4,73,A+
+Edward,Sevilla,11/20/1980,Brazil,89.8,173,O+
+Garry,Kennedy,6/1/1982,Czech Republic,110.6,175,O+
+Dennis,Isayev,8/14/1989,Denmark,70.3,185,A+
+Nikita,Vasin,9/8/1993,Cyprus (Anglicized),96.6,178,B+
+Ferdinand,Boffin,3/21/1996,Brazil,64.1,80,B+
+Stanley,McMillan,8/24/1979,Cyprus (Anglicized),63.0,179,B+
+Jakob,Wallace,6/11/1992,Cyprus (Anglicized),108.6,171,O+
+Ronald,Chamberlain,12/1/1990,Cyprus (Anglicized),72.0,167,A+
+Rex,Boyd,2/12/1984,Cyprus (Anglicized),66.9,187,O+
+Charles,Cook,7/15/1995,Czech Republic,93.6,171,O+
+Lewis,Smith,11/19/1980,Czech Republic,97.7,179,B+
+Ceredic,Diggle,12/8/1978,Brazil,60.8,75,O+
+Lauren,Schick,7/8/1989,Czech Republic,72.4,168,B+
+Agustin,Greig,10/25/1989,Canada,64.2,169,O+
+Roan,Johnston,6/23/1978,Austria,93.8,186,A+
+Rowan,Fraser,9/29/1991,Austria,65.5,167,B+
+Daniel,Cunha,2/5/1987,Czech Republic,111.2,169,A+
+Cillian,Christie,3/3/1985,Belgium,76.2,172,O-
+Gorbaduc,Clayhanger,6/2/1991,Canada,50.9,65,B+
+Hildigrim,Goold,1/14/1981,Belgium,47.4,111,B+
+Leonardo,Souza,9/20/1986,Canada,95.3,178,A-
+Gundabald,Chubb,5/3/1979,Austria,45.2,100,O+
+Stepan,Biryukov,8/29/1990,Cyprus (Anglicized),63.1,178,B+
+Leonardo,Silva,10/21/1991,Czech Republic,105.8,169,A+
+Rorimac,Took-Took,1/9/1992,Czech Republic,54.2,111,A+
+Bobby,Koehn,4/3/1986,Cyprus (Anglicized),107.8,183,O+
+Diogo,Oliveira,7/8/1992,Austria,73.1,178,O+
+James,Burge,7/14/1981,Austria,102.6,185,B+
+Frederick,Herr,11/13/1995,Denmark,59.5,171,AB+
+Kauê,Gomes,1/5/1997,Denmark,78.5,179,B+
+Keiran,McDonald,4/16/1981,Brazil,102.9,174,A+
+Porphyry,Yusupov,5/2/1992,Cyprus (Anglicized),90.1,173,A+
+Mitchell,Stewart,5/8/1988,Cyprus (Anglicized),72.4,173,B+
+Craig,Puckett,6/1/1996,Belgium,51.8,174,AB+
+Dennis,Walsh,6/16/1992,Canada,63.5,188,O+
+Tomás,Correia,3/27/1981,Cyprus (Anglicized),72.8,176,AB+
+Kevin,Robinson,3/27/1994,Cyprus (Anglicized),96.9,174,O+
+Kaua,Cardoso,10/12/1996,Cyprus (Anglicized),81.0,181,O-
+Tracy,Thompson,10/12/1981,Belgium,97.4,175,A+
+Porphyry,Yefimov,3/28/1989,Austria,104.9,188,A+
+Ryan,Pereira,7/9/1984,Canada,100.8,180,B-
+Arseny,Yuriev,5/20/1991,Denmark,109.3,189,A+
+Ben,Dennis,9/7/1988,Cyprus (Anglicized),100.0,187,O+
+Jeffrey,Payne,10/26/1983,Denmark,75.0,180,A+
+Zack,Burns,1/23/1996,Czech Republic,69.7,178,A+
+David,Carranza,2/5/1984,Brazil,83.0,190,A+
+Nicolash,Pinto,5/19/1986,Canada,61.2,179,O+
+Mike,Ogden,6/5/1986,Cyprus (Anglicized),65.4,187,B+
+Magnus,Goldworthy,4/29/1979,Denmark,60.1,69,O+
+Theodore,Aitken,7/7/1994,Denmark,77.4,170,O+
+Leyton,Williamson,1/12/1988,Cyprus (Anglicized),92.1,187,O+
+Malachy,McMillan,7/19/1982,Cyprus (Anglicized),71.3,168,B+
+Jamal,Lazarev,6/20/1992,Austria,77.4,190,O+
+Anthony,Sudduth,3/14/1986,Belgium,62.0,181,B+
+Ranugad,Roper,2/24/1990,Czech Republic,59.1,76,B+
+Vinícius,Cardoso,5/1/1995,Czech Republic,87.6,181,B+
+Mateus,Pereira,3/25/1992,Austria,74.5,184,B+
+Ildar,Abramovich,4/13/1986,Denmark,62.9,185,B-
+Ilberic,Lightfoot,9/1/1992,Cyprus (Anglicized),60.2,85,A+
+Igor,Alves,12/10/1991,Brazil,97.1,168,A-
+Isaac,Morrison,11/25/1981,Cyprus (Anglicized),105.8,169,AB-
+Bruno,Goold,4/4/1997,Austria,50.4,122,A+
+Arthur,Duncan,11/12/1982,Cyprus (Anglicized),88.9,173,O+
+Darren,Duncan,9/4/1990,Czech Republic,61.5,189,O+
+Tiago,Martins,11/8/1984,Canada,95.1,169,O+
+Guilherme,Carvalho,4/15/1982,Cyprus (Anglicized),76.7,180,A+
+Rowan,Bruce,8/17/1987,Cyprus (Anglicized),109.6,170,B+
+Frank,Guyer,8/7/1983,Belgium,74.0,178,O+
+John,Graham,8/6/1978,Cyprus (Anglicized),112.6,185,A+
+Hugh,Moore,5/30/1980,Belgium,110.7,175,O-
+Scudamor,Chubb,11/9/1984,Denmark,49.7,113,B+
+Saradas,Gamgee,5/22/1985,Austria,57.2,100,O+
+Aaron,Watt,10/7/1993,Canada,58.5,183,O+
+Filibert,Noakes,2/15/1985,Denmark,56.7,107,B+
+Jacob,Avdeev,4/9/1990,Belgium,101.4,180,B+
+Richard,Toth,12/23/1981,Cyprus (Anglicized),103.3,176,A+
+Leonardo,Ferreira,11/6/1988,Austria,80.4,174,O+
+Renan,Almeida,3/14/1994,Czech Republic,63.5,184,O+
+Adelgrim,Smallburrow,4/6/1988,Cyprus (Anglicized),51.3,72,A-
+Faramond,Sackville,10/30/1991,Belgium,52.6,96,O+
+Joao,Melo,10/20/1978,Canada,83.2,172,O+
+Berilac,Bracegirdle,10/22/1985,Brazil,48.2,62,A+
+Ferumbras,Maggot,4/25/1994,Canada,59.8,89,AB-
+Tim,Rumble,11/20/1993,Cyprus (Anglicized),50.5,99,O+
+Patrick,McGregor,5/10/1994,Brazil,88.3,181,O+
+Stephen,Becerra,9/4/1984,Austria,77.9,181,A+
+Fredric,Whitford,5/31/1985,Cyprus (Anglicized),111.6,189,B+
+Rafael,Rodrigues,6/11/1982,Brazil,72.5,182,A-
+Brogan,Watt,10/4/1982,Canada,111.6,175,O+
+Ephraim,Kapustin,10/14/1990,Denmark,86.3,174,O+
+Hippolyte,Nevzorov,1/27/1987,Belgium,80.8,188,A+
+Eric,Jamieson,1/2/1980,Brazil,87.9,179,B+
+Vadim,Yevseyev,6/13/1994,Cyprus (Anglicized),56.3,178,B+
+Stewart,Watson,3/4/1981,Canada,98.7,178,A+
+Tigran,Kotov,11/1/1992,Cyprus (Anglicized),61.8,186,O+
+Tobold,Galbassi,1/22/1981,Brazil,58.6,110,O+
+Oscar,Mills,12/24/1984,Austria,76.9,169,B-
+Gordon,Hart,8/20/1981,Czech Republic,75.3,189,B+
+Elisha,Abramovich,8/5/1993,Austria,93.8,187,A+
+Luís,Alves,4/23/1993,Cyprus (Anglicized),88.2,167,O+
+Heribald,Took-Brandybuck,10/18/1980,Cyprus (Anglicized),57.7,73,A+
+Faizan,Robertson,8/18/1996,Denmark,71.5,175,O+
+Anatoly,Glazkov,1/10/1983,Belgium,90.5,182,O+
+Lauchlan,Alexander,8/30/1986,Austria,97.4,187,A+
+Cailean,Cunningham,1/4/1996,Cyprus (Anglicized),69.0,173,O+
+Emelyan,Bodrov,12/21/1993,Czech Republic,69.3,183,A+
+Samlad,Lothran,9/23/1996,Canada,52.4,99,O+
+Dominic,Forbes,8/1/1982,Belgium,110.2,171,O-
+Obo,Burrows,1/7/1997,Cyprus (Anglicized),56.8,104,A+
+Carter,Watt,8/3/1993,Czech Republic,60.0,169,A+
+Yaropolk,Alekseeva,2/25/1979,Austria,111.4,176,B+
+José,Ribeiro,7/9/1980,Canada,92.1,189,O+
+Zakir,Vinogradov,12/30/1984,Denmark,67.8,174,A+
+Antony,Mitchell,6/7/1983,Canada,66.0,168,A+
+Vsevolod,Balashov,10/30/1991,Canada,86.7,181,B+
+Nestor,Andreev,9/20/1981,Canada,107.3,179,O-
+Peter,Tarrance,6/25/1980,Belgium,74.9,188,O+
+Davi,Correia,2/14/1983,Belgium,107.6,184,B+
+Francis,Flores,11/17/1984,Austria,91.7,186,O+
+Otávio,Santos,6/28/1992,Austria,59.5,188,O+
+Caradoc,Brown,6/9/1986,Canada,57.3,86,B-
+Kevin,Serrano,8/19/1987,Belgium,101.1,168,AB+
+Ruaridh,McGregor,4/19/1979,Belgium,102.0,178,A+
+Breno,Castro,10/13/1985,Austria,63.9,174,B+
+Dennis,Carr,4/30/1984,Czech Republic,70.3,169,O+
+Sebastian,Konovalov,11/20/1984,Canada,98.7,168,O+
+Olo,Whitfoot,12/1/1990,Czech Republic,56.1,104,O+
+Bogdan,Vasin,8/14/1990,Cyprus (Anglicized),81.6,190,A-
+Joe,Stewart,12/25/1995,Cyprus (Anglicized),66.8,168,O+
+Cotman,Took-Took,6/7/1995,Belgium,50.5,67,O+
+Murray,Tisdale,2/14/1994,Czech Republic,90.4,173,B+
+Felipe,Pereira,8/22/1983,Cyprus (Anglicized),61.9,182,B+
+Ralph,Johnston,8/8/1989,Canada,108.1,173,AB+
+Nick,Seleznev,4/14/1992,Denmark,65.3,171,AB+
+Leyton,Forbes,9/6/1985,Cyprus (Anglicized),63.2,179,O+
+Tomás,Rocha,5/6/1980,Brazil,64.3,185,O+
+Lotho,Bolger-Baggins,7/5/1988,Canada,51.6,83,B+
+Alan,Espinosa,1/18/1984,Czech Republic,91.1,186,A+
+Ferumbras,Boffin,11/24/1986,Brazil,65.4,114,O+
+Ramon,Cox,2/14/1992,Denmark,105.6,189,B+
+Iago,Maggot,10/6/1984,Cyprus (Anglicized),48.1,61,O+
+Mark,Manz,7/8/1996,Cyprus (Anglicized),90.2,181,O+
+Rafael,Rodrigues,5/18/1989,Cyprus (Anglicized),72.2,171,A+
+Pippin,Goold,9/26/1995,Austria,56.2,83,O+
+Murilo,Alves,8/24/1990,Brazil,77.7,185,B+
+Balbo,Greenhand,9/5/1978,Denmark,63.3,63,B+
+David,Ortiz,3/22/1985,Brazil,109.2,176,B+
+Kauan,Fernandes,1/29/1981,Cyprus (Anglicized),99.9,181,O-
+Vitór,Cavalcanti,7/25/1994,Denmark,75.2,184,O+
+Porro,Gamgee,7/31/1989,Austria,46.8,80,A+
+Ernest,Zaitsev,10/20/1983,Belgium,62.8,168,O+
+Stepan,Alexeeva,6/30/1983,Czech Republic,108.9,171,A+
+Igor,Yudin,5/11/1984,Canada,74.7,189,O+
+William,Townsend,5/12/1991,Brazil,93.6,179,B+
+Mason,McMillan,10/9/1985,Cyprus (Anglicized),87.7,174,A+
+Ignat,Kapustin,10/7/1990,Czech Republic,85.6,177,O+
+Diogo,Cardoso,3/24/1985,Cyprus (Anglicized),98.6,177,A+
+Nestor,Kovalev,10/27/1980,Austria,87.6,168,B+
+Valentine,Ozerov,10/15/1994,Cyprus (Anglicized),70.3,165,B+
+Fernando,Wolfe,9/20/1981,Cyprus (Anglicized),63.7,172,A+
+Marmaduke,Sandyman,8/27/1995,Denmark,60.5,69,B+
+Vadim,Anisimov,3/29/1988,Denmark,60.2,181,O+
+Patrick,Decoteau,8/5/1996,Czech Republic,71.8,167,A+
+Breno,Pereira,4/7/1989,Brazil,58.3,167,A+
+André,Rodrigues,9/28/1985,Austria,60.8,181,B+
+Chad,Cannon,1/25/1988,Canada,78.0,179,O+
+Jaiden,Mackenzie,3/31/1985,Canada,74.6,171,A+
+Guilherme,Pereira,1/15/1992,Cyprus (Anglicized),74.2,175,B+
+Ansegar,Rumble,8/13/1992,Canada,57.8,70,B+
+Meneaduc,Grubb,2/19/1983,Denmark,53.0,101,O-
+Athanasius,Bodrov,7/14/1995,Austria,78.3,176,O+
+Reece,Jones,12/29/1982,Belgium,113.2,178,O-
+Andrew,Afanasyev,9/27/1985,Cyprus (Anglicized),67.7,170,B+
+João,Cavalcanti,7/27/1994,Czech Republic,95.4,166,A+
+Breno,Rodrigues,12/12/1988,Cyprus (Anglicized),61.1,167,A+
+Terence,Evseev,11/7/1996,Cyprus (Anglicized),57.1,161,O+
+Valerie,Evseev,4/19/1979,Denmark,89.9,180,O-
+Gringamor,Puddifoot,8/3/1981,Belgium,62.5,90,O+
+Jacob,Grant,5/15/1979,Belgium,106.4,168,A+
+Proclus,Degtyarev,7/1/1983,Cyprus (Anglicized),61.2,189,O+
+Jason,White,3/30/1995,Brazil,79.2,190,O+
+Edgar,Degtyarev,12/30/1991,Cyprus (Anglicized),100.1,178,O+
+Breno,Castro,3/13/1995,Cyprus (Anglicized),58.4,188,O+
+Valerie,Aliyev,6/23/1994,Brazil,53.1,175,O+
+Zinovy,Fyodorov,9/21/1978,Belgium,112.5,185,B+
+James,Aguilar,11/19/1989,Denmark,90.9,173,O+
+Saradoc,Goold,10/7/1987,Belgium,59.3,103,B+
+Ildar,Bodrov,5/24/1983,Brazil,80.9,188,O+
+Luan,Correia,12/22/1996,Austria,68.2,174,A+
+Frank,Prosser,11/3/1991,Cyprus (Anglicized),103.9,178,O+
+Maciej,Christie,1/13/1997,Brazil,77.7,187,B+
+Tomacca,Gammidge,12/12/1988,Czech Republic,57.2,110,O+
+Justin,Watson,12/2/1995,Czech Republic,60.8,164,A+
+Subhan,Henderson,5/17/1986,Cyprus (Anglicized),62.1,175,O+
+Erick,Castro,7/23/1986,Canada,61.4,185,A+
+Terence,Fyodorov,9/9/1978,Czech Republic,71.0,185,B+
+Marcus,Logan,12/24/1995,Denmark,84.0,176,O+
+Artem,Matveyev,1/26/1995,Austria,78.9,168,O+
+Nicol,Proudfoot,3/6/1981,Brazil,56.5,94,O-
+Hilarion,Yermolayev,12/16/1985,Czech Republic,70.6,189,A+
+Theo,Bell,6/27/1987,Czech Republic,99.8,170,O+
+Thiago,Alves,2/28/1997,Brazil,90.3,182,A+
+Antônio,Martins,11/13/1987,Czech Republic,74.2,176,O+
+Obo,Proudfoot,11/10/1985,Cyprus (Anglicized),63.3,91,O-
+Robert,Dickens,6/22/1993,Denmark,82.5,178,B+
+Arthur,Azevedo,8/14/1984,Brazil,92.7,168,O+
+Lucas,Azevedo,2/21/1983,Austria,99.9,180,A-
+José,Azevedo,12/27/1993,Canada,74.6,171,B+
+Wilimar,Bolger,4/4/1985,Czech Republic,47.3,107,B+
+George,Gorman,5/4/1994,Brazil,76.1,169,B+
+Zossima,Efimov,3/30/1994,Brazil,83.0,163,AB+
+Vlad,Tretyakov,5/11/1990,Brazil,92.9,169,A+
+Bobby,Fleming,1/11/1991,Austria,56.2,172,A+
+Hamilcar,Took-Took,4/2/1980,Czech Republic,50.9,104,A+
+George,Komarov,5/1/1990,Cyprus (Anglicized),72.1,171,B-
+Arthur,Ferreira,4/25/1994,Canada,55.2,172,B+
+Ian,McIntosh,5/14/1984,Denmark,105.6,171,B+
+Cornelius,Istomin,2/1/1979,Cyprus (Anglicized),72.3,172,O+
+Tiago,Lima,11/21/1984,Cyprus (Anglicized),75.4,172,AB+
+Fredegar,Labingi,10/18/1993,Czech Republic,62.2,71,O+
+Christian,Day,3/1/1996,Austria,72.9,185,A-
+Mstislav,Shubin,12/12/1988,Denmark,73.7,186,A+
+Barry,Forbes,6/28/1995,Czech Republic,58.4,174,B+
+Adelard,Headstrong,7/24/1992,Brazil,50.1,79,O+
+Isumbras,Oldbuck,12/2/1990,Czech Republic,64.1,104,O+
+Justin,Mandell,2/5/1996,Denmark,97.1,180,A+
+Joseph,Corbeil,1/5/1988,Austria,81.9,184,A+
+Todd,Freitas,2/5/1993,Cyprus (Anglicized),61.1,187,A+
+Nikita,Shcherbakov,3/26/1979,Brazil,109.5,178,A+
+Robert,Kazantsev,10/7/1995,Canada,59.9,175,O+
+Arthur,Melo,7/15/1990,Czech Republic,79.4,187,B-
+João,Oliveira,7/19/1982,Canada,76.3,176,A+
+Eoin,Campbell,1/19/1980,Belgium,86.5,184,A+
+Phillip,Jackson,12/9/1981,Brazil,109.3,176,A-
+Sam,Hunter,11/9/1994,Denmark,88.3,171,O+
+Jeremy,Keely,1/16/1979,Canada,80.3,188,A+
+Oscar,Yermakov,3/22/1993,Cyprus (Anglicized),99.2,189,O+
+Mitchell,Lowery,8/23/1993,Canada,91.2,186,A-
+Kieron,Findlay,12/19/1987,Cyprus (Anglicized),60.9,168,O+
+Rudolph,Greenhand,4/20/1996,Canada,65.2,67,A+
+David,Craven,11/21/1982,Austria,64.9,176,O+
+Robert,Watts,12/22/1979,Denmark,78.7,184,O+
+Faizan,Fraser,10/15/1992,Denmark,83.9,184,O+
+Damian,Simpson,10/25/1996,Austria,90.8,168,O+
+Bildat,Hogpen,11/19/1994,Canada,62.1,111,A+
+William,Gilbert,2/14/1996,Brazil,75.3,184,B+
+Tony,Watkins,3/4/1981,Austria,77.4,169,O+
+Isaac,Ibrahimov,11/3/1985,Czech Republic,102.7,175,O+
+Luís,Barbosa,12/17/1980,Brazil,64.1,189,A-
+Len,Hill,10/13/1991,Austria,76.1,183,O+
+Fábio,Santos,7/22/1995,Cyprus (Anglicized),88.1,177,O+
+Zach,Macleod,1/5/1982,Brazil,104.7,175,O+
+Spartacus,Bocharov,5/17/1979,Denmark,94.6,183,A+
+Richard,Gilliland,10/25/1991,Brazil,65.8,173,A+
+Logan,Williamson,3/14/1986,Canada,91.9,190,O+
+Adelgrim,Smallburrow,3/31/1989,Cyprus (Anglicized),63.4,74,O+
+Gary,Cross,3/20/1990,Czech Republic,97.9,189,B+
+Herman,Mordvinov,10/30/1993,Canada,98.1,178,A+
+Bernard,Phillips,1/31/1988,Czech Republic,63.8,175,B+
+Mat,Goodbody,8/28/1989,Belgium,50.6,65,O+
+Teddy,Harris,12/31/1982,Cyprus (Anglicized),88.5,181,O-
+Victor,Munro,12/19/1987,Austria,63.4,186,AB+
+Maurice,Saenz,12/11/1984,Cyprus (Anglicized),62.7,176,O+
+Paulo,Cunha,3/7/1991,Austria,73.9,184,O+
+Pippin,Took-Took,7/11/1992,Belgium,64.7,93,O+
+Travis,Solomon,4/15/1992,Austria,67.7,181,B+
+Dominique,Belousov,8/2/1993,Brazil,97.8,166,A-
+Nicolash,Dias,2/27/1996,Brazil,88.7,177,A+
+James,Spooner,8/10/1982,Austria,69.2,181,A-
+Diego,Rocha,2/26/1981,Austria,82.8,188,AB+
+Orlando,Fairbairn,9/8/1995,Denmark,55.2,73,A-
+Luís,Martins,12/28/1987,Cyprus (Anglicized),67.2,175,AB+
+Ethan,Hay,8/23/1994,Denmark,54.6,173,A+
+Paramon,Yefimov,5/3/1993,Austria,59.1,175,O-
+Antônio,Carvalho,4/15/1990,Brazil,95.0,188,O+
+Thiago,Castro,1/4/1987,Czech Republic,76.3,180,A+
+Mateus,Ribeiro,1/3/1997,Denmark,61.2,180,B+
+Domenic,Williams,5/3/1993,Cyprus (Anglicized),64.7,182,A+
+Samuel,Thompson,11/21/1995,Austria,97.2,171,A+
+Gustavo,Rodrigues,10/5/1996,Brazil,76.9,167,O+
+Rudigar,Gawkroger,6/9/1986,Canada,66.5,72,B+
+Enzo,Rocha,5/5/1996,Austria,61.3,183,O-
+Murilo,Silva,2/28/1980,Czech Republic,103.4,190,B+
+Paul,McGowan,1/9/1982,Denmark,105.4,175,O+
+Gormadoc,Labingi,2/26/1993,Denmark,62.3,80,AB+
+Ahmad,Boyle,10/8/1988,Austria,69.3,173,O+
+Jacob,Evseev,5/5/1993,Austria,65.4,177,A+
+Brian,Marcus,10/18/1994,Denmark,89.9,188,B+
+Paul,Garcia,3/30/1989,Cyprus (Anglicized),65.3,181,B+
+Edward,White,2/14/1995,Denmark,53.8,166,B+
+Kye,Taylor,3/31/1988,Cyprus (Anglicized),68.3,182,AB+
+Jeffrey,Smith,9/16/1990,Brazil,82.3,167,O+
+Larry,Stout,3/9/1996,Czech Republic,80.9,179,B+
+Reece,Taylor,5/17/1992,Belgium,78.1,181,A+
+Hobson,Brockhouse,7/20/1991,Brazil,56.9,88,AB+
+Rollo,Took,3/9/1984,Canada,55.9,98,B+
+Panteleimon,Mordvinov,11/13/1982,Austria,67.3,184,O-
+Leopold,Anisimov,1/26/1995,Canada,70.8,172,O+
+Kaua,Lima,2/5/1985,Denmark,74.2,168,O+
+Kieron,Johnstone,3/13/1984,Canada,110.4,189,A+
+Zack,Jamieson,12/27/1978,Canada,62.7,171,B+
+James,Williams,9/5/1996,Belgium,88.7,188,A+
+Will,Galbassi,3/8/1997,Canada,62.8,79,B+
+Zinovy,Anisimov,1/30/1987,Czech Republic,94.2,181,O+
+Paul,Gray,10/1/1989,Brazil,60.4,182,A+
+Vladlen,Belov,8/6/1984,Cyprus (Anglicized),78.6,174,B+
+Colby,Ritchie,11/27/1995,Cyprus (Anglicized),66.5,163,O-
+Estevan,Oliveira,6/1/1986,Canada,102.2,179,A+
+Gennady,Volkov,3/15/1979,Czech Republic,76.3,184,O+
+Bennett,Hilario,7/4/1981,Brazil,63.8,174,O+
+Breno,Pereira,2/8/1979,Brazil,106.1,188,O+
+Enzo,Santos,5/5/1981,Austria,68.9,188,A+
+Dale,Bannister,9/1/1988,Canada,87.9,173,AB+
+Mateus,Pereira,8/22/1979,Canada,69.1,173,O-
+Gruffo,Sackville-Baggins,10/17/1990,Brazil,62.6,80,A+
+Nicolash,Oliveira,11/2/1984,Cyprus (Anglicized),103.2,188,O+
+Ansegar,Puddifoot,5/31/1990,Belgium,52.0,78,AB+
+Bosco,Hayward,5/9/1993,Brazil,60.7,116,O-
+Faizan,Ritchie,4/4/1993,Denmark,82.5,186,O+
+Mosco,Hornblower,11/30/1994,Belgium,58.3,72,A+
+Louie,Wells,11/9/1987,Canada,60.8,177,A+
+Nicolash,Cunha,9/3/1980,Canada,62.0,180,A+
+Irakli,Fyodorov,8/18/1991,Czech Republic,71.9,190,A+
+Bennie,Richard,4/29/1996,Cyprus (Anglicized),73.5,167,AB+
+Keiren,Hunter,12/31/1996,Czech Republic,76.2,180,A+
+Murat,Bodrov,5/2/1983,Czech Republic,109.7,174,B+
+Lucas,McIntyre,5/9/1985,Canada,93.4,176,O+
+Benjamin,Dickson,1/30/1997,Cyprus (Anglicized),54.5,167,O+
+Theodore,Pokrovsky,6/7/1990,Belgium,60.0,179,O+
+Mateus,Pereira,3/20/1997,Canada,56.8,167,O+
+Egor,Seleznyov,9/6/1981,Cyprus (Anglicized),81.2,179,A+
+Gregory,Copple,1/10/1984,Denmark,96.5,178,A+
+Sigismond,Hornblower,9/7/1993,Brazil,46.3,81,O+
+Nikodem,Fraser,1/8/1986,Cyprus (Anglicized),108.8,172,O+
+Peter,Kraker,8/17/1996,Cyprus (Anglicized),65.2,189,B-
+Jordan,Hughes,12/1/1978,Czech Republic,112.7,181,O-
+Armen,Zotov,5/7/1996,Canada,61.3,177,B+
+Berilac,Banks,12/21/1989,Czech Republic,61.6,120,B+
+Eldar,Volkov,5/2/1988,Austria,88.0,182,A+
+Hobson,Zaragamba,8/6/1985,Austria,61.4,78,A+
+Sméagol,Goodchild,7/18/1982,Belgium,49.5,100,B+
+Modest,Zuyev,4/9/1986,Czech Republic,74.6,180,A+
+Hugo,Sackville,8/26/1986,Cyprus (Anglicized),65.4,72,B+
+William,William,9/15/1989,Czech Republic,98.0,170,O+
+Gerontius,Clayhanger,10/7/1987,Cyprus (Anglicized),45.7,82,B+
+Isaiah,Bobrov,8/12/1983,Canada,62.2,173,B+
+William,Price,9/27/1983,Cyprus (Anglicized),104.1,179,O+
+Ramiro,Fomin,11/1/1988,Denmark,92.9,190,A+
+Frankie,Hay,12/22/1987,Denmark,73.9,185,A-
+Maximilian,Sozonov,7/22/1980,Denmark,72.1,188,O+
+Jason,Corning,12/18/1992,Belgium,98.8,185,B+
+Gundolpho,Rumble,7/3/1980,Austria,67.3,108,O+
+Matthew,Ponomarev,3/11/1990,Austria,74.7,189,O+
+James,Embry,2/24/1988,Austria,95.3,173,O+
+Will,Goodbody,2/10/1989,Austria,60.4,95,O+
+Eoghan,Cameron,8/4/1987,Cyprus (Anglicized),89.8,182,B+
+Julian,Lima,7/2/1981,Brazil,66.6,187,O+
+Marcus,Roper,12/25/1991,Austria,58.7,122,B+
+Aleksander,McKay,3/6/1991,Czech Republic,77.2,182,B+
+Kelvin,Meacham,4/10/1982,Czech Republic,100.4,179,B+
+Glenn,Diaz,11/7/1979,Cyprus (Anglicized),82.5,182,O+
+Yegor,Alekseeva,4/27/1986,Denmark,81.0,189,O+
+Igor,Ibrahimov,1/22/1988,Denmark,99.4,187,B+
+Crispus,Banks,3/25/1986,Cyprus (Anglicized),53.6,87,B+
+Zane,Findlay,1/8/1982,Belgium,66.4,184,O-
+Nick,Tretiakov,9/18/1991,Brazil,99.0,190,O+
+Nicholas,White,4/9/1988,Canada,97.5,169,A+
+Bildat,Underhill,10/13/1996,Cyprus (Anglicized),45.9,77,O+
+Bryan,Duncan,4/7/1990,Brazil,96.1,180,A+
+Quinn,Boyle,6/9/1993,Belgium,63.5,186,B+
+Kyle,Taylor,5/17/1991,Canada,90.7,169,O-
+Terry,Scroggins,6/17/1978,Cyprus (Anglicized),99.5,178,O+
+Myles,Johnstone,10/21/1986,Canada,97.8,171,O+
+William,Veliz,6/23/1983,Canada,107.0,168,A+
+Luiz,Carvalho,9/14/1985,Belgium,107.9,172,AB+
+Ashton,Marshall,3/27/1988,Canada,72.6,171,O+
+Belisarius,Fairbairn,3/17/1987,Cyprus (Anglicized),53.0,85,O+
+Jimmy,Gates,5/17/1995,Brazil,68.7,173,A+
+Leonardo,Rodrigues,4/6/1980,Denmark,78.5,173,B-
+Larry,Haley,9/5/1991,Czech Republic,90.3,184,A+
+Leopold,Blokhin,8/13/1987,Cyprus (Anglicized),87.2,189,O+
+Greg,Reid,12/11/1980,Canada,91.6,171,O+
+Thiago,Ferreira,2/21/1981,Brazil,73.6,174,O-
+Kalimac,Hornblower,4/18/1984,Cyprus (Anglicized),55.8,75,A+
+Clyde,Carter,2/23/1988,Belgium,74.2,190,O+
+Tiago,Correia,7/5/1984,Czech Republic,100.7,190,O+
+Roman,Sozonov,3/18/1993,Cyprus (Anglicized),83.4,184,A+
+Robin,Lightfoot,8/20/1983,Austria,45.5,102,B+
+Matheus,Lima,11/18/1980,Brazil,77.9,182,O+
+Dominique,Ignatyev,2/18/1992,Canada,85.4,188,A+
+Stephen,Pittman,12/30/1988,Czech Republic,76.2,181,O+
+Rashid,Zhdanov,4/30/1982,Austria,97.2,176,B+
+Igor,Castro,8/5/1993,Belgium,72.1,170,B+
+Thomas,Young,6/19/1990,Denmark,98.1,187,O+
+Polo,Chubb,8/2/1981,Canada,46.7,68,O+
+Fábio,Azevedo,12/20/1984,Austria,84.1,168,A+
+Campbell,Murray,8/13/1996,Cyprus (Anglicized),58.6,184,O+
+Nico,Black,1/21/1991,Czech Republic,79.4,181,O+
+João,Cavalcanti,5/23/1982,Austria,78.5,190,B+
+Daniel,Santos,12/14/1979,Brazil,104.6,180,B+
+Nairn,Hamilton,11/14/1980,Cyprus (Anglicized),92.9,171,B+
+Igor,Rocha,1/10/1993,Brazil,79.9,185,B+
+Dorofei,Fokine,8/18/1996,Czech Republic,86.5,180,B+
+Paladin,Gaukrogers,9/16/1979,Cyprus (Anglicized),59.8,74,AB-
+Pippin,Bracegirdle,2/19/1987,Czech Republic,52.6,62,A+
+Daniel,Silva,7/4/1996,Cyprus (Anglicized),82.1,172,A+
+Lyle,Allan,5/9/1985,Belgium,74.2,175,O-
+Wiktor,Graham,10/2/1988,Cyprus (Anglicized),102.7,186,A+
+Jonathan,Mack,4/30/1988,Cyprus (Anglicized),81.9,171,O+
+Nicolas,Correia,2/10/1997,Belgium,77.9,178,A+
+Yefim,Baryshnikov,2/16/1981,Denmark,97.8,176,AB+
+Sagramor,Lightfoot,9/29/1988,Canada,46.5,99,A-
+Miguel,Azevedo,1/6/1989,Brazil,57.1,190,A+
+Herman,Fedorov,1/24/1987,Canada,108.6,174,A+
+Wilibald,Goldworthy,2/5/1987,Brazil,63.1,64,O+
+Thaddeus,Vasiliev,11/6/1993,Czech Republic,61.4,183,O+
+Gustavo,Pereira,1/27/1993,Czech Republic,65.1,171,A+
+Daniel,Hagemann,8/20/1990,Canada,70.6,185,A-
+Conlan,Williamson,5/20/1979,Czech Republic,72.2,172,O+
+Marmadoc,Galbassi,10/28/1992,Cyprus (Anglicized),48.6,92,O+
+Miguel,Bates,11/28/1992,Czech Republic,79.5,184,AB+
+Hildigrim,Burrowes,10/10/1983,Canada,46.0,101,A+
+Diego,Alves,6/2/1984,Belgium,93.9,188,O+
+Spencer,Hamilton,5/22/1983,Czech Republic,79.7,177,B+
+André,Sousa,11/25/1989,Canada,82.1,168,O+
+Charles,Hart,4/3/1987,Denmark,90.3,188,A+
+Subhan,Sinclair,10/12/1982,Cyprus (Anglicized),75.1,169,O+
+Mayor,Repin,2/4/1990,Cyprus (Anglicized),61.6,181,A+
+Fedot,Voronkov,1/19/1997,Cyprus (Anglicized),62.5,180,A+
+Oscar,Kharlamov,9/28/1980,Austria,68.0,177,B+
+Anatoly,Woronoff,3/11/1990,Denmark,57.7,170,O+
+Jared,Anders,9/14/1990,Cyprus (Anglicized),108.3,182,O-
+Karp,Butusov,4/18/1983,Cyprus (Anglicized),112.6,181,B+
+Samuel,Castro,12/15/1978,Czech Republic,69.9,179,A+
+Arthur,Araujo,3/10/1993,Cyprus (Anglicized),109.1,184,AB+
+David,King,3/28/1988,Austria,64.4,181,A+
+Christopher,Craig,11/15/1987,Brazil,60.7,176,O+
+Zossima,Komarov,9/18/1978,Belgium,89.5,179,A+
+Anthony,Gray,7/11/1992,Brazil,78.3,178,A+
+Paladin,Maggot,12/19/1986,Cyprus (Anglicized),49.3,106,O+
+Habaccuc,Underhill,10/3/1981,Cyprus (Anglicized),46.2,96,A+
+Pedro,Dias,5/8/1986,Cyprus (Anglicized),88.5,175,O-
+Matheus,Araujo,1/1/1985,Cyprus (Anglicized),108.1,170,O+
+Isengrin,Diggle,1/12/1994,Cyprus (Anglicized),58.2,101,B+
+Leo,Thomson,5/27/1980,Austria,111.5,185,O-
+Theodore,Bogdanov,6/4/1981,Cyprus (Anglicized),92.1,184,B+
+Tristan,Aitken,7/17/1986,Canada,108.6,188,B+
+Mat,Burrows,1/17/1990,Cyprus (Anglicized),50.2,92,A+
+Julian,Alexander,3/23/1995,Belgium,73.7,166,A-
+Emil,Gorbunov,1/26/1995,Canada,62.8,164,B+
+Immanuel,Nekrasov,2/5/1987,Belgium,91.4,174,O-
+Brandon,Anderson,4/25/1982,Austria,101.9,172,O-
+Aydin,Davidson,8/16/1994,Denmark,89.8,185,A+
+Zander,Watson,4/24/1988,Belgium,95.6,185,B+
+Gabriel,Lima,12/31/1982,Brazil,69.7,173,A+
+Kai,Fernandes,11/14/1989,Austria,58.7,180,O+
+Adelbert,Mugwort,12/9/1978,Cyprus (Anglicized),52.8,102,A-
+Marcos,Barbosa,2/17/1985,Czech Republic,64.1,185,O+
+Carlos,Goncalves,11/18/1991,Belgium,77.7,183,B+
+Randy,Thompson,4/12/1988,Denmark,111.7,169,O+
+Bruno,Rocha,10/21/1990,Czech Republic,106.8,186,O+
+Matheus,Pinto,9/1/1985,Czech Republic,76.3,168,O+
+Pimen,Vasilyev,11/5/1980,Cyprus (Anglicized),64.5,190,A+
+George,Carey,10/14/1980,Cyprus (Anglicized),84.2,181,O+
+Jan,McIntosh,7/8/1983,Austria,86.1,174,O+
+Henry,Mitchell,9/6/1982,Belgium,75.9,168,O+
+Lynn,Bunch,12/30/1992,Cyprus (Anglicized),96.2,185,O+
+Meriadoc,Whitfoot,8/29/1989,Czech Republic,53.2,102,O+
+Kauê,Sousa,11/8/1979,Canada,87.4,169,A+
+Patrick,Connelly,11/9/1992,Belgium,64.2,173,O+
+Jaiden,Sutherland,12/12/1996,Cyprus (Anglicized),66.8,185,B+
+Kauã,Lima,7/30/1986,Denmark,98.9,190,B+
+Simon,Azarov,4/18/1980,Cyprus (Anglicized),99.5,174,O-
+Tolman,Clayhanger,2/28/1993,Belgium,46.7,70,A+
+James,Baxter,8/25/1985,Denmark,86.9,173,A+
+Michael,Billiot,4/1/1996,Canada,73.8,185,A-
+Luke,Maslow,6/17/1982,Denmark,99.4,168,B+
+David,Howell,12/8/1990,Canada,64.3,184,B+
+Bildat,Brandybuck,7/18/1992,Canada,50.0,115,B+
+Levi,Millar,1/5/1986,Canada,104.8,168,A+
+Töbi,Smallburrow,9/30/1980,Denmark,57.6,70,O+
+Ted,Proudfoot,2/10/1995,Belgium,53.3,65,O+
+Tomás,Cunha,4/14/1993,Denmark,88.4,183,O+
+Greg,Nolan,1/6/1994,Austria,89.6,186,A+
+Cornelius,Komarov,5/15/1996,Canada,78.7,165,B+
+Abdul,Scott,2/27/1988,Canada,85.2,170,A-
+Brandon,Blair,6/18/1996,Canada,60.5,175,O+
+Lowell,Lindemann,5/31/1983,Brazil,105.1,168,B+
+Kai,Cavalcanti,12/16/1993,Canada,84.6,170,B+
+Ephraim,Medvedev,12/1/1987,Denmark,107.0,188,O+
+Kenneth,Reese,1/15/1985,Czech Republic,109.7,180,O+
+Ruben,Konovalov,3/16/1994,Czech Republic,90.9,180,A+
+Trifon,Lazarev,5/18/1992,Cyprus (Anglicized),74.5,168,A+
+Ryan,Reid,5/4/1988,Canada,92.2,183,A+
+Isengrin,Chubb,1/14/1996,Canada,67.0,80,B+
+Magnus,Brown,1/11/1984,Belgium,58.8,108,O+
+Daniel,Martins,9/4/1991,Austria,56.6,167,A+
+Brennan,Wilson,1/12/1990,Cyprus (Anglicized),73.2,189,O+
+Tiago,Azevedo,4/26/1995,Austria,73.6,175,B+
+Vsevolod,Gerasimov,6/27/1991,Austria,58.3,167,A+
+Fulvus,Took,3/12/1983,Cyprus (Anglicized),66.8,113,B+
+Peter,Kudryashov,12/4/1978,Denmark,62.1,188,A+
+Nikodem,Mitchell,9/3/1989,Cyprus (Anglicized),57.8,180,AB+
+Roland,Evseev,9/24/1993,Canada,54.5,186,B+
+Ryley,Johnston,7/8/1978,Canada,93.0,170,O+
+Shawn,Murphy,9/17/1991,Denmark,81.4,181,O+
+Mohamed,King,6/4/1983,Brazil,86.1,187,B+
+Bilba,Hayward,5/28/1997,Denmark,47.2,62,A+
+Leonti,Glazkov,9/18/1983,Austria,65.6,177,O+
+Moro,Burrowes,8/21/1987,Czech Republic,47.6,74,A+
+Mark,Reynolds,12/15/1996,Brazil,53.9,173,AB+
+Franciszek,Scott,4/12/1990,Canada,104.7,175,B+
+Carl,Brownlock,5/17/1989,Cyprus (Anglicized),67.5,117,O+
+Nail,Demidov,1/1/1990,Cyprus (Anglicized),106.0,177,B-
+Fraser,McIntosh,2/8/1991,Canada,97.0,168,O-
+Duane,Varner,10/11/1981,Canada,78.5,174,A+
+Polo,Goldworthy,12/26/1981,Austria,61.5,66,B+
+Kauã,Sousa,1/15/1987,Canada,75.9,177,O+
+Dennis,Hoffman,5/26/1986,Brazil,85.4,170,O+
+Egor,Polyakov,8/6/1984,Cyprus (Anglicized),66.8,170,A+
+Newton,Schreiner,9/17/1979,Brazil,88.2,172,B+
+Nicephorus,Borodin,8/5/1994,Czech Republic,87.5,190,O+
+Enzo,Dias,6/4/1980,Canada,93.3,171,B+
+Orgulas,Rumble,4/18/1989,Brazil,53.5,84,O+
+Douglas,Dias,12/10/1987,Denmark,79.8,182,O+
+Kai,Young,11/6/1985,Brazil,82.9,180,A+
+Ervin,Emery,12/10/1992,Belgium,95.5,170,O-
+Finn,Clark,4/29/1987,Cyprus (Anglicized),94.9,186,A+
+Tóbias,Bunce,7/6/1978,Czech Republic,62.0,97,A+
+Athanaric,Roper,10/9/1986,Canada,56.6,84,A+
+Myles,Jones,10/4/1985,Czech Republic,87.0,186,A+
+Halfred,Zaragamba,6/24/1996,Belgium,67.4,87,A+
+Mateus,Pinto,12/17/1988,Brazil,82.9,187,A+
+Luiz,Melo,10/24/1982,Cyprus (Anglicized),65.2,171,AB+
+Leonardo,Barros,5/26/1997,Denmark,90.8,186,O+
+Michael,Fields,3/4/1989,Cyprus (Anglicized),82.7,179,A+
+Ryan,Ferreira,6/3/1992,Denmark,77.8,186,O+
+Methodius,Fedorov,10/16/1982,Austria,103.2,188,B+
+Kauã,Souza,4/16/1990,Austria,100.3,186,O+
+Rudigar,Hogpen,12/31/1980,Denmark,60.9,89,B+
+Kenneth,McGill,2/29/1980,Denmark,75.4,180,A+
+Ronald,Richardson,4/9/1989,Canada,64.5,168,A+
+Ruairidh,Bruce,6/16/1983,Cyprus (Anglicized),91.3,183,O+
+Bruno,Melo,6/2/1988,Canada,97.9,187,B+
+Vitor,Ferreira,1/10/1990,Austria,89.6,189,O+
+Breno,Cavalcanti,2/14/1987,Denmark,93.8,174,O+
+Leon,Bogdanov,4/28/1996,Austria,54.4,182,O+
+Matta,Chubb,2/25/1984,Cyprus (Anglicized),59.7,121,O+
+Ruari,McIntyre,5/15/1982,Brazil,106.4,170,B+
+Thiago,Cavalcanti,5/17/1981,Austria,103.9,181,B+
+Aran,Donaldson,11/9/1992,Cyprus (Anglicized),89.8,171,O+
+Rafael,Souza,12/25/1983,Cyprus (Anglicized),63.7,179,O+
+Holman,Brownlock,11/5/1996,Denmark,59.3,117,O+
+Henry,Washington,2/1/1982,Brazil,78.9,180,AB+
+Haiduc,Goodbody,4/11/1982,Denmark,67.8,68,O+
+Timothy,Greene,5/21/1980,Czech Republic,73.3,173,O+
+Mateusz,Hill,6/13/1981,Austria,80.2,190,A+
+Erling,Clayhanger,2/18/1984,Cyprus (Anglicized),54.6,81,O+
+Roman,Young,12/28/1992,Denmark,85.1,170,O+
+Nicolas,Martins,11/26/1994,Belgium,90.5,185,B+
+Felix,Lockett,11/18/1983,Canada,95.3,170,A+
+Brutus,Sackville-Baggins,8/1/1995,Czech Republic,58.1,82,O+
+Bobby,Peter,12/20/1992,Canada,58.3,181,O+
+Jose,Chavez,12/20/1986,Canada,94.6,180,AB+
+Lee,Simpson,4/24/1983,Cyprus (Anglicized),85.6,189,A+
+Erick,Lima,1/9/1994,Canada,56.7,169,O-
+Roland,Repin,5/23/1989,Czech Republic,83.0,183,A+
+Genghis,Yefremov,4/25/1992,Denmark,87.6,181,B-
+Dominic,Murphy,7/13/1988,Czech Republic,77.3,182,A+
+Murilo,Cavalcanti,8/24/1980,Cyprus (Anglicized),80.2,186,O+
+Razanur,Goldworthy,7/21/1986,Austria,49.7,65,A+
+Marcos,Almeida,11/2/1993,Czech Republic,81.0,180,AB+
+Erick,Cavalcanti,7/10/1990,Cyprus (Anglicized),83.2,182,O+
+Jacob,Vinogradoff,2/19/1991,Belgium,61.8,171,B+
+Enzo,Cardoso,9/26/1993,Belgium,69.7,175,B+
+Yegor,Ponomarev,9/18/1984,Cyprus (Anglicized),65.0,177,B+
+Hugo,Sandheaver,5/22/1996,Denmark,52.1,106,AB-
+Phillip,Riggins,10/3/1984,Czech Republic,98.0,175,A+
+David,Darby,7/23/1987,Cyprus (Anglicized),70.2,189,A+
+Renan,Castro,11/16/1995,Denmark,96.2,170,A+
+Jeffrey,Avery,2/15/1991,Belgium,70.8,175,A+
+Ernest,Abramowitz,4/12/1988,Austria,95.4,180,O-
+Richard,Christie,12/10/1981,Canada,100.5,174,A+
+Xander,Henderson,6/5/1992,Czech Republic,56.7,181,B+
+Holfast,Brown,9/28/1993,Brazil,50.8,86,O+
+Edgar,Uvarov,6/18/1979,Czech Republic,65.7,169,O+
+Balbo,Roper,12/18/1996,Canada,60.5,81,O+
+Victor,Araujo,7/27/1990,Austria,100.4,189,B+
+Nail,Biryukov,4/10/1982,Czech Republic,108.8,182,B+
+Bradley,Allan,5/28/1979,Belgium,63.9,189,O+
+Luke,Maclean,8/4/1981,Austria,83.4,184,O+
+Thiago,Oliveira,2/2/1983,Canada,87.2,177,O+
+Ryan,Fernandes,1/18/1979,Canada,75.1,187,A+
+James,Black,12/9/1991,Belgium,59.5,183,A+
+Stanley,Straka,3/14/1983,Belgium,70.3,170,O+
+Jacob,Maslov,8/6/1993,Canada,70.8,169,A+
+Robin,Wood,12/10/1984,Austria,91.9,184,O+
+Fergus,Gordon,2/10/1985,Canada,70.7,183,A+
+Robur,Took-Took,12/23/1988,Austria,46.4,102,B+
+Ruslan,Efimov,5/31/1984,Belgium,89.7,172,A+
+Dinodas,Brownlock,1/19/1996,Canada,52.8,80,B+
+Yaroslav,Vassiliev,7/1/1978,Austria,74.3,172,B+
+Victor,Vogel,2/29/1992,Czech Republic,93.6,177,O+
+George,Oliva,7/3/1996,Brazil,65.3,185,A+
+Anton,Bell,6/13/1983,Austria,108.0,183,B+
+Terry,Goggans,1/29/1989,Canada,97.4,180,A+
+Edward,Marshall,11/13/1978,Cyprus (Anglicized),63.4,168,A+
+Conall,Martin,6/14/1979,Czech Republic,94.6,190,O+
+Tom,Wilson,9/4/1982,Cyprus (Anglicized),95.9,190,O+
+Dorofei,Yefremov,5/1/1993,Czech Republic,65.7,176,A+
+Daniel,Pereira,12/30/1986,Brazil,74.5,172,B+
+Töbi,Lightfoot,4/10/1997,Austria,64.2,121,B+
+Dennis,Johnston,6/1/1983,Czech Republic,96.8,184,B+
+Malik,Zuev,4/18/1992,Canada,67.5,178,O+
+Miguel,Costa,8/8/1992,Czech Republic,66.1,171,B+
+Will,Forbes,5/28/1990,Austria,104.6,171,B+
+Bruno,Oliveira,1/27/1984,Cyprus (Anglicized),95.2,187,A+
+Preston,Aitken,12/21/1987,Canada,80.8,171,O+
+Dinodas,Noakes,5/24/1995,Czech Republic,56.0,88,B+
+Stuart,Craig,10/29/1987,Austria,82.4,171,O+
+Lazarus,Golovanov,10/6/1993,Cyprus (Anglicized),72.2,176,A+
+Oran,Paterson,7/1/1982,Canada,111.5,174,O+
+Guido,Maggot,3/30/1984,Brazil,60.2,77,A-
+Ivan,Kennedy,11/21/1980,Austria,107.4,174,O+
+Malachy,Burns,1/13/1986,Czech Republic,67.3,179,B+
+Hildibrand,Brandybuck,6/12/1982,Canada,46.5,118,A+
+Austin,Bruce,12/16/1991,Canada,56.1,188,O+
+Togo,Oldbuck,11/7/1991,Austria,53.1,83,A+
+Warren,Alexander,8/16/1994,Czech Republic,77.6,188,O-
+Kauã,Oliveira,9/27/1992,Canada,84.0,176,A+
+Jensen,Cunningham,6/25/1986,Czech Republic,62.7,187,B+
+Dwight,Martin,11/10/1989,Cyprus (Anglicized),66.6,182,A-
+Erling,Longhole,7/14/1987,Cyprus (Anglicized),51.6,92,O+
+Otávio,Santos,10/12/1992,Cyprus (Anglicized),99.4,190,O+
+Ryan,Sutherland,12/14/1994,Canada,61.6,164,B+
+Charles,Kennedy,11/7/1987,Brazil,82.2,190,O+
+Marcus,Lothran,11/16/1989,Austria,62.1,74,O+
+Norman,Martin,7/29/1988,Canada,68.3,187,A-
+Vigo,Oldbuck,6/29/1991,Canada,57.7,80,B+
+Methodius,Sidorov,4/1/1984,Cyprus (Anglicized),105.1,189,O+
+Wilibald,Sandheaver,4/20/1980,Brazil,65.9,119,A+
+Jon,Eldridge,11/8/1992,Belgium,73.3,186,A+
+Isaac,McLean,6/5/1988,Denmark,84.5,179,O+
+Töbi,Bolger-Baggins,8/4/1979,Belgium,68.0,97,B+
+George,Coronado,4/10/1979,Austria,91.8,186,A+
+Nicolash,Azevedo,9/8/1991,Denmark,101.8,189,A+
+Edward,Hudson,10/19/1979,Denmark,77.5,173,A+
+Tom,Munro,1/29/1979,Canada,90.1,188,AB+
+Greg,Badillo,6/26/1979,Cyprus (Anglicized),77.4,189,A+
+Hippolyte,Lazarev,8/20/1981,Belgium,108.7,186,O+
+Emil,Repin,5/16/1997,Canada,82.5,189,O+
+Vitor,Correia,5/1/1987,Belgium,95.7,178,B-
+Diogo,Azevedo,8/13/1985,Czech Republic,68.5,189,A+
+Mario,Cooper,12/25/1985,Denmark,108.2,189,B+
+Tóbias,Zaragamba,3/16/1985,Czech Republic,50.1,64,O+
+Cedivar,Smallburrow,4/27/1985,Denmark,49.5,99,B+
+Bildad,Headstrong,6/27/1990,Brazil,55.7,88,AB+
+Fábio,Rodrigues,1/29/1996,Denmark,58.4,166,B-
+Reginard,Proudfoot,8/15/1978,Brazil,57.2,88,O+
+Haiduc,Galbassi,6/21/1982,Cyprus (Anglicized),52.4,122,B+
+Christian,Jimenez,8/22/1993,Denmark,79.1,185,O+
+Terry,Lockard,12/22/1991,Czech Republic,97.1,171,A+
+Breno,Castro,8/15/1992,Austria,88.0,182,A+
+Glenn,Thomas,1/20/1988,Canada,64.2,183,O+
+Ahmed,Alexeieva,9/27/1992,Austria,77.7,184,B+
+Roan,Walker,8/30/1989,Austria,105.5,190,AB+
+Marc,Baker,10/29/1978,Denmark,104.8,176,O+
+Kalimac,Longhole,3/14/1986,Brazil,46.2,67,A+
+Irakli,Voronkov,11/27/1989,Belgium,99.0,185,A+
+Filibert,Goold,2/28/1981,Canada,55.7,94,O+
+Troy,Mitchell,10/8/1980,Austria,108.3,189,O-
+Brad,Riley,1/29/1979,Austria,104.5,179,A+
+Millar,McMillan,4/3/1995,Brazil,99.8,188,A+
+Brett,Castillo,7/8/1982,Belgium,78.0,174,A+
+Zander,Black,1/2/1986,Czech Republic,98.9,173,O+
+Robert,Crutchfield,5/16/1988,Brazil,86.3,180,O-
+Joshua,Pace,1/11/1986,Canada,95.8,190,O+
+Jakub,Taylor,1/25/1993,Canada,73.7,189,O+
+Travis,Albright,6/10/1994,Austria,56.7,182,A+
+Jeffrey,Garcia,11/26/1995,Belgium,62.4,168,A+
+Yegor,Kapustin,3/4/1984,Cyprus (Anglicized),92.8,170,B+
+Holman,Zaragamba,8/21/1996,Czech Republic,49.0,87,A+
+Isembard,Whitfoot,11/26/1984,Brazil,50.6,76,O+
+Miguel,Melo,3/28/1986,Canada,62.6,178,B+
+Manuel,Shuman,11/18/1980,Canada,85.5,170,O+
+Maximilian,Tokaryev,9/14/1985,Brazil,78.5,190,A+
+Sancho,Fairbairn,10/26/1990,Czech Republic,50.7,119,A+
+Wilimar,Hayward,5/13/1980,Canada,58.4,100,O+
+Enzo,Cavalcanti,12/1/1985,Belgium,99.0,169,B+
+Andrew,Alexander,7/18/1987,Czech Republic,74.5,172,A+
+Jose,Hammer,9/19/1993,Cyprus (Anglicized),75.0,187,O+
+Gustavo,Correia,1/25/1996,Austria,97.1,164,A+
+Will,Jones,12/29/1993,Cyprus (Anglicized),59.1,177,B+
+Danilo,Barbosa,4/27/1997,Denmark,50.6,188,O+
+Kauê,Correia,11/26/1993,Canada,90.0,179,AB+
+Jerry,Lee,7/22/1984,Austria,88.3,183,B+
+Estevan,Correia,10/3/1980,Czech Republic,95.0,174,A+
+Hildibrand,Bolger-Baggins,1/15/1993,Brazil,61.3,82,A+
+Posco,Goodbody,5/7/1982,Czech Republic,60.0,99,O+
+Robert,Peterson,11/26/1995,Belgium,78.5,182,O+
+Rustam,Muravyov,10/11/1985,Austria,71.1,172,A+
+Gringamor,Button,9/4/1980,Austria,58.1,71,A+
+Nikon,Belov,11/20/1986,Brazil,80.1,181,O-
+Arron,Williamson,5/5/1995,Austria,73.4,173,B+
+Adelgrim,Gammidge,7/27/1985,Czech Republic,65.5,67,A+
+James,Matthews,11/11/1992,Belgium,106.7,179,O+
+Jasper,Forbes,5/16/1988,Belgium,109.4,185,B+
+Griffo,Fairbairn,6/19/1990,Belgium,48.6,73,O+
+Gustavo,Azevedo,7/6/1987,Denmark,89.3,180,B+
+Rodion,Belov,4/1/1991,Czech Republic,64.4,169,B+
+Bilal,Burns,4/15/1983,Czech Republic,71.9,168,A-
+Wiseman,Bolger,10/2/1995,Denmark,66.6,78,B+
+Iain,Williamson,10/18/1987,Canada,84.8,169,O+
+Harley,Simpson,6/30/1979,Belgium,70.9,183,A+
+Edward,Andreyev,8/3/1985,Denmark,109.0,179,A-
+Mark,Bogdanov,3/1/1985,Czech Republic,64.8,186,B+
+Kodi,Wood,3/30/1995,Austria,62.9,165,A+
+Ryan,Correia,12/14/1987,Czech Republic,98.9,177,O+
+Tomacca,Goodchild,7/8/1981,Belgium,50.1,99,A+
+Douglas,Pereira,7/18/1984,Cyprus (Anglicized),65.1,184,A+
+Emelyan,Yuriev,8/18/1991,Denmark,60.5,172,O+
+Gabriel,Alves,1/26/1996,Czech Republic,76.7,173,B+
+Hugo,Zaragamba,7/29/1980,Cyprus (Anglicized),60.1,111,O+
+Alex,Alekseyeva,5/15/1983,Canada,100.0,190,B+
+Hilarion,Ankudinov,4/1/1984,Austria,109.2,169,B+
+Dmitry,Vagin,10/19/1988,Austria,69.3,168,O+
+Dillon,Munro,9/12/1995,Brazil,80.1,163,O+
+Cooper,Johnston,2/2/1982,Czech Republic,91.0,190,O+
+Zossima,Aksakov,1/14/1990,Brazil,88.3,180,B+
+Obo,Boffin,1/21/1993,Cyprus (Anglicized),46.0,70,A+
+Emelyan,Medvedev,7/10/1985,Canada,65.4,181,O-
+Basso,Clayhanger,10/5/1985,Brazil,58.5,72,A+
+Wesley,Guzman,12/13/1984,Cyprus (Anglicized),108.0,180,O+
+Kauan,Barbosa,6/21/1991,Canada,63.2,186,B+
+Lawerence,Weems,7/19/1980,Belgium,107.4,169,A+
+Holfast,Goodbody,12/30/1992,Austria,61.4,114,O+
+Igor,Gomes,7/11/1990,Czech Republic,84.4,180,A+
+Evdokim,Volodin,5/1/1992,Denmark,102.8,167,A+
+Arnor,Maggot,12/27/1983,Brazil,46.7,78,A+
+Tony,Scott,8/30/1995,Belgium,60.6,174,B+
+Bilba,Puddifoot,9/22/1985,Brazil,46.7,121,A+
+Scott,Boykins,6/25/1985,Cyprus (Anglicized),95.1,190,B+
+Vitór,Souza,11/15/1984,Czech Republic,108.1,180,O+
+Yegor,Yevseyev,1/8/1986,Cyprus (Anglicized),86.0,188,B+
+Bruno,Hunter,7/1/1981,Cyprus (Anglicized),96.8,177,O+
+Caiden,Murray,6/22/1981,Cyprus (Anglicized),108.3,181,O+
+Ward,Garcia,10/30/1986,Austria,72.0,171,AB+
+Nicolas,Correia,9/19/1978,Belgium,73.2,178,A-
+Oleg,Matveyev,2/20/1997,Austria,75.8,186,O+
+Joe,Tse,1/17/1989,Denmark,67.6,176,B+
+Vincent,Taylor,11/12/1995,Cyprus (Anglicized),77.7,164,O+
+Tigran,Degtyaryov,12/20/1980,Cyprus (Anglicized),66.6,175,AB+
+Isaac,Volodin,9/1/1983,Austria,110.7,176,O+
+Nestor,Ankudinov,5/18/1997,Brazil,78.9,173,B+
+Bruno,Greenhand,12/31/1992,Austria,52.3,68,AB+
+Dustin,Marine,9/13/1984,Belgium,79.2,169,A+
+Theodore,Voronov,3/19/1994,Denmark,92.3,180,A+
+André,Cavalcanti,9/29/1984,Canada,62.6,183,A+
+Raymond,Crippen,12/25/1979,Czech Republic,106.2,175,O+
+Mat,Diggle,10/8/1991,Canada,55.4,115,O+
+Hending,Whitfoot,12/24/1991,Cyprus (Anglicized),56.2,111,B+
+Magnus,Fairbairn,4/26/1992,Brazil,66.2,122,O+
+John,Neal,10/26/1990,Brazil,95.4,181,B+
+Gregory,Robertson,3/20/1997,Cyprus (Anglicized),91.6,172,O+
+Coby,McKay,7/5/1988,Belgium,72.3,168,O+
+Tiago,Pereira,9/5/1985,Canada,69.6,169,AB+
+Cairn,Grant,3/23/1993,Austria,63.8,184,A+
+Maciej,Anderson,6/15/1980,Czech Republic,103.4,180,A+
+Felipe,Sousa,12/24/1982,Canada,91.8,178,B+
+Hildigrim,Gardner,8/30/1993,Austria,52.0,98,B+
+Oleg,Vasin,3/13/1984,Canada,94.6,188,O+
+Franklin,Jaeger,2/19/1982,Denmark,105.0,189,A+
+Plato,Fedorov,7/19/1993,Denmark,84.0,167,B+
+Aran,McKay,3/16/1986,Austria,65.2,177,B+
+Mathew,Ross,1/25/1992,Cyprus (Anglicized),89.7,168,B+
+Cain,Williamson,6/21/1994,Austria,62.4,187,O-
+Leland,Bell,2/18/1983,Austria,108.3,184,A+
+Martim,Barbosa,7/18/1985,Austria,96.7,181,O+
+João,Castro,1/20/1994,Austria,78.0,187,A+
+Lloyd,Murphy,7/26/1996,Denmark,80.4,181,O+
+Kacper,Wallace,6/10/1979,Czech Republic,76.3,182,A+
+Hugo,Cunningham,11/22/1978,Canada,77.1,178,O+
+Isumbras,Bunce,5/24/1997,Brazil,47.7,62,O+
+Gorbaduc,Bolger,2/18/1987,Brazil,54.7,118,AB+
+Tigran,Gavrilov,1/22/1985,Cyprus (Anglicized),71.8,184,A-
+Cotman,Brandagamba,10/8/1985,Belgium,53.3,94,O+
+Odovacar,Puddifoot,2/1/1986,Canada,57.6,116,O-
+Faramir,Headstrong,2/6/1991,Canada,45.5,82,O+
+Jude,Crawford,12/7/1982,Cyprus (Anglicized),96.6,185,O+
+Johnny,Null,8/16/1991,Cyprus (Anglicized),66.4,178,A+
+Tobold,Clayhanger,3/16/1980,Austria,53.7,66,O+
+Douglas,Azevedo,12/31/1978,Brazil,112.3,170,A+
+Isengrim,Zaragamba,6/3/1995,Czech Republic,60.9,99,B+
+Caiden,Walker,4/5/1989,Denmark,107.4,177,A+
+Jamie,Douglas,2/11/1993,Cyprus (Anglicized),58.9,186,A+
+Agustin,Wallace,8/17/1995,Austria,89.9,182,O+
+Charlie,Peters,7/12/1986,Czech Republic,76.3,186,A+
+Michael,Sparks,12/1/1989,Denmark,62.2,182,O+
+Hamfast,Goodchild,10/25/1985,Denmark,60.6,83,B+
+Robert,Jones,1/7/1995,Czech Republic,91.2,180,O+
+Bodo,Labingi,10/30/1996,Denmark,55.7,92,A+
+Robby,Aguilar,11/8/1991,Denmark,72.8,170,O+
+Toby,Forbes,1/25/1984,Brazil,69.6,170,B+
+Jason,Hamilton,3/6/1997,Belgium,69.5,183,A+
+Vitor,Sousa,7/4/1996,Cyprus (Anglicized),88.8,164,A-
+Rafael,Cardoso,1/31/1982,Canada,96.7,173,O+
+Luis,Barbosa,7/18/1986,Belgium,71.0,183,A+
+Yefim,Biryukov,11/7/1987,Czech Republic,64.9,174,O+
+Mateus,Costa,11/21/1984,Belgium,91.7,176,B+
+Nicodemus,Belov,10/26/1985,Cyprus (Anglicized),81.1,172,B-
+Elijah,Findlay,7/31/1988,Brazil,89.0,172,O+
+Preston,Hastings,9/5/1996,Belgium,54.0,170,O+
+Mohamed,Mackenzie,6/13/1983,Belgium,84.8,176,B+
+Ellis,MacDonald,4/22/1990,Belgium,102.4,190,A+
+Kris,Ritchie,4/22/1980,Cyprus (Anglicized),65.9,180,A+
+Kai,Dias,6/22/1988,Denmark,109.9,187,O+
+Felipe,Araujo,10/22/1994,Czech Republic,63.9,181,O+
+Rustam,Yuriev,12/24/1978,Denmark,111.8,188,A+
+José,Souza,6/15/1989,Austria,92.7,184,O+
+Jai,Kennedy,1/3/1989,Austria,95.9,175,O+
+Dementi,Kozlov,7/19/1986,Cyprus (Anglicized),92.2,184,A+
+Ostap,Artemiev,6/12/1984,Canada,73.7,169,A+
+José,Lima,12/19/1995,Belgium,67.7,171,B+
+Russel,Wofford,5/23/1991,Brazil,94.4,187,A+
+Leonardo,Souza,3/11/1994,Cyprus (Anglicized),89.2,181,A+
+José,Cardoso,2/24/1981,Belgium,88.5,169,O+
+Kirk,Garman,9/27/1991,Denmark,88.1,190,B+
+Elliott,Evans,5/27/1983,Canada,113.2,168,B+
+Belisarius,Maggot,3/17/1993,Brazil,57.7,121,O+
+Daniel,Griswold,4/23/1990,Czech Republic,72.4,171,O+
+Bucca,Underhill,3/17/1995,Czech Republic,59.2,101,O+
+Ryan,Costa,11/13/1991,Cyprus (Anglicized),56.6,176,A-
+Karp,Mironov,11/30/1989,Brazil,74.7,184,O+
+Luis,Correia,6/20/1981,Cyprus (Anglicized),64.9,177,O+
+Conrad,Rumble,10/8/1991,Canada,54.5,65,O+
+Nikon,Sozonov,5/3/1986,Brazil,106.8,172,A+
+Rodrigo,Santos,2/11/1982,Brazil,89.4,174,A+
+Otho,Oldbuck,3/29/1981,Denmark,63.2,91,A+
+Alex,Ignatieff,7/23/1984,Belgium,65.0,187,B+
+Piotr,Scott,3/5/1984,Austria,105.9,189,A+
+Kaua,Pereira,11/9/1986,Denmark,88.5,183,O+
+Samlad,Maggot,3/15/1979,Cyprus (Anglicized),48.8,117,B+
+Michael,Sanders,4/27/1996,Canada,62.6,186,A+
+Berilac,Gaukrogers,6/27/1986,Belgium,63.9,80,O+
+Hugo,Chubb,9/23/1987,Belgium,58.7,85,B+
+Otho,Bolger-Baggins,1/9/1994,Belgium,46.4,102,B+
+George,Good,1/12/1997,Austria,57.2,172,O+
+Ricky,Bethea,2/19/1985,Brazil,77.2,169,B+
+Carlos,Gomes,10/13/1978,Austria,87.5,168,O+
+Don,Thompson,5/30/1987,Canada,66.6,187,O+
+Felipe,Goncalves,4/23/1996,Brazil,90.4,187,O+
+Luiz,Cavalcanti,5/17/1991,Denmark,80.0,177,A+
+Dmitry,Mishin,11/17/1979,Austria,105.3,186,O+
+Felipe,Carvalho,9/23/1993,Cyprus (Anglicized),56.5,173,O+
+Paulo,Souza,11/11/1981,Austria,86.4,183,O+
+Thomas,Watson,7/18/1980,Cyprus (Anglicized),90.9,177,O+
+Anatoly,Afanasyev,1/24/1981,Cyprus (Anglicized),87.7,170,B+
+Panteleimon,Vavilov,8/23/1985,Cyprus (Anglicized),91.3,183,O+
+Donald,Keeler,9/30/1994,Brazil,84.6,184,B+
+Stephen,Delarosa,7/7/1980,Denmark,99.2,178,A+
+Ayaan,Cunningham,8/14/1988,Denmark,62.2,180,A+
+Kauã,Rodrigues,4/20/1979,Czech Republic,85.7,179,O+
+Donald,Cripps,6/27/1989,Belgium,58.1,168,A+
+Connor,Bell,4/13/1981,Canada,62.5,180,A+
+Kyle,Murray,7/21/1987,Czech Republic,62.5,178,O+
+Kauã,Ferreira,6/26/1984,Belgium,65.7,183,A+
+Michael,Holdsworth,9/25/1984,Austria,102.7,179,B+
+Gorbulas,Took-Brandybuck,7/31/1986,Cyprus (Anglicized),47.9,92,O+
+Tobold,Bolger,9/10/1989,Belgium,50.3,117,O+
+Ernie,Murphy,3/7/1982,Czech Republic,77.7,171,A+
+Artem,Gerasimov,5/12/1996,Brazil,67.3,187,O+
+Paul,Golubov,4/17/1994,Cyprus (Anglicized),87.2,190,O+
+Brooklyn,Mackenzie,3/12/1995,Canada,89.1,175,O-
+Aran,King,6/28/1982,Brazil,111.9,179,O+
+John,Owens,12/8/1983,Denmark,86.4,171,B+
+Douglas,Martins,2/19/1979,Austria,62.2,174,O+
+Peregrin,Gaukrogers,5/12/1991,Canada,53.6,86,B+
+Luan,Alves,2/6/1979,Czech Republic,63.6,171,O+
+John,Smith,10/28/1986,Denmark,99.5,174,A+
+Mateus,Dias,5/6/1993,Canada,81.5,177,B+
+Victor,Silva,2/17/1988,Cyprus (Anglicized),74.0,171,O+
+Ruben,Zotov,9/10/1988,Canada,95.1,185,O+
+Oscar,Volodin,7/12/1996,Cyprus (Anglicized),70.8,187,A+
+Norman,Pilla,2/18/1983,Cyprus (Anglicized),74.7,173,O+
+Stephen,Ashcraft,6/3/1995,Cyprus (Anglicized),55.3,181,AB+
+Tigran,Ozerov,8/31/1992,Cyprus (Anglicized),86.8,175,A+
+Albert,Uspensky,4/19/1986,Cyprus (Anglicized),83.4,178,A+
+Howard,Martinez,11/19/1990,Cyprus (Anglicized),57.8,182,O+
+Travis,Alexander,11/2/1994,Cyprus (Anglicized),89.6,173,O+
+Marley,Mitchell,1/3/1983,Denmark,82.3,187,A+
+Todd,Jordon,4/11/1983,Cyprus (Anglicized),89.2,172,B+
+Aaron,Oconnell,2/11/1981,Cyprus (Anglicized),81.1,176,A+
+Jaroslav,Kudryashov,11/28/1996,Brazil,87.3,167,B+
+Bildat,Goldworthy,10/2/1982,Austria,66.9,64,AB+
+Richard,Spurrier,8/18/1992,Denmark,74.4,184,B+
+Genghis,Vagin,9/10/1980,Brazil,90.7,170,O-
+Belisarius,Button,6/23/1980,Belgium,66.4,121,A+
+Frank,Shaw,2/24/1997,Brazil,70.3,178,A+
+Derek,Stephens,1/1/1995,Denmark,69.9,185,A-
+Edgar,Fomin,7/2/1993,Czech Republic,64.5,188,A+
+Gary,Carlson,4/12/1985,Belgium,96.8,169,A+
+Samson,Voronkov,11/4/1989,Brazil,80.3,175,B+
+Nahum,Bocharov,12/2/1983,Brazil,107.6,186,A-
+Vitor,Ferreira,12/10/1979,Czech Republic,87.0,189,A+
+Eric,Gray,11/8/1990,Belgium,79.8,182,B+
+Kaua,Cardoso,8/4/1994,Austria,99.1,171,O+
+Dudo,Smallburrow,6/25/1987,Cyprus (Anglicized),61.8,98,A+
+Rian,Hay,3/19/1983,Czech Republic,66.9,184,O+
+Aden,Hunter,9/3/1982,Cyprus (Anglicized),71.0,188,O+
+Bruce,Teasley,9/28/1979,Czech Republic,69.4,169,A+
+Cotman,Oldbuck,11/11/1988,Belgium,49.1,71,A+
+Anton,Golubev,10/26/1983,Austria,64.9,189,O+
+Bodo,Sandheaver,1/12/1987,Austria,62.7,77,A+
+Mitrofan,Kirillov,6/2/1991,Austria,94.9,170,B+
+Paul,Marino,12/11/1979,Canada,74.8,187,O-
+Rodrigo,Reeves,6/29/1985,Czech Republic,96.5,175,A+
+Arthur,Bulgakov,7/21/1993,Austria,93.1,174,O+
+Cian,Maclean,10/4/1994,Cyprus (Anglicized),97.8,172,O+
+Melvin,Bishop,1/8/1987,Czech Republic,72.8,174,O+
+Dorofei,Polyakov,6/16/1983,Austria,86.8,173,A-
+Damian,Degtyaryov,3/2/1996,Belgium,85.2,187,A+
+Harley,Hamilton,7/28/1992,Czech Republic,99.9,173,O+
+Dale,Davidson,7/30/1984,Czech Republic,101.5,181,A-
+Thomas,Kaufman,11/18/1994,Brazil,62.9,170,O+
+Eric,Borodin,7/31/1984,Canada,74.1,190,O+
+Luan,Almeida,10/15/1983,Austria,85.7,177,O+
+Posco,Zaragamba,10/8/1995,Belgium,52.2,80,A+
+Marat,Zaitsev,12/5/1993,Denmark,70.9,185,O+
+Reginard,Diggle,8/3/1980,Austria,65.2,117,O+
+Doderic,Grubb,2/4/1983,Cyprus (Anglicized),53.1,120,B+
+Lazarus,Bazhenov,9/3/1993,Cyprus (Anglicized),57.2,164,O+
+Adelbert,Noakes,6/2/1992,Cyprus (Anglicized),55.9,78,A-
+Vinícius,Lima,2/5/1990,Belgium,58.8,188,B+
+Nahum,Konovalov,1/2/1983,Brazil,99.0,181,A+
+Tomás,Silva,11/29/1980,Canada,93.4,169,A+
+João,Gomes,11/22/1982,Brazil,76.3,176,O+
+Roland,Zaitsev,1/31/1984,Belgium,82.7,175,AB+
+Murilo,Rodrigues,4/5/1996,Canada,66.8,182,O+
+Magnus,Goodbody,4/28/1996,Belgium,52.5,77,A+
+Marat,Zhirov,5/28/1986,Cyprus (Anglicized),73.7,182,O+
+Otávio,Ferreira,1/16/1984,Cyprus (Anglicized),83.1,184,O+
+Vinícius,Barbosa,5/27/1984,Denmark,111.8,168,AB+
+Danny,Morrow,2/21/1992,Austria,83.6,169,O+
+Ahmed,Kovalev,11/29/1994,Austria,91.0,185,O+
+Charles,Bradford,12/8/1985,Cyprus (Anglicized),66.5,186,A+
+Albert,Balabanov,3/19/1996,Cyprus (Anglicized),76.7,176,A+
+Julian,Santos,7/7/1990,Canada,97.4,174,AB-
+Vitor,Ferreira,2/27/1993,Belgium,59.2,178,O+
+Davi,Carvalho,6/15/1994,Canada,78.3,175,B+
+Haiduc,Brownlock,5/16/1995,Denmark,60.4,92,AB+
+Paladin,Puddifoot,5/9/1991,Denmark,62.2,90,B+
+Ilberic,Gamgee,1/22/1989,Cyprus (Anglicized),57.3,88,A+
+Simon,Balashov,10/31/1982,Denmark,74.4,177,B+
+Roderick,Duncan,11/10/1981,Austria,82.9,179,A+
+Timba,Underhill,2/14/1986,Czech Republic,60.5,122,A+
+Lotho,Rumble,2/1/1987,Canada,65.0,81,A+
+Jan,Sinclair,6/19/1982,Cyprus (Anglicized),94.7,173,A+
+Ronan,Kerr,9/10/1981,Canada,81.4,189,O-
+Felipe,Alves,4/25/1981,Cyprus (Anglicized),92.1,177,A+
+Seredic,Greenhand,6/6/1988,Denmark,48.8,70,B-
+Albert,Gordon,7/31/1987,Canada,80.5,170,B+
+Malik,Kotov,2/6/1989,Austria,75.7,179,O+
+Scott,McDonald,9/23/1988,Cyprus (Anglicized),73.7,167,AB+
+Frances,Low,6/27/1984,Denmark,70.5,189,O+
+Milo,Gaukrogers,4/26/1984,Cyprus (Anglicized),46.0,62,A+
+Mosco,Diggle,10/4/1988,Canada,53.4,87,AB+
+Carlos,Cardoso,1/14/1992,Czech Republic,81.9,167,A+
+James,Jackson,5/29/1981,Denmark,81.1,189,O+
+Melampus,Noakes,6/4/1981,Czech Republic,56.2,108,O+
+Bildad,Bracegirdle,10/9/1979,Czech Republic,57.3,119,B+
+Chilimanzar,Goold,2/11/1995,Czech Republic,57.2,68,AB-
+Samuel,Gomes,7/24/1980,Denmark,67.2,180,A+
+Estevan,Oliveira,5/10/1995,Brazil,96.3,165,A+
+Igor,Voronov,3/29/1987,Brazil,105.7,174,B+
+Valdemar,Smallburrow,8/4/1988,Belgium,64.2,118,B+
+Júlio,Azevedo,5/25/1981,Canada,110.7,168,A+
+Cruz,MacDonald,7/31/1995,Austria,63.9,168,O+
+Kauã,Fernandes,4/2/1989,Canada,63.8,186,O-
+Lucas,Castro,9/16/1978,Denmark,111.9,168,A-
+Van,Poulin,11/19/1987,Cyprus (Anglicized),94.2,179,A+
+Murray,Dickerson,9/22/1983,Denmark,63.8,172,O-
+Jensen,Moore,9/1/1988,Czech Republic,109.4,181,B+
+Eugene,Vinogradov,12/22/1990,Cyprus (Anglicized),74.6,185,A+
+Sviatoslav,Bobrov,3/31/1991,Brazil,93.7,188,B+
+Kris,Wilson,5/22/1997,Belgium,92.3,170,A+
+Gustavo,Dias,10/2/1985,Austria,69.8,184,O+
+Renan,Gomes,6/10/1989,Czech Republic,98.6,189,A-
+Everett,Well,4/2/1990,Cyprus (Anglicized),64.3,187,A-
+Paul,Burgess,8/4/1991,Belgium,69.2,187,O+
+Diego,Rodrigues,7/23/1990,Denmark,91.2,190,A+
+Mitrofan,Frolov,5/14/1984,Austria,66.5,181,B+
+Victor,Correia,10/19/1988,Cyprus (Anglicized),67.6,177,O-
+Marroc,Bolger-Baggins,3/27/1990,Denmark,52.6,76,O+
+João,Pereira,6/9/1992,Brazil,94.0,174,B+
+Nibs,Mugwort,9/24/1990,Czech Republic,59.6,61,O+
+Hamfast,Hayward,6/24/1996,Austria,47.8,82,A+
+Kondrat,Vassiliev,4/4/1990,Austria,68.1,168,A+
+Luís,Fernandes,10/20/1996,Canada,50.7,171,A+
+Jared,Boyle,6/20/1978,Denmark,72.0,178,O+
+Oliver,Ozerov,8/2/1979,Cyprus (Anglicized),66.1,187,B-
+Christopher,Vinson,5/8/1979,Brazil,102.3,174,B+
+Victor,Gifford,11/4/1995,Belgium,76.5,165,A+
+Cailean,Watt,11/24/1980,Cyprus (Anglicized),97.5,180,O+
+John,Maheu,10/12/1984,Cyprus (Anglicized),101.9,183,O+
+Leo,Gerasimov,1/27/1996,Brazil,94.1,175,AB+
+Charles,Ward,2/14/1992,Cyprus (Anglicized),82.0,175,A+
+Devon,Smith,8/22/1993,Austria,65.8,177,A+
+Don,Ortega,6/18/1980,Denmark,99.5,187,O+
+Henry,Chien,1/25/1990,Cyprus (Anglicized),67.7,182,B+
+Júlio,Lima,5/2/1983,Cyprus (Anglicized),92.7,173,A+
+Antônio,Ribeiro,9/3/1979,Canada,103.5,174,O+
+Thomas,Newton,3/21/1984,Canada,78.3,171,O+
+Dominic,Michel,10/14/1995,Denmark,58.9,175,A+
+Paul,Price,9/28/1981,Czech Republic,86.6,177,AB+
+Gorbulas,Button,12/14/1989,Brazil,61.6,107,B+
+Lucas,Melo,9/22/1993,Belgium,66.9,166,AB+
+Kauã,Araujo,2/17/1993,Austria,71.7,183,AB+
+Orgulas,Gammidge,1/4/1985,Cyprus (Anglicized),49.6,80,A+
+João,Carvalho,5/9/1986,Austria,73.5,186,O+
+Tom,Baggins,10/1/1980,Cyprus (Anglicized),56.0,67,A+
+Simon,Blokhin,2/7/1995,Denmark,88.5,187,O+
+Bildat,Maggot,7/29/1980,Austria,53.2,112,B+
+Adelard,Took-Took,5/29/1982,Czech Republic,60.1,66,A+
+Déagol,Fairbairn,7/15/1996,Cyprus (Anglicized),65.5,94,A+
+Hector,Hill,7/27/1992,Cyprus (Anglicized),99.4,181,O+
+Heribald,Brandybuck,8/17/1978,Austria,61.2,62,B+
+Julian,Goncalves,10/19/1994,Cyprus (Anglicized),78.0,183,A+
+Pedro,Martins,1/25/1987,Denmark,75.3,185,AB+
+Gustavo,Almeida,9/1/1980,Cyprus (Anglicized),113.5,176,A+
+Bruce,Watt,1/9/1992,Cyprus (Anglicized),57.1,167,B-
+Blair,Alexander,9/10/1980,Denmark,70.9,174,A+
+Luan,Lima,7/26/1979,Austria,74.9,174,B+
+Corey,Ickes,5/20/1985,Cyprus (Anglicized),76.0,190,B+
+Nicodemus,Gorbunov,9/10/1988,Brazil,98.3,189,A+
+Nicolas,Ribeiro,12/31/1996,Brazil,87.9,162,B+
+Bandobras,Grubb,6/1/1991,Cyprus (Anglicized),55.5,105,O+
+Joseph,Thomson,4/19/1984,Czech Republic,62.9,188,A+
+Nicolas,Pereira,8/1/1992,Austria,58.3,190,B+
+Luke,Avdeyev,9/3/1978,Belgium,104.1,183,A+
+Fábio,Cardoso,8/20/1995,Denmark,72.0,174,O+
+Daryl,Sutherland,6/24/1992,Denmark,90.2,188,O+
+Ravil,Belov,11/16/1982,Canada,70.5,174,AB+
+Carlos,Fernandes,7/15/1994,Belgium,65.6,165,O+
+Justin,Cohen,11/20/1991,Austria,101.0,170,O-
+Cyril,Voronkov,10/21/1987,Austria,105.6,171,O+
+Gregory,Frye,3/21/1981,Cyprus (Anglicized),113.1,184,AB-
+Freddie,Dickson,6/3/1980,Cyprus (Anglicized),95.4,188,A+
+Xenophon,Kotov,1/3/1997,Canada,53.6,166,O+
+Gordey,Yevseyev,12/9/1985,Brazil,105.2,185,O+
+Ismail,Yusupov,6/20/1994,Cyprus (Anglicized),79.8,170,B+
+Isumbras,Sandheaver,2/10/1989,Cyprus (Anglicized),49.9,74,B+
+John,Allison,9/19/1984,Canada,104.6,175,O+
+Ellis,Hannan,3/31/1988,Canada,106.7,190,O+
+Kauê,Souza,9/7/1983,Cyprus (Anglicized),82.4,188,B+
+Mateus,Pinto,3/5/1997,Brazil,57.6,172,B+
+Fosco,Tunnelly,12/10/1978,Brazil,60.4,83,O+
+Garry,Cavanaugh,6/13/1992,Brazil,109.0,189,O+
+Joe,Paulson,8/6/1985,Belgium,105.0,176,O+
+Ramiro,Bazhenov,10/19/1978,Cyprus (Anglicized),110.3,172,A+
+Ian,Vinogradoff,11/21/1980,Austria,108.1,169,B+
+Bryan,King,9/17/1994,Czech Republic,63.0,167,O+
+Roddy,Wilson,2/17/1983,Cyprus (Anglicized),101.1,172,O+
+Gundobad,Greenhand,4/27/1993,Canada,52.2,87,B+
+Lucas,Correia,9/3/1996,Cyprus (Anglicized),65.2,182,O+
+Rafik,Kovalev,8/15/1989,Cyprus (Anglicized),60.9,171,O+
+Cailean,Macleod,11/23/1978,Belgium,94.4,184,O+
+Kade,Anderson,1/16/1995,Belgium,87.4,169,O+
+Estevan,Pinto,4/1/1982,Denmark,94.1,173,AB+
+Raymond,Wilson,9/15/1991,Cyprus (Anglicized),105.8,189,A+
+Nazar,Yefimov,4/9/1996,Canada,67.7,188,O+
+Victor,Fernandes,2/16/1995,Cyprus (Anglicized),55.2,163,B+
+Guilherme,Alves,7/7/1982,Cyprus (Anglicized),63.0,173,A+
+Mateus,Alves,9/22/1986,Belgium,65.4,175,A+
+Ryan,Azevedo,11/10/1992,Austria,91.5,167,O+
+Carson,Williamson,6/11/1991,Belgium,62.9,184,B+
+Sagramor,Brandagamba,11/21/1979,Czech Republic,61.7,77,A+
+Tobold,Gaukrogers,11/25/1980,Czech Republic,64.3,62,A-
+Genghis,Alexeyeva,2/8/1993,Cyprus (Anglicized),94.9,174,O-
+Brogan,Anderson,7/23/1978,Belgium,62.9,185,A-
+Carl,Uspensky,1/19/1993,Cyprus (Anglicized),109.4,167,O+
+Mathew,Clark,11/30/1979,Denmark,111.5,170,O+
+Bercilac,Smallburrow,2/7/1993,Austria,51.9,112,A+
+Gerald,Cameron,3/31/1982,Czech Republic,88.9,175,O+
+Jacob,Burns,2/13/1991,Cyprus (Anglicized),63.3,190,A-
+Oleg,Avdeyev,10/9/1983,Belgium,80.8,183,A+
+Emmanuel,Gorbunov,7/28/1994,Austria,56.7,164,B+
+Artem,Frolov,6/28/1992,Canada,56.0,189,O+
+Nicolash,Alves,3/25/1985,Denmark,66.3,171,O+
+Gringamor,Galbassi,7/31/1981,Cyprus (Anglicized),59.7,119,A+
+Dinodas,Brownlock,1/9/1989,Austria,66.8,72,O+
+Kauã,Rodrigues,6/23/1983,Belgium,64.6,187,O+
+Rodrigo,Araujo,9/16/1988,Canada,92.6,180,AB+
+Chariton,Golubov,8/31/1995,Cyprus (Anglicized),62.6,172,O+
+Simon,Yefimov,6/7/1984,Belgium,94.1,176,O+
+Immanuel,Yermakov,9/5/1994,Austria,72.3,166,A+
+Vlad,Baranov,10/23/1994,Cyprus (Anglicized),71.6,186,O+
+Lyle,Findlay,9/8/1994,Cyprus (Anglicized),98.0,170,A+
+Jakob,Marshall,2/7/1986,Denmark,79.1,187,A+
+Otávio,Cunha,5/11/1991,Czech Republic,93.5,167,B+
+Stephen,Cunningham,8/9/1992,Brazil,67.3,182,AB+
+Willie,Simcox,7/18/1994,Denmark,84.7,175,O+
+Diego,Ribeiro,6/21/1995,Austria,65.9,176,B+
+Mungo,Took-Brandybuck,6/30/1983,Austria,66.2,92,B+
+Madoc,Lightfoot,2/13/1985,Canada,50.3,62,B+
+Cyril,Gavrilov,11/23/1986,Czech Republic,108.0,181,O+
+Scott,Broder,9/12/1981,Austria,81.8,173,A+
+Kodi,Wilson,5/19/1992,Austria,105.6,171,O+
+Curtis,Watson,8/8/1984,Austria,93.0,184,B-
+Keith,Resendiz,4/6/1988,Belgium,100.5,181,O+
+Isembard,Longhole,12/21/1995,Canada,46.0,106,B+
+Ruben,Nevzorov,12/1/1996,Belgium,81.6,183,A+
+Harry,Ferguson,5/30/1987,Cyprus (Anglicized),61.7,168,O+
+Grossman,Underhill,11/23/1991,Denmark,49.5,88,B+
+Bill,Lindsay,2/17/1982,Czech Republic,85.4,190,O-
+Mikolaj,Dickson,11/26/1996,Austria,61.0,184,O+
+Longo,Hayward,8/3/1982,Brazil,60.5,105,O+
+Gundahar,Sackville,5/15/1993,Brazil,56.2,115,B+
+João,Souza,3/11/1989,Austria,71.3,168,O+
+Steven,Kolar,2/28/1992,Brazil,94.6,180,O+
+Blair,Scott,3/28/1986,Belgium,65.8,187,O+
+Richard,Gonzalez,11/19/1995,Czech Republic,64.6,163,B+
+Mungo,Lothran,5/28/1997,Canada,46.1,116,A+
+Evdokim,Kazantsev,6/27/1988,Cyprus (Anglicized),107.5,176,O-
+Gruffo,Underhill,3/7/1994,Cyprus (Anglicized),67.3,116,O+
+Bruno,Roper,11/4/1978,Denmark,52.8,80,A+
+Folcard,Took-Brandybuck,10/21/1993,Brazil,49.8,118,O+
+Mohammed,Johnstone,6/10/1994,Czech Republic,71.6,171,A+
+Fábio,Rodrigues,1/27/1991,Austria,99.5,174,B+
+Mat,Baggins,2/5/1982,Cyprus (Anglicized),51.6,65,O+
+Ivory,Anderson,3/4/1980,Czech Republic,79.0,179,B+
+Hippolyte,Blokhin,4/6/1991,Brazil,73.0,173,A+
+Robert,Ellis,7/25/1978,Cyprus (Anglicized),100.9,181,A+
+Heath,Iversen,8/14/1993,Canada,69.3,178,O+
+Vitor,Goncalves,5/22/1986,Austria,61.1,172,O+
+Porphyry,Konovalov,3/28/1987,Canada,104.9,177,AB+
+Tim,Whitfoot,8/28/1979,Belgium,51.9,77,O-
+Hal,Goodchild,1/5/1986,Cyprus (Anglicized),53.4,68,O-
+Zack,Gordon,12/12/1985,Cyprus (Anglicized),70.5,190,A+
+Avdei,Vasilyev,4/16/1989,Belgium,91.2,184,O+
+Seraphim,Lazarev,7/23/1987,Denmark,62.6,170,O+
+Tolman,Fairbairn,2/10/1985,Denmark,60.0,111,B+
+Luís,Carvalho,1/17/1994,Denmark,62.8,166,B+
+Polo,Goold,3/22/1991,Cyprus (Anglicized),53.7,90,O+
+Sadoc,Chubb,3/27/1982,Cyprus (Anglicized),63.6,117,B+
+Alan,Fischer,6/26/1995,Czech Republic,64.2,187,O-
+Hai,Nickell,3/20/1988,Czech Republic,91.3,178,O+
+Ruslan,Voronov,4/22/1989,Denmark,69.9,178,B+
+Edward,Crosswhite,1/5/1986,Cyprus (Anglicized),64.0,179,A+
+Wilcome,Brandybuck,12/5/1986,Brazil,51.0,80,AB+
+Diogo,Cunha,9/9/1995,Denmark,74.0,163,B+
+Robert,Woods,1/23/1985,Austria,99.8,175,A-
+Kelvin,Docherty,12/13/1985,Denmark,108.8,181,O+
+Jakub,Morrison,12/22/1981,Canada,69.8,176,B+
+Milo,Rumble,2/29/1992,Belgium,50.1,63,B+
+Robin,Proudfoot,7/31/1978,Denmark,50.7,114,A+
+Joao,Sousa,2/2/1996,Brazil,68.5,169,O+
+Marcos,Azevedo,7/31/1991,Brazil,63.5,167,B+
+Eoghan,Williamson,11/18/1979,Cyprus (Anglicized),66.4,181,A+
+Ewan,Fleming,6/17/1985,Canada,62.5,185,AB+
+Minto,Labingi,12/24/1988,Cyprus (Anglicized),63.1,74,A+
+Hugh,Bruce,4/17/1992,Cyprus (Anglicized),103.7,186,A-
+Brian,Pines,5/2/1995,Brazil,75.2,165,A+
+Edward,Docherty,8/27/1981,Czech Republic,108.1,180,B+
+Frazer,Black,12/22/1995,Denmark,89.4,184,A-
+Diego,Cardoso,5/3/1985,Denmark,66.5,168,B+
+Emelyan,Bocharov,5/25/1991,Austria,104.5,179,A-
+Rodion,Muravyov,11/15/1995,Canada,88.0,178,O+
+Orlando,Longhole,7/26/1990,Cyprus (Anglicized),54.9,118,B+
+Luan,Almeida,5/21/1980,Belgium,67.8,178,O+
+Rafael,Almeida,4/24/1991,Brazil,105.4,170,B-
+Louis,Sparks,5/13/1996,Belgium,94.7,169,O+
+Murat,Yuriev,2/25/1991,Cyprus (Anglicized),66.4,188,O+
+Ferdinand,Took-Brandybuck,9/7/1982,Cyprus (Anglicized),47.9,81,O-
+Holman,Gawkroger,5/11/1980,Brazil,54.5,94,O+
+Gustavo,Costa,9/10/1991,Denmark,78.1,182,B+
+William,Warren,9/5/1995,Canada,75.9,183,A+
+Taylor,Donaldson,7/1/1995,Brazil,60.5,172,O-
+Jeramy,Chandler,5/19/1988,Austria,92.3,179,B+
+Oliver,Burns,1/9/1996,Brazil,75.7,182,A+
+Farid,Zakharov,10/2/1989,Cyprus (Anglicized),83.7,173,B+
+Gustavo,Ferreira,5/24/1987,Belgium,83.7,180,O+
+Rustam,Gavrilov,6/21/1996,Cyprus (Anglicized),52.7,169,O+
+Luan,Oliveira,12/18/1979,Austria,81.2,172,A+
+Eduardo,Rocha,9/26/1987,Belgium,68.9,174,A+
+Scott,Crane,2/23/1993,Belgium,103.8,167,O+
+Tolman,Gamgee,4/4/1996,Cyprus (Anglicized),65.3,89,A+
+Dodinas,Baggins,8/30/1993,Cyprus (Anglicized),63.5,122,O+
+Saradoc,Sandyman,10/12/1980,Canada,66.1,108,A+
+Filip,Fraser,8/14/1983,Brazil,110.3,190,O+
+Plato,Ermakov,9/10/1987,Belgium,72.2,169,B+
+Aryan,Smith,9/8/1990,Belgium,56.4,179,O-
+Richard,Ochoa,10/30/1980,Canada,112.0,178,O+
+Meriadoc,Burrowes,2/21/1983,Cyprus (Anglicized),64.9,120,A+
+Cillian,Sutherland,7/10/1992,Czech Republic,60.9,180,B+
+Haiden,Cameron,2/11/1985,Cyprus (Anglicized),107.4,182,O+
+Codi,Jamieson,10/11/1979,Brazil,65.0,170,O+
+George,Ermakov,1/14/1987,Denmark,95.6,174,A-
+Leonid,Golubev,12/18/1985,Brazil,96.1,175,O+
+Lubomir,Bogdanov,9/30/1983,Austria,107.4,184,AB+
+Yuri,Fomin,5/21/1996,Cyprus (Anglicized),93.4,188,O+
+Adelard,Bracegirdle,5/8/1997,Brazil,59.9,93,A+
+Aaron,Craig,8/15/1985,Brazil,62.0,188,B-
+Derek,Millar,10/3/1987,Brazil,102.5,186,AB+
+Marat,Averyanov,1/8/1984,Czech Republic,79.3,171,O+
+Luan,Pinto,11/4/1980,Austria,78.4,177,O+
+Brayden,White,10/4/1988,Cyprus (Anglicized),63.5,179,O+
+Flavus,Smallburrow,8/22/1985,Cyprus (Anglicized),48.9,119,B+
+Jo,Sackville-Baggins,11/14/1996,Czech Republic,65.1,107,O+
+Rayan,Reilly,4/22/1997,Brazil,81.5,166,O+
+John,Johnson,7/11/1987,Denmark,62.7,185,O-
+Codey,Gordon,7/26/1988,Cyprus (Anglicized),56.9,186,A+
+Russell,Millar,2/11/1987,Canada,106.6,187,A+
+Mateus,Gomes,1/11/1994,Belgium,91.2,190,A-
+Trifon,Efimov,1/30/1996,Belgium,85.7,188,O+
+Roderick,Gibson,2/2/1990,Belgium,69.2,174,O+
+Malik,Abdulov,1/30/1979,Cyprus (Anglicized),78.6,170,O+
+Joao,Alves,12/14/1985,Brazil,89.7,189,O+
+Duncan,MacDonald,11/27/1995,Denmark,94.1,168,O-
+Nicolas,Costa,9/3/1990,Brazil,62.0,190,A+
+Rostislav,Yermolayev,10/28/1988,Cyprus (Anglicized),67.4,179,B+
+Diogo,Melo,8/15/1988,Belgium,102.7,185,B+
+Douglas,Araujo,11/7/1984,Austria,85.8,190,O+
+Marroc,Gamgee,12/22/1989,Austria,54.5,89,O+
+Tim,Fassett,11/14/1983,Belgium,99.8,181,AB+
+Xander,Wood,8/2/1993,Brazil,91.8,175,O+
+Pedro,Costa,4/16/1979,Denmark,96.4,188,B+
+Tomba,Greenhand,7/29/1986,Denmark,63.9,86,O+
+Richard,Fry,2/29/1992,Canada,71.6,168,AB+
+Archibald,Stewart,5/11/1991,Canada,68.8,190,A+
+Thiago,Cunha,11/21/1987,Austria,109.7,168,A+
+Peter,Hamilton,8/5/1983,Brazil,86.3,179,O+
+Rafael,Castro,2/25/1991,Cyprus (Anglicized),90.9,170,A+
+Antônio,Goncalves,11/4/1983,Denmark,96.9,180,O+
+Igor,Alves,3/4/1992,Brazil,87.9,174,A+
+Alan,Rittenhouse,7/16/1978,Denmark,102.0,169,O+
+Nicholas,Allan,11/10/1980,Czech Republic,89.4,184,O+
+Carambo,Headstrong,10/16/1980,Czech Republic,58.9,62,B+
+Inigo,Diggle,4/10/1997,Canada,57.0,84,A+
+Cosimo,Lightfoot,6/24/1992,Cyprus (Anglicized),66.6,114,B+
+Brendan,Crawford,1/24/1990,Denmark,82.4,186,B+
+Bill,Lodge,12/28/1991,Denmark,82.2,185,A+
+Marc,Donaldson,10/18/1988,Czech Republic,87.6,172,A+
+Xenophon,Gorbunov,4/17/1997,Brazil,59.4,171,O+
+Diego,Alves,9/29/1986,Denmark,108.5,186,A+
+Danilo,Correia,1/10/1996,Cyprus (Anglicized),64.4,178,O+
+Carambo,Button,10/12/1994,Cyprus (Anglicized),59.2,82,O+
+Kauê,Carvalho,6/6/1992,Brazil,80.4,170,A+
+Ivan,McKay,8/3/1993,Canada,100.9,184,O+
+Alfie,Ferguson,11/24/1996,Czech Republic,52.8,166,O+
+Arseny,Belousov,4/25/1980,Denmark,65.4,181,B+
+Emmanuel,Bell,12/1/1992,Belgium,90.7,177,O+
+Guy,Mackenzie,4/23/1994,Belgium,84.4,188,AB+
+Bogdan,Aksenov,9/9/1996,Canada,93.2,177,O+
+Fredric,Weeks,4/6/1997,Brazil,89.6,187,O+
+Lubomir,Vassiliev,10/20/1978,Belgium,108.9,173,O+
+John,Rivera,8/11/1995,Brazil,71.7,167,O+
+Piotr,Wilson,8/19/1978,Brazil,92.4,175,AB+
+Bryce,Thompson,9/19/1987,Austria,105.2,181,B-
+Carl,Bodrov,6/2/1990,Cyprus (Anglicized),77.6,176,O-
+Fábio,Alves,5/9/1989,Belgium,78.1,176,B+
+Andrew,Izmaylov,11/8/1995,Denmark,85.8,172,A+
+Guido,Tunnelly,7/10/1985,Czech Republic,45.9,93,A+
+Gordey,Belov,1/27/1988,Cyprus (Anglicized),63.2,181,A+
+Junior,Williamson,9/10/1988,Austria,71.7,180,A+
+Dorofei,Aksakov,10/19/1993,Denmark,55.3,168,B+
+Albert,Gorbunov,4/14/1981,Austria,99.5,168,B+
+Edward,Maslow,2/22/1992,Canada,71.1,169,O+
+Yaropolk,Lavrov,3/5/1992,Brazil,103.9,182,A+
+Erling,Fairbairn,2/24/1983,Cyprus (Anglicized),59.4,63,A+
+Luiz,Cardoso,6/27/1989,Cyprus (Anglicized),74.9,182,A+
+Marmadoc,Gammidge,5/4/1984,Cyprus (Anglicized),53.2,84,O+
+Rafael,Cavalcanti,12/2/1987,Cyprus (Anglicized),107.9,188,O-
+Alex,Vasiliev,4/3/1981,Denmark,98.2,178,O+
+Troy,Bradford,9/21/1990,Cyprus (Anglicized),77.0,173,O+
+Mayor,Yermolayev,11/14/1981,Denmark,113.3,171,B+
+Nicodemus,Aksakov,6/1/1993,Canada,59.6,189,AB+
+Vyacheslav,Kotov,11/6/1980,Cyprus (Anglicized),86.0,168,O+
+Ryan,Sousa,9/23/1981,Denmark,109.8,186,O+
+Hasan,McMillan,2/16/1994,Cyprus (Anglicized),96.1,166,O+
+Gavin,Watson,6/26/1981,Austria,107.0,177,O+
+Mark,Cook,9/19/1980,Austria,109.2,169,O+
+Kauê,Azevedo,8/27/1994,Canada,59.5,163,A+
+Maxwell,Cunningham,7/4/1992,Austria,82.9,185,O+
+Isaac,Ignatiev,2/18/1988,Denmark,110.9,179,O+
+José,Barbosa,2/16/1988,Cyprus (Anglicized),74.5,187,A+
+Jaiden,Sutherland,4/13/1986,Brazil,68.3,183,O+
+Habaccuc,Greenhand,3/4/1986,Cyprus (Anglicized),59.3,75,A+
+Warren,Ferguson,11/28/1984,Czech Republic,61.4,182,O+
+Jude,Henderson,6/1/1989,Brazil,96.1,176,A+
+Igor,Rocha,12/27/1993,Canada,84.8,166,O+
+Adam,Lavrov,4/27/1981,Austria,91.1,168,A-
+Theodore,Gipe,5/5/1990,Austria,96.3,176,A+
+Fernando,Holley,6/24/1981,Austria,70.2,178,B+
+Ilberic,Bracegirdle,8/24/1993,Canada,64.9,118,A+
+Luiz,Cunha,8/4/1983,Austria,64.1,169,AB+
+Nick,Golubev,4/12/1985,Canada,95.1,178,A+
+Mike,Barge,7/22/1979,Austria,67.9,188,B-
+Estevan,Cardoso,6/12/1989,Austria,95.5,175,O+
+Danilo,Barros,2/9/1984,Belgium,82.7,188,B-
+Rufus,Chubb-Baggins,3/7/1988,Belgium,49.6,83,A+
+Cerdic,Burrowes,11/18/1996,Denmark,67.8,83,A+
+Findlay,Fleming,9/30/1979,Canada,95.3,176,O+
+Matheus,Sousa,10/17/1982,Brazil,83.4,172,O+
+James,Falk,12/20/1995,Cyprus (Anglicized),54.0,180,O+
+Raymond,Brown,1/20/1994,Belgium,86.9,174,A+
+Arkady,Balabanov,7/23/1996,Belgium,83.9,183,B+
+Willie,Sharp,1/29/1983,Czech Republic,92.7,184,A+
+Samson,Shubin,3/17/1988,Austria,107.1,170,O+
+Dinodas,Gawkroger,9/30/1990,Belgium,67.5,119,A+
+Daniel,Repin,1/21/1981,Cyprus (Anglicized),91.8,185,O+
+Joao,Costa,8/19/1995,Denmark,64.0,188,O+
+Moses,Voronov,6/8/1996,Brazil,61.8,164,O+
+Razanur,Gardner,11/18/1987,Cyprus (Anglicized),63.5,95,A+
+Valentin,Reed,4/5/1982,Canada,79.9,179,A+
+Ronnie,Sullivan,10/1/1980,Cyprus (Anglicized),110.0,183,O+
+Egor,Izmaylov,4/20/1988,Denmark,76.0,185,O+
+Enzo,Oliveira,5/30/1987,Czech Republic,92.2,179,O+
+David,King,2/8/1984,Belgium,95.7,168,A+
+Abdullah,Smith,7/27/1982,Belgium,101.5,169,O+
+Isengrim,Smallburrow,7/11/1989,Cyprus (Anglicized),66.7,93,O+
+Robur,Goodbody,6/22/1987,Cyprus (Anglicized),61.7,75,B+
+Rene,Lawson,10/21/1986,Austria,69.9,177,O+
+Gruffo,Took-Took,7/17/1978,Cyprus (Anglicized),51.1,104,B+
+Jensen,Bell,10/31/1994,Cyprus (Anglicized),78.8,188,O+
+Valerie,Ponomarev,12/3/1989,Cyprus (Anglicized),83.7,187,A+
+Jose,Bailey,8/8/1992,Denmark,69.5,178,O+
+Dmitry,Abramovich,2/26/1994,Belgium,65.3,189,A+
+Cauã,Souza,6/17/1986,Belgium,97.2,179,B+
+Rostislav,Izmaylov,6/18/1994,Cyprus (Anglicized),57.4,190,O+
+Tyrone,Collins,9/9/1991,Austria,90.4,178,A+
+Dustin,Allen,12/12/1987,Austria,104.0,174,A+
+Christopher,Reed,6/15/1983,Czech Republic,85.9,173,A+
+Pimen,Matveyev,6/29/1995,Czech Republic,88.2,183,O+
+Robert,Kulick,3/10/1988,Czech Republic,63.9,185,A+
+Douglas,Cardoso,10/23/1993,Austria,64.6,186,AB+
+Robert,Clements,1/13/1979,Cyprus (Anglicized),66.3,189,B+
+Riley,Moore,1/5/1985,Canada,80.3,177,O+
+Rodrigo,Rodrigues,2/12/1995,Denmark,68.8,171,AB+
+Proclus,Fedorov,6/21/1986,Denmark,69.0,168,O+
+Edward,Dickson,6/9/1979,Austria,101.4,187,O+
+Bosco,Took,10/29/1984,Cyprus (Anglicized),54.0,103,B+
+Shaun,Henderson,12/22/1980,Cyprus (Anglicized),85.3,179,A+
+Blasius,Woronoff,6/20/1987,Belgium,66.1,188,B+
+Largo,Brown,3/13/1992,Cyprus (Anglicized),63.5,64,AB+
+Elisha,Vasin,10/6/1983,Canada,85.0,168,A+
+Breno,Cunha,12/20/1995,Brazil,84.3,188,B+
+Marco,Russell,2/9/1988,Cyprus (Anglicized),107.2,169,A+
+Theodore,Zotov,1/2/1982,Canada,105.8,181,B+
+Elfstan,Labingi,10/19/1984,Cyprus (Anglicized),52.1,116,B+
+Jeffrey,Harrell,5/29/1988,Denmark,76.4,172,A+
+Gordey,Medvedev,3/27/1992,Cyprus (Anglicized),80.3,187,O+
+Samwise,Greenhand,3/3/1991,Cyprus (Anglicized),60.8,86,O+
+Albert,Chiles,6/6/1978,Cyprus (Anglicized),109.4,186,A+
+André,Carvalho,5/19/1987,Denmark,85.0,168,O-
+Harvey,Hill,9/12/1985,Denmark,110.5,181,B+
+Leonid,Alekseyeva,11/1/1988,Austria,83.6,182,AB+
+Harding,Baggins,9/13/1988,Denmark,58.5,106,A+
+Felix,Munro,5/26/1979,Belgium,106.3,183,AB+
+Sergey,Kovalev,1/17/1982,Brazil,72.2,169,A-
+Cory,Munro,2/6/1994,Cyprus (Anglicized),70.1,165,O+
+Cyril,Tretiakov,10/19/1988,Austria,80.7,168,B+
+Marco,Gawkroger,11/7/1980,Austria,61.2,109,A+
+Brandon,Reber,9/9/1978,Austria,100.6,174,O+
+Wilibald,Sandyman,1/29/1989,Czech Republic,52.3,67,A+
+Ahmed,Vasilyev,11/27/1986,Czech Republic,65.0,185,A+
+Arkhip,Ulyanov,3/7/1983,Canada,84.2,186,O+
+Xander,McLean,9/1/1982,Czech Republic,80.1,181,O+
+Kauan,Araujo,8/27/1982,Czech Republic,91.7,179,A+
+Krystian,Muir,10/10/1978,Denmark,77.0,172,A+
+Earl,Christensen,9/1/1979,Cyprus (Anglicized),83.3,183,AB+
+Julian,Fernandes,10/12/1986,Denmark,109.8,170,O+
+Ryan,Boyle,5/5/1985,Canada,74.2,182,O+
+Proclus,Golubev,2/16/1982,Brazil,79.0,170,O+
+Junior,Allan,6/13/1978,Cyprus (Anglicized),67.8,169,A-
+Mark,Hernandez,10/9/1982,Cyprus (Anglicized),108.8,172,A+
+Michael,Pilger,3/10/1988,Brazil,97.3,171,B+
+Brandon,Brown,9/4/1994,Cyprus (Anglicized),80.2,186,A+
+Jan,Burns,10/5/1978,Denmark,64.0,188,O-
+Vitor,Alves,8/14/1989,Cyprus (Anglicized),68.8,181,O+
+Tim,Took-Brandybuck,7/18/1995,Denmark,63.0,120,B+
+Ruslan,Fokine,3/5/1979,Czech Republic,100.4,171,B+
+Methodius,Glazkov,12/6/1990,Belgium,93.6,185,B+
+Gabriel,Ribeiro,10/5/1978,Cyprus (Anglicized),81.3,178,A+
+Davi,Santos,6/30/1992,Austria,86.5,186,O+
+Alex,Hughes,7/6/1982,Canada,111.6,179,A+
+Felipe,Goncalves,4/14/1981,Brazil,75.1,180,O+
+George,Best,3/26/1980,Brazil,80.6,176,B+
+Mohammed,Rogers,5/4/1993,Cyprus (Anglicized),65.7,186,O-
+Stewart,Ross,3/14/1994,Cyprus (Anglicized),90.7,170,B+
+Nicephorus,Uspensky,11/19/1986,Cyprus (Anglicized),64.8,177,AB+
+Ilya,Aksyonov,10/5/1991,Cyprus (Anglicized),60.0,178,A+
+Christopher,Yuriev,9/20/1989,Cyprus (Anglicized),108.1,180,O-
+Joao,Costa,5/31/1996,Czech Republic,82.7,173,O+
+José,Castro,7/19/1983,Czech Republic,97.5,183,O+
+Nathan,Golubov,6/2/1988,Belgium,106.0,169,A+
+David,McCauley,10/24/1984,Austria,98.9,187,O+
+Evdokim,Yevdokimov,10/17/1995,Brazil,53.9,185,A+
+Joseph,Moyer,12/14/1988,Canada,106.8,168,A+
+Vinicius,Goncalves,7/20/1985,Cyprus (Anglicized),66.5,188,O+
+Alistair,Williamson,5/8/1987,Belgium,87.8,182,O+
+Luan,Cardoso,3/15/1987,Austria,103.5,177,O+
+Habaccuc,Bunce,4/10/1993,Czech Republic,66.2,83,O+
+Ferdinand,Boffin,7/13/1985,Brazil,67.0,62,A-
+Leo,Yefremov,2/8/1984,Denmark,84.2,176,A-
+Terence,Yegorov,9/10/1996,Belgium,81.4,188,A+
+Chad,Arizmendi,5/17/1997,Czech Republic,69.9,168,A-
+Rustam,Afanasyev,4/20/1996,Belgium,52.7,179,O+
+Chester,West,5/25/1991,Canada,82.7,177,B+
+Richard,Williams,3/9/1981,Cyprus (Anglicized),95.1,190,O+
+Eduardo,Azevedo,9/30/1979,Cyprus (Anglicized),69.5,189,A+
+Rodion,Artemiev,9/11/1986,Austria,77.3,189,B+
+Cotman,Greenhand,10/27/1988,Cyprus (Anglicized),62.2,88,O+
+Aayan,King,9/4/1987,Austria,91.3,175,O+
+Wesley,Campbell,7/31/1980,Canada,87.3,171,O+
+Joseph,William,6/9/1995,Canada,91.8,167,A-
+Nicephorus,Efremov,9/30/1992,Cyprus (Anglicized),78.0,176,O+
+Gary,Davidson,5/11/1980,Czech Republic,108.9,188,B+
+Gerasimos,Mironov,7/5/1982,Brazil,69.1,188,A+
+Luis,Anderson,6/6/1988,Czech Republic,68.4,181,A+
+Timba,Took-Took,8/16/1989,Denmark,48.5,77,A+
+Roland,Korovin,11/3/1987,Brazil,68.6,175,O+
+Bilcuzal,Headstrong,6/29/1984,Brazil,53.7,117,O+
+Lloyd,Scott,4/15/1988,Austria,104.6,169,O+
+Rodrigo,Dias,11/30/1983,Denmark,76.9,178,O+
+Odovacar,Gardner,10/26/1984,Brazil,68.0,71,AB+
+Meriadoc,Gawkroger,9/18/1979,Brazil,45.3,89,O+
+Isembard,Took,3/11/1992,Canada,47.5,117,A-
+Raymond,Williams,1/2/1991,Canada,89.7,176,O-
+Kai,Dias,9/10/1981,Brazil,98.5,188,A+
+Trifon,Vinogradov,1/19/1980,Cyprus (Anglicized),66.0,179,B+
+Frederick,Arnold,7/5/1979,Austria,83.2,168,O+
+Jesse,Donaldson,10/4/1995,Czech Republic,90.0,172,O+
+Kuzma,Loginov,6/28/1995,Brazil,55.8,169,AB+
+Carlos,Castro,3/19/1992,Cyprus (Anglicized),73.6,178,B+
+Peter,Munro,3/18/1988,Czech Republic,63.9,184,A+
+Reiss,McGregor,1/30/1983,Cyprus (Anglicized),93.0,179,O+
+Trofim,Bazhenov,9/24/1996,Canada,83.3,187,A+
+Lennox,Simpson,10/13/1983,Belgium,73.9,188,A+
+Leo,Mitchell,8/19/1981,Cyprus (Anglicized),106.6,173,A+
+Rafael,Rocha,1/31/1994,Austria,55.7,180,A+
+Myron,Belov,9/12/1982,Austria,84.3,180,O+
+Ken,Riley,6/29/1988,Brazil,58.8,188,B+
+Andrew,Hoffman,9/25/1995,Austria,89.1,185,B+
+Blasius,Istomin,12/22/1981,Belgium,75.1,180,O+
+Ahmed,Izmailov,9/4/1989,Czech Republic,92.3,186,A+
+Fábio,Ribeiro,10/11/1978,Cyprus (Anglicized),71.2,170,O+
+Robert,Boyd,2/24/1992,Cyprus (Anglicized),71.1,172,A+
+Gordon,Wilbert,7/7/1988,Czech Republic,82.0,172,B+
+Maximilian,Vinogradov,5/9/1987,Brazil,104.3,175,O+
+Leonardo,Silva,4/26/1985,Belgium,88.3,172,O+
+Mac,Young,11/24/1978,Cyprus (Anglicized),79.3,170,B+
+Holfast,Lothran,11/6/1981,Canada,67.7,91,O+
+Richard,Craig,7/28/1979,Cyprus (Anglicized),109.9,175,A+
+Damian,Tretyakov,6/15/1981,Brazil,88.9,171,A+
+Luis,Ribeiro,4/7/1981,Brazil,71.3,172,A+
+Milo,Grubb,8/23/1993,Denmark,60.2,101,A+
+Nicolas,Cavalcanti,9/24/1978,Cyprus (Anglicized),80.6,182,O+
+Evdokim,Fokine,10/14/1996,Denmark,83.4,186,O+
+Moses,Lazarev,9/18/1989,Cyprus (Anglicized),93.2,188,B+
+Paul,Butusov,6/9/1988,Cyprus (Anglicized),72.7,181,B+
+Cillian,Scott,5/4/1991,Cyprus (Anglicized),86.6,174,O+
+Micah,Kerr,5/18/1989,Austria,97.6,187,A+
+Justin,Seidman,10/20/1987,Canada,80.2,170,O+
+Evan,Craig,1/16/1981,Denmark,78.0,172,B+
+Edward,Ricks,9/3/1991,Austria,86.3,167,O+
+Rudolph,Tikhonov,6/11/1990,Canada,69.3,175,O+
+George,Korovin,2/26/1984,Czech Republic,81.1,175,A+
+Russell,Davis,10/5/1981,Cyprus (Anglicized),111.9,184,B+
+Estevan,Dias,12/20/1991,Canada,77.3,174,AB+
+Holfast,Oldbuck,11/8/1993,Denmark,45.8,70,O+
+Vadim,Vagin,8/15/1985,Cyprus (Anglicized),69.5,178,O+
+Kauã,Sousa,10/17/1985,Denmark,70.7,169,A+
+Michael,Cameron,12/16/1993,Canada,68.7,171,A-
+Marat,Volodin,5/1/1979,Cyprus (Anglicized),68.9,181,A+
+Makar,Golubev,9/23/1981,Austria,84.7,168,O+
+Proclus,Bazarov,7/28/1987,Cyprus (Anglicized),101.9,170,A+
+Evan,Strickland,10/30/1991,Austria,95.3,173,O+
+Anas,McLean,12/12/1985,Brazil,89.7,168,O+
+Valerie,Degtyarev,5/21/1991,Canada,88.2,187,A+
+Alexander,Sinclair,8/24/1993,Czech Republic,98.1,169,B+
+Johnny,Fraser,2/23/1980,Austria,106.6,179,B+
+Andwise,Smallburrow,5/20/1982,Belgium,62.9,81,A+
+Wayne,Valley,8/26/1988,Canada,74.1,187,O+
+Rafael,Ferreira,11/3/1993,Austria,74.3,183,A+
+James,Marsh,12/31/1978,Brazil,99.3,179,B+
+Gordey,Ulyanov,12/4/1979,Belgium,73.7,182,O+
+Theodore,Maslov,1/27/1979,Cyprus (Anglicized),70.1,190,A+
+Zinovy,Borodin,5/19/1995,Brazil,67.2,164,B+
+Christopher,Shanks,5/23/1992,Belgium,103.0,167,O+
+Marley,Munro,7/11/1991,Canada,81.8,174,O+
+Caio,Goncalves,5/23/1987,Cyprus (Anglicized),98.6,186,A+
+Alasdair,McKay,1/19/1979,Cyprus (Anglicized),67.3,170,B+
+Cory,Putnam,2/27/1993,Austria,75.1,190,O+
+Isengar,Labingi,12/19/1979,Brazil,67.8,88,A-
+Clayton,Gomez,12/3/1980,Cyprus (Anglicized),106.0,172,AB+
+Vsevolod,Alekseeva,8/15/1993,Brazil,66.8,164,A+
+Rayan,Mackay,5/9/1982,Austria,94.3,187,O+
+Odo,Lothran,2/2/1989,Denmark,52.6,96,B+
+Flambard,Roper,2/7/1988,Brazil,51.3,116,B+
+Reginard,Clayhanger,8/6/1994,Brazil,45.9,90,O+
+Holman,Bracegirdle,11/11/1982,Belgium,64.3,66,B+
+Meriadoc,Smallburrow,3/16/1987,Brazil,56.8,102,O+
+Vitor,Melo,9/29/1993,Brazil,62.8,170,A+
+Will,Zaragamba,4/9/1989,Denmark,65.4,68,A+
+Emil,Anisimov,9/16/1989,Belgium,110.0,171,A+
+Patrick,Isaacson,11/21/1990,Cyprus (Anglicized),88.8,185,A+
+Isaiah,Volodin,6/7/1979,Denmark,72.6,169,A+
+Antoni,McLean,7/12/1989,Canada,93.2,170,A+
+Horacio,Barnett,2/25/1981,Czech Republic,73.8,171,O+
+Rashid,Lavrentiev,8/18/1980,Cyprus (Anglicized),96.5,176,O+
+Reagan,Boyle,11/21/1981,Canada,78.7,174,O+
+Samuel,Souza,8/7/1990,Denmark,107.5,189,O+
+Douglas,Cavalcanti,9/12/1978,Brazil,68.1,187,B+
+Leonardo,Azevedo,10/7/1981,Denmark,77.1,186,O-
+Samuel,Santos,3/26/1988,Cyprus (Anglicized),108.9,171,A+
+David,Gallegos,5/6/1996,Denmark,54.1,188,O+
+Jude,Walker,10/18/1988,Denmark,92.0,184,B+
+Marat,Belousov,10/28/1996,Czech Republic,66.9,164,O+
+Tikhon,Bezrukov,1/16/1992,Austria,68.6,184,O+
+Isengar,Bolger,12/18/1994,Denmark,50.2,72,O+
+Jai,McIntosh,5/3/1994,Canada,89.6,183,A+
+Sherman,Burton,8/4/1990,Austria,69.2,181,O+
+Matta,Greenhand,9/1/1980,Brazil,59.9,104,B+
+Ryan,Rodrigues,8/24/1985,Cyprus (Anglicized),105.7,176,O-
+Daniel,Yermakov,9/8/1985,Canada,95.6,175,O+
+Tracy,Vaughn,10/18/1992,Czech Republic,74.0,186,A+
+Holfast,Gamgee,4/24/1997,Austria,57.8,86,A+
+Renan,Castro,9/25/1987,Denmark,111.1,169,A-
+Haris,Miller,6/25/1984,Austria,96.2,189,A+
+William,Cooney,9/22/1995,Austria,67.0,164,O+
+Alex,Correia,7/27/1979,Austria,110.0,170,A-
+Brooklyn,Thompson,11/18/1991,Cyprus (Anglicized),86.5,182,A-
+Taras,Yermolayev,5/14/1980,Denmark,81.8,187,O-
+Olo,Goldworthy,5/13/1985,Cyprus (Anglicized),56.9,106,B+
+Júlio,Ferreira,12/26/1978,Austria,102.3,183,O-
+Leonardo,Gomes,6/21/1985,Canada,110.8,183,B+
+William,Brand,11/9/1982,Austria,108.8,189,A+
+Aedan,Miller,8/4/1996,Denmark,83.9,168,O+
+Sago,Smallburrow,1/9/1979,Denmark,66.8,97,O+
+Abdullah,Cunningham,11/3/1981,Austria,83.3,188,O+
+Marmaduc,Brown,4/29/1980,Cyprus (Anglicized),46.8,83,A+
+Calvin,Thompson,6/14/1981,Cyprus (Anglicized),67.1,185,B+
+Eldar,Abdulov,8/8/1980,Brazil,91.3,186,B+
+Nicholas,Grimaldo,5/9/1995,Czech Republic,73.0,181,O+
+Ernest,Golubov,5/7/1990,Belgium,100.9,178,A+
+George,Olsen,6/15/1982,Cyprus (Anglicized),71.9,181,O-
+Robbie,Abbey,12/16/1988,Czech Republic,110.0,176,O-
+Lawrence,Cole,9/2/1993,Canada,96.2,188,A+
+Matthew,Huntington,10/4/1989,Canada,80.9,189,A+
+Timothy,Degtyaryov,11/23/1985,Brazil,62.7,169,O+
+Cauã,Dias,2/7/1996,Cyprus (Anglicized),77.3,163,O+
+Kuzma,Lavrov,8/8/1988,Cyprus (Anglicized),60.4,182,O+
+Arnor,Brandagamba,11/13/1979,Denmark,45.8,83,A+
+Noah,Thompson,5/19/1985,Belgium,95.9,186,B+
+Patryk,Gordon,11/4/1993,Czech Republic,82.0,183,O+
+Chariton,Pirogov,3/30/1989,Czech Republic,67.5,167,O-
+Arthur,Dias,1/22/1985,Denmark,76.9,187,AB+
+Rohan,Maclean,3/15/1979,Austria,104.9,168,O+
+Joseph,Durham,10/21/1981,Cyprus (Anglicized),89.7,189,A-
+Ahmed,Alexandrov,3/19/1988,Brazil,82.6,183,A-
+Erick,Lima,1/15/1981,Austria,66.9,188,B+
+João,Martins,4/7/1993,Denmark,88.1,175,A+
+Nicolas,Carvalho,12/4/1996,Czech Republic,80.1,162,O+
+Olo,Bracegirdle,6/5/1993,Cyprus (Anglicized),55.7,64,O+
+Jimmie,White,5/31/1993,Belgium,56.9,177,A+
+Thomas,Turner,5/3/1982,Canada,90.8,184,O+
+Nicolas,Pinto,2/3/1982,Austria,77.7,171,O+
+Warren,McKenzie,8/4/1984,Canada,67.6,182,O+
+Enzo,Cardoso,8/28/1980,Czech Republic,64.5,175,O+
+Elliott,Rademacher,10/8/1980,Austria,84.3,186,A+
+Peregrin,Gawkroger,1/13/1991,Cyprus (Anglicized),53.0,69,B+
+Ralph,Eicher,2/3/1981,Czech Republic,87.6,168,O-
+Clarence,James,2/25/1992,Cyprus (Anglicized),83.5,174,A+
+Daniel,Almeida,3/3/1996,Brazil,78.7,163,A-
+Callum,Millar,3/3/1993,Cyprus (Anglicized),56.2,171,O+
+Timba,Whitfoot,11/27/1996,Brazil,46.7,82,A-
+Samwise,Button,10/7/1978,Czech Republic,48.3,114,B+
+Orgulas,Sackville,2/24/1980,Belgium,61.6,68,B+
+Guillermo,Gilbertson,4/20/1983,Czech Republic,95.7,175,A+
+Kenny,Hoffman,12/9/1978,Canada,98.6,176,B+
+Edward,Degtyaryov,4/8/1993,Cyprus (Anglicized),74.5,171,O+
+Modest,Tikhonov,9/14/1983,Cyprus (Anglicized),106.4,170,A-
+Enzo,Correia,11/29/1986,Canada,75.0,189,B+
+Daniel,Pinto,5/8/1981,Cyprus (Anglicized),78.0,168,A+
+Andrew,Ritchie,8/16/1987,Czech Republic,67.3,176,B+
+Rhys,Moore,3/5/1981,Brazil,70.4,187,AB+
+Rudolph,Ulyanov,2/3/1983,Belgium,71.7,177,B+
+Logan,Kerr,11/13/1996,Cyprus (Anglicized),78.1,166,AB+
+Donald,Leahy,12/4/1980,Czech Republic,92.6,183,B+
+Thiago,Fernandes,8/22/1993,Canada,61.5,169,A+
+Sebastian,Abramowitz,5/10/1994,Austria,86.5,177,O+
+Bruno,Sandheaver,1/15/1989,Belgium,49.7,114,A+
+Nicolash,Rocha,6/10/1989,Czech Republic,72.9,187,O-
+Dinodas,Proudfoot,10/27/1987,Cyprus (Anglicized),49.7,98,B+
+Tolman,Mugwort,8/24/1991,Belgium,54.0,112,O+
+Luan,Barros,4/26/1986,Belgium,96.1,187,A+
+Haris,Millar,9/8/1996,Austria,91.2,176,AB+
+Rafael,Fernandes,5/13/1988,Cyprus (Anglicized),72.6,184,B+
+Tomás,Melo,9/1/1986,Austria,81.1,184,O+
+Yegor,Kovalyov,1/4/1984,Cyprus (Anglicized),106.5,168,O-
+Guido,Noakes,8/17/1995,Brazil,62.0,83,O+
+Hassan,Young,3/19/1982,Czech Republic,100.7,189,O+
+Carlos,Carvalho,3/7/1983,Austria,106.3,185,O+
+Victor,Bobrov,7/14/1978,Czech Republic,71.4,190,O+
+Ildar,Ponomarev,6/18/1987,Canada,61.1,183,O-
+Luka,Campbell,12/29/1994,Cyprus (Anglicized),63.0,179,A+
+Jared,Forbes,7/26/1992,Brazil,97.4,174,B+
+Dean,Ferguson,7/25/1982,Czech Republic,104.7,171,B+
+Bandobras,Gardner,11/26/1987,Canada,48.4,89,A+
+Moses,Yefremov,5/29/1991,Cyprus (Anglicized),96.2,173,O+
+Nick,Lightfoot,1/28/1979,Canada,59.2,72,O+
+Methodius,Fedorov,4/21/1994,Brazil,81.4,174,A+
+Bilbo,Goldworthy,3/27/1997,Belgium,47.1,73,O+
+Jesse,Nichols,9/13/1985,Czech Republic,84.1,180,O+
+James,Kroon,10/7/1979,Cyprus (Anglicized),64.2,186,A+
+Paladin,Button,3/7/1990,Czech Republic,58.6,114,O+
+Piotr,Donaldson,12/1/1981,Brazil,88.4,176,B+
+Fábio,Gomes,7/11/1990,Cyprus (Anglicized),81.8,183,A+
+Estevan,Rocha,6/22/1994,Denmark,67.4,184,A+
+Marat,Alexeeva,12/1/1984,Brazil,102.6,174,O+
+Luan,Pereira,1/20/1988,Brazil,79.5,185,B+
+Christopher,Huff,6/15/1989,Cyprus (Anglicized),108.9,188,O+
+Vsevolod,Alekseyeva,5/16/1996,Canada,70.7,183,A+
+Iago,Mugwort,7/17/1979,Austria,55.4,69,B-
+Davi,Cardoso,11/19/1989,Austria,95.7,187,A+
+Kaua,Melo,9/17/1983,Cyprus (Anglicized),104.1,188,A+
+Joey,Mackay,12/11/1981,Austria,84.1,177,O+
+Jasper,Montez,12/3/1994,Austria,74.6,177,A+
+Nicolas,Pereira,4/30/1990,Czech Republic,56.2,178,B+
+Raymond,Cameron,9/6/1982,Canada,83.1,186,A+
+Richard,Parker,4/26/1991,Belgium,94.3,185,O+
+Valdemar,Clayhanger,2/25/1980,Cyprus (Anglicized),52.3,87,O+
+Tiago,Carvalho,8/10/1991,Belgium,100.0,177,O+
+Tomás,Pereira,1/7/1984,Cyprus (Anglicized),106.2,171,AB+
+Vitor,Costa,2/16/1990,Czech Republic,77.2,179,A+
+Robert,Benavides,9/6/1991,Belgium,90.5,173,A+
+Magnus,Baggins,5/28/1985,Cyprus (Anglicized),57.8,87,A+
+Danilo,Ferreira,11/19/1987,Cyprus (Anglicized),103.2,177,O+
+Bladud,Gardner,6/2/1991,Cyprus (Anglicized),47.5,94,A+
+Nicolash,Gomes,1/27/1985,Denmark,64.5,187,B+
+Tolman,Roper,12/19/1984,Belgium,60.3,122,O+
+Bilal,Stewart,1/9/1996,Canada,54.5,181,A+
+André,Martins,8/27/1987,Czech Republic,96.2,183,O+
+Roger,Russell,6/10/1994,Czech Republic,97.5,174,A+
+Roan,Williamson,10/13/1993,Cyprus (Anglicized),59.2,186,O+
+Marcho,Oldbuck,6/22/1990,Cyprus (Anglicized),64.5,106,O+
+Matthew,Borodin,4/10/1981,Denmark,111.0,176,O+
+Bodo,Sackville-Baggins,9/9/1989,Cyprus (Anglicized),60.7,116,B+
+Carson,Williamson,8/14/1987,Cyprus (Anglicized),61.6,171,B+
+Eduardo,Pereira,9/12/1996,Cyprus (Anglicized),83.4,171,A+
+Robert,Becker,4/19/1982,Czech Republic,77.7,182,B+
+Kevin,Moon,5/18/1989,Austria,91.2,170,A+
+Blasius,Denisov,11/17/1991,Austria,76.4,180,B+
+Frederick,Stevenson,6/15/1979,Czech Republic,86.6,185,B+
+Vinícius,Gomes,3/26/1991,Cyprus (Anglicized),105.7,178,A+
+Dominique,Efremov,7/5/1992,Belgium,66.6,178,A-
+Kauê,Azevedo,11/25/1990,Brazil,64.3,179,O+
+Eduardo,Pinto,7/28/1992,Denmark,100.8,178,B+
+Danilo,Silva,5/6/1988,Belgium,102.4,168,B+
+Jago,Longhole,4/8/1986,Austria,65.5,83,B+
+Raymond,Daughtrey,1/16/1993,Belgium,83.5,177,O+
+Stanley,Winslow,5/29/1997,Czech Republic,87.7,177,B+
+Daniel,Andreyev,8/20/1991,Cyprus (Anglicized),91.6,187,B+
+Bingo,Twofoot,4/7/1981,Czech Republic,54.8,104,O+
+Porro,Sandheaver,1/17/1993,Denmark,53.5,87,O-
+Constantine,Izmaylov,10/30/1991,Cyprus (Anglicized),84.8,186,O+
+Enzo,Castro,3/10/1984,Canada,78.8,190,A+
+Timur,Vinogradov,2/23/1988,Czech Republic,78.9,180,A+
+Carter,Mackenzie,11/26/1991,Austria,96.2,173,B+
+Iskander,Efremov,3/3/1985,Czech Republic,69.3,180,O+
+Gustavo,Pinto,6/5/1981,Austria,72.7,174,O+
+Guilherme,Castro,1/25/1983,Austria,100.4,168,AB+
+Gary,Duncan,2/18/1984,Austria,70.6,190,B+
+Pedro,Costa,10/30/1988,Brazil,86.1,169,O+
+Ian,Golubov,9/24/1984,Canada,100.2,188,B+
+Leonardo,Russell,4/19/1993,Cyprus (Anglicized),81.7,180,O+
+Troy,Tran,1/22/1993,Denmark,91.5,174,A-
+Frodo,Clayhanger,1/16/1994,Canada,51.4,63,O+
+Largo,Galbassi,10/29/1995,Cyprus (Anglicized),49.3,69,O+
+Joe,Marshall,1/3/1990,Canada,73.7,170,O+
+Proclus,Voronkov,8/15/1992,Denmark,56.6,176,O-
+Philemon,Medvedev,6/9/1994,Austria,84.1,179,A+
+Bruno,Santos,11/9/1994,Cyprus (Anglicized),97.6,183,B+
+Rudolph,Zubarev,1/25/1983,Cyprus (Anglicized),78.8,179,B+
+Shaun,Smith,2/4/1993,Austria,80.2,186,O+
+Conrad,Goodbody,4/9/1983,Brazil,63.2,88,A+
+Alexander,Woronoff,3/25/1985,Cyprus (Anglicized),79.4,170,B+
+Hob,Headstrong,1/20/1997,Belgium,55.7,80,O+
+Töbi,Gardner,10/7/1990,Czech Republic,67.6,69,O+
+Ruairidh,Wallace,3/25/1997,Brazil,57.0,187,A-
+Rodrigo,Ribeiro,10/23/1992,Belgium,87.0,190,A+
+Forbes,Watt,1/4/1994,Cyprus (Anglicized),73.9,173,B+
+Nikita,Bykov,8/17/1984,Cyprus (Anglicized),61.3,185,A+
+Joao,Santos,11/19/1985,Canada,86.8,187,O+
+Fastolph,Hayward,5/27/1983,Belgium,63.7,61,O+
+Zane,Fraser,4/24/1993,Cyprus (Anglicized),103.1,167,B+
+Merry,Roper,4/26/1988,Brazil,62.0,86,O+
+Lloyd,Black,10/6/1984,Czech Republic,107.4,176,O+
+Zac,White,8/5/1984,Cyprus (Anglicized),71.1,170,O+
+José,Araujo,10/1/1986,Denmark,107.3,180,B+
+Mikey,McGregor,6/30/1995,Cyprus (Anglicized),57.7,174,B+
+Isaac,Simpson,3/24/1985,Belgium,82.5,181,A+
+Charles,Banks,2/21/1986,Brazil,80.0,176,B+
+Rafael,Melo,5/17/1988,Czech Republic,73.0,183,O+
+Matheus,Pereira,10/11/1993,Brazil,57.8,177,O+
+John,Armstrong,1/13/1996,Cyprus (Anglicized),71.6,178,B+
+Fastolph,Chubb-Baggins,6/3/1988,Cyprus (Anglicized),64.9,112,A-
+Berilac,Sandyman,5/30/1986,Cyprus (Anglicized),52.2,114,B+
+Rustam,Seleznyov,6/20/1984,Canada,69.6,183,O+
+Murat,Averyanov,8/24/1980,Cyprus (Anglicized),101.2,184,A+
+Dennis,Muravyov,6/30/1995,Belgium,84.1,181,B+
+Joshua,Osburn,4/9/1980,Cyprus (Anglicized),97.2,171,A+
+Vadim,Lazarev,9/5/1987,Austria,97.3,176,O+
+Aayan,Forbes,3/24/1982,Belgium,77.5,175,A-
+Ryan,Hamel,3/14/1980,Cyprus (Anglicized),97.5,186,B+
+Vadim,Yermolayev,8/9/1979,Czech Republic,62.9,169,B+
+Arthur,Belousov,10/14/1995,Czech Republic,91.4,168,B+
+Paul,Findlay,11/27/1982,Austria,111.0,181,O+
+Daniel,Efimov,2/7/1993,Czech Republic,64.0,190,B+
+Igor,Ferreira,9/15/1988,Austria,81.7,178,AB+
+Stewart,Robertson,12/11/1987,Cyprus (Anglicized),83.5,182,O+
+Alan,Marshall,9/15/1994,Denmark,54.5,168,O+
+Halfred,Zaragamba,12/31/1982,Brazil,64.0,68,A+
+Jerry,Robinson,12/12/1980,Czech Republic,85.1,176,O+
+Kauan,Costa,12/27/1988,Cyprus (Anglicized),60.3,175,O+
+Joseph,Gillespie,12/31/1984,Denmark,95.9,169,O+
+Jared,Gray,8/26/1983,Cyprus (Anglicized),95.0,188,O-
+Irakli,Glazkov,7/26/1995,Czech Republic,57.2,183,O+
+Ostap,Aksakov,4/30/1989,Cyprus (Anglicized),71.8,180,A+
+Edward,Horowitz,2/25/1982,Denmark,103.3,187,O+
+Fergus,Hunter,5/2/1986,Czech Republic,73.4,168,B+
+André,Araujo,12/19/1993,Brazil,75.7,186,B-
+Elisha,Korovin,2/10/1979,Canada,96.5,175,B+
+Renan,Dias,8/3/1982,Cyprus (Anglicized),67.8,184,A+
+Maurice,Sumpter,10/20/1993,Austria,79.2,186,A+
+Flavus,Greenhand,4/2/1982,Brazil,63.8,113,O+
+Luca,Grant,6/17/1982,Brazil,103.3,173,A+
+Samuel,Alves,6/16/1991,Brazil,97.6,189,O+
+Holman,Took,6/30/1983,Austria,58.0,107,O+
+Fredegar,Hornblower,7/26/1981,Denmark,57.0,77,O+
+Felipe,Pinto,6/1/1995,Cyprus (Anglicized),78.9,176,O+
+Gerald,Harrell,6/25/1993,Belgium,84.8,190,A+
+Bladud,Greenhand,6/24/1980,Czech Republic,52.6,72,O+
+Emmanuel,Vasilyev,12/11/1980,Brazil,83.7,172,A+
+Michal,Macleod,8/14/1987,Cyprus (Anglicized),95.6,172,B+
+Michal,Donaldson,8/19/1985,Cyprus (Anglicized),104.1,190,B+
+Nestor,Vinogradov,1/12/1985,Czech Republic,74.5,188,O+
+Larry,Plank,4/21/1997,Cyprus (Anglicized),81.3,188,A+
+Jay,Cunningham,4/5/1993,Belgium,93.5,170,A+
+Otho,Grubb,8/5/1982,Czech Republic,57.2,72,O+
+Carl,Fokine,12/6/1986,Cyprus (Anglicized),91.1,171,O+
+Kaua,Gomes,10/16/1985,Belgium,91.7,170,A-
+Felipe,Costa,1/5/1981,Austria,92.9,168,O+
+Bruno,Gomes,2/25/1981,Denmark,62.8,176,O+
+Fergus,Johnstone,3/29/1985,Brazil,66.6,187,B+
+Jose,Royster,12/12/1982,Czech Republic,86.8,180,B+
+Tiago,Ferreira,9/20/1995,Cyprus (Anglicized),68.6,175,A-
+Kauê,Rocha,10/25/1992,Austria,80.3,178,B+
+Kauan,Costa,10/25/1979,Canada,92.2,183,A+
+Carl,Lam,8/30/1988,Czech Republic,89.9,168,O+
+Stephen,Gray,9/25/1990,Denmark,109.2,187,O+
+Kauã,Dias,1/27/1987,Belgium,61.7,168,A+
+Stanislav,Butusov,2/20/1979,Denmark,88.2,187,O+
+Bercilac,Took-Took,12/24/1985,Austria,57.0,104,A+
+Ruairidh,King,3/14/1997,Cyprus (Anglicized),64.9,174,AB+
+Luan,Araujo,3/28/1988,Czech Republic,82.5,179,A+
+Antônio,Goncalves,7/10/1986,Brazil,96.9,169,O+
+Jackson,MacDonald,4/1/1985,Cyprus (Anglicized),67.1,185,AB+
+Felipe,Fernandes,3/3/1983,Austria,69.4,181,O+
+George,Porter,12/10/1980,Austria,97.7,181,O+
+Basil,Aksakov,3/10/1981,Canada,107.4,168,AB+
+Paulo,Ferreira,5/24/1995,Denmark,72.0,174,O+
+Bob,Gawkroger,6/23/1983,Cyprus (Anglicized),47.7,106,AB+
+Togo,Bracegirdle,4/28/1987,Brazil,59.8,63,O+
+James,Daniels,9/13/1983,Belgium,76.6,174,O+
+Micah,Hay,10/14/1979,Brazil,94.8,169,B+
+Rashid,Fedorov,12/15/1985,Austria,80.9,188,A-
+Herugar,Bolger,4/9/1984,Cyprus (Anglicized),61.9,77,O+
+Gerasimos,Tretiakov,5/9/1994,Austria,74.9,184,O+
+Marat,Kudryashov,3/22/1981,Belgium,75.4,187,B+
+Vitor,Azevedo,9/23/1995,Denmark,85.9,163,B+
+Dale,Peters,4/2/1989,Belgium,96.1,173,A+
+Ken,Reid,6/7/1989,Cyprus (Anglicized),58.6,168,O-
+Igor,Gomes,11/9/1979,Denmark,79.2,186,B+
+Gringamor,Goodchild,12/18/1984,Cyprus (Anglicized),49.1,74,O+
+Joseph,Kraft,3/30/1983,Austria,79.1,179,A+
+Merle,Abbott,5/28/1992,Austria,67.6,177,O+
+Ignat,Zakharov,3/9/1983,Brazil,64.2,187,AB+
+Tom,Mackenzie,11/20/1984,Cyprus (Anglicized),61.9,183,AB+
+Buford,Walker,1/25/1986,Austria,75.3,176,A+
+Carl,Volodin,11/21/1984,Cyprus (Anglicized),78.3,180,A+
+Brandon,Mueller,5/3/1992,Cyprus (Anglicized),88.3,182,B+
+Thiago,Almeida,10/5/1985,Czech Republic,83.6,175,A+
+Walter,Ingram,8/7/1990,Cyprus (Anglicized),56.1,169,A+
+Bandobras,Baggins,7/8/1987,Belgium,62.3,101,O+
+Nibs,Gawkroger,8/17/1980,Austria,51.5,119,O+
+Andrew,Lloyd,3/6/1982,Czech Republic,69.5,168,O-
+Millar,Murphy,1/28/1996,Belgium,90.6,174,B+
+George,Lowrey,11/17/1985,Brazil,87.0,177,B+
+Nicholas,Hurley,3/27/1979,Denmark,82.5,185,A+
+Alex,Castro,1/4/1989,Denmark,68.9,181,B+
+Mark,Vasiliev,12/1/1983,Austria,78.5,181,O+
+Ricky,Moore,11/7/1995,Cyprus (Anglicized),57.3,173,A+
+Chris,Hunter,7/23/1995,Austria,88.8,165,O+
+Omar,Black,1/24/1988,Czech Republic,111.3,176,B+
+Steven,McGrane,9/27/1985,Belgium,62.1,176,A-
+Marco,Black,7/28/1978,Czech Republic,76.4,181,A+
+Dennis,Alexeyeva,5/3/1990,Canada,89.5,190,A+
+Reegan,Paterson,10/6/1990,Denmark,60.8,171,B+
+Alberic,Diggle,3/5/1987,Czech Republic,62.7,115,B+
+Gundobad,Baggins,2/6/1991,Czech Republic,64.7,70,O+
+Vitor,Dias,9/16/1980,Czech Republic,77.5,169,O+
+Pimen,Vavilov,7/4/1984,Czech Republic,97.6,186,A+
+Manuel,Price,8/14/1987,Cyprus (Anglicized),85.8,174,O+
+Rudigar,Burrowes,3/9/1992,Denmark,48.9,62,B+
+Innocent,Alexeyeva,10/10/1989,Cyprus (Anglicized),59.4,168,B+
+Nolan,Murray,8/22/1983,Cyprus (Anglicized),101.9,185,AB+
+Blasius,Loginov,12/24/1982,Canada,77.2,172,A+
+Valentine,Nevzorov,9/6/1996,Czech Republic,80.2,168,O+
+Orgulas,Smallburrow,7/23/1996,Brazil,54.2,121,O+
+Arkhip,Vasin,11/1/1984,Canada,90.8,181,A+
+Carlos,Barbosa,11/9/1995,Brazil,79.3,176,O+
+Antônio,Barbosa,1/24/1991,Belgium,105.5,186,A-
+Douglas,Barros,4/20/1990,Cyprus (Anglicized),83.0,188,O+
+Franklin,McNeal,1/31/1992,Austria,59.7,178,B+
+Kodi,Alexander,5/20/1988,Brazil,102.5,170,A+
+Banazir,Lightfoot,5/12/1988,Brazil,58.1,63,O+
+Jai,Ferguson,2/25/1993,Czech Republic,66.2,174,O+
+Robin,Headstrong,12/4/1989,Austria,65.5,95,O+
+Sviatoslav,Pokrovski,7/23/1986,Canada,68.7,185,A+
+Seraphim,Zuyev,5/13/1983,Canada,89.7,175,AB+
+Oleg,Fokine,7/31/1987,Canada,93.9,175,O+
+Nicolash,Dias,4/29/1980,Canada,105.9,172,A+
+Tyson,Walden,11/24/1979,Denmark,75.6,188,O+
+Antônio,Dias,10/17/1979,Austria,102.7,178,B+
+Fábio,Cavalcanti,3/7/1993,Austria,77.2,170,O+
+Basil,Bykov,6/16/1994,Brazil,60.9,187,A-
+Spartacus,Aksyonov,9/29/1990,Austria,105.1,186,A+
+Miroslav,Zuyev,1/25/1997,Czech Republic,68.3,184,B+
+Obo,Gammidge,8/2/1995,Czech Republic,53.0,106,B+
+Reece,MacDonald,10/26/1989,Czech Republic,65.9,186,A+
+Robert,Jefferson,1/6/1992,Austria,72.5,186,A+
+Malik,Mironov,6/19/1980,Belgium,86.4,188,O+
+Kauan,Rodrigues,6/5/1987,Cyprus (Anglicized),106.4,168,AB+
+Hector,Cameron,11/22/1996,Brazil,52.6,164,O+
+Mohamed,Hughes,8/28/1989,Cyprus (Anglicized),93.0,167,O-
+Russell,Douglas,7/9/1984,Cyprus (Anglicized),108.5,181,B+
+Vernon,Ellis,3/14/1990,Brazil,109.8,171,B+
+Charles,Durbin,5/26/1981,Austria,106.3,170,A+
+Stepan,Fokine,10/6/1992,Canada,61.5,190,O+
+Yefim,Sidorov,6/21/1990,Czech Republic,99.9,184,O+
+Bungo,Burrowes,8/20/1989,Brazil,65.8,70,A+
+Jo,Sandyman,8/27/1986,Cyprus (Anglicized),65.4,77,A+
+Alexander,Voronov,8/27/1988,Denmark,104.4,170,A+
+Wiseman,Hayward,5/5/1985,Canada,66.8,120,A+
+Bodo,Greenhand,5/2/1988,Denmark,64.3,85,B+
+Ildar,Belousov,3/12/1994,Brazil,57.6,163,A-
+Antônio,Pereira,10/18/1985,Cyprus (Anglicized),86.0,180,B+
+Benjamin,Blokhin,4/22/1994,Canada,71.1,169,O+
+Samuel,Martz,2/20/1987,Denmark,99.5,178,O+
+Renan,Costa,1/18/1990,Brazil,61.8,176,O+
+Keir,Hay,4/20/1981,Denmark,112.8,176,B+
+Cole,Jones,2/5/1985,Canada,75.4,181,O+
+Kade,Hay,4/16/1983,Denmark,114.0,182,B+
+Mateus,Gomes,5/2/1996,Canada,86.2,168,A+
+John,Norwood,5/25/1980,Belgium,95.5,185,AB+
+Vincent,Harkins,5/4/1992,Belgium,82.6,188,B+
+Tobold,Gaukrogers,4/20/1991,Canada,52.2,115,O+
+Brad,King,6/5/1996,Austria,49.3,168,B+
+Kevin,Bliss,10/4/1978,Cyprus (Anglicized),90.5,181,B+
+Austin,Wood,7/27/1980,Czech Republic,64.6,177,AB+
+Matta,Roper,10/5/1986,Austria,50.1,69,AB-
+Callan,Duncan,3/13/1979,Brazil,106.5,179,A+
+Lucas,Cavalcanti,3/24/1982,Belgium,104.1,186,O-
+Israel,Macleod,10/28/1979,Denmark,69.6,176,B+
+Yaropolk,Izmaylov,4/6/1994,Canada,85.9,177,O+
+Junior,Tomita,5/21/1993,Brazil,90.1,185,O+
+Timba,Goodbody,4/29/1983,Austria,50.1,116,A+
+Bruno,Castro,3/5/1981,Brazil,111.4,187,O+
+James,Brophy,4/10/1981,Canada,110.0,185,O+
+Alfred,Hill,1/22/1989,Cyprus (Anglicized),84.9,180,O-
+Neville,Doner,1/10/1985,Canada,89.7,189,O+
+Otávio,Pereira,6/18/1986,Czech Republic,62.2,182,A-
+Ferumbras,Goodchild,11/2/1981,Brazil,46.9,92,B+
+Fastolph,Rumble,6/1/1986,Austria,62.4,112,A+
+Carlos,Ribeiro,11/13/1988,Canada,101.7,183,B-
+Donald,McMorris,10/28/1986,Belgium,105.2,170,O+
+Matthew,Kim,9/18/1996,Brazil,64.7,163,O-
+Maura,Zaragamba,11/18/1985,Cyprus (Anglicized),54.0,94,A+
+David,Denisov,1/16/1994,Cyprus (Anglicized),58.9,174,A-
+Diogo,Goncalves,4/9/1996,Cyprus (Anglicized),57.1,182,B+
+Adam,Vasin,1/16/1981,Brazil,67.8,178,O+
+Kondrat,Repin,10/9/1989,Belgium,85.0,176,B+
+Marley,Simpson,3/20/1994,Czech Republic,99.6,190,O+
+John,Reynolds,2/17/1988,Cyprus (Anglicized),105.4,186,O+
+Marat,Shcherbakov,12/30/1978,Czech Republic,77.4,173,B+
+Taras,Abramovich,7/22/1991,Cyprus (Anglicized),108.2,167,O+
+William,Christie,1/9/1992,Brazil,98.4,170,O+
+Darren,McIntosh,8/18/1984,Cyprus (Anglicized),92.2,188,B+
+Tobold,Burrows,9/12/1980,Brazil,67.7,69,O+
+Joseph,Gess,8/30/1982,Czech Republic,63.7,172,O-
+Davi,Azevedo,4/17/1996,Belgium,69.6,172,O+
+Bowman,Tûk,8/1/1985,Canada,50.2,115,O-
+Longo,Burrows,3/21/1993,Cyprus (Anglicized),52.7,121,A+
+Jo,Hayward,1/11/1988,Brazil,53.8,71,O+
+Aston,Hunter,5/31/1984,Austria,70.1,182,A+
+Eric,Russell,3/14/1982,Denmark,83.0,177,O+
+Jensen,Reid,10/4/1984,Czech Republic,67.0,190,O+
+Caio,Costa,8/27/1979,Belgium,110.3,186,O+
+Sebastian,Gorbunov,3/16/1980,Austria,98.9,177,O+
+Mateus,Pereira,7/25/1996,Brazil,74.4,166,O+
+Erick,Ribeiro,8/24/1996,Cyprus (Anglicized),57.5,185,A+
+Robert,Cook,10/18/1986,Cyprus (Anglicized),84.9,184,O+
+Zack,Wilson,8/21/1990,Cyprus (Anglicized),81.9,189,B+
+Maksymilian,Fraser,9/6/1984,Austria,107.1,180,B+
+Richard,Thomson,2/2/1982,Czech Republic,112.4,170,O+
+Kaleb,Ritchie,5/7/1994,Brazil,92.9,184,O+
+Vladimir,Zaitsev,10/31/1995,Brazil,71.4,181,O+
+Chris,Ritchie,10/20/1980,Denmark,75.6,168,O+
+Caden,McKay,11/6/1990,Canada,95.7,182,O+
+Victor,Shcherbakov,9/18/1988,Cyprus (Anglicized),71.4,184,O-
+Hayden,Fraser,10/27/1978,Austria,82.2,184,O+
+Rafael,Araujo,5/20/1993,Canada,93.3,181,O-
+Spartacus,Abramoff,10/15/1993,Belgium,55.9,176,B+
+Carlos,Martins,1/11/1986,Czech Republic,80.2,180,O+
+Ignat,Kazantsev,5/3/1984,Belgium,80.1,188,O+
+Bailey,Johnstone,5/28/1992,Belgium,71.4,186,A+
+Enzo,Correia,8/9/1986,Czech Republic,91.3,170,AB+
+Connor,McKay,10/11/1996,Austria,75.6,175,O+
+Vinícius,Castro,11/22/1993,Canada,87.5,190,B+
+Ismail,Matveyev,10/28/1995,Canada,87.5,183,O+
+Michael,Dietz,11/1/1994,Denmark,76.5,164,B+
+Felix,Seleznev,4/21/1982,Canada,96.2,172,A+
+David,Lal,4/10/1989,Brazil,107.8,183,AB+
+Vinicius,Cavalcanti,1/20/1981,Cyprus (Anglicized),80.0,174,A+
+Bartosz,Donaldson,10/11/1994,Czech Republic,53.9,184,O+
+Muslim,Sergeyev,12/21/1996,Austria,62.9,185,A+
+Edward,Galkin,4/18/1990,Cyprus (Anglicized),107.7,171,A+
+Maxim,Abdulov,6/9/1985,Czech Republic,71.0,182,O-
+Arkady,Fedorov,8/23/1989,Belgium,73.0,184,A+
+Avdei,Demidov,6/26/1992,Cyprus (Anglicized),91.9,174,O+
+Aron,Hughes,6/17/1986,Czech Republic,68.2,180,A+
+Berilac,Took,11/4/1981,Czech Republic,53.7,90,B+
+Archie,Ritchie,9/14/1978,Belgium,84.5,186,A+
+Zossima,Vinogradov,7/30/1995,Belgium,73.6,182,A+
+Danyl,Burns,10/9/1993,Cyprus (Anglicized),74.9,183,B+
+Igor,Lima,6/21/1984,Denmark,80.5,188,B+
+Carl,Gamgee,4/16/1979,Canada,47.7,85,B+
+Conner,Murray,2/1/1985,Cyprus (Anglicized),89.0,168,O+
+Halfred,Diggle,1/8/1982,Canada,52.6,122,O+
+Maximilian,Kapustin,5/23/1992,Czech Republic,58.1,171,A+
+Egor,Alexandrov,5/10/1991,Czech Republic,109.1,185,B+
+Gerald,Peeler,5/11/1996,Denmark,84.5,181,B-
+Hector,Docherty,11/5/1996,Denmark,90.7,161,A-
+Felipe,Oliveira,1/26/1980,Cyprus (Anglicized),91.5,173,A-

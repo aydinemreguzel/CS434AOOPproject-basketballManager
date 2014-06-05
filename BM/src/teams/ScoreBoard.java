@@ -44,6 +44,34 @@ public class ScoreBoard {
 				+ Arrays.toString(stats) + "]";
 	}
 
+	/**
+	 * @return the names
+	 */
+	public String[] getNames() {
+		return names;
+	}
+
+	/**
+	 * @param names the names to set
+	 */
+	public void setNames(String[] names) {
+		this.names = names;
+	}
+
+
+	public int[][] getStats() {
+		return stats;
+	}
+	public String[][] getStatsAsString() {
+		String[][]statsString=new String[matchPlayerNum][numOfAtt];
+		return statsString;
+	}
+
+
+	public void setStats(int[][] stats) {
+		this.stats = stats;
+	}
+
 //	public static void main(String args[]) {
 //		scoreBoard sb=new scoreBoard();
 //		System.out.println(sb.toString());
