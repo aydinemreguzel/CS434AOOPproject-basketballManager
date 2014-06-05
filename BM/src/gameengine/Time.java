@@ -58,8 +58,8 @@ public class Time {
 				String ti = t.replace(".", "/");
 				result = ti.split("/");
 			}
-			day = Integer.parseInt(result[0]);
-			month = Integer.parseInt(result[1]);
+			day = Integer.parseInt(result[1]);
+			month = Integer.parseInt(result[0]);
 			year = Integer.parseInt(result[2]);
 		} catch (Exception e) {
 			System.out.println("time format error");
