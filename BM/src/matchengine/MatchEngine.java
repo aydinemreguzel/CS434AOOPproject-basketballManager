@@ -52,6 +52,7 @@ public class MatchEngine {
 			state.performAction(this);
 			detectFaul();
 			state.decideNextAction(this);
+			//System.out.println("remain time: " + reamainPeriodTime +" period: "+ currentPeriod);
 		}
 	}
 

@@ -8,17 +8,16 @@ public class faulState extends State {
 	}
 
 	public void performAction(MatchEngine matchEngine) {
-		if(++matchEngine.getNumOfFoulds()[(matchEngine.getAttackOrder() + 1) % 2][matchEngine
-				.currentPeriod] > 4)
+		if (++matchEngine.getNumOfFoulds()[(matchEngine.getAttackOrder() + 1) % 2][matchEngine.currentPeriod-1] > 4)
 			freeThrow = true;
 		else
 			matchEngine.setPositioning(60);
 	}
 
 	public void decideNextAction(MatchEngine matchEngine) {
-		if(freeThrow){
+		if (freeThrow) {
 			matchEngine.setState(new FreeThrow());
-		}else{
+		} else {
 			matchEngine.setState(new PassState());
 		}
 	}

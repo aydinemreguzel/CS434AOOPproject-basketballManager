@@ -60,15 +60,15 @@ public class PositionsPanel extends JPanel {
 		String name=players[i-5].getName();
 		overlay[i].setText(name);
 		}
-		overlay[4].setLocation(background.getWidth()/3, background.getHeight()/2);
-		overlay[9].setLocation(2*background.getWidth()/3, background.getHeight()/2);
-		overlay[0].setLocation(background.getWidth()/5, 3*background.getHeight()/5);
-		overlay[5].setLocation(3*background.getWidth()/5, 3*background.getHeight()/5);
-		overlay[1].setLocation(2*background.getWidth()/5, 3*background.getHeight()/5);
+		overlay[4].setLocation(background.getWidth()/5-10, 2*background.getHeight()/5+5);
+		overlay[9].setLocation(2*background.getWidth()/3,  2*background.getHeight()/5+5);
+		overlay[0].setLocation(background.getWidth()/20-5, 3*background.getHeight()/5-10);
+		overlay[5].setLocation(2*background.getWidth()/4+10, 3*background.getHeight()/5-10);
+		overlay[1].setLocation(2*background.getWidth()/7, 3*background.getHeight()/5);
 		overlay[6].setLocation(4*background.getWidth()/5, 3*background.getHeight()/5);
-		overlay[2].setLocation(background.getWidth()/5, background.getHeight()/5);
-		overlay[7].setLocation(3*background.getWidth()/5, background.getHeight()/5);
-		overlay[3].setLocation(2*background.getWidth()/5, background.getHeight()/5);
+		overlay[2].setLocation(background.getWidth()/20-5, background.getHeight()/5-10);
+		overlay[7].setLocation(2*background.getWidth()/4+10, background.getHeight()/5-10);
+		overlay[3].setLocation(2*background.getWidth()/7, background.getHeight()/5);
 		overlay[8].setLocation(4*background.getWidth()/5, background.getHeight()/5);	
 		for(JLabel player : overlay){
 			add(player);

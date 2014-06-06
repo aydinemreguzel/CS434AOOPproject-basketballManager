@@ -74,14 +74,11 @@ public class ReboundState extends State {
 	private void updateStats(MatchEngine matchEngine,int nextPlayer) {
 		if (success) {
 			matchEngine.getAtackSB().updateStats(
-					matchEngine.getAtackTB().getPlayerNum(
-							nextPlayer), 7);
+					matchEngine.getBallHandler(), 7);
 		} else {
 			matchEngine.getDefenceSB().updateStats(
-					matchEngine.getDefenceTB().getPlayerNum(
-							nextPlayer), 7);
+					matchEngine.getBallHandler(), 7);
 		}
-
 	}
 
 }

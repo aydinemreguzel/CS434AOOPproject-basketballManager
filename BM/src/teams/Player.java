@@ -38,23 +38,25 @@ public class Player {
 		this.fatigue = condition;
 	}
 
-public Player(String[] data){
-	this(data[0] + data[1], new Time(data[2]), data[3],
-			Integer.parseInt(data[4]), Integer.parseInt(data[5]),
-			Integer.parseInt(data[6]), Integer.parseInt(data[7]),
-			Integer.parseInt(data[8]), Integer.parseInt(data[9]),
-			Integer.parseInt(data[10]), Integer.parseInt(data[11]),
-			Integer.parseInt(data[12]));
-}
-	public static Player generateRandomPlayer(){
-		return new Player(generateRandomName(), new Time(generateRandomInt(1, 30),
-				generateRandomInt(1, 12), generateRandomInt(1975, 1995)),
-				"Ilimonio", generateRandomInt(0, 100), generateRandomInt(0, 100),
-				generateRandomInt(150, 230), generateRandomInt(0, 100),
-				generateRandomInt(0, 100), generateRandomInt(0, 100),
-				generateRandomInt(0, 100), generateRandomInt(0, 100),
-				generateRandomInt(0, 100));
+	public Player(String[] data) {
+		this(data[0] + " " + data[1], new Time(data[2]), data[3], Integer
+				.parseInt(data[4]), Integer.parseInt(data[5]), Integer
+				.parseInt(data[6]), Integer.parseInt(data[7]), Integer
+				.parseInt(data[8]), Integer.parseInt(data[9]), Integer
+				.parseInt(data[10]), Integer.parseInt(data[11]), Integer
+				.parseInt(data[12]));
 	}
+
+	public static Player generateRandomPlayer() {
+		return new Player(generateRandomName(), new Time(generateRandomInt(1,
+				30), generateRandomInt(1, 12), generateRandomInt(1975, 1995)),
+				"Ilimonio", generateRandomInt(0, 100),
+				generateRandomInt(0, 100), generateRandomInt(150, 230),
+				generateRandomInt(0, 100), generateRandomInt(0, 100),
+				generateRandomInt(0, 100), generateRandomInt(0, 100),
+				generateRandomInt(0, 100), generateRandomInt(0, 100));
+	}
+
 	public static String generateRandomName() {
 		Random rand = new Random();
 		String name = "";
@@ -173,17 +175,17 @@ public Player(String[] data){
 	public void setInjury(int randomDay) {
 		// TODO Auto-generated method stub
 	}
-	
-	public void checkPlayer(){
+
+	public void checkPlayer() {
 		updateFatigue();
 		status.perform(this);
 	}
 
 	private void updateFatigue() {
-		fatigue+=13;
+		fatigue += 13;
 	}
 
 	public void setStatus(Status status) {
-		this.status = status; 
+		this.status = status;
 	}
 }
