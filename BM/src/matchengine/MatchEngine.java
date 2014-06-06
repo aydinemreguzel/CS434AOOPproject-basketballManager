@@ -26,6 +26,7 @@ public class MatchEngine {
 	ScoreBoard awaySB;
 	TacticBoard homeTB;
 	TacticBoard awayTB;
+	String commentLog;
 	Random randomGenerator = new Random();
 
 	public MatchEngine(MatchEvent match) {
@@ -40,19 +41,24 @@ public class MatchEngine {
 
 	public void play() {
 		state.startAction(this);
-		if (reamainPeriodTime < 0) {
+//		System.out.println(String.valueOf(reamainPeriodTime() / 60) + ":"
+//				+ String.valueOf(reamainPeriodTime() % 60));
+		addCommentLog(String.valueOf(reamainPeriodTime() / 60) + ":"
+				+ String.valueOf(reamainPeriodTime() % 60));
+		if (reamainPeriodTime <= 0) {
 			if (currentPeriod < 4) {
 				currentPeriod++;
 				reamainPeriodTime = 600;
-				System.out.println("refeeree finishes the period");
+				addCommentLog("refeeree finishes the period");
 			} else
-				System.out.println("refeeree finishes the game");
+				addCommentLog("refeeree finishes the game");
 		} else {
 			shotClockCheck();
 			state.performAction(this);
 			detectFaul();
 			state.decideNextAction(this);
-			//System.out.println("remain time: " + reamainPeriodTime +" period: "+ currentPeriod);
+			// System.out.println("remain time: " + reamainPeriodTime
+			// +" period: "+ currentPeriod);
 		}
 	}
 
@@ -64,13 +70,13 @@ public class MatchEngine {
 		}
 		if (attackOrder == 0) {
 			if (randomGenerator.nextInt(2000) < awayAgg) {
-				System.out.println("FOUL");
+				addCommentLog("FOUL");
 				setState(new faulState());
 				state.performAction(this);
 			}
 		} else {
 			if (randomGenerator.nextInt(2000) < homeAgg) {
-				System.out.println("FOUL");
+				addCommentLog("FOUL");
 				setState(new faulState());
 				state.performAction(this);
 			}
@@ -86,7 +92,7 @@ public class MatchEngine {
 			changeAttackOrder();
 			resetShotClock();
 			setPositioning(0);
-			System.out.println("BUZZER");
+			addCommentLog("BUZZER");
 		}
 	}
 
@@ -218,4 +224,15 @@ public class MatchEngine {
 		return reamainPeriodTime;
 	}
 
+	public void addCommentLog(String str) {
+		commentLog += str + "\n";
+	}
+	
+	public void resetCommentLog() {
+		commentLog = "";
+	}
+	
+	public String getCommentLog(){
+		return commentLog;
+	}
 }

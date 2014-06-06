@@ -35,12 +35,12 @@ abstract class ShotState extends State {
 				updateStats(matchEngine);
 				matchEngine.changeAttackOrder();
 				matchEngine.setPositioning(0);
-				System.out.println("incredible BLOCK");
+				matchEngine.addCommentLog("incredible BLOCK");
 			} else {
 				updateStats(matchEngine);
 				matchEngine.changeAttackOrder();
 				matchEngine.setPositioning(0);
-				System.out.println("missed shot");
+				matchEngine.addCommentLog("missed shot");
 				rebound = true;
 			}
 		} else {
@@ -49,7 +49,7 @@ abstract class ShotState extends State {
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0);
-			System.out.println("BASKET");
+			matchEngine.addCommentLog("BASKET");
 		}
 	}
 

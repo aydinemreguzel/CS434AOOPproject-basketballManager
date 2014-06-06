@@ -56,15 +56,15 @@ class DribblingState extends State {
 			// future
 			if (decision == 2 || matchEngine.getShotClock() < 3
 					|| matchEngine.getPositioning() > 90) {
-				System.out.println(matchEngine.getBallHandlerPlayer().getName() + " saw the empty corridor");
+				matchEngine.addCommentLog(matchEngine.getBallHandlerPlayer().getName() + " saw the empty corridor");
 				matchEngine.setState(new Layup());
 			}
 			if (decision == 0) {
-				System.out.println(matchEngine.getBallHandlerPlayer().getName() + " continue dribbling");
+				matchEngine.addCommentLog(matchEngine.getBallHandlerPlayer().getName() + " continue dribbling");
 				matchEngine.setState(new DribblingState());
 			}
 			if (decision == 1) {
-				System.out.println(matchEngine.getBallHandlerPlayer().getName() + " looking his friedns for passing");
+				matchEngine.addCommentLog(matchEngine.getBallHandlerPlayer().getName() + " looking his friedns for passing");
 				matchEngine.setState(new PassState());
 			}
 		}

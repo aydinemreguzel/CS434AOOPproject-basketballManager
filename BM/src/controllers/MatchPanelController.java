@@ -36,7 +36,7 @@ public class MatchPanelController {
 				match.getAwayScoreBoard());
 		this.positionsPanel = new PositionsPanel(match.getHomeTeam(),
 				match.getAwayTeam());
-		this.commentaryPanel = new CommentaryPanel();
+		this.commentaryPanel = new CommentaryPanel(matchEng.getCommentLog());
 		this.timeOutsPanel = new TimeOutsPanel();
 		this.matchPanel = new MatchPanel(this);
 	}
@@ -59,6 +59,7 @@ public class MatchPanelController {
 			homeScoreBoardPanel.update();
 			awayScoreBoardPanel.update();
 			commentaryPanel.update();
+			matchEng.resetCommentLog();
 		}
 	}
 

@@ -15,21 +15,21 @@ class FreeThrow  extends State {
 		int offancePower = offensPlayer.getCurrentAbilityPoint();
 		if (offancePower < randomGenerator.nextInt(100)) {
 				updateStats(matchEngine);
-				System.out.println("missed shot");
+				matchEngine.addCommentLog("missed shot");
 		} else {
 			updateStats(matchEngine);
-			System.out.println("1 point made");	
+			matchEngine.addCommentLog("1 point made");	
 		}	
 		if (offancePower < randomGenerator.nextInt(100)) {
 			updateStats(matchEngine);
-			System.out.println("missed shot and rebound brawl");
+			matchEngine.addCommentLog("missed shot and rebound brawl");
 		} else {					
 			success = true;
 			updateStats(matchEngine);
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0);
-			System.out.println("1 point BASKET");
+			matchEngine.addCommentLog("1 point BASKET");
 		}
 	}
 
