@@ -81,7 +81,7 @@ public class ScoreBoard {
 
 	public void updateMin(int actionTime) {
 		for (int i = 0; i < onFloorPlayerNum; i++) {
-			stats[tacticBoard.getPlayerNum(i)][SEC] = actionTime;
+			stats[tacticBoard.getPlayerNum(i)][SEC] += actionTime;
 		}
 	}
 
