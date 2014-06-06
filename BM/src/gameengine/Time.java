@@ -5,12 +5,6 @@ public class Time {
 	private int day;
 	int[] daysOfMonths = { -1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
-	public static void main(String[] args) {
-		Time time = new Time(15, 02, 1991);
-		Time time2 = new Time(22, 03, 1994);
-		System.out.println(time2.subtraction(time));
-	}
-
 	public void nextYear() {
 		year++;
 	}

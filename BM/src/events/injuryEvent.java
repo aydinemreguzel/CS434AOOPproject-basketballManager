@@ -24,8 +24,6 @@ public class injuryEvent implements Event {
 		yourTeam.getPlayers().get(randomPlayer).setInjury(randomDay);
 		log = yourTeam.getPlayers().get(randomPlayer).getName()
 				+ " got injured";
-		System.out.println(yourTeam.getPlayers().get(randomPlayer).getName()
-				+ " got injured");
 	}
 
 	@Override

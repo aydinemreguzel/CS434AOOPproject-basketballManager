@@ -1,5 +1,7 @@
 package gui;
 
+import gameengine.Time;
+
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
@@ -9,15 +11,17 @@ import javax.swing.JPanel;
 
 import controllers.MainController;
 
-public class MainPanel extends JPanel{
+public class MainPanel extends JPanel {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	
+
 	StringBuilder logger;
-	
+
 	JLabel label;
+	JLabel label2;
+	JLabel label3;
 	JButton nextDayButton;
 	JButton transferButton;
 	JButton trainingButton;
@@ -25,35 +29,50 @@ public class MainPanel extends JPanel{
 	JButton StandingsButton;
 	JButton FirendlyMatchButton;
 	MainController mainController;
-	public MainPanel(final MainController mainController,StringBuilder logger) {
+
+	public MainPanel(final MainController mainController, StringBuilder logger) {
 		this.mainController = mainController;
-		label = new JLabel("merhaba");
-		this.nextDayButton=new JButton(new AbstractAction("Next Day") {
+		label = new JLabel("Welcome to BM 2014");
+		label2 = new JLabel("");
+		label3 = new JLabel("");
+		this.add(label);
+		this.add(label2);
+		this.add(label3);
+		addButtons(mainController);
+
+		this.logger = logger;
+	}
+
+	private void addButtons(final MainController mainController) {
+		this.nextDayButton = new JButton(new AbstractAction("Next Day") {
 			public void actionPerformed(ActionEvent e) {
 				mainController.nextDay();
 			}
 		});
-		this.transferButton=new JButton(new AbstractAction("Transfer Market") {
+		this.transferButton = new JButton(
+				new AbstractAction("Transfer Market") {
+					public void actionPerformed(ActionEvent e) {
+						mainController.nextDay();
+					}
+				});
+		this.trainingButton = new JButton(new AbstractAction(
+				"Set Training Program") {
 			public void actionPerformed(ActionEvent e) {
 				mainController.nextDay();
 			}
 		});
-		this.trainingButton=new JButton(new AbstractAction("Set Training Program") {
+		this.SchuladeButton = new JButton(new AbstractAction("Fixture") {
 			public void actionPerformed(ActionEvent e) {
 				mainController.nextDay();
 			}
 		});
-		this.SchuladeButton=new JButton(new AbstractAction("Fixture") {
+		this.StandingsButton = new JButton(new AbstractAction("Standings") {
 			public void actionPerformed(ActionEvent e) {
 				mainController.nextDay();
 			}
 		});
-		this.StandingsButton=new JButton(new AbstractAction("Standings") {
-			public void actionPerformed(ActionEvent e) {
-				mainController.nextDay();
-			}
-		});
-		this.FirendlyMatchButton=new JButton(new AbstractAction("Arrange Friendly Match") {
+		this.FirendlyMatchButton = new JButton(new AbstractAction(
+				"Arrange Friendly Match") {
 			public void actionPerformed(ActionEvent e) {
 				mainController.nextDay();
 			}
@@ -64,17 +83,15 @@ public class MainPanel extends JPanel{
 		this.add(SchuladeButton);
 		this.add(StandingsButton);
 		this.add(FirendlyMatchButton);
-		this.add(label);
-		
-		this.logger = logger;
-	}
-	public void update(){
-		label.setText(logger.toString());
-		logger.delete(0,
-				logger.length()-1);
-	}
-	private void add2TextBox(String log2) {
-		label.setText(log2);
 	}
 
+	public void update() {
+		label.setText(logger.toString());
+		logger.delete(0, logger.length() - 1);
+		Time currentTime = mainController.getGame().getCurrentTime();
+		Time nextMatchTime =  mainController.getGame().getLeague().getFixture()
+				.getNextMatchDateAfter(currentTime);
+		label3.setText("Now: " + currentTime.toString());
+		label2.setText("Next Match Date: " + nextMatchTime.toString());
+	}
 }

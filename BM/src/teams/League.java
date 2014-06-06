@@ -70,8 +70,6 @@ public class League {
 
 	public Event getTodaysEvent(Time time, Team yourTeam) {
 		Time nextMatchTime = fixture.getNextMatchDateAfter(time);
-		System.out.println("current: "+time);
-		System.out.println("match: "+nextMatchTime);
 		if (nextMatchTime.equals(time)) {
 			return fixture.getMatchAt(nextMatchTime);
 		} else {

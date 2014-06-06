@@ -18,8 +18,6 @@ public class bonusMoneyEvent implements Event {
 	public void perform() {
 		yourTeam.setBudget(yourTeam.getBudget()+1000000);
 		log = "congrats you got a 1000000$ bonus from your sugar daddy";
-		System.out
-				.println("congrats you got a 1000000$ bonus from your sugar daddy");
 	}
 
 	@Override

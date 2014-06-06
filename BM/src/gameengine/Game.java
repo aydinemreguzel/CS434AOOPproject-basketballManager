@@ -55,6 +55,14 @@ public class Game {
 	public Team getYourTeam() {
 		return yourTeam;
 	}
+	
+	public League getLeague(){
+		return league;
+	}
+	
+	public Time getCurrentTime(){
+		return currentTime;
+	}
 
 	public void setYourTeam(Team yourTeam) {
 		this.yourTeam = yourTeam;
