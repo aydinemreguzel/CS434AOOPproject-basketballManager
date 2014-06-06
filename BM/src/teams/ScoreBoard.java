@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ScoreBoard {
 	// STATS
-	private static final int MIN = 0; // minute in game
+	private static final int SEC = 0; // time in game
 	private static final int PM2_A = 1; // 2point attempt
 	private static final int PM2_M = 2; // 2point made
 	private static final int PM3_A = 3; // 3point attempt
@@ -26,7 +26,7 @@ public class ScoreBoard {
 
 	String[] names = new String[matchPlayerNum];
 	int[][] stats = new int[matchPlayerNum][numOfAtt];
-	String[] statNames = {"name","MIN","PM2_A","PM2_M ","PM3_A","PM3_M","FTM_A","FTM_M","RB","PF","ST","TO","BS","BA","PTS","DIFF"};
+	String[] statNames = {"name","SEC","PM2_A","PM2_M ","PM3_A","PM3_M","FTM_A","FTM_M","RB","PF","ST","TO","BS","BA","PTS","DIFF"};
 	int score = 0;
 	TacticBoard tacticBoard;
 
@@ -81,7 +81,7 @@ public class ScoreBoard {
 
 	public void updateMin(int actionTime) {
 		for (int i = 0; i < onFloorPlayerNum; i++) {
-			stats[tacticBoard.getPlayerNum(i)][MIN] = actionTime;
+			stats[tacticBoard.getPlayerNum(i)][SEC] = actionTime;
 		}
 	}
 
