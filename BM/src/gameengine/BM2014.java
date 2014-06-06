@@ -1,8 +1,6 @@
 package gameengine;
 
-import java.util.Scanner;
-
-import javax.swing.JOptionPane;
+import controllers.MainController;
 
 public class BM2014 {
 
@@ -15,18 +13,9 @@ public class BM2014 {
 	}
 
 	@SuppressWarnings("resource")
-	void startApp() {
-
-
-		  
+	void startApp() {	  
 		Game game = new Game(new Time(1, 1, 2014));
-		Scanner sc = new Scanner(System.in);
-		while (true) {
-			System.out.println("enter input: ");
-			String str = sc.nextLine();
-			if (str.equals("exit"))
-				break;
-			game.advanceInTime();
-		}
+		MainController mainController = new MainController(game);
+		mainController.start();
 	}
 }
