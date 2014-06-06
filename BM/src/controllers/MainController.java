@@ -1,5 +1,6 @@
 package controllers;
 
+import java.awt.Dimension;
 import java.util.Scanner;
 
 import javax.swing.JFrame;
@@ -23,9 +24,11 @@ public class MainController {
 		JFrame frame = new JFrame("SimpleMain");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
+		frame.setPreferredSize(new Dimension(250,250));
 		frame.setLocation(100, 100);
 		frame.pack();
 		frame.setVisible(true);
+		frame.add(mainPanel);
 		frame.repaint();
 	}
 	public void nextDay(){

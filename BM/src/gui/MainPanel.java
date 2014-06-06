@@ -23,6 +23,7 @@ public class MainPanel extends JPanel{
 				mainController.nextDay();
 			}
 		});
+		this.add(nextDayButton);
 		
 	}
 }
