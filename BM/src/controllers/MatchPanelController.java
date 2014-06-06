@@ -44,7 +44,6 @@ public class MatchPanelController {
 	public void play() {
 		// TODO play()
 		JFrame frame = new JFrame("SimpleDemo");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
 		frame.setLocation(0, 0);
 		// Create and set up the content pane.
@@ -62,12 +61,7 @@ public class MatchPanelController {
 			matchEng.resetCommentLog();
 			frame.setVisible(true);
 			frame.repaint();
-			try {
-				Thread.sleep(1);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+
 		}
 
 	}

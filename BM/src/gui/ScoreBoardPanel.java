@@ -45,6 +45,6 @@ public class ScoreBoardPanel extends JPanel {
 			}
 		}
 
-		scoreBoardTable.revalidate();
+		
 	}
 }

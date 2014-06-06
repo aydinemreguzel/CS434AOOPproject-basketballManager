@@ -14,7 +14,7 @@ public class MatchEvent implements Event {
 	private ScoreBoard homeScoreBoard;
 	private ScoreBoard awayScoreBoard;
 	private Time matchTime;
-	private String log;
+	private String log;//TODO rename to avoid confusion with commentary logger
 	
 	public MatchEvent(Team homeTeam, Team awayTeam, Time matchTime) {
 		this.homeTeam = homeTeam;
