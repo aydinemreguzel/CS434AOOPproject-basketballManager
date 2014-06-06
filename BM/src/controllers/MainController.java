@@ -32,4 +32,7 @@ public class MainController {
 		game.advanceInTime();
 		mainPanel.update();
 	}
+	public Game getGame(){
+		return game;
+	}
 }

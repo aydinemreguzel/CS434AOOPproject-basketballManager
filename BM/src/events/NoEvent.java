@@ -14,8 +14,6 @@ public class NoEvent implements Event {
 	@Override
 	public void perform() {
 		log = "no event for today";
-		System.out.println("no event today");
-
 	}
 
 	@Override

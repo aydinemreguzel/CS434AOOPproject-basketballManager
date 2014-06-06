@@ -129,7 +129,6 @@ public class Fixture {
 				return matches[i];
 			}
 		}
-		System.out.println("match not found");
 		return null;
 	}
 }
