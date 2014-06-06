@@ -9,13 +9,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TeamGenerator {
-	private Scanner scanner;
+	private Scanner nameScanner;
 	private int numPlayers = 12;
+	private Scanner teamNameScanner;
 
 	public TeamGenerator() {
 		super();
 		try {
-			scanner = new Scanner(new File("newRandPeople.txt"));
+			nameScanner = new Scanner(new File("newRandPeople.txt"));
+			teamNameScanner=new Scanner(new File("teamData.txt"));
 		} catch (FileNotFoundException e) {
 
 			e.printStackTrace();
@@ -23,7 +25,7 @@ public class TeamGenerator {
 	}
 
 	public Team generate() {
-		return generate(generateName());
+		return generate(readNameFromFile());
 	}
 
 	public Team generate(String teamName) {
@@ -34,18 +36,15 @@ public class TeamGenerator {
 		return team;
 	}
 
-	private String generateName() {
-		Random rand = new Random();
-		String name = "";
+	private String readNameFromFile() {
 
-		for (int i = 0; i < 3; i++) {
-			name += (char) ('A' + rand.nextInt('Z' - 'A'));
-		}
-		return name;
+		String teamName = teamNameScanner.nextLine();	
+		return teamName;
+
 	}
 
 	private Player getNextPlayer() {
-		String playerString = scanner.nextLine();// GivenName,Surname,Birthday,CountryFull,currentAbility,poteAbility,height,strength,agility,intelligence,naturalFitness,agression,condition
+		String playerString = nameScanner.nextLine();// GivenName,Surname,Birthday,CountryFull,currentAbility,poteAbility,height,strength,agility,intelligence,naturalFitness,agression,condition
 		String[] data = playerString.split(","); // 0 1 2 3 4 5 6 7 8 9 10 11 12
 		return new Player(data);
 

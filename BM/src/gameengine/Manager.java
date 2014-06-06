@@ -7,6 +7,10 @@ public class Manager {
 	String age;
 	String nationality;
 	short currentAbilityPoint;
+	public Manager(String userName) {
+		setName(userName);
+		
+	}
 	public String getName() {
 		return name;
 	}

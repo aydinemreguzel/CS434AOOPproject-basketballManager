@@ -12,8 +12,8 @@ public class Team {
 	Color[] color = new Color[2];
 	List<Player> players=new ArrayList<Player>();
 	TacticBoard tacticBoard;
-	
 	Manager manager;
+	
 	Team(String name){
 		 this(name,2000000,200000);
 	}

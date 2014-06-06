@@ -1,5 +1,7 @@
 package gui;
 
+import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 
@@ -42,8 +44,8 @@ public class MatchPanel extends JPanel{
 		this.add(positionsPanel);
 		this.add(timeOutsPanel);
 		this.add(timeOutButton);
-		this.setSize(500, 500);//TODO ayarla
-		this.setLayout(new GridBagLayout());
+		this.setPreferredSize(new Dimension(1000, 700));//TODO ayarla
+		this.setLayout(new FlowLayout());
 	}
 	public ScoreBoard getHomeScoreBoard() {
 		
