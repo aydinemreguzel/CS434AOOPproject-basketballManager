@@ -21,9 +21,6 @@ public class CommentaryPanel extends JPanel {
 	}
 
 	void createPanel() {
-		panel1 = new JPanel();
-		textArea = new JTextArea("", 10, 10);
-		box.add(new JScrollPane(textArea));
-		textArea.setEditable(false);
+
 	}
 }
