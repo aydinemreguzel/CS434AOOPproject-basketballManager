@@ -21,8 +21,8 @@ public class MainController {
 		JFrame frame = new JFrame("SimpleMain");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
-		frame.setPreferredSize(new Dimension(800,250));
-		frame.setLocation(100, 100);
+		frame.setPreferredSize(new Dimension(1000,250));
+		frame.setLocation(0, 0);
 		frame.pack();
 		frame.setVisible(true);
 		frame.add(mainPanel);

@@ -16,6 +16,7 @@ import teams.ScoreBoard;
 
 public class MatchPanel extends JPanel{
 	MatchEvent match;
+	ScorePanel scorePanel;
 	ScoreBoardPanel homeScoreBoardPanel;
 	ScoreBoardPanel awayScoreBoardPanel;
 	CommentaryPanel commentaryPanel;
@@ -27,6 +28,7 @@ public class MatchPanel extends JPanel{
 		super();
 		this.matchPanelController=controller;
 		this.match = controller.getMatch();
+		this.scorePanel=controller.getScorePanel();
 		this.homeScoreBoardPanel = controller.getHomeScoreBoardPanel();
 		this.awayScoreBoardPanel = controller.getAwayScoreBoardPanel();
 		this.commentaryPanel = controller.getCommentaryPanel();
@@ -38,12 +40,16 @@ public class MatchPanel extends JPanel{
 				matchPanelController.timeOut();
 			}
 		});
+		
+		
+		this.add(scorePanel);
 		this.add(homeScoreBoardPanel);
 		this.add(awayScoreBoardPanel);
 		this.add(commentaryPanel);
 		this.add(positionsPanel);
 		this.add(timeOutsPanel);
 		this.add(timeOutButton);
+		
 		this.setPreferredSize(new Dimension(1000, 700));//TODO ayarla
 		this.setLayout(new FlowLayout());
 	}

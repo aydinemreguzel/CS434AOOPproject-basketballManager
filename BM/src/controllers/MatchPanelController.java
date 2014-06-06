@@ -12,6 +12,7 @@ import gui.CommentaryPanel;
 import gui.MatchPanel;
 import gui.PositionsPanel;
 import gui.ScoreBoardPanel;
+import gui.ScorePanel;
 import gui.TacticBoardFrame;
 import gui.TimeOutsPanel;
 
@@ -19,6 +20,7 @@ public class MatchPanelController {
 	MatchEvent match;
 	MatchPanel matchPanel;
 	MatchEngine matchEng;
+	ScorePanel scorePanel;
 	ScoreBoardPanel homeScoreBoardPanel;
 	ScoreBoardPanel awayScoreBoardPanel;
 	CommentaryPanel commentaryPanel;
@@ -30,6 +32,7 @@ public class MatchPanelController {
 		// TODO-MatchPanelController constructor
 		this.match = match;
 		this.matchEng = new MatchEngine(match);
+		this.scorePanel=new ScorePanel(match);
 		this.homeScoreBoardPanel = new ScoreBoardPanel(
 				match.getHomeScoreBoard());
 		this.awayScoreBoardPanel = new ScoreBoardPanel(
@@ -58,8 +61,8 @@ public class MatchPanelController {
 			homeScoreBoardPanel.update();
 			awayScoreBoardPanel.update();
 			commentaryPanel.update();
+			scorePanel.update();
 			matchEng.resetCommentLog();
-			frame.setVisible(true);
 			frame.repaint();
 
 		}
@@ -193,6 +196,11 @@ public class MatchPanelController {
 	 */
 	public void setTimeOutsPanel(TimeOutsPanel timeOutsPanel) {
 		this.timeOutsPanel = timeOutsPanel;
+	}
+
+	public ScorePanel getScorePanel() {
+	
+		return scorePanel;
 	}
 
 }

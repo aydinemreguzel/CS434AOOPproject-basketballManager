@@ -18,7 +18,7 @@ public class CommentaryPanel extends JPanel {
 		textArea = new JTextArea();
 		scrollPane=new JScrollPane(textArea);
 		this.add(scrollPane);
-		scrollPane.setPreferredSize(new Dimension(400, 300));
+		scrollPane.setPreferredSize(new Dimension(400, 250));
 		
 
 		textArea.setLineWrap(true);
