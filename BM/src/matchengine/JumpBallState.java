@@ -15,7 +15,7 @@ public class JumpBallState extends State{
 	}
 
 	public void performAction(MatchEngine matchEngine) {
-		System.out.println("Match is starting with Jump Ball, good luck for both team");
+		matchEngine.addCommentLog("Match is starting with Jump Ball, good luck for both team");
 		int awayPower = matchEngine.getBallDefenderPlayer().getHeight()
 				+ randomGenerator.nextInt(20); // some magic constants here
 		int homePower = matchEngine.getBallHandlerPlayer().getHeight()

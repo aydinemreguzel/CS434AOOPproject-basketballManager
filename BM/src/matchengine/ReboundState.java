@@ -12,7 +12,7 @@ public class ReboundState extends State {
 		matchEngine.decreaseReamainPeriodTime(actionTime);
 		matchEngine.getAtackSB().updateMin(actionTime);
 		matchEngine.getDefenceSB().updateMin(actionTime);
-		System.out.println("rebound fight!!!");
+		matchEngine.addCommentLog("rebound fight!!!");
 
 	}
 
@@ -43,14 +43,14 @@ public class ReboundState extends State {
 		}
 		if (offencePts > deffencePts) {
 			updateStats(matchEngine,nextPlayer);
-			System.out.println("offence rebound the ball");
+			matchEngine.addCommentLog("offence rebound the ball");
 			matchEngine.setPositioning(50 + randomGenerator.nextInt(30));
 		} else {
 			success = false;
 			updateStats(matchEngine,nextPlayer);
 			matchEngine.changeAttackOrder();
 			matchEngine.setPositioning(0);
-			System.out.println("deffence rebound the ball");
+			matchEngine.addCommentLog("deffence rebound the ball");
 		}
 	}
 

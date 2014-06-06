@@ -14,9 +14,9 @@ class AdvancingBallState extends State {
 		matchEngine.getAtackSB().updateMin(actionTime);
 		matchEngine.getDefenceSB().updateMin(actionTime);
 		if (matchEngine.getAttackOrder() == 0) {
-			System.out.println("home team carrying the ball to front court");
+			matchEngine.addCommentLog("home team carrying the ball to front court");
 		} else {
-			System.out.println("away team carrying the ball to front court");
+			matchEngine.addCommentLog("away team carrying the ball to front court");
 		}
 	}
 
@@ -34,16 +34,16 @@ class AdvancingBallState extends State {
 												// for game balance
 		if (defancePower > offancePower) {
 			success = false;
-			System.out.println("turnover");
+			matchEngine.addCommentLog("turnover");
 			updateStats(matchEngine);
 			matchEngine.changeAttackOrder();
 			matchEngine.resetShotClock();
 			matchEngine.setPositioning(0); // //TODO fast break
 		} else {
 			if (matchEngine.getAttackOrder() == 0) {
-				System.out.println("home team getting position");
+				matchEngine.addCommentLog("home team getting position");
 			} else {
-				System.out.println("away team located back court");
+				matchEngine.addCommentLog("away team located back court");
 			}
 			success = true;
 			matchEngine.setPositioning(30 + randomGenerator.nextInt(10));
@@ -60,12 +60,12 @@ class AdvancingBallState extends State {
 		} else {
 			int decision = randomGenerator.nextInt(3);
 			if (decision == 0) {
-				System.out.println(matchEngine.getBallHandlerPlayer().getName()
+				matchEngine.addCommentLog(matchEngine.getBallHandlerPlayer().getName()
 						+ " continue to dribbling");
 				matchEngine.setState(new DribblingState());
 			}
 			if (decision >= 1) {
-				System.out.println(matchEngine.getBallHandlerPlayer().getName()
+				matchEngine.addCommentLog(matchEngine.getBallHandlerPlayer().getName()
 						+ " is searching avaible player for passing");
 				matchEngine.setState(new PassState());
 			}
