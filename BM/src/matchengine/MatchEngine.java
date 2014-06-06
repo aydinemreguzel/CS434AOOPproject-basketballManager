@@ -39,12 +39,15 @@ public class MatchEngine {
 	}
 
 	public void play() {
-		while (true) {
-			state.startAction(this);
-			if (reamainPeriodTime < 0) {
+		state.startAction(this);
+		if (reamainPeriodTime < 0) {
+			if (currentPeriod < 4) {
+				currentPeriod++;
+				reamainPeriodTime = 600;
+				System.out.println("refeeree finishes the period");
+			} else
 				System.out.println("refeeree finishes the game");
-				break;
-			}
+		} else {
 			shotClockCheck();
 			state.performAction(this);
 			detectFaul();
@@ -72,8 +75,8 @@ public class MatchEngine {
 			}
 		}
 	}
-	
-	public void fiveFaulCheck(){
+
+	public void fiveFaulCheck() {
 		// TODO
 	}
 
@@ -208,6 +211,10 @@ public class MatchEngine {
 
 	public void setNumOfFoulds(int[][] numOfFoulds) {
 		this.numOfFoulds = numOfFoulds;
+	}
+
+	public int getReamainPeriodTime() {
+		return reamainPeriodTime;
 	}
 
 }

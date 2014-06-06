@@ -17,23 +17,27 @@ public class ScoreBoardPanel extends JPanel {
 		super();
 		this.scoreBoard = scoreBoard;
 		this.setLayout(new GridLayout());
-	   scoreBoardTable=new JTable(scoreBoard.getStatsAsString(),scoreBoard.getNames());
-		
-		
+		scoreBoardTable = new JTable(scoreBoard.getStatsAsString(),
+				scoreBoard.getNames());
 	}
+
 	public static void main(String[] args) {
-      //Create and set up the window.
-      JFrame frame = new JFrame("SimpleTableDemo");
-      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		// Create and set up the window.
+		JFrame frame = new JFrame("SimpleTableDemo");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-      //Create and set up the content pane.
-      ScoreBoardPanel newContentPane = new ScoreBoardPanel(new ScoreBoard(null));
-      newContentPane.setOpaque(true); //content panes must be opaque
-      frame.setContentPane(newContentPane);
+		// Create and set up the content pane.
+		ScoreBoardPanel newContentPane = new ScoreBoardPanel(new ScoreBoard(
+				null));
+		newContentPane.setOpaque(true); // content panes must be opaque
+		frame.setContentPane(newContentPane);
 
-      //Display the window.static
-      frame.pack();
-      frame.setVisible(true);
-  }
-	
+		// Display the window.static
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+	public void update() {
+	}
+
 }
