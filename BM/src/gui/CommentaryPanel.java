@@ -1,30 +1,46 @@
 package gui;
 
 import java.awt.Dimension;
+import java.awt.ScrollPane;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 public class CommentaryPanel extends JPanel {
-	String log;
+	StringBuilder logger;
 	JTextArea textArea;
+	JScrollPane scrollPane = new JScrollPane();
 
-	public CommentaryPanel(String log) {
-		this.log = log;
+	public CommentaryPanel(StringBuilder logger) {
+		this.logger = logger;
+
 		textArea = new JTextArea();
-		add(textArea);
+		scrollPane=new JScrollPane(textArea);
+		this.add(scrollPane);
+		scrollPane.setPreferredSize(new Dimension(400, 300));
+		
+
+		textArea.setLineWrap(true);
 		textArea.setEditable(false);
-		textArea.setPreferredSize(new Dimension(250,100));
+
+
+		scrollPane
+				.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		scrollPane
+				.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+
 	}
 
 	public void update() {
-		System.out.println("log:" + log);
-		add2TextBox(log);
+		System.out.println("log:" + logger);
+		add2TextBox(logger.toString());
+
 	}
 
 	private void add2TextBox(String log2) {
-		textArea.setText(log2);
+		textArea.append(log2);
+
 	}
 
 }

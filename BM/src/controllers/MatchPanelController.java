@@ -36,7 +36,7 @@ public class MatchPanelController {
 				match.getAwayScoreBoard());
 		this.positionsPanel = new PositionsPanel(match.getHomeTeam(),
 				match.getAwayTeam());
-		this.commentaryPanel = new CommentaryPanel(matchEng.getCommentLog());
+		this.commentaryPanel = new CommentaryPanel(matchEng.getCommentLogger());
 		this.timeOutsPanel = new TimeOutsPanel();
 		this.matchPanel = new MatchPanel(this);
 	}

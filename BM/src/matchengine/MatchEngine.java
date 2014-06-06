@@ -26,7 +26,7 @@ public class MatchEngine {
 	ScoreBoard awaySB;
 	TacticBoard homeTB;
 	TacticBoard awayTB;
-	String commentLog;
+	StringBuilder commentLogger=new StringBuilder();
 	Random randomGenerator = new Random();
 
 	public MatchEngine(MatchEvent match) {
@@ -225,14 +225,16 @@ public class MatchEngine {
 	}
 
 	public void addCommentLog(String str) {
-		commentLog += str + "\n";
+		System.out.println();
+		commentLogger.append(str+"\n");
 	}
 	
 	public void resetCommentLog() {
-		commentLog = "";
+		commentLogger.delete(0,
+				commentLogger.length()-1);
 	}
 	
-	public String getCommentLog(){
-		return commentLog;
+	public StringBuilder getCommentLogger(){
+		return commentLogger;
 	}
 }
