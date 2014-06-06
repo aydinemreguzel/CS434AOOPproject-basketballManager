@@ -14,6 +14,7 @@ public class MatchEvent implements Event {
 	private ScoreBoard homeScoreBoard;
 	private ScoreBoard awayScoreBoard;
 	private Time matchTime;
+	private String log;
 	
 	public MatchEvent(Team homeTeam, Team awayTeam, Time matchTime) {
 		this.homeTeam = homeTeam;
@@ -26,6 +27,7 @@ public class MatchEvent implements Event {
 	public void perform() {
 		MatchPanelController matchPanelController =new MatchPanelController(this);
 		matchPanelController.play();
+		log = "let's go match";
 	}
 	public TacticBoard getHomeTacticBoard() {
 		return homeTeam.getTacticBoard();
@@ -66,6 +68,10 @@ public class MatchEvent implements Event {
 	}
 	public void setPlayed(boolean isPlayed) {
 		this.isPlayed = isPlayed;
+	}
+	@Override
+	public String getLog() {
+		return log;
 	}
 
 

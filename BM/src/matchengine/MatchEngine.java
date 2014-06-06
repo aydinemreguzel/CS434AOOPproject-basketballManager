@@ -225,7 +225,6 @@ public class MatchEngine {
 	}
 
 	public void addCommentLog(String str) {
-		System.out.println();
 		commentLogger.append(str+"\n");
 	}
 	

@@ -10,6 +10,7 @@ public class Game {
 	Time currentTime;
 	League league;
 	Team yourTeam;
+	StringBuilder commentLogger=new StringBuilder();
 
 	public Game(Time currentTime) {
 		this.currentTime = currentTime;
@@ -29,9 +30,7 @@ public class Game {
 				yourTeam=league.getTeams()[i];
 				yourTeam.setManager(new Manager(userName));
 			}
-		}
-		
-		
+		}		
 	}
 
 	public Game(Time currentTime, League league) {
@@ -43,6 +42,7 @@ public class Game {
 		currentTime.nextDay();
 		Event event = league.getTodaysEvent(currentTime, getYourTeam());
 		event.perform();
+		addCommentLog(event.getLog());
 	}
 
 	public void generateLeague(String leagueName, int numTeams) {
@@ -58,6 +58,14 @@ public class Game {
 
 	public void setYourTeam(Team yourTeam) {
 		this.yourTeam = yourTeam;
+	}
+	
+	public void addCommentLog(String str) {
+		commentLogger.append(str+"\n");
+	}
+	
+	public StringBuilder getCommentLogger(){
+		return commentLogger;
 	}
 
 }

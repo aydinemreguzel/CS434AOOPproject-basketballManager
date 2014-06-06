@@ -6,6 +6,7 @@ import gameengine.Time;
 public class bonusMoneyEvent implements Event {
 	Time eventTime;
 	Team yourTeam;
+	String log;
 
 	public bonusMoneyEvent(Time eventTime, Team yourTeam) {
 		super();
@@ -16,6 +17,7 @@ public class bonusMoneyEvent implements Event {
 	@Override
 	public void perform() {
 		yourTeam.setBudget(yourTeam.getBudget()+1000000);
+		log = "congrats you got a 1000000$ bonus from your sugar daddy";
 		System.out
 				.println("congrats you got a 1000000$ bonus from your sugar daddy");
 	}
@@ -24,5 +26,10 @@ public class bonusMoneyEvent implements Event {
 	public Time getEventTime() {
 
 		return eventTime;
+	}
+
+	@Override
+	public String getLog() {
+		return log;
 	}
 }
