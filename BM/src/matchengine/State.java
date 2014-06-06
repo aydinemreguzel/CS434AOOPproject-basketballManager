@@ -9,7 +9,10 @@ public abstract class State {
 	
 	public abstract void decideNextAction(MatchEngine matchEngine);
 	
-	public void updateScoreboard(){
-		
+	public void updateTime(MatchEngine matchEngine,int actionTime){
+		matchEngine.decreaseShotClock(actionTime);
+		matchEngine.decreaseReamainPeriodTime(actionTime);
+		matchEngine.getAtackSB().updateMin(actionTime);
+		matchEngine.getDefenceSB().updateMin(actionTime);
 	}
 }

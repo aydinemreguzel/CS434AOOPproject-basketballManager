@@ -1,18 +1,18 @@
-Cruz,Kerr,8/1/1982,Belgium,65,70,185,45,75,80,75,75,100
-Guilherme,Ferreira,11/15/1979,Belgium,80,70,190,45,80,65,75,75,100
-Gordey,Vinogradov,1/7/1991,Czech Republic,75,70,195,55,70,70,75,75,100
-Chris,Demartino,11/11/1992,Canada,70,70,205,75,60,65,75,75,100
-Tiago,Santos,4/27/1987,Brazil,55,70,210,85,35,55,75,75,100
-Avdei,Andreyev,6/21/1984,Belgium,60,65,185,40,70,75,75,75,100
-Scudamor,Puddifoot,10/30/1991,Belgium,75,65,190,40,75,60,75,75,100
-Kieron,Johnstone,2/14/1990,Austria,70,65,195,50,65,65,75,75,100
-Darryl,Burns,11/18/1986,Czech Republic,65,65,205,70,55,60,75,75,100
-Quinn,Ferguson,9/25/1991,Cyprus (Anglicized),50,65,210,80,30,50,75,75,100
-Bilcuzal,Lothran,1/27/1986,Brazil,55,60,185,35,65,70,75,75,100
-Baillie,Maclean,1/27/1989,Czech Republic,70,60,190,35,70,55,75,75,100
-Prokhor,Shubin,2/13/1983,Czech Republic,65,60,195,45,60,60,75,75,100
-James,Johnson,7/17/1994,Denmark,60,60,205,65,50,55,75,75,100
-Lawrence,Anderson,5/18/1996,Belgium,45,60,210,75,25,45,75,75,100
+Cruz,Kerr,8/1/1982,Belgium,60,65,185,40,70,75,75,75,100
+Guilherme,Ferreira,11/15/1979,Belgium,75,65,190,40,75,60,75,75,100
+Gordey,Vinogradov,1/7/1991,Czech Republic,70,65,195,50,65,65,75,75,100
+Chris,Demartino,11/11/1992,Canada,65,65,205,70,55,60,75,75,100
+Tiago,Santos,4/27/1987,Brazil,50,65,210,80,30,50,75,75,100
+Avdei,Andreyev,6/21/1984,Belgium,55,60,185,35,65,70,75,75,100
+Scudamor,Puddifoot,10/30/1991,Belgium,70,60,190,35,70,55,75,75,100
+Kieron,Johnstone,2/14/1990,Austria,65,60,195,45,60,60,75,75,100
+Darryl,Burns,11/18/1986,Czech Republic,60,60,205,65,50,55,75,75,100
+Quinn,Ferguson,9/25/1991,Cyprus (Anglicized),45,60,210,75,25,45,75,75,100
+Bilcuzal,Lothran,1/27/1986,Brazil,50,55,185,30,60,65,75,75,100
+Baillie,Maclean,1/27/1989,Czech Republic,65,55,190,30,65,50,75,75,100
+Prokhor,Shubin,2/13/1983,Czech Republic,60,55,195,40,55,55,75,75,100
+James,Johnson,7/17/1994,Denmark,55,55,205,60,45,50,75,75,100
+Lawrence,Anderson,5/18/1996,Belgium,40,55,210,70,20,40,75,75,100
 Otávio,Barros,4/7/1983,Denmark,65,70,185,45,75,80,75,75,100
 Hugh,Kerr,2/26/1985,Belgium,80,70,190,45,80,65,75,75,100
 Matheus,Goncalves,5/23/1989,Cyprus (Anglicized),75,70,195,55,70,70,75,75,100

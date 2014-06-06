@@ -232,4 +232,12 @@ public class MatchEngine {
 	public StringBuilder getCommentLogger() {
 		return commentLogger;
 	}
+
+	public Team getAwayTeam() {
+		return awayTeam;
+	}
+
+	public Team getHomeTeam() {
+		return homeTeam;
+	}
 }
