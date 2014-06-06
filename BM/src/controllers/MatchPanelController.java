@@ -46,7 +46,7 @@ public class MatchPanelController {
 		JFrame frame = new JFrame("SimpleDemo");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
-		frame.setLocation(100, 100);
+		frame.setLocation(0, 0);
 		// Create and set up the content pane.
 		matchPanel.setOpaque(true); // content panes must be opaque
 		frame.add(matchPanel);
