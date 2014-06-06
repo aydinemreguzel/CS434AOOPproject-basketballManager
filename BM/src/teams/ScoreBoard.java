@@ -26,6 +26,7 @@ public class ScoreBoard {
 
 	String[] names = new String[matchPlayerNum];
 	int[][] stats = new int[matchPlayerNum][numOfAtt];
+	String[] statNames = {"name","MIN","PM2_A","PM2_M ","PM3_A","PM3_M","FTM_A","FTM_M","RB","PF","ST","TO","BS","BA","PTS","DIFF"};
 	int score = 0;
 	TacticBoard tacticBoard;
 
@@ -110,11 +111,48 @@ public class ScoreBoard {
 	}
 
 	public String[][] getStatsAsString() {
-		String[][] statsString = new String[matchPlayerNum][numOfAtt];
+		String[][] statsString = new String[matchPlayerNum][numOfAtt+1];
+		for (int i = 0; i < statsString.length; i++) {
+			for (int j = 1; j < statsString[0].length; j++) {
+				statsString[i][j]=String.valueOf(stats[i][j-1]);
+			}
+		}
+		for (int i = 0; i < statsString.length; i++) {
+			statsString[i][0]=getNames()[i];
+		}
 		return statsString;
 	}
 
 	public void setStats(int[][] stats) {
 		this.stats = stats;
 	}
+
+	/**
+	 * @return the statNames
+	 */
+	public String[] getStatNames() {
+		return statNames;
+	}
+
+	/**
+	 * @param statNames the statNames to set
+	 */
+	public void setStatNames(String[] statNames) {
+		this.statNames = statNames;
+	}
+
+	/**
+	 * @return the score
+	 */
+	public int getScore() {
+		return score;
+	}
+
+	/**
+	 * @param score the score to set
+	 */
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
 }

@@ -61,6 +61,7 @@ public class MatchPanelController {
 			commentaryPanel.update();
 			matchEng.resetCommentLog();
 		}
+
 	}
 
 	public void timeOut() {
