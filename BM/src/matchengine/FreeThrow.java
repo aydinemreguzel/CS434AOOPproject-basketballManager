@@ -12,7 +12,7 @@ class FreeThrow  extends State {
 
 	public void performAction(MatchEngine matchEngine) {
 		Player offensPlayer = matchEngine.getBallHandlerPlayer();
-		int offancePower = offensPlayer.getCurrentAbilityPoint();
+		int offancePower = 20+offensPlayer.getCurrentAbilityPoint();
 		if (offancePower < randomGenerator.nextInt(100)) {
 				updateStats(matchEngine);
 				matchEngine.addCommentLog("missed shot");

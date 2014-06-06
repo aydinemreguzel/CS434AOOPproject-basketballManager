@@ -30,7 +30,7 @@ class AdvancingBallState extends State {
 				.getCurrentAbilityPoint()
 				+ 2
 				* matchEngine.getBallHandlerPlayer().getAgility()
-				+ randomGenerator.nextInt(100); // these are change in future
+				+ 70 + randomGenerator.nextInt(50); // these are change in future
 												// for game balance
 		if (defancePower > offancePower) {
 			success = false;
@@ -58,7 +58,7 @@ class AdvancingBallState extends State {
 			else
 				matchEngine.setState(new AdvancingBallState());
 		} else {
-			int decision = randomGenerator.nextInt(3);
+			int decision = randomGenerator.nextInt(5);
 			if (decision == 0) {
 				matchEngine.addCommentLog(matchEngine.getBallHandlerPlayer().getName()
 						+ " continue to dribbling");

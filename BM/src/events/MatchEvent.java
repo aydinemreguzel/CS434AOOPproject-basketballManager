@@ -29,6 +29,9 @@ public class MatchEvent implements Event {
 		matchPanelController.play();
 		log = "let's go match";
 	}
+	public void step() {
+		
+	}
 	public TacticBoard getHomeTacticBoard() {
 		return homeTeam.getTacticBoard();
 	}

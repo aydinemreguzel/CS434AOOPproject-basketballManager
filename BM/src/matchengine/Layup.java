@@ -4,7 +4,7 @@ import teams.Player;
 
 class Layup extends ShotState {
 	int calcDefencePower(Player defPlayer) {
-		return defPlayer.getIntelegence() + defPlayer.getAgility()
+		return defPlayer.getIntelegence() + 2*defPlayer.getAgility()
 				+ defPlayer.getStrength() + randomGenerator.nextInt(25);
 	}
 

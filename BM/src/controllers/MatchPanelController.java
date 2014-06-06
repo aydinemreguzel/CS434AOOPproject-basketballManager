@@ -26,13 +26,14 @@ public class MatchPanelController {
 	CommentaryPanel commentaryPanel;
 	PositionsPanel positionsPanel;
 	TimeOutsPanel timeOutsPanel;
+	JFrame frame;
 
 	public MatchPanelController(MatchEvent match) {
 		super();
 		// TODO-MatchPanelController constructor
 		this.match = match;
 		this.matchEng = new MatchEngine(match);
-		this.scorePanel=new ScorePanel(match);
+		this.scorePanel = new ScorePanel(match);
 		this.homeScoreBoardPanel = new ScoreBoardPanel(
 				match.getHomeScoreBoard());
 		this.awayScoreBoardPanel = new ScoreBoardPanel(
@@ -46,7 +47,7 @@ public class MatchPanelController {
 
 	public void play() {
 		// TODO play()
-		JFrame frame = new JFrame("SimpleDemo");
+		frame = new JFrame("SimpleDemo");
 		frame.setSize(500, 500);
 		frame.setLocation(0, 0);
 		// Create and set up the content pane.
@@ -56,17 +57,6 @@ public class MatchPanelController {
 		frame.pack();
 		frame.setVisible(true);
 		frame.repaint();
-		while(matchEng.getReamainPeriodTime() > 0){ 
-			matchEng.play();
-			homeScoreBoardPanel.update();
-			awayScoreBoardPanel.update();
-			commentaryPanel.update();
-			scorePanel.update();
-			matchEng.resetCommentLog();
-			frame.repaint();
-
-		}
-
 	}
 
 	public void timeOut() {
@@ -199,8 +189,20 @@ public class MatchPanelController {
 	}
 
 	public ScorePanel getScorePanel() {
-	
+
 		return scorePanel;
+	}
+
+	public void next() {
+		if (matchEng.getReamainPeriodTime() > 0) {
+			matchEng.playStep();
+			homeScoreBoardPanel.update();
+			awayScoreBoardPanel.update();
+			commentaryPanel.update();
+			scorePanel.update();
+			matchEng.resetCommentLog();
+			frame.repaint();
+		}
 	}
 
 }

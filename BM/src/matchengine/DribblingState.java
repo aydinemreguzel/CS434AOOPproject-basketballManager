@@ -23,7 +23,7 @@ class DribblingState extends State {
 				+ randomGenerator.nextInt(50); // some magic constants here
 		Player offensPlayer = matchEngine.getBallHandlerPlayer();
 		int offencePower = offensPlayer.getCurrentAbilityPoint() + 2
-				* offensPlayer.getAgility() + randomGenerator.nextInt(100); // these
+				* offensPlayer.getAgility() + 30 +randomGenerator.nextInt(100); // these
 																			// are
 																			// change
 																			// in

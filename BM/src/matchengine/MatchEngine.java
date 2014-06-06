@@ -26,7 +26,7 @@ public class MatchEngine {
 	ScoreBoard awaySB;
 	TacticBoard homeTB;
 	TacticBoard awayTB;
-	StringBuilder commentLogger=new StringBuilder();
+	StringBuilder commentLogger = new StringBuilder();
 	Random randomGenerator = new Random();
 
 	public MatchEngine(MatchEvent match) {
@@ -39,12 +39,11 @@ public class MatchEngine {
 		awayTeam = match.getAwayTeam();
 	}
 
-	public void play() {
+	public void playStep() {
 		state.startAction(this);
-//		System.out.println(String.valueOf(reamainPeriodTime() / 60) + ":"
-//				+ String.valueOf(reamainPeriodTime() % 60));
-		addCommentLog(String.valueOf(reamainPeriodTime() / 60) + ":"
-				+ String.valueOf(reamainPeriodTime() % 60));
+		addCommentLog(String.valueOf((4 - currentPeriod) * 10
+				+ (reamainPeriodTime() / 60))
+				+ ":" + String.valueOf(reamainPeriodTime() % 60));
 		if (reamainPeriodTime <= 0) {
 			if (currentPeriod < 4) {
 				currentPeriod++;
@@ -57,8 +56,6 @@ public class MatchEngine {
 			state.performAction(this);
 			detectFaul();
 			state.decideNextAction(this);
-			// System.out.println("remain time: " + reamainPeriodTime
-			// +" period: "+ currentPeriod);
 		}
 	}
 
@@ -69,13 +66,13 @@ public class MatchEngine {
 			awayAgg += awayTB.getOnFloorPlayers()[i].getAgression();
 		}
 		if (attackOrder == 0) {
-			if (randomGenerator.nextInt(2000) < awayAgg) {
+			if (randomGenerator.nextInt(6000) < awayAgg) {
 				addCommentLog("FOUL");
 				setState(new faulState());
 				state.performAction(this);
 			}
 		} else {
-			if (randomGenerator.nextInt(2000) < homeAgg) {
+			if (randomGenerator.nextInt(6000) < homeAgg) {
 				addCommentLog("FOUL");
 				setState(new faulState());
 				state.performAction(this);
@@ -225,15 +222,14 @@ public class MatchEngine {
 	}
 
 	public void addCommentLog(String str) {
-		commentLogger.append(str+"\n");
+		commentLogger.append(str + "\n");
 	}
-	
+
 	public void resetCommentLog() {
-		commentLogger.delete(0,
-				commentLogger.length()-1);
+		commentLogger.delete(0, commentLogger.length() - 1);
 	}
-	
-	public StringBuilder getCommentLogger(){
+
+	public StringBuilder getCommentLogger() {
 		return commentLogger;
 	}
 }

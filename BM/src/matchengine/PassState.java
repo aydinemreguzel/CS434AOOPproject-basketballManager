@@ -7,7 +7,7 @@ class PassState extends State {
 	Random randomGenerator = new Random();
 
 	public void startAction(MatchEngine matchEngine) {
-		int actionTime = 1 + randomGenerator.nextInt(3);
+		int actionTime = 1 + randomGenerator.nextInt(4);
 		matchEngine.decreaseShotClock(actionTime);
 		matchEngine.decreaseReamainPeriodTime(actionTime);
 		matchEngine.getAtackSB().updateMin(actionTime);
@@ -50,8 +50,8 @@ class PassState extends State {
 			matchEngine.addCommentLog("misplaced pass");
 			matchEngine.setState(new AdvancingBallState());
 		} else {
-			int decision = randomGenerator.nextInt(3); 
-			if (decision == 2 || matchEngine.getShotClock() < 3) {
+			int decision = randomGenerator.nextInt(4); 
+			if (decision == 0 || matchEngine.getShotClock() < 3) {
 				decision = randomGenerator.nextInt(2);
 				if (matchEngine.getPositioning() > 90) {
 					if (decision == 0) {
@@ -73,9 +73,9 @@ class PassState extends State {
 						matchEngine.setState(new ThreePointShot());
 					}
 				}
-			} else if (decision == 0) {
-				matchEngine.setState(new DribblingState());
 			} else if (decision == 1) {
+				matchEngine.setState(new DribblingState());
+			} else if (decision > 1) {
 				matchEngine.setState(new PassState());
 			}
 		}

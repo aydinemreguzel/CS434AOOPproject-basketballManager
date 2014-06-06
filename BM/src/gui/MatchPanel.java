@@ -23,6 +23,7 @@ public class MatchPanel extends JPanel{
 	PositionsPanel positionsPanel;
 	TimeOutsPanel timeOutsPanel;
 	JButton timeOutButton;
+	JButton next;
 	MatchPanelController matchPanelController;
 	public MatchPanel(MatchPanelController controller) {
 		super();
@@ -40,6 +41,11 @@ public class MatchPanel extends JPanel{
 				matchPanelController.timeOut();
 			}
 		});
+		this.next=new JButton(new AbstractAction("next") {
+			public void actionPerformed(ActionEvent e) {
+				matchPanelController.next();
+			}
+		});
 		
 		
 		this.add(scorePanel);
@@ -49,6 +55,7 @@ public class MatchPanel extends JPanel{
 		this.add(positionsPanel);
 		this.add(timeOutsPanel);
 		this.add(timeOutButton);
+		this.add(next);
 		
 		this.setPreferredSize(new Dimension(1000, 700));//TODO ayarla
 		this.setLayout(new FlowLayout());

@@ -5,7 +5,7 @@ import teams.Player;
 class ThreePointShot extends ShotState {
 	public int calcDefencePower(Player defPlayer) {
 		return defPlayer.getIntelegence() + defPlayer.getAgility()
-				+ defPlayer.getStrength() + randomGenerator.nextInt(25);
+				+ defPlayer.getStrength() + 30 + randomGenerator.nextInt(100);
 	}
 
 	int calcOffancePower(Player offensPlayer, MatchEngine matchEngine) {
