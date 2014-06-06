@@ -1,8 +1,6 @@
 package controllers;
 
 import java.awt.Dimension;
-import java.util.Scanner;
-
 import javax.swing.JFrame;
 
 import gameengine.Game;
@@ -15,16 +13,15 @@ public class MainController {
 
 	public MainController(Game game) {
 		super();
-		this.game = game;
-		
-		this.mainPanel = new MainPanel(this);
+		this.game = game;		
+		this.mainPanel = new MainPanel(this,game.getCommentLogger());
 	}
 
 	public void start() {
 		JFrame frame = new JFrame("SimpleMain");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
-		frame.setPreferredSize(new Dimension(250,250));
+		frame.setPreferredSize(new Dimension(800,250));
 		frame.setLocation(100, 100);
 		frame.pack();
 		frame.setVisible(true);
@@ -33,6 +30,6 @@ public class MainController {
 	}
 	public void nextDay(){
 		game.advanceInTime();
+		mainPanel.update();
 	}
-
 }
